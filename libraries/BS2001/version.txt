@@ -1,0 +1,4 @@
+BS2001 Library
+v1.2
+By BS2001, maintained by royaloak
+https://forums.x-plane.org/index.php?/files/file/28045-bs2001-object-library/

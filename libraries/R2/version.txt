@@ -1,0 +1,4 @@
+R2 Library
+v2.0
+By Melichar Luděk, Petr Bednář, Roman Svoboda, Jan Štěpnička, Jiří Masník, Milan Žejdlík, Martin Mojš, Milan Smid
+http://r2.xpl.cz

@@ -1,0 +1,19 @@
+A
+800
+LIBRARY
+
+# Sea_Life
+EXPORT lib/Sea_Life/Sea_Life/Blue_mom_calf.obj    	Sea_Life:Blue_mom_calf.obj
+EXPORT lib/Sea_Life/Sea_Life/BlueWhale_pod.obj    	Sea_Life:BlueWhale_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/BlueWhale.obj    	Sea_Life:BlueWhale.obj
+EXPORT lib/Sea_Life/Sea_Life/Dolphin_lg_pod.obj    	Sea_Life:Dolphin_lg_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Dolphin_sm_pod.obj    	Sea_Life:Dolphin_sm_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Dolphin.obj    	Sea_Life:Dolphin.obj
+EXPORT lib/Sea_Life/Sea_Life/Great_White_Shark.obj    	Sea_Life:Great_White_Shark.obj
+EXPORT lib/Sea_Life/Sea_Life/Humpback_pod.obj    	Sea_Life:Humpback_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Humpback.obj    	Sea_Life:Humpback.obj
+EXPORT lib/Sea_Life/Sea_Life/Orca_pod.obj    	Sea_Life:Orca_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Orca.obj    	Sea_Life:Orca.obj
+EXPORT lib/Sea_Life/Sea_Life/Tuna_lg_pod.obj    	Sea_Life:Tuna_lg_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Tuna_pod.obj    	Sea_Life:Tuna_pod.obj
+EXPORT lib/Sea_Life/Sea_Life/Tuna.obj    	Sea_Life:Tuna.obj

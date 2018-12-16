@@ -1,0 +1,157 @@
+A
+800
+LIBRARY
+
+EXPORT gt_library/Asphalt.pol  Asphalt.pol
+EXPORT gt_library/Blueshingle.pol  Blueshingle.pol
+EXPORT gt_library/Brickpaving.pol  Brickpaving.pol
+EXPORT gt_library/Browndirt.pol  Browndirt.pol
+EXPORT gt_library/Clay.pol  Clay.pol
+EXPORT gt_library/Cobbles.pol  Cobbles.pol
+EXPORT gt_library/Cobblescoloured.pol  Cobblescoloured.pol
+EXPORT gt_library/Concretetiles.pol  Concretetiles.pol
+EXPORT gt_library/Crackedearth.pol  Crackedearth.pol
+EXPORT gt_library/Crackedtarmac.pol  Crackedtarmac.pol
+EXPORT gt_library/Flagstoneschequered.pol  Flagstoneschequered.pol
+EXPORT gt_library/Flagstonescream.pol  Flagstonescream.pol
+EXPORT gt_library/Flagstonesgreen.pol  Flagstonesgreen.pol
+EXPORT gt_library/Forestfloor.pol  Forestfloor.pol
+EXPORT gt_library/Grassdaisies.pol  Grassdaisies.pol
+EXPORT gt_library/Grassflowers.pol  Grassflowers.pol
+EXPORT gt_library/Grassleaf.pol  Grassleaf.pol
+EXPORT gt_library/Grasssquares.pol  Grasssquares.pol
+EXPORT gt_library/Grassstriped.pol  Grassstriped.pol
+EXPORT gt_library/Greengrass.pol  Greengrass.pol
+EXPORT gt_library/Leaves.pol  Leaves.pol
+EXPORT gt_library/Limestonemarbled.pol  Limestonemarbled.pol
+EXPORT gt_library/Mossstone.pol  Mossstone.pol
+EXPORT gt_library/Patchygrass.pol  Patchygrass.pol
+EXPORT gt_library/Pebbles.pol  Pebbles.pol
+EXPORT gt_library/Pebbleslarge.pol  Pebbleslarge.pol
+EXPORT gt_library/Pebblesseagreen.pol  Pebblesseagreen.pol
+EXPORT gt_library/Pinkstone.pol  Pinkstone.pol
+EXPORT gt_library/Plankeddeck.pol  Plankeddeck.pol
+EXPORT gt_library/Ploughed.pol  Ploughed.pol
+EXPORT gt_library/Redearth.pol  Redearth.pol
+EXPORT gt_library/Rocky.pol  Rocky.pol
+EXPORT gt_library/Rockyground.pol  Rockyground.pol
+EXPORT gt_library/Rusteddiamondplate.pol  Rusteddiamondplate.pol
+EXPORT gt_library/Sandrocky.pol  Sandrocky.pol
+EXPORT gt_library/Sandwavy.pol  Sandwavy.pol
+EXPORT gt_library/Sandwhitepitted.pol  Sandwhitepitted.pol
+EXPORT gt_library/Sandygravel.pol  Sandygravel.pol
+EXPORT gt_library/Seashells.pol  Seashells.pol
+EXPORT gt_library/Shinydiamondplate.pol  Shinydiamondplate.pol
+EXPORT gt_library/Slatetiles.pol  Slatetiles.pol
+EXPORT gt_library/Snow.pol  Snow.pol
+EXPORT gt_library/Tilediamond.pol  Tilediamond.pol
+EXPORT gt_library/Tileszigzag.pol  Tileszigzag.pol
+EXPORT gt_library/Waterlightblue.pol  Waterlightblue.pol
+EXPORT gt_library/Watermediumblue.pol  Watermediumblue.pol
+EXPORT gt_library/Waterwavesgrey.pol  Waterwavesgrey.pol
+EXPORT gt_library/Wheat.pol  Wheat.pol
+EXPORT gt_library/Woodchips.pol  Woodchips.pol
+EXPORT gt_library/Yellow.pol  Yellow.pol
+EXPORT gt_library/BrownAsphalt.pol  BrownAsphalt.pol  
+EXPORT gt_library/Sharprocks.pol  Sharprocks.pol
+EXPORT gt_library/Desert.pol  Desert.pol
+EXPORT gt_library/Ice.pol  Ice.pol
+EXPORT gt_library/AsphaltChunky.pol  AsphaltChunky.pol
+EXPORT gt_library/WavyPaving.pol  WavyPaving.pol
+EXPORT gt_library/Tilemarble.pol  Tilemarble.pol
+EXPORT gt_library/Tileparquet.pol  Tileparquet.pol
+EXPORT gt_library/Grassblueflowers.pol  Grassblueflowers.pol
+EXPORT gt_library/GrassPoppies.pol  GrassPoppies.pol
+EXPORT gt_library/DirtRoad.pol  DirtRoad.pol
+EXPORT gt_library/KerbedRoad.pol  KerbedRoad.pol
+EXPORT gt_library/AsphaltSquaresBlue.pol  AsphaltSquaresBlue.pol
+EXPORT gt_library/SandTyreTracks.pol  SandTyreTracks.pol
+EXPORT gt_library/ConcreteTilesGrey.pol  ConcreteTilesGrey.pol
+EXPORT gt_library/ConcreteDamaged.pol  ConcreteDamaged.pol
+EXPORT gt_library/DustyGround.pol  DustyGround.pol
+EXPORT gt_library/StoneGrass.pol  StoneGrass.pol
+EXPORT gt_library/GrassThick.pol  GrassThick.pol
+EXPORT gt_library/SlateGrey.pol  SlateGrey.pol
+EXPORT gt_library/PebblesSandy.pol  PebblesSandy.pol
+EXPORT gt_library/PebblesGrass.pol  PebblesGrass.pol
+EXPORT gt_library/GrassTongue.pol  GrassTongue.pol
+EXPORT gt_library/TilesRandom.pol  TilesRandom.pol
+EXPORT gt_library/CoalsHot.pol  CoalsHot.pol
+EXPORT gt_library/TilesPebble.pol  TilesPebble.pol
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

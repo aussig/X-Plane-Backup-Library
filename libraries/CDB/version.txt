@@ -1,0 +1,4 @@
+CDB Library
+v2.6
+By Cami de Bellis
+https://forums.x-plane.org/index.php?/files/file/27907-cdb-library/

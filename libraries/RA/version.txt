@@ -1,0 +1,4 @@
+RA Library
+v1.2
+By Richard Antoine
+https://forums.x-plane.org/index.php?/files/file/45410-ra-library/

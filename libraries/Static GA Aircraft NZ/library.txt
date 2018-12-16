@@ -1,0 +1,180 @@
+A
+800
+LIBRARY
+#Version 1.0
+#Conditional use of this library
+#--------------------------------------
+#Cessna_150
+#--------------------------------------
+EXPORT Static_GA_NZ/C_150/Cessna150_1blue.obj C_150/Cessna150_1blue.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_1green.obj C_150/Cessna150_1green.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_1red.obj C_150/Cessna150_1red.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_1yellow.obj C_150/Cessna150_1yellow.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_2blue.obj C_150/Cessna150_2blue.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_2green.obj C_150/Cessna150_2green.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_2red.obj C_150/Cessna150_2red.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_2yellow.obj C_150/Cessna150_2yellow.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_3blue.obj C_150/Cessna150_3blue.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_3green.obj C_150/Cessna150_3green.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_3red.obj C_150/Cessna150_3red.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_3yellow.obj C_150/Cessna150_3yellow.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_4blue.obj C_150/Cessna150_4blue.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_4green.obj C_150/Cessna150_4green.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_4red.obj C_150/Cessna150_4red.obj
+EXPORT Static_GA_NZ/C_150/Cessna150_4yellow.obj C_150/Cessna150_4yellow.obj
+
+#-----------------------------------------
+#Cessna_172
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/C_172/Cessna172_1blue.obj C_172/Cessna172_1blue.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_1green.obj C_172/Cessna172_1green.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_1red.obj C_172/Cessna172_1red.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_1yellow.obj C_172/Cessna172_1yellow.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_2blue.obj C_172/Cessna172_2blue.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_2green.obj C_172/Cessna172_2green.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_2red.obj C_172/Cessna172_2red.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_2yellow.obj C_172/Cessna172_2yellow.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_3blue.obj C_172/Cessna172_3blue.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_3green.obj C_172/Cessna172_3green.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_3red.obj C_172/Cessna172_3red.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_3yellow.obj C_172/Cessna172_3yellow.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_4blue.obj C_172/Cessna172_4blue.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_4green.obj C_172/Cessna172_4green.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_4red.obj C_172/Cessna172_4red.obj
+EXPORT Static_GA_NZ/C_172/Cessna172_4yellow.obj C_172/Cessna172_4yellow.obj
+
+#-----------------------------------------
+#Jodel_D112
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Jodel_D112/D112_1blue.obj D112/D112_1blue.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_1green.obj D112/D112_1green.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_1red.obj D112/D112_1red.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_1yellow.obj D112/D112_1yellow.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_2blue.obj D112/D112_2blue.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_2green.obj D112/D112_2green.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_2red.obj D112/D112_2red.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_2yellow.obj D112/D112_2yellow.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_3blue.obj D112/D112_3blue.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_3green.obj D112/D112_3green.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_3red.obj D112/D112_3red.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_3yellow.obj D112/D112_3yellow.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_4blue.obj D112/D112_4blue.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_4green.obj D112/D112_4green.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_4red.obj D112/D112_4red.obj
+EXPORT Static_GA_NZ/Jodel_D112/D112_4yellow.obj D112/D112_4yellow.obj
+
+
+#-----------------------------------------
+#Robin_DR221
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Robin_DR221/DR221_1blue.obj DR221/DR221_1blue.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_1green.obj DR221/DR221_1green.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_1red.obj DR221/DR221_1red.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_1yellow.obj DR221/DR221_1yellow.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_2blue.obj DR221/DR221_2blue.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_2green.obj DR221/DR221_2green.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_2red.obj DR221/DR221_2red.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_2yellow.obj DR221/DR221_2yellow.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_3blue.obj DR221/DR221_3blue.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_3green.obj DR221/DR221_3green.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_3red.obj DR221/DR221_3red.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_3yellow.obj DR221/DR221_3yellow.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_4blue.obj DR221/DR221_4blue.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_4green.obj DR221/DR221_4green.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_4red.obj DR221/DR221_4red.obj
+EXPORT Static_GA_NZ/Robin_DR221/DR221_4yellow.obj DR221/DR221_4yellow.obj
+
+#-----------------------------------------
+#Robin_DR400
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Robin_DR400/DR400_1blue.obj DR400/DR400_1blue.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_1green.obj DR400/DR400_1green.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_1red.obj DR400/DR400_1red.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_1yellow.obj DR400/DR400_1yellow.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_2blue.obj DR400/DR400_2blue.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_2green.obj DR400/DR400_2green.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_2red.obj DR400/DR400_2red.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_2yellow.obj DR400/DR400_2yellow.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_3blue.obj DR400/DR400_3blue.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_3green.obj DR400/DR400_3green.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_3red.obj DR400/DR400_3red.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_3yellow.obj DR400/DR400_3yellow.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_4blue.obj DR400/DR400_4blue.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_4green.obj DR400/DR400_4green.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_4red.obj DR400/DR400_4red.obj
+EXPORT Static_GA_NZ/Robin_DR400/DR400_4yellow.obj DR400/DR400_4yellow.obj
+
+#-----------------------------------------
+#Robin_HR200
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Robin_HR200/HR200_1blue.obj HR200/HR200_1blue.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_1green.obj HR200/HR200_1green.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_1red.obj HR200/HR200_1red.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_1yellow.obj HR200/HR200_1yellow.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_2blue.obj HR200/HR200_2blue.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_2green.obj HR200/HR200_2green.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_2red.obj HR200/HR200_2red.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_2yellow.obj HR200/HR200_2yellow.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_3blue.obj HR200/HR200_3blue.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_3green.obj HR200/HR200_3green.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_3red.obj HR200/HR200_3red.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_3yellow.obj HR200/HR200_3yellow.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_4blue.obj HR200/HR200_4blue.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_4green.obj HR200/HR200_4green.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_4red.obj HR200/HR200_4red.obj
+EXPORT Static_GA_NZ/Robin_HR200/HR200_4yellow.obj HR200/HR200_4yellow.obj
+
+#-----------------------------------------
+#Rallye_MS880
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_1blue.obj MS880/MS880_rallye_1blue.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_1green.obj MS880/MS880_rallye_1green.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_1red.obj MS880/MS880_rallye_1red.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_1yellow.obj MS880/MS880_rallye_1yellow.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_2blue.obj MS880/MS880_rallye_2blue.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_2green.obj MS880/MS880_rallye_2green.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_2red.obj MS880/MS880_rallye_2red.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_2yellow.obj MS880/MS880_rallye_2yellow.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_3blue.obj MS880/MS880_rallye_3blue.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_3green.obj MS880/MS880_rallye_3green.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_3red.obj MS880/MS880_rallye_3red.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_3yellow.obj MS880/MS880_rallye_3yellow.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_4blue.obj MS880/MS880_rallye_4blue.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_4green.obj MS880/MS880_rallye_4green.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_4red.obj MS880/MS880_rallye_4red.obj
+EXPORT Static_GA_NZ/Rallye_MS880/MS880_rallye_4yellow.obj MS880/MS880_rallye_4yellow.obj
+
+#-----------------------------------------
+#Socata_TB20
+#-----------------------------------------
+
+EXPORT Static_GA_NZ/Socata_TB20/TB20_1blue.obj TB20/TB20_1blue.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_1green.obj TB20/TB20_1green.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_1red.obj TB20/TB20_1red.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_1yellow.obj TB20/TB20_1yellow.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_2blue.obj TB20/TB20_2blue.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_2green.obj TB20/TB20_2green.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_2red.obj TB20/TB20_2red.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_2yellow.obj TB20/TB20_2yellow.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_3blue.obj TB20/TB20_3blue.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_3green.obj TB20/TB20_3green.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_3red.obj TB20/TB20_3red.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_3yellow.obj TB20/TB20_3yellow.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_4blue.obj TB20/TB20_4blue.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_4green.obj TB20/TB20_4green.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_4red.obj TB20/TB20_4red.obj
+EXPORT Static_GA_NZ/Socata_TB20/TB20_4yellow.obj TB20/TB20_4yellow.obj
+
+
+
+#-----------------------------------------
+#End 27 April 2015
+#-----------------------------------------
+
+

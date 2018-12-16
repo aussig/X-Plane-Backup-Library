@@ -1,0 +1,20 @@
+A
+800
+LIBRARY
+
+EXPORT cemetery/broken_column.obj  		objects/t_broken_column.obj
+EXPORT cemetery/large_granite_oblisk.obj	objects/t_granite_oblisk_large.obj
+EXPORT cemetery/marble_celtic_cross.obj		objects/t_celtic.obj
+EXPORT cemetery/granite_oblisk_latin_cross.obj	objects/t_granite_latin_cross.obj
+EXPORT cemetery/granite_slab.obj		objects/t_granite_slab.obj
+EXPORT cemetery/marble_oblisk_latin_cross.obj	objects/t_marble_latin_cross.obj
+EXPORT cemetery/marble_headstone_plain.obj	objects/t_marble.obj
+EXPORT cemetery/small_latin_cross.obj		objects/t_small_latin_cross.obj
+EXPORT cemetery/small_pillar_urn.obj		objects/t_urn.obj
+EXPORT cemetery/surround_granite.obj		objects/t_surround_granite.obj
+EXPORT cemetery/surround_marble.obj		objects/t_surround_marble.obj
+EXPORT cemetery/surround_iron_fence.obj		objects/t_surround_iron.obj
+EXPORT cemetery/tall_marble_urn.obj		objects/t_urn_marble_tall.obj
+EXPORT cemetery/surround_marble_black.obj 	objects/t_surround_marble_black.obj
+EXPORT cemetery/wood_cross.obj			objects/t_wood_cross.obj
+EXPORT cemetery/marble_slab.obj			objects/t_marble_slab.obj

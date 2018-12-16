@@ -1,0 +1,259 @@
+A
+800
+LIBRARY
+
+# trees_and_fences
+EXPORT lib/trees/tree.decid.high.obj					trees:tree.decid.high.obj
+EXPORT lib/trees/tree.decid.high.small.obj				trees:tree.decid.high.small.obj
+EXPORT lib/trees/tree.decid.round.obj					trees:tree.decid.round.obj
+EXPORT lib/trees/tree.decid.round.small.obj				trees:tree.decid.round.small.obj
+EXPORT lib/trees/treegroup4.obj							trees:treegroup4a.obj
+EXPORT lib/trees/treegroup4.obj							trees:treegroup4b.obj
+EXPORT lib/trees/treegroup4.obj							trees:treegroup4c.obj
+EXPORT lib/trees/treegroup_new.obj						trees:treegroup_new.obj
+EXPORT lib/trees/treeline_new.obj						trees:treeline_new.obj
+EXPORT lib/trees/treeline_new.slim.obj					trees:treeline_new.slim.obj
+EXPORT lib/trees/treeline1.fac							trees:treeline1.fac
+EXPORT lib/trees/forest1.for							trees:forest1.for
+EXPORT lib/fence/fence.fac								fence:fence.fac
+EXPORT lib/fence/fence_ranch.fac						fence:fence_ranch.fac
+EXPORT lib/trees/coniferous.forest.for					trees:coniferous.forest.for
+EXPORT lib/trees/park.for								trees:park.for
+EXPORT lib/trees/gardens.for							trees:gardens.for
+EXPORT lib/trees/grass.for								trees:grass.for
+EXPORT lib/trees/tree_decid_round.str					trees:tree_decid_round.str
+EXPORT lib/trees/tree_decid_round_irreg.str				trees:tree_decid_round_irreg.str
+EXPORT lib/trees/tree_decid.str							trees:tree_decid_round.str
+EXPORT lib/trees/tree_decid_irreg.str					trees:tree_decid_round_irreg.str
+
+
+
+# g_buildings
+EXPORT lib/g_buildings/village_center_w_church1.obj		g_buildings:village_center_w_church1.obj
+EXPORT lib/g_buildings/village_center_wo_church.obj		g_buildings:village_center_wo_church.obj
+EXPORT lib/g_buildings/village_center_wo_church_half.obj		g_buildings:village_center_wo_church_half.obj
+EXPORT lib/g_buildings/village_center_wo_church_triangle.obj	g_buildings:village_center_wo_church_triangle.obj
+EXPORT lib/g_buildings/efh.obj							g_buildings:efh.obj
+EXPORT lib/g_buildings/efh.single.white.obj				g_buildings:efh.single.white.obj
+EXPORT lib/g_buildings/efh.single.yellow.obj			g_buildings:efh.single.yellow.obj
+EXPORT lib/g_buildings/efh.single.peach.obj				g_buildings:efh.single.peach.obj
+EXPORT lib/g_buildings/efh.single.blue.obj				g_buildings:efh.single.blue.obj
+
+EXPORT lib/g_buildings/mfh_15x10.obj					g_buildings:mfh_15x10a.obj
+EXPORT lib/g_buildings/mfh_15x10.obj					g_buildings:mfh_15x10b.obj
+EXPORT lib/g_buildings/mfh_20x10.obj					g_buildings:mfh_20x10a.obj
+EXPORT lib/g_buildings/mfh_19x19.obj					g_buildings:mfh_19x19a.obj
+EXPORT lib/g_buildings/mfh_19x19.obj					g_buildings:mfh_19x19b.obj
+EXPORT lib/g_buildings/mfh_19x19.obj					g_buildings:mfh_19x19c.obj
+
+EXPORT lib/g_buildings/reihenhaus1.obj					g_buildings:reihenhaus1.obj
+EXPORT lib/g_buildings/reihenhaus2.obj					g_buildings:reihenhaus2.obj
+EXPORT lib/g_buildings/reihenhaus3.obj					g_buildings:reihenhaus3.obj
+
+EXPORT lib/g_buildings/doppelhaus1.obj					g_buildings:doppelhaus1.obj
+
+EXPORT lib/g_buildings/siedlungshauser.drei.obj			g_buildings:siedlungshauser.drei.obj
+EXPORT lib/g_buildings/siedlungshauser.sechs.obj		g_buildings:siedlungshauser.sechs.obj
+
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_einst_1.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_einst_2.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_einst_5.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_zweist_1.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_zweist_2.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_zweist_3.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_zweist_4.obj
+EXPORT lib/g_buildings/generic_fachwerk.obj				g_buildings:fachwerk_klein_zweist_5.obj
+EXPORT lib/g_buildings/generic_fachwerk_gross.obj		g_buildings:fachwerk_gross1.obj
+EXPORT lib/g_buildings/generic_fachwerk_gross.obj		g_buildings:fachwerk_gross2.obj
+EXPORT lib/g_buildings/generic_fachwerk_gross.obj		g_buildings:fachwerk_gross3.obj
+
+EXPORT lib/g_buildings/wohnhaus.drei.beige.obj			g_buildings:wohnhaus.drei.beige.obj
+EXPORT lib/g_buildings/wohnhaus.drei.gruen.obj			g_buildings:wohnhaus.drei.gruen.obj
+EXPORT lib/g_buildings/wohnhaus.drei.rot.obj			g_buildings:wohnhaus.drei.rot.obj
+EXPORT lib/g_buildings/wohnhaus.vier.beige.obj			g_buildings:wohnhaus.vier.beige.obj
+EXPORT lib/g_buildings/wohnhaus.vier.blau.obj			g_buildings:wohnhaus.vier.blau.obj
+EXPORT lib/g_buildings/wohnhaus.vier.gruen.obj			g_buildings:wohnhaus.vier.gruen.obj
+EXPORT lib/g_buildings/wohnhaus.vier.rot.obj			g_buildings:wohnhaus.vier.rot.obj
+
+EXPORT lib/g_buildings/wohnblock1.obj					g_buildings:wohnblock1.obj
+EXPORT lib/g_buildings/wohnblock2.obj					g_buildings:wohnblock_six_storey_brown_blue.obj
+EXPORT lib/g_buildings/wohnblock_atrium.obj					g_buildings:wohnblock_atrium.obj
+EXPORT lib/g_buildings/wohnblock.seven.storey.white.stripes.obj					g_buildings:wohnblock.seven.storey.white.stripes.obj
+EXPORT lib/g_buildings/wohnblock_seven_storey_brown_blue.obj					g_buildings:wohnblock_seven_storey_brown_blue.obj
+EXPORT lib/g_buildings/wohnblock_six_storey_brown_blue.obj					g_buildings:wohnblock_six_storey_brown_blue.obj
+EXPORT lib/g_buildings/wohnblock_ten_storey_brown.obj					g_buildings:wohnblock_ten_storey_brown.obj
+EXPORT lib/g_buildings/wohnblock_fifteen_storey_white.obj					g_buildings:wohnblock_fifteen_storey_white.obj
+EXPORT lib/g_buildings/wohnblock.three.storey.brown.obj	g_buildings:wohnblock.three.storey.brown.obj
+
+EXPORT lib/g_buildings/highrise.seven.storey.blue.obj	g_buildings:highrise.seven.storey.blue.obj
+EXPORT lib/g_buildings/highrise.seven.storey.peach.obj	g_buildings:highrise.seven.storey.peach.obj
+EXPORT lib/g_buildings/highrise.seven.storey.white.obj	g_buildings:highrise.seven.storey.white.obj
+EXPORT lib/g_buildings/highrise_seven_storey_brown.obj	g_buildings:highrise_seven_storey_brown.obj
+EXPORT lib/g_buildings/highrise_terraced.obj			g_buildings:highrise_terraced.obj
+EXPORT lib/g_buildings/highrise_woehrdersee.obj			g_buildings:highrise_woehrdersee.obj
+
+EXPORT lib/g_buildings/erl_generic_apartmentblock_30a.obj	g_buildings:erl_generic_apartmentblock_30_1a.obj
+EXPORT lib/g_buildings/erl_generic_apartmentblock_60a.obj	g_buildings:erl_generic_apartmentblock_60_1a.obj
+EXPORT lib/g_buildings/erl_generic_apartmentblock_60a.obj	g_buildings:erl_generic_apartmentblock_60_2a.obj
+
+EXPORT lib/g_buildings/nbg.generic.steep_roof.100.obj	g_buildings:nbg.generic.steep_roof.100.1.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.100.obj	g_buildings:nbg.generic.steep_roof.100.2.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.100.obj	g_buildings:nbg.generic.steep_roof.100.3.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.100.obj	g_buildings:nbg.generic.steep_roof.100.4.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.100.obj	g_buildings:nbg.generic.steep_roof.100.5.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.50.obj	g_buildings:nbg.generic.steep_roof.50.1.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.50.obj	g_buildings:nbg.generic.steep_roof.50.2.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.25.obj	g_buildings:nbg.generic.steep_roof.25.1.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.25.obj	g_buildings:nbg.generic.steep_roof.25.2.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.corner90.obj	g_buildings:nbg.generic.steep_roof.corner90.1.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.corner90.obj	g_buildings:nbg.generic.steep_roof.corner90.2.obj
+EXPORT lib/g_buildings/nbg.generic.steep_roof.str	g_buildings:nbg.generic.steep_roof.str
+
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60.obj	g_buildings:nbg.generic.brownstone.60.1.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60.obj	g_buildings:nbg.generic.brownstone.60.2.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60.obj	g_buildings:nbg.generic.brownstone.60.3.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60.obj	g_buildings:nbg.generic.brownstone.60.4.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.corner90.obj	g_buildings:nbg.generic.brownstone.corner90.1.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60a.obj	g_buildings:nbg.generic.brownstone.60.1a.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60a.obj	g_buildings:nbg.generic.brownstone.60.2a.obj
+EXPORT lib/g_buildings/nbg.generic.brownsstone.60a.obj	g_buildings:nbg.generic.brownstone.60.3a.obj
+
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.60.obj	g_buildings:nbg.generic.apartmentblock.60.1.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.60a.obj	g_buildings:nbg.generic.apartmentblock.60.1a.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.60a.obj	g_buildings:nbg.generic.apartmentblock.60.2a.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.60a.obj	g_buildings:nbg.generic.apartmentblock.60.3a.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30.obj	g_buildings:nbg.generic.apartmentblock.30.1.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30.obj	g_buildings:nbg.generic.apartmentblock.30.2.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30.obj	g_buildings:nbg.generic.apartmentblock.30.3.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30a.obj	g_buildings:nbg.generic.apartmentblock.30.1a.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30a.obj	g_buildings:nbg.generic.apartmentblock.30.2a.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.30a.obj	g_buildings:nbg.generic.apartmentblock.30.3a.obj
+
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner60.obj	g_buildings:nbg.generic.apartmentblock.corner60_1.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner60.obj	g_buildings:nbg.generic.apartmentblock.corner60_2.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner90.obj	g_buildings:nbg.generic.apartmentblock.corner90_1.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner90.obj	g_buildings:nbg.generic.apartmentblock.corner90_2.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner120.obj	g_buildings:nbg.generic.apartmentblock.corner120_1.obj
+EXPORT lib/g_buildings/nbg.generic.apartmentblock.corner120.obj	g_buildings:nbg.generic.apartmentblock.corner120_2.obj
+
+EXPORT lib/g_buildings/nbg.hauptmarkt.sued1.obj		g_buildings:nbg.hauptmarkt.sued1.obj
+EXPORT lib/g_buildings/nbg_aok.obj		g_buildings:nbg_aok.obj
+
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.30a.obj	g_buildings:wohnstadt_sandstein1900.30.1a.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.30a.obj	g_buildings:wohnstadt_sandstein1900.30.2a.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.60a.obj	g_buildings:wohnstadt_sandstein1900.60.1a.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.60a.obj	g_buildings:wohnstadt_sandstein1900.60.2a.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.30.obj	g_buildings:wohnstadt_sandstein1900.30.1.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.30.obj	g_buildings:wohnstadt_sandstein1900.30.2.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.60.obj	g_buildings:wohnstadt_sandstein1900.60.1.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.60.obj	g_buildings:wohnstadt_sandstein1900.60.1.obj
+EXPORT lib/g_buildings/wohnstadt_sandstein1900.corner90.obj	g_buildings:wohnstadt_sandstein1900.corner90.1.obj
+
+EXPORT lib/g_buildings/stadthaus_two_einfach_square.obj	g_buildings:stadthaus_two_einfach_square1.obj
+EXPORT lib/g_buildings/stadthaus_two_einfach_square.obj	g_buildings:stadthaus_two_einfach_square2.obj
+EXPORT lib/g_buildings/stadthaus_two_einfach_square.obj	g_buildings:stadthaus_two_einfach_square3.obj
+EXPORT lib/g_buildings/stadthaus_two_einfach_long.obj	g_buildings:stadthaus_two_einfach_long1.obj
+EXPORT lib/g_buildings/stadthaus_two_einfach_long_double.obj	g_buildings:stadthaus_two_einfach_long_double1.obj
+EXPORT lib/g_buildings/stadthaus_two_einfach_long_double_l.obj	g_buildings:stadthaus_two_einfach_long_double_l1.obj
+EXPORT lib/g_buildings/stadthaus_three_einfach_square.obj	g_buildings:stadthaus_three_einfach_square1.obj
+
+EXPORT lib/g_buildings/villa_three1.obj	g_buildings:villa_three1.obj
+EXPORT lib/g_buildings/villa_two1.obj	g_buildings:villa_two1.obj
+EXPORT lib/g_buildings/villa_two2.obj	g_buildings:villa_two2.obj
+EXPORT lib/g_buildings/villa_two3.obj	g_buildings:villa_two3.obj
+EXPORT lib/g_buildings/villa_two4.obj	g_buildings:villa_two4.obj
+EXPORT lib/g_buildings/zentrum_sandstein_boegen_4st.fac	g_buildings:zentrum_sandstein_boegen_4st.fac
+EXPORT lib/g_buildings/zentrum_geschaeftshaus.fac	g_buildings:zentrum_geschaeftshaus.fac
+EXPORT lib/g_buildings/zentrum_geschaeftshaus_sand.fac	g_buildings:zentrum_geschaeftshaus_sand.fac
+EXPORT lib/g_buildings/zentrum_geschaeftshaus_weiss.fac	g_buildings:zentrum_geschaeftshaus_weiss.fac
+EXPORT lib/g_buildings/zentrum_wohnhaus_50s_green.fac	g_buildings:zentrum_wohnhaus_50s_green.fac
+EXPORT lib/g_buildings/zentrum_wohnhaus_1900.fac		g_buildings:zentrum_wohnhaus_1900.fac
+EXPORT lib/g_buildings/zentrum_wohnhaus_modern.fac		g_buildings:zentrum_wohnhaus_modern.fac
+EXPORT lib/g_buildings/wohnstadt_sandstein_1900.fac		g_buildings:wohnstadt_sandstein_1900.fac
+EXPORT lib/g_buildings/wohnstadt_geschaeftshaus_flachdach.fac		industy_commerce:commerce5_4.fac
+EXPORT lib/g_buildings/generic_fachwerk_klein.str	g_buildings:generic_fachwerk_klein.str
+
+EXPORT lib/g_buildings/barn_30x25.obj	g_buildings:barn_30x25.obj
+EXPORT lib/g_buildings/barn_8x6.obj	g_buildings:barn_8x6.obj
+
+
+# industry & commerce
+EXPORT lib/industry_commerce/kaufhof75x75x30.obj		industy_commerce:kaufhof75x75x30.obj
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_1.fac
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_2.fac
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_3.fac
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_4.fac
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_5.fac
+EXPORT lib/industry_commerce/commerce_25m.fac		industy_commerce:commerce5_6.fac
+EXPORT lib/industry_commerce/commerce_20m.fac		industy_commerce:commerce4_1.fac
+EXPORT lib/industry_commerce/commerce_20m.fac		industy_commerce:commerce4_2.fac
+EXPORT lib/industry_commerce/commerce_modern_glass.fac		industy_commerce:commerce_modern_glass.fac
+EXPORT lib/industry_commerce/commerce_glass_storefront.fac		industy_commerce:commerce_glass_storefront.fac
+EXPORT lib/industry_commerce/commerce_red_office.fac		industy_commerce:commerce_red_office.fac
+EXPORT lib/industry_commerce/industrial_new3_windows.fac		industy_commerce:industrial_new3_windows.fac
+EXPORT lib/industry_commerce/industrial_new1.fac		industy_commerce:industrial_new1.fac
+EXPORT lib/industry_commerce/commerce_old.fac		industy_commerce:commerce_old1.fac
+EXPORT lib/industry_commerce/industrial_storage1.fac		industy_commerce:industrial_storage1.fac
+
+EXPORT lib/industry_commerce/industrial_new_10x20a.obj		industy_commerce:industrial_new_10x20a.obj
+EXPORT lib/industry_commerce/industrial_new_30x50a.obj		industy_commerce:industrial_new_30x50a.obj
+EXPORT lib/industry_commerce/industrial_new_30x50b.obj		industy_commerce:industrial_new_30x50b.obj
+EXPORT lib/industry_commerce/industrial_new_30x50c.obj		industy_commerce:industrial_new_30x50c.obj
+EXPORT lib/industry_commerce/industrial_new_30x50d.obj		industy_commerce:industrial_new_30x50d.obj
+EXPORT lib/industry_commerce/industrial_new_30x50e.obj		industy_commerce:industrial_new_30x50e.obj
+EXPORT lib/industry_commerce/industrial_new_60x50a.obj		industy_commerce:industrial_new_60x50a.obj
+EXPORT lib/industry_commerce/industrial_new_60x50c.obj		industy_commerce:industrial_new_60x50c.obj
+EXPORT lib/industry_commerce/industrial_new_60x50d.obj		industy_commerce:industrial_new_60x50d.obj
+EXPORT lib/industry_commerce/industrial_new_60x50e.obj		industy_commerce:industrial_new_60x50e.obj
+EXPORT lib/industry_commerce/industrial_new_60x100a.obj		industy_commerce:industrial_new_60x100a.obj
+EXPORT lib/industry_commerce/industrial_new_60x100c.obj		industy_commerce:industrial_new_60x100c.obj
+EXPORT lib/industry_commerce/industrial_new_60x100d.obj		industy_commerce:industrial_new_60x100d.obj
+EXPORT lib/industry_commerce/industrial_new_60x100e.obj		industy_commerce:industrial_new_60x100e.obj
+EXPORT lib/industry_commerce/industrial_old_10x20a.obj		industy_commerce:industrial_old_10x20a.obj
+EXPORT lib/industry_commerce/industrial_old_20x20a.obj		industy_commerce:industrial_old_20x20a.obj
+EXPORT lib/industry_commerce/industrial_old_20x20b.obj		industy_commerce:industrial_old_20x20b.obj
+EXPORT lib/industry_commerce/industrial_old_20x30a.obj		industy_commerce:industrial_old_20x30a.obj
+EXPORT lib/industry_commerce/industrial_old_20x30b.obj		industy_commerce:industrial_old_20x30b.obj
+EXPORT lib/industry_commerce/industrial_old_30x30a.obj		industy_commerce:industrial_old_30x30a.obj
+EXPORT lib/industry_commerce/industrial_old_30x30b.obj		industy_commerce:industrial_old_30x30b.obj
+EXPORT lib/industry_commerce/industrial_old_30x30c.obj		industy_commerce:industrial_old_30x30c.obj
+EXPORT lib/industry_commerce/industrial_old_30x50a.obj		industy_commerce:industrial_old_30x50a.obj
+EXPORT lib/industry_commerce/industrial_old_30x50b.obj		industy_commerce:industrial_old_30x50b.obj
+EXPORT lib/industry_commerce/industrial_old_30x50c.obj		industy_commerce:industrial_old_30x50c.obj
+EXPORT lib/industry_commerce/industrial_old_30x50d.obj		industy_commerce:industrial_old_30x50d.obj
+EXPORT lib/industry_commerce/industrial_old_30x50e.obj		industy_commerce:industrial_old_30x50e.obj
+EXPORT lib/industry_commerce/industrial_old_60x50a.obj		industy_commerce:industrial_old_60x50a.obj
+EXPORT lib/industry_commerce/industrial_old_60x50d.obj		industy_commerce:industrial_old_60x50d.obj
+EXPORT lib/industry_commerce/industrial_old_60x100d.obj		industy_commerce:industrial_old_60x100d.obj
+EXPORT lib/industry_commerce/buildingsite_multi-storey_car_park.obj		industy_commerce:buildingsite_multi-storey_car_park.obj
+EXPORT lib/industry_commerce/buildingsite_commercial_building.obj		industy_commerce:buildingsite_commercial building.obj
+EXPORT lib/industry_commerce/roundtank_10m_1.obj			industy_commerce:roundtank_10m_1.obj
+EXPORT lib/industry_commerce/roundtank_10m_2.obj			industy_commerce:roundtank_10m_2.obj
+EXPORT lib/industry_commerce/roundtank_10m_4.obj			industy_commerce:roundtank_10m_4.obj
+EXPORT lib/industry_commerce/roundtank_10m_6.obj			industy_commerce:roundtank_10m_6.obj
+EXPORT lib/industry_commerce/tankstelle_aral.obj			industy_commerce:tankstelle_aral.obj
+EXPORT lib/industry_commerce/stadtwerke_kraftwerk.obj		industy_commerce:stadtwerke_kraftwerk.obj
+EXPORT lib/industry_commerce/stadtwerke_kraftwerk_large.obj	industy_commerce:stadtwerke_kraftwerk_2.obj
+EXPORT lib/industry_commerce/stadtwerke_verwaltung1.obj		industy_commerce:stadtwerke_verwaltung1.obj
+EXPORT lib/industry_commerce/tent_silo_40m.obj		industy_commerce:tent_silo_40m.obj
+EXPORT lib/industry_commerce/greenhouse_30x50.obj		industy_commerce:greenhouse_30x50.obj
+
+
+# lights
+EXPORT lib/lights/street_light_double.obj	lights:street_light_double.obj
+EXPORT lib/lights/street_light_double.str	lights:street_light_double.str
+EXPORT lib/lights/street_light_single_white.obj	lights:street_light_single_white.obj
+EXPORT lib/lights/street_light_single_white_inwards.str	lights:street_light_single_white_inwards.str
+EXPORT lib/lights/street_light_single_white_outwards.str	lights:street_light_single_white_outwards.str
+EXPORT lib/lights/street_light_single_yellow.obj lights:street_light_single_yellow.obj
+EXPORT lib/lights/street_light_single_yellow.str lights:street_light_single_yellow.str
+
+
+# misc
+EXPORT lib/misc/dock_20x20.obj	misc:dock_20x20.obj
+EXPORT lib/misc/dock_30x30.obj	misc:dock_30x30.obj
+EXPORT lib/misc/asphalt.pol	misc:asphalt.pol
+EXPORT lib/misc/parasol_white.obj	misc:parasol_white.obj
+EXPORT lib/misc/parasol_red.obj	misc:parasol_red.obj
+
+

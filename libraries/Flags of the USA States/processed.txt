@@ -1,0 +1,60 @@
+# Flags of the USA States Library
+# 2013-11-19
+# By Chris Noe
+# https://forums.x-plane.org/index.php?/files/file/17092-flags-of-the-usa-states-real-flag-ii/
+
+EXPORT_BACKUP lib/flags_USA_states/-USA.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/alabama.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/alaska.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/arizona.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/arkansas.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/california.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/colorado.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/connecticut.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/delaware.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/florida.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/georgia.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/hawaii.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/idaho.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/illinois.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/indiana.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/iowa.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/kansas.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/kentucky.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/louisiana.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/maine.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/maryland.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/massachusetts.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/michigan.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/minnesota.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/mississippi.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/missouri.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/montana.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/nebraska.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/nevada.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/new_hampshire.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/new_jersey.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/new_mexico.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/new_york.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/north_carolina.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/north_dakota.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/ohio.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/oklahoma.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/oregon.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/pennsylvania.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/rhode_island.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/south_carolina.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/south_dakota.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/tennessee.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/texas.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/utah.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/vermont.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/virginia.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/washington.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/west_virginia.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/wisconsin.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/wyoming.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/DC_&_Territories/american_samoa.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/DC_&_Territories/Distric_of_Columbia.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/DC_&_Territories/guam.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP lib/flags_USA_states/DC_&_Territories/puerto_rico.obj opensceneryx/placeholder.obj

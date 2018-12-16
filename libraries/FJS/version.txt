@@ -1,0 +1,4 @@
+FJS Library
+v1.7
+By Fred Schutzman
+https://forums.x-plane.org/index.php?/files/file/28594-fjs_scenery_library/

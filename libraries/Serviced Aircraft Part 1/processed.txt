@@ -1,0 +1,25 @@
+# Serviced Aircraft Library Part 1
+# v1.1
+# By Beber, managed by royaloak
+# https://forums.x-plane.org/index.php?/files/file/15363-north-american-serviced-aircraft-library-part-1/
+
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Air_Canada_737.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Fedex_737.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Star_Alliance_737.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/United_737.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/UPS_737.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Air_Canada_A320.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Fedex_A320.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Star_Alliance_A320.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/United_A320.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/UPS_A320.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Air_Canada_A340.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Fedex_A340.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Star_Alliance_A340.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/United_A340.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/UPS_A340.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Air_Canada_ATR42.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Fedex_ATR42.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/Star_Alliance_ATR42.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/United_ATR42.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP Serviced_Aircraft_North_America_Part1/UPS_ATR42.obj opensceneryx/placeholder.obj

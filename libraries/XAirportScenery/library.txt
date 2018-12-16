@@ -1,0 +1,26 @@
+A
+800
+LIBRARY
+
+# Version: v1.0.0
+
+EXPORT xairportscenery/objects/ModernBlockCenter.obj objects/ModernBlockCenter.obj
+EXPORT xairportscenery/objects/ModernBlockCenterRamp.obj objects/ModernBlockCenterRamp.obj
+EXPORT xairportscenery/objects/ModernBlockEnd.obj objects/ModernBlockEnd.obj
+EXPORT xairportscenery/objects/ModernBlockEndDeck.obj objects/ModernBlockEndDeck.obj
+EXPORT xairportscenery/objects/ModernBlockEndTwr.obj objects/ModernBlockEndTwr.obj
+EXPORT xairportscenery/objects/ModernBlockLeftEnd.obj objects/ModernBlockLeftEnd.obj
+EXPORT xairportscenery/objects/ModernBlockCenterAngle.obj objects/ModernBlockCenterAngle.obj
+
+EXPORT xairportscenery/retro/RetroBlockCenter.obj retro/RetroBlockCenter.obj
+EXPORT xairportscenery/retro/RetroBlockEntrance.obj retro/RetroBlockEntrance.obj
+EXPORT xairportscenery/retro/RetroBlockTwr.obj retro/RetroBlockTwr.obj
+
+EXPORT xairportscenery/towers/Modern_Twr.obj towers/Modern_Twr.obj
+EXPORT xairportscenery/towers/Nineties_Twr.obj towers/Nineties_Twr.obj
+EXPORT xairportscenery/towers/Eighties_Twr.obj towers/Eighties_Twr.obj
+EXPORT xairportscenery/towers/Seventies_Twr.obj towers/Seventies_Twr.obj
+
+
+
+

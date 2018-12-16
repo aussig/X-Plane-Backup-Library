@@ -1,0 +1,34 @@
+A
+800
+LIBRARY
+
+# royaloak's Serviced Aircraft Library
+
+EXPORT Serviced_Aircraft_North_America_Part3/Air_Canada_MD90.obj 		ServicedNAPart3/MD90 Air Canada Serviced/MD90_services.obj 
+EXPORT Serviced_Aircraft_North_America_Part3/Fedex_MD90.obj 			ServicedNAPart3/MD90 Fedex Serviced/MD90_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Star_Alliance_MD90.obj		ServicedNAPart3/MD90 Star Alliance Serviced/MD90_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/United_MD90.obj 			ServicedNAPart3/MD90 United Serviced/MD90_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/UPS_MD90.obj 				ServicedNAPart3/MD90 UPS Serviced/MD90_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Air_Canada_SAAB340.obj 	ServicedNAPart3/SAAB340 Air Canada Serviced/SAAB340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Fedex_SAAB340.obj 			ServicedNAPart3/SAAB340 Fedex Serviced/SAAB340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Star_Alliance_SAAB340.obj  ServicedNAPart3/SAAB340 Star Alliance Serviced/SAAB340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/United_SAAB340.obj 		ServicedNAPart3/SAAB340 United Serviced/SAAB340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/UPS_SAAB340.obj 			ServicedNAPart3/SAAB340 UPS Serviced/SAAB340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Air_Canada_B747.obj 		ServicedNAPart3/B747 Air Canada Serviced/B747_services.obj 
+EXPORT Serviced_Aircraft_North_America_Part3/Fedex_B747.obj 			ServicedNAPart3/B747 Fedex Serviced/B747_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Star_Alliance_B747.obj 	ServicedNAPart3/B747 Star Alliance Serviced/B747_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/United_B747.obj 			ServicedNAPart3/B747 United Serviced/B747_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/UPS_B747.obj 				ServicedNAPart3/B747 UPS Serviced/B747_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Air_Canada_B757.obj 		ServicedNAPart3/B757 Air Canada Serviced/B757_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Fedex_B757.obj 			ServicedNAPart3/B757 Fedex Serviced/B757_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Star_Alliance_B757.obj 	ServicedNAPart3/B757 Star Alliance Serviced/B757_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/United_B757.obj 			ServicedNAPart3/B757 United Serviced/B757_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/UPS_B757.obj 				ServicedNAPart3/B757 UPS Serviced/B757_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Air_Canada_EMB120.obj 		ServicedNAPart3/EMB120 Air Canada Serviced/EMB120_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Fedex_EMB120.obj 			ServicedNAPart3/EMB120 Fedex Serviced/EMB120_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/Star_Alliance_EMB120.obj 	ServicedNAPart3/EMB120 Star Alliance Serviced/EMB120_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/United_EMB120.obj 			ServicedNAPart3/EMB120 United Serviced/EMB120_services.obj
+EXPORT Serviced_Aircraft_North_America_Part3/UPS_EMB120.obj 			ServicedNAPart3/EMB120 UPS Serviced/EMB120_services.obj
+
+
+

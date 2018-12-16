@@ -1,0 +1,64 @@
+A
+800
+LIBRARY
+# Version: 1.06 by Fred Schutzman
+
+#Hangars
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangargroup_7.obj  Hangars/Hangar_objects/Hangargroup_7.obj
+#EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_7/hangargroup_blue.obj Hangars/Hangar_objects/Hangar_7/hangargroup_blue.obj
+#EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_7/hangargroup_green.obj Hangars/Hangar_objects/Hangar_7/hangargroup_green.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_1.obj Hangars/Hangar_objects/Hangar_1.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_2.obj Hangars/Hangar_objects/Hangar_2.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_3.obj Hangars/Hangar_objects/Hangar_3.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_4.obj Hangars/Hangar_objects/Hangar_4.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_5.obj Hangars/Hangar_objects/Hangar_5.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_6.obj Hangars/Hangar_objects/Hangar_6.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_7.obj Hangars/Hangar_objects/Hangar_7.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_8.obj Hangars/Hangar_objects/Hangar_8.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_9.obj Hangars/Hangar_objects/Hangar_9.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_10.obj Hangars/Hangar_objects/Hangar_10.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_11.obj Hangars/Hangar_objects/Hangar_11.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_12.obj Hangars/Hangar_objects/Hangar_12.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_13.obj Hangars/Hangar_objects/Hangar_13.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_14.obj Hangars/Hangar_objects/Hangar_14.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_15.obj Hangars/Hangar_objects/Hangar_15.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_16.obj Hangars/Hangar_objects/Hangar_16.obj
+EXPORT FJS_Scenery_Library/Hangars/Hangar_objects/Hangar_17.obj Hangars/Hangar_objects/Hangar_17.obj
+
+#Misc
+EXPORT FJS_Scenery_Library/Misc/misc_objects/breezeway/breeze_way.obj  Misc/misc_objects/breezeway/breeze_way.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/glass_pod/glass_pod.obj  Misc/misc_objects/glass_pod/glass_pod.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/hedge/2_8_hedge.obj  Misc/misc_objects/hedge/2_8_hedge.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/hedge/circle_hedge.obj  Misc/misc_objects/hedge/circle_hedge.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/hedge/curve_hedge.obj Misc/misc_objects/hedge/curve_hedge.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/hedge/T_hedge.obj Misc/misc_objects/hedge/T_hedge.obj
+EXPORT FJS_Scenery_Library/Misc/misc_objects/old_house/old_house.obj  Misc/misc_objects/old_house/old_house.obj
+
+#Terminals
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_1.obj Terminals/Terminal_objects/Terminal_1.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_2.obj Terminals/Terminal_objects/Terminal_2.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_3.obj Terminals/Terminal_objects/Terminal_3.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_4.obj Terminals/Terminal_objects/Terminal_4.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_5.obj Terminals/Terminal_objects/Terminal_5.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_6.obj Terminals/Terminal_objects/Terminal_6.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_7.obj Terminals/Terminal_objects/Terminal_7.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_8.obj Terminals/Terminal_objects/Terminal_8.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_9.obj Terminals/Terminal_objects/Terminal_9.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_10.obj Terminals/Terminal_objects/Terminal_10.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_11.obj Terminals/Terminal_objects/Terminal_11.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_12.obj Terminals/Terminal_objects/Terminal_12.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_13.obj Terminals/Terminal_objects/Terminal_13.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_14.obj Terminals/Terminal_objects/Terminal_14.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_15.obj Terminals/Terminal_objects/Terminal_15.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_16.obj Terminals/Terminal_objects/Terminal_16.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_16.obj Terminals/Terminal_objects/Terminal_17.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_18.obj Terminals/Terminal_objects/Terminal_18.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_19.obj Terminals/Terminal_objects/Terminal_19.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_20.obj Terminals/Terminal_objects/Terminal_20.obj
+EXPORT FJS_Scenery_Library/Terminals/Terminal_objects/Terminal_21.obj Terminals/Terminal_objects/Terminal_21.obj
+#Towers
+EXPORT FJS_Scenery_Library/Towers/Tower_objects/tower_1.obj  Towers/Tower_objects/tower_1.obj
+EXPORT FJS_Scenery_Library/Towers/Tower_objects/tower_2.obj  Towers/Tower_objects/tower_2.obj
+EXPORT FJS_Scenery_Library/Towers/Tower_objects/tower_3.obj  Towers/Tower_objects/tower_3.obj
+EXPORT FJS_Scenery_Library/Towers/Tower_objects/tower_4.obj  Towers/Tower_objects/tower_4.obj
+EXPORT FJS_Scenery_Library/Towers/Tower_objects/tower_5.obj  Towers/Tower_objects/tower_5.obj

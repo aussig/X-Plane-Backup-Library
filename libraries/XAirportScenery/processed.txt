@@ -1,0 +1,19 @@
+# XAirportScenery Library
+# v1.1
+# By AndrooC
+# https://forums.x-plane.org/index.php?/files/file/17534-xairportscenery/
+
+EXPORT_BACKUP xairportscenery/objects/ModernBlockCenter.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockCenterRamp.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockEnd.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockEndDeck.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockEndTwr.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockLeftEnd.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/objects/ModernBlockCenterAngle.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/retro/RetroBlockCenter.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/retro/RetroBlockEntrance.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/retro/RetroBlockTwr.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/towers/Modern_Twr.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/towers/Nineties_Twr.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/towers/Eighties_Twr.obj opensceneryx/placeholder.obj
+EXPORT_BACKUP xairportscenery/towers/Seventies_Twr.obj opensceneryx/placeholder.obj

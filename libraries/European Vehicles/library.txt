@@ -1,0 +1,20 @@
+A
+800
+LIBRARY
+
+# library of static european vehicles for scenery developers - by uwespeed, 2014
+
+EXPORT  european_vehicles_static/bmw_3_touring.obj  bmw_3_touring.obj
+EXPORT  european_vehicles_static/bus_blue.obj  bus_blue.obj
+EXPORT  european_vehicles_static/bus_green.obj  bus_green.obj
+EXPORT  european_vehicles_static/bus_yellow.obj  bus_yellow.obj
+EXPORT  european_vehicles_static/fiat_panda.obj  fiat_panda.obj
+EXPORT  european_vehicles_static/ford_transit.obj  ford_transit.obj
+EXPORT  european_vehicles_static/mercedes_e_class.obj  mercedes_e_class.obj
+EXPORT  european_vehicles_static/mercedes_sprinter.obj  mercedes_sprinter.obj
+EXPORT  european_vehicles_static/mercedes_truck.obj  mercedes_truck.obj
+EXPORT  european_vehicles_static/mercedes_vaneo.obj  mercedes_vaneo.obj
+EXPORT  european_vehicles_static/renault_5_trafic.obj  renault_5_trafic.obj
+EXPORT  european_vehicles_static/volvo_v40.obj  volvo_v40.obj
+EXPORT  european_vehicles_static/vw_golf.obj  vw_golf.obj
+EXPORT  european_vehicles_static/vw_polo.obj  vw_polo.obj

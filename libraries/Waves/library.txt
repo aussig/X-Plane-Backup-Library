@@ -1,0 +1,26 @@
+A
+800
+LIBRARY
+
+EXPORT waves/200meters/2_waves_high_speed.obj waves_2low_200m_10ms.obj
+EXPORT waves/200meters/2_waves_high_speed_simple.obj waves_2_simple_200m_10ms.obj
+EXPORT waves/200meters/2_waves_medium_speed.obj waves_2low_200m_5ms.obj
+EXPORT waves/200meters/2_waves_low_speed.obj waves_2low_200m_2p5ms.obj
+EXPORT waves/200meters/2_waves_curved_medium_speed.obj waves_2low_curved_200m_5ms.obj
+EXPORT waves/200meters/2_waves_curved_medium_sp_simple.obj waves_2low_curved_200m_5ms_simple.obj
+EXPORT waves/200meters/2_waves_curved_low_speed.obj waves_2low_curved_200m_2p5ms.obj
+EXPORT waves/200meters/3_waves_medium_speed.obj waves_3low_200m_5ms.obj
+EXPORT waves/200meters/3_waves_low_speed.obj waves_3low_200m_2p5ms.obj
+EXPORT waves/200meters/Double_wave_200m.obj Double_wave__200m_2p5ms.obj
+EXPORT waves/500meters/2_waves_high_speed.obj waves_2low_500m_10ms.obj
+EXPORT waves/1000meters/2_thin_waves_medium_speed.obj waves_2low_1000m_Thin_5ms.obj
+EXPORT waves/1000meters/2_thin_waves_high_speed.obj waves_2low_1000m_Thin_10ms.obj
+EXPORT waves/shore_animation/shore_foam_150m.obj Shore_foam100m.obj
+EXPORT waves/shore_animation/shore_foam_250m.obj Shore_foam200m.obj
+EXPORT waves/Open_water/Open_water_double_slow.obj short_openwater_wave_2low_50m_5ms.obj
+EXPORT waves/Open_water/Open_water_single_slow.obj short_openwater_wave_1low_50m_5ms.obj
+EXPORT waves/Open_water/Field_single_waves_slow.obj short_openwater_wave_1_Field_50m_5ms.obj
+EXPORT waves/Open_water/Field_single_waves_fast.obj short_openwater_wave_1_Field_10ms.obj
+EXPORT waves/Open_water/Field_double_waves_slow.obj short_openwater_wave_2_Field_50m_5ms.obj
+EXPORT waves/Wind_var/Open_water_single_wind.obj wind_openwater_wave_1_50m_10ms.obj
+EXPORT waves/Wind_var/Open_water_field_wind.obj wind_openwater_Field_1_50m_10ms.obj

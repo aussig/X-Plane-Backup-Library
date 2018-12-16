@@ -1,0 +1,1470 @@
+I
+800
+LIBRARY
+#
+# RuScenery 
+# Library of USSR and CIS airfields objects.
+# http://ruscenery.x-air.ru/
+# Version: v2.1.8
+#
+#
+# aircrafts
+#
+EXPORT ruscenery/aircrafts/A-50.obj       aircrafts/a-50.obj
+#
+EXPORT ruscenery/aircrafts/An-10.obj      aircrafts/an-10.obj
+#
+EXPORT ruscenery/aircrafts/An-12-0.obj    aircrafts/an-12-0.obj
+EXPORT ruscenery/aircrafts/An-12-1.obj    aircrafts/an-12-1.obj
+EXPORT ruscenery/aircrafts/An-12-2.obj    aircrafts/an-12-2.obj
+EXPORT ruscenery/aircrafts/An-12-3.obj    aircrafts/an-12-3.obj
+EXPORT ruscenery/aircrafts/An-12-4.obj    aircrafts/an-12-4.obj
+EXPORT ruscenery/aircrafts/An-12-5.obj    aircrafts/an-12-5.obj
+EXPORT ruscenery/aircrafts/An-12-6.obj    aircrafts/an-12-6.obj
+EXPORT ruscenery/aircrafts/An-12-7.obj    aircrafts/an-12-7.obj
+EXPORT ruscenery/aircrafts/An-12-8.obj    aircrafts/an-12-8.obj
+EXPORT ruscenery/aircrafts/An-12-a.obj    aircrafts/an-12-a.obj
+EXPORT ruscenery/aircrafts/An-12-b.obj    aircrafts/an-12-b.obj
+EXPORT ruscenery/aircrafts/An-12-c.obj    aircrafts/an-12-c.obj
+EXPORT ruscenery/aircrafts/An-12-d.obj    aircrafts/an-12-d.obj
+EXPORT ruscenery/aircrafts/An-12-e.obj    aircrafts/an-12-e.obj
+EXPORT ruscenery/aircrafts/An-12-f.obj    aircrafts/an-12-f.obj
+EXPORT ruscenery/aircrafts/An-12-g.obj    aircrafts/an-12-g.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-12.obj      aircrafts/an-12-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-12.obj      aircrafts/an-12-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-12.obj      aircrafts/an-12-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-12.obj      aircrafts/an-12-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-12.obj      aircrafts/an-12-a.obj
+#
+EXPORT ruscenery/aircrafts/An-2-1.obj      aircrafts/an-2-1.obj
+EXPORT ruscenery/aircrafts/An-2-2.obj      aircrafts/an-2-2.obj
+EXPORT ruscenery/aircrafts/An-2-3.obj      aircrafts/an-2-3.obj
+EXPORT ruscenery/aircrafts/An-2-4.obj      aircrafts/an-2-4.obj
+EXPORT ruscenery/aircrafts/An-2-5.obj      aircrafts/an-2-5.obj
+EXPORT ruscenery/aircrafts/An-2-6.obj      aircrafts/an-2-6.obj
+EXPORT ruscenery/aircrafts/An-2-7.obj      aircrafts/an-2-7.obj
+EXPORT ruscenery/aircrafts/An-2-8.obj      aircrafts/an-2-8.obj
+EXPORT ruscenery/aircrafts/An-2-9.obj      aircrafts/an-2-9.obj
+EXPORT ruscenery/aircrafts/An-2-a.obj      aircrafts/an-2-a.obj
+EXPORT ruscenery/aircrafts/An-2-b.obj      aircrafts/an-2-b.obj
+EXPORT ruscenery/aircrafts/An-2-c.obj      aircrafts/an-2-c.obj
+EXPORT ruscenery/aircrafts/An-2-d.obj      aircrafts/an-2-d.obj
+EXPORT ruscenery/aircrafts/An-2-e.obj      aircrafts/an-2-e.obj
+EXPORT ruscenery/aircrafts/An-2-f.obj      aircrafts/an-2-f.obj
+EXPORT ruscenery/aircrafts/An-2-g.obj      aircrafts/an-2-g.obj
+EXPORT ruscenery/aircrafts/An-2-h.obj      aircrafts/an-2-h.obj
+EXPORT ruscenery/aircrafts/An-2-i.obj      aircrafts/an-2-i.obj
+EXPORT ruscenery/aircrafts/An-2-j.obj      aircrafts/an-2-j.obj
+EXPORT ruscenery/aircrafts/An-2-k.obj      aircrafts/an-2-k.obj
+EXPORT ruscenery/aircrafts/An-2-l.obj      aircrafts/an-2-l.obj
+EXPORT ruscenery/aircrafts/An-2-m-obj      aircrafts/an-2-m.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-h.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-i.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-j.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-k.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-2.obj  aircrafts/an-2-l.obj
+#
+EXPORT ruscenery/aircrafts/An-22.obj      aircrafts/an-22.obj 
+#
+EXPORT ruscenery/aircrafts/An-225.obj     aircrafts/an-225.obj
+#
+EXPORT ruscenery/aircrafts/An-24-0.obj    aircrafts/an-24-0.obj
+EXPORT ruscenery/aircrafts/An-24-1.obj    aircrafts/an-24-1.obj
+EXPORT ruscenery/aircrafts/An-24-2.obj    aircrafts/an-24-2.obj
+EXPORT ruscenery/aircrafts/An-24-3.obj    aircrafts/an-24-3.obj
+EXPORT ruscenery/aircrafts/An-24-4.obj    aircrafts/an-24-4.obj
+EXPORT ruscenery/aircrafts/An-24-5.obj    aircrafts/an-24-5.obj
+EXPORT ruscenery/aircrafts/An-24-6.obj    aircrafts/an-24-6.obj
+EXPORT ruscenery/aircrafts/An-24-7.obj    aircrafts/an-24-7.obj
+EXPORT ruscenery/aircrafts/An-24-8.obj    aircrafts/an-24-8.obj
+EXPORT ruscenery/aircrafts/An-24-9.obj    aircrafts/an-24-9.obj
+EXPORT ruscenery/aircrafts/An-24-a.obj    aircrafts/an-24-a.obj
+EXPORT ruscenery/aircrafts/An-24-b.obj    aircrafts/an-24-b.obj
+EXPORT ruscenery/aircrafts/An-24-c.obj    aircrafts/an-24-c.obj
+EXPORT ruscenery/aircrafts/An-24-d.obj    aircrafts/an-24-d.obj
+EXPORT ruscenery/aircrafts/An-24-e.obj    aircrafts/an-24-e.obj
+EXPORT ruscenery/aircrafts/An-24-f.obj    aircrafts/an-24-f.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-24.obj      aircrafts/an-24-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-24.obj      aircrafts/an-24-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-24.obj      aircrafts/an-24-8.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-24.obj      aircrafts/an-24-c.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-24.obj      aircrafts/an-24-f.obj
+#
+EXPORT ruscenery/aircrafts/An-26-0.obj    aircrafts/an-26-0.obj
+EXPORT ruscenery/aircrafts/An-26-1.obj    aircrafts/an-26-1.obj
+EXPORT ruscenery/aircrafts/An-26-2.obj    aircrafts/an-26-2.obj
+EXPORT ruscenery/aircrafts/An-26-3.obj    aircrafts/an-26-3.obj
+EXPORT ruscenery/aircrafts/An-26-4.obj    aircrafts/an-26-4.obj
+EXPORT ruscenery/aircrafts/An-26-5.obj    aircrafts/an-26-5.obj
+EXPORT ruscenery/aircrafts/An-26-6.obj    aircrafts/an-26-6.obj
+EXPORT ruscenery/aircrafts/An-26-7.obj    aircrafts/an-26-7.obj
+EXPORT ruscenery/aircrafts/An-26-8.obj    aircrafts/an-26-8.obj
+EXPORT ruscenery/aircrafts/An-26-9.obj    aircrafts/an-26-9.obj
+EXPORT ruscenery/aircrafts/An-26-a.obj    aircrafts/an-26-a.obj
+EXPORT ruscenery/aircrafts/An-26-b.obj    aircrafts/an-26-b.obj
+EXPORT ruscenery/aircrafts/An-26-c.obj    aircrafts/an-26-c.obj
+EXPORT ruscenery/aircrafts/An-26-d.obj    aircrafts/an-26-d.obj
+EXPORT ruscenery/aircrafts/An-26-e.obj    aircrafts/an-26-e.obj
+EXPORT ruscenery/aircrafts/An-26-f.obj    aircrafts/an-26-f.obj
+EXPORT ruscenery/aircrafts/An-26-g.obj    aircrafts/an-26-g.obj
+EXPORT ruscenery/aircrafts/An-26-h.obj    aircrafts/an-26-h.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-8.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-9.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-a.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-c.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-d.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-e.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-26.obj      aircrafts/an-26-h.obj
+#
+EXPORT ruscenery/aircrafts/An-28.obj      aircrafts/an-28.obj
+#
+EXPORT ruscenery/aircrafts/An-30.obj      aircrafts/an-30.obj
+#
+EXPORT ruscenery/aircrafts/An-32.obj      aircrafts/an-32.obj
+#
+EXPORT ruscenery/aircrafts/An-72-0.obj    aircrafts/an-72-0.obj
+EXPORT ruscenery/aircrafts/An-72-1.obj    aircrafts/an-72-1.obj
+EXPORT ruscenery/aircrafts/An-72-2.obj    aircrafts/an-72-2.obj
+EXPORT ruscenery/aircrafts/An-72-3.obj    aircrafts/an-72-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-72.obj      aircrafts/an-72-0.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-72.obj      aircrafts/an-72-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-72.obj      aircrafts/an-72-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-72.obj      aircrafts/an-72-3.obj
+#
+EXPORT ruscenery/aircrafts/An-74-0.obj    aircrafts/an-74-0.obj
+EXPORT ruscenery/aircrafts/An-74-1.obj    aircrafts/an-74-1.obj
+EXPORT ruscenery/aircrafts/An-74-2.obj    aircrafts/an-74-2.obj
+EXPORT ruscenery/aircrafts/An-74-3.obj    aircrafts/an-74-3.obj
+EXPORT ruscenery/aircrafts/An-74-4.obj    aircrafts/an-74-4.obj
+EXPORT ruscenery/aircrafts/An-74-5.obj    aircrafts/an-74-5.obj
+EXPORT ruscenery/aircrafts/An-74-6.obj    aircrafts/an-74-6.obj
+EXPORT ruscenery/aircrafts/An-74-7.obj    aircrafts/an-74-7.obj
+EXPORT ruscenery/aircrafts/An-74-8.obj    aircrafts/an-74-8.obj
+EXPORT ruscenery/aircrafts/An-74-9.obj    aircrafts/an-74-9.obj
+EXPORT ruscenery/aircrafts/An-74-a.obj    aircrafts/an-74-a.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-9.obj
+EXPORT_EXTEND ruscenery/aircrafts/An-74.obj      aircrafts/an-74-a.obj
+#
+#
+EXPORT ruscenery/aircrafts/An-8.obj       aircrafts/an-8-1.obj
+EXPORT ruscenery/aircrafts/An-8-1.obj     aircrafts/an-8-1.obj
+EXPORT ruscenery/aircrafts/An-8-2.obj     aircrafts/an-8-2.obj
+EXPORT ruscenery/aircrafts/An-8-3.obj     aircrafts/an-8-3.obj
+#
+EXPORT ruscenery/aircrafts/Il-28.obj      aircrafts/il-28.obj
+#
+EXPORT ruscenery/aircrafts/Il-62.obj      aircrafts/il-62-1.obj
+EXPORT ruscenery/aircrafts/Il-62-1.obj    aircrafts/il-62-1.obj
+EXPORT ruscenery/aircrafts/Il-62-2.obj    aircrafts/il-62-2.obj
+EXPORT ruscenery/aircrafts/Il-62-3.obj    aircrafts/il-62-3.obj
+#
+EXPORT ruscenery/aircrafts/Il-76.obj      aircrafts/il-76.obj
+#
+EXPORT ruscenery/aircrafts/Il-86.obj      aircrafts/il-86-1.obj
+EXPORT ruscenery/aircrafts/Il-86-1.obj    aircrafts/il-86-1.obj
+EXPORT ruscenery/aircrafts/Il-86-2.obj    aircrafts/il-86-2.obj
+EXPORT ruscenery/aircrafts/Il-86-3.obj    aircrafts/il-86-3.obj
+EXPORT ruscenery/aircrafts/Il-86-4.obj    aircrafts/il-86-4.obj
+#
+EXPORT ruscenery/aircrafts/Il-96.obj      aircrafts/il-96-1.obj
+EXPORT ruscenery/aircrafts/Il-96-1.obj    aircrafts/il-96-1.obj
+EXPORT ruscenery/aircrafts/Il-96-2.obj    aircrafts/il-96-2.obj
+EXPORT ruscenery/aircrafts/Il-96-3.obj    aircrafts/il-96-3.obj
+EXPORT ruscenery/aircrafts/Il-96-4.obj    aircrafts/il-96-4.obj
+#
+EXPORT ruscenery/aircrafts/Ka-50.obj      aircrafts/ka-50.obj
+#
+EXPORT ruscenery/aircrafts/Mi-8.obj       aircrafts/mi-8-1.obj
+EXPORT ruscenery/aircrafts/Mi-8-1.obj     aircrafts/mi-8-1.obj
+EXPORT ruscenery/aircrafts/Mi-8-2.obj     aircrafts/mi-8-2.obj
+EXPORT ruscenery/aircrafts/Mi-8-3.obj     aircrafts/mi-8-3.obj
+EXPORT ruscenery/aircrafts/Mi-8-4.obj     aircrafts/mi-8-4.obj
+EXPORT ruscenery/aircrafts/Mi-8-5.obj     aircrafts/mi-8-5.obj
+#
+EXPORT ruscenery/aircrafts/MiG-15.obj     aircrafts/mig-15-1.obj
+EXPORT ruscenery/aircrafts/MiG-15-1.obj   aircrafts/mig-15-1.obj
+EXPORT ruscenery/aircrafts/MiG-15-2.obj   aircrafts/mig-15-2.obj
+#
+EXPORT ruscenery/aircrafts/MiG-17.obj     aircrafts/mig-17.obj
+EXPORT ruscenery/aircrafts/MiG-19.obj     aircrafts/mig-19.obj
+#
+EXPORT ruscenery/aircrafts/MiG-21.obj     aircrafts/mig-21.obj
+#
+EXPORT ruscenery/aircrafts/MiG-23.obj     aircrafts/mig-23.obj
+#
+EXPORT ruscenery/aircrafts/MiG-25.obj     aircrafts/mig-25-2.obj
+EXPORT ruscenery/aircrafts/MiG-25-1.obj   aircrafts/mig-25-1.obj
+EXPORT ruscenery/aircrafts/MiG-25-2.obj   aircrafts/mig-25-2.obj
+#
+EXPORT ruscenery/aircrafts/MiG-27.obj     aircrafts/mig-27.obj
+#
+EXPORT ruscenery/aircrafts/MiG-29.obj     aircrafts/mig-29.obj
+EXPORT ruscenery/aircrafts/MiG-29-sw.obj  aircrafts/mig-29-sw.obj
+#
+EXPORT ruscenery/aircrafts/MiG-31.obj     aircrafts/mig-31.obj
+#
+EXPORT ruscenery/aircrafts/MiG-33.obj     aircrafts/mig-33.obj
+#
+EXPORT ruscenery/aircrafts/MiG-AT.obj     aircrafts/mig-at.obj
+#
+EXPORT ruscenery/aircrafts/Su-15.obj      aircrafts/su-15.obj
+#
+EXPORT ruscenery/aircrafts/Su-22.obj      aircrafts/su-22.obj
+#
+EXPORT ruscenery/aircrafts/Su-24.obj      aircrafts/su-24.obj
+#
+EXPORT ruscenery/aircrafts/Su-25.obj      aircrafts/su-25.obj
+#
+EXPORT ruscenery/aircrafts/Su-27.obj      aircrafts/su-27-2.obj
+EXPORT ruscenery/aircrafts/Su-27-1.obj    aircrafts/su-27-1.obj
+EXPORT ruscenery/aircrafts/Su-27-2.obj    aircrafts/su-27-2.obj
+EXPORT ruscenery/aircrafts/Su-27-rk.obj   aircrafts/su-27-rk.obj
+#
+EXPORT ruscenery/aircrafts/Su-29.obj      aircrafts/su-29.obj
+#
+EXPORT ruscenery/aircrafts/Su-34.obj      aircrafts/su-34.obj
+#
+EXPORT ruscenery/aircrafts/Su-37.obj      aircrafts/su-37.obj
+#
+EXPORT ruscenery/aircrafts/Su-39.obj      aircrafts/su-39.obj
+#
+EXPORT ruscenery/aircrafts/Su-80.obj      aircrafts/su-80.obj
+#
+EXPORT ruscenery/aircrafts/Tu-134-0.obj   aircrafts/tu-134-0.obj
+EXPORT ruscenery/aircrafts/Tu-134-1.obj   aircrafts/tu-134-1.obj
+EXPORT ruscenery/aircrafts/Tu-134-2.obj   aircrafts/tu-134-2.obj
+EXPORT ruscenery/aircrafts/Tu-134-3.obj   aircrafts/tu-134-3.obj
+EXPORT ruscenery/aircrafts/Tu-134-4.obj   aircrafts/tu-134-4.obj
+EXPORT ruscenery/aircrafts/Tu-134-5.obj   aircrafts/tu-134-5.obj
+EXPORT ruscenery/aircrafts/Tu-134-6.obj   aircrafts/tu-134-6.obj
+EXPORT ruscenery/aircrafts/Tu-134-7.obj   aircrafts/tu-134-7.obj
+EXPORT ruscenery/aircrafts/Tu-134-8.obj   aircrafts/tu-134-8.obj
+EXPORT ruscenery/aircrafts/Tu-134-9.obj   aircrafts/tu-134-9.obj
+EXPORT ruscenery/aircrafts/Tu-134-a.obj   aircrafts/tu-134-a.obj
+EXPORT ruscenery/aircrafts/Tu-134-b.obj   aircrafts/tu-134-b.obj
+EXPORT ruscenery/aircrafts/Tu-134-c.obj   aircrafts/tu-134-c.obj
+EXPORT ruscenery/aircrafts/Tu-134-d.obj   aircrafts/tu-134-d.obj
+EXPORT ruscenery/aircrafts/Tu-134-e.obj   aircrafts/tu-134-e.obj
+EXPORT ruscenery/aircrafts/Tu-134-f.obj   aircrafts/tu-134-f.obj
+EXPORT ruscenery/aircrafts/Tu-134-g.obj   aircrafts/tu-134-g.obj
+EXPORT ruscenery/aircrafts/Tu-134-h.obj   aircrafts/tu-134-h.obj
+EXPORT ruscenery/aircrafts/Tu-134-i.obj   aircrafts/tu-134-i.obj
+EXPORT ruscenery/aircrafts/Tu-134-j.obj   aircrafts/tu-134-j.obj
+EXPORT ruscenery/aircrafts/Tu-134-k.obj   aircrafts/tu-134-k.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-8.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-9.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-b.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-c.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-d.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-e.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-134.obj     aircrafts/tu-134-f.obj
+#
+EXPORT ruscenery/aircrafts/Tu-154-0.obj   aircrafts/tu-154-0.obj
+EXPORT ruscenery/aircrafts/Tu-154-1.obj   aircrafts/tu-154-1.obj
+EXPORT ruscenery/aircrafts/Tu-154-2.obj   aircrafts/tu-154-2.obj
+EXPORT ruscenery/aircrafts/Tu-154-3.obj   aircrafts/tu-154-3.obj
+EXPORT ruscenery/aircrafts/Tu-154-4.obj   aircrafts/tu-154-4.obj
+EXPORT ruscenery/aircrafts/Tu-154-5.obj   aircrafts/tu-154-5.obj
+EXPORT ruscenery/aircrafts/Tu-154-6.obj   aircrafts/tu-154-6.obj
+EXPORT ruscenery/aircrafts/Tu-154-7.obj   aircrafts/tu-154-7.obj
+EXPORT ruscenery/aircrafts/Tu-154-8.obj   aircrafts/tu-154-8.obj
+EXPORT ruscenery/aircrafts/Tu-154-9.obj   aircrafts/tu-154-9.obj
+EXPORT ruscenery/aircrafts/Tu-154-a.obj   aircrafts/tu-154-a.obj
+EXPORT ruscenery/aircrafts/Tu-154-b.obj   aircrafts/tu-154-b.obj
+EXPORT ruscenery/aircrafts/Tu-154-c.obj   aircrafts/tu-154-c.obj
+EXPORT ruscenery/aircrafts/Tu-154-d.obj   aircrafts/tu-154-d.obj
+EXPORT ruscenery/aircrafts/Tu-154-e.obj   aircrafts/tu-154-e.obj
+EXPORT ruscenery/aircrafts/Tu-154-f.obj   aircrafts/tu-154-f.obj
+EXPORT ruscenery/aircrafts/Tu-154-g.obj   aircrafts/tu-154-g.obj
+EXPORT ruscenery/aircrafts/Tu-154-h.obj   aircrafts/tu-154-h.obj
+EXPORT ruscenery/aircrafts/Tu-154-i.obj   aircrafts/tu-154-i.obj
+EXPORT ruscenery/aircrafts/Tu-154-j.obj   aircrafts/tu-154-j.obj
+EXPORT ruscenery/aircrafts/Tu-154-M.obj   aircrafts/tu-154-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-8.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-9.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-a.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-b.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-c.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-d.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-e.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-f.obj
+EXPORT_EXTEND ruscenery/aircrafts/Tu-154.obj     aircrafts/tu-154-g.obj
+#
+EXPORT ruscenery/aircrafts/Tu-16.obj      aircrafts/tu-16.obj
+#
+EXPORT ruscenery/aircrafts/Tu-204.obj     aircrafts/tu-204.obj
+#
+EXPORT ruscenery/aircrafts/Tu-22.obj      aircrafts/tu-22.obj
+EXPORT ruscenery/aircrafts/Tu-414.obj     aircrafts/tu-414.obj
+EXPORT ruscenery/aircrafts/Tu-95.obj      aircrafts/tu-95.obj
+EXPORT ruscenery/aircrafts/Yak-130.obj    aircrafts/yak-130.obj
+#
+EXPORT ruscenery/aircrafts/Yak-40-0.obj   aircrafts/yak-40-0.obj
+EXPORT ruscenery/aircrafts/Yak-40-1.obj   aircrafts/yak-40-1.obj
+EXPORT ruscenery/aircrafts/Yak-40-2.obj   aircrafts/yak-40-2.obj
+EXPORT ruscenery/aircrafts/Yak-40-3.obj   aircrafts/yak-40-3.obj
+EXPORT ruscenery/aircrafts/Yak-40-4.obj   aircrafts/yak-40-4.obj
+EXPORT ruscenery/aircrafts/Yak-40-5.obj   aircrafts/yak-40-5.obj
+EXPORT ruscenery/aircrafts/Yak-40-6.obj   aircrafts/yak-40-6.obj
+EXPORT ruscenery/aircrafts/Yak-40-7.obj   aircrafts/yak-40-7.obj
+EXPORT ruscenery/aircrafts/Yak-40-8.obj   aircrafts/yak-40-8.obj
+EXPORT ruscenery/aircrafts/Yak-40-9.obj   aircrafts/yak-40-9.obj
+EXPORT ruscenery/aircrafts/Yak-40-a.obj   aircrafts/yak-40-a.obj
+EXPORT ruscenery/aircrafts/Yak-40-b.obj   aircrafts/yak-40-b.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-8.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-9.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-40.obj     aircrafts/yak-40-b.obj
+#
+EXPORT ruscenery/aircrafts/Yak-42-0.obj   aircrafts/yak-42-0.obj
+EXPORT ruscenery/aircrafts/Yak-42-1.obj   aircrafts/yak-42-1.obj
+EXPORT ruscenery/aircrafts/Yak-42-2.obj   aircrafts/yak-42-2.obj
+EXPORT ruscenery/aircrafts/Yak-42-3.obj   aircrafts/yak-42-3.obj
+EXPORT ruscenery/aircrafts/Yak-42-4.obj   aircrafts/yak-42-4.obj
+EXPORT ruscenery/aircrafts/Yak-42-5.obj   aircrafts/yak-42-5.obj
+EXPORT ruscenery/aircrafts/Yak-42-6.obj   aircrafts/yak-42-6.obj
+EXPORT ruscenery/aircrafts/Yak-42-7.obj   aircrafts/yak-42-7.obj
+EXPORT ruscenery/aircrafts/Yak-42-8.obj   aircrafts/yak-42-8.obj
+EXPORT ruscenery/aircrafts/Yak-42-9.obj   aircrafts/yak-42-9.obj
+EXPORT ruscenery/aircrafts/Yak-42-a.obj   aircrafts/yak-42-a.obj
+EXPORT ruscenery/aircrafts/Yak-42-b.obj   aircrafts/yak-42-b.obj
+EXPORT ruscenery/aircrafts/Yak-42-c.obj   aircrafts/yak-42-c.obj
+EXPORT ruscenery/aircrafts/Yak-42-d.obj   aircrafts/yak-42-d.obj
+EXPORT ruscenery/aircrafts/Yak-42-e.obj   aircrafts/yak-42-e.obj
+EXPORT ruscenery/aircrafts/Yak-42-f.obj   aircrafts/yak-42-f.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-d.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-42.obj     aircrafts/yak-42-c.obj
+#
+EXPORT ruscenery/aircrafts/Yak-50.obj     aircrafts/yak-50.obj
+#
+EXPORT ruscenery/aircrafts/Yak-52.obj     aircrafts/yak-52.obj
+#
+EXPORT ruscenery/aircrafts/Yak-54-1.obj   aircrafts/yak-54-1.obj
+EXPORT ruscenery/aircrafts/Yak-54-2.obj   aircrafts/yak-54-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-54.obj     aircrafts/yak-54-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/Yak-54.obj     aircrafts/yak-54-2.obj
+#
+EXPORT ruscenery/aircrafts/B-737-400-0.obj	 aircrafts/b737-400-0.obj
+EXPORT ruscenery/aircrafts/B-737-400-1.obj	 aircrafts/b737-400-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-400.obj  aircrafts/b737-400-0.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-400.obj  aircrafts/b737-400-1.obj
+#
+EXPORT ruscenery/aircrafts/B-737-500-0.obj	 aircrafts/b737-500-0.obj
+EXPORT ruscenery/aircrafts/B-737-500-1.obj	 aircrafts/b737-500-1.obj
+EXPORT ruscenery/aircrafts/B-737-500-2.obj	 aircrafts/b737-500-2.obj
+EXPORT ruscenery/aircrafts/B-737-500-3.obj	 aircrafts/b737-500-3.obj
+EXPORT ruscenery/aircrafts/B-737-500-4.obj	 aircrafts/b737-500-4.obj
+EXPORT ruscenery/aircrafts/B-737-500-5.obj	 aircrafts/b737-500-5.obj
+EXPORT ruscenery/aircrafts/B-737-500-6.obj	 aircrafts/b737-500-6.obj
+EXPORT ruscenery/aircrafts/B-737-500-7.obj	 aircrafts/b737-500-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-0.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-500.obj  aircrafts/b737-500-7.obj
+#
+EXPORT ruscenery/aircrafts/B-737-800-0.obj	 aircrafts/b737-800-0.obj
+EXPORT ruscenery/aircrafts/B-737-800-1.obj	 aircrafts/b737-800-1.obj
+EXPORT ruscenery/aircrafts/B-737-800-2.obj	 aircrafts/b737-800-2.obj
+EXPORT ruscenery/aircrafts/B-737-800-3.obj	 aircrafts/b737-800-3.obj
+EXPORT ruscenery/aircrafts/B-737-800-4.obj	 aircrafts/b737-800-4.obj
+EXPORT ruscenery/aircrafts/B-737-800-5.obj	 aircrafts/b737-800-5.obj
+EXPORT ruscenery/aircrafts/B-737-800-6.obj	 aircrafts/b737-800-6.obj
+EXPORT ruscenery/aircrafts/B-737-800-7.obj	 aircrafts/b737-800-7.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-0.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-1.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-2.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-3.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-4.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-5.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-6.obj
+EXPORT_EXTEND ruscenery/aircrafts/B-737-800.obj  aircrafts/b737-800-7.obj
+#
+#
+#
+# Buildings
+#
+EXPORT ruscenery/buildings/Eq-Hangar.obj  buildings/eq-hangar.obj
+EXPORT ruscenery/buildings/Eq-Store.obj   buildings/eq-store.obj
+EXPORT ruscenery/buildings/hangar-mil.obj buildings/hangar-mil.obj
+#
+EXPORT ruscenery/buildings/hangar-01.obj  buildings/eq-hangar.obj
+EXPORT ruscenery/buildings/hangar-02.obj  buildings/eq-store.obj
+EXPORT ruscenery/buildings/hangar-03.obj  houses/hangar.obj
+EXPORT ruscenery/buildings/hangar-04.obj  buildings/hangar-04.obj
+EXPORT ruscenery/buildings/hangar-05.obj  buildings/hangar-05.obj
+EXPORT ruscenery/buildings/hangar-06.obj  buildings/hangar-06.obj
+EXPORT ruscenery/buildings/hangar-07.obj  buildings/hangar-07.obj
+EXPORT ruscenery/buildings/hangar-08.obj  buildings/hangar-08.obj
+#
+EXPORT ruscenery/buildings/hut1.obj       buildings/hut1.obj
+EXPORT ruscenery/buildings/hut2.obj       buildings/hut2.obj
+EXPORT ruscenery/buildings/hut3.obj       buildings/hut3.obj
+EXPORT ruscenery/buildings/hut4.obj       buildings/hut4.obj
+EXPORT ruscenery/buildings/hut5.obj       buildings/hut5.obj
+EXPORT_EXTEND ruscenery/buildings/hut.obj buildings/hut2.obj
+EXPORT_EXTEND ruscenery/buildings/hut.obj buildings/hut3.obj
+EXPORT_EXTEND ruscenery/buildings/hut.obj buildings/hut4.obj
+EXPORT_EXTEND ruscenery/buildings/hut.obj buildings/hut5.obj
+EXPORT ruscenery/buildings/huts1.obj      buildings/huts1.obj
+EXPORT ruscenery/buildings/huts2.obj      buildings/huts2.obj
+EXPORT ruscenery/buildings/huts3.obj      buildings/huts3.obj
+EXPORT_EXTEND ruscenery/buildings/huts.obj      buildings/huts1.obj
+EXPORT_EXTEND ruscenery/buildings/huts.obj      buildings/huts2.obj
+EXPORT_EXTEND ruscenery/buildings/huts.obj      buildings/huts3.obj
+#
+EXPORT ruscenery/buildings/container-6m-1.obj      buildings/container-6m-1.obj
+EXPORT ruscenery/buildings/container-6m-2.obj      buildings/container-6m-2.obj
+EXPORT_EXTEND ruscenery/buildings/container-6m.obj buildings/container-6m-1.obj
+EXPORT_EXTEND ruscenery/buildings/container-6m.obj buildings/container-6m-2.obj
+#
+EXPORT ruscenery/buildings/barrel1.obj      buildings/barrel1.obj
+EXPORT ruscenery/buildings/barrel2.obj      buildings/barrel2.obj
+EXPORT ruscenery/buildings/barrel3.obj      buildings/barrel3.obj
+EXPORT ruscenery/buildings/barrel4.obj      buildings/barrel4.obj
+EXPORT_EXTEND ruscenery/buildings/barrel.obj      buildings/barrel1.obj
+EXPORT_EXTEND ruscenery/buildings/barrel.obj      buildings/barrel2.obj
+EXPORT_EXTEND ruscenery/buildings/barrel.obj      buildings/barrel3.obj
+EXPORT_EXTEND ruscenery/buildings/barrel.obj      buildings/barrel4.obj
+EXPORT ruscenery/buildings/barrels.obj      buildings/barrels.obj
+#
+EXPORT ruscenery/buildings/GRM-GRM.obj    buildings/grm-grm.obj
+EXPORT ruscenery/buildings/GRM-GRM-2.obj  buildings/grm-grm-2.obj
+EXPORT ruscenery/buildings/GRM-RGM.obj    buildings/grm-grm.obj
+EXPORT ruscenery/buildings/KRM-KRM.obj    buildings/krm-krm.obj
+EXPORT ruscenery/buildings/KRM-KRM-2.obj  buildings/krm-krm-2.obj
+EXPORT ruscenery/buildings/RLS-RTO.obj    buildings/rls-rto.obj
+EXPORT ruscenery/buildings/RLS-ROOT.obj   buildings/rls-root.obj
+EXPORT ruscenery/buildings/RMA-GRM.obj    buildings/rma-grm.obj
+EXPORT ruscenery/buildings/RSBN-RTO.obj   buildings/rsbn-rto.obj
+EXPORT ruscenery/buildings/RSBN-RTO-mil.obj   buildings/rsbn-rto-mil.obj
+EXPORT ruscenery/buildings/BPRM.obj       buildings/bprm.obj
+EXPORT ruscenery/buildings/BPRM-1.obj     buildings/bprm-1.obj
+EXPORT ruscenery/buildings/BPRM-2.obj     buildings/bprm-2.obj
+EXPORT ruscenery/buildings/BPRM-3.obj     buildings/bprm-3.obj
+EXPORT ruscenery/buildings/BPRM-4.obj     buildings/bprm-4.obj
+EXPORT ruscenery/buildings/BPRM-5.obj     buildings/bprm-5.obj
+EXPORT ruscenery/buildings/BPRM-6.obj     buildings/bprm-6.obj
+EXPORT ruscenery/buildings/BPRM-7.obj     buildings/bprm-7.obj
+EXPORT ruscenery/buildings/BPRM-8.obj     buildings/bprm-8.obj
+EXPORT ruscenery/buildings/BPRM-9.obj     buildings/bprm-9.obj
+EXPORT ruscenery/buildings/BPRM-A.obj     buildings/bprm-a.obj
+EXPORT ruscenery/buildings/toilet.obj     buildings/toilet.obj
+EXPORT ruscenery/buildings/lira_gvf.obj         buildings/lira_gvf.obj
+EXPORT ruscenery/buildings/lira_mil.obj         buildings/lira_mil.obj
+EXPORT ruscenery/buildings/tesla.obj            buildings/tesla.obj
+EXPORT ruscenery/buildings/teslaStart.obj       buildings/teslastart.obj
+EXPORT ruscenery/buildings/teslaStop.obj        buildings/teslastop.obj
+EXPORT ruscenery/buildings/RRTWR1.obj           buildings/rrtwr1.obj
+EXPORT ruscenery/buildings/RRTWR2.obj           buildings/rrtwr2.obj
+EXPORT ruscenery/buildings/radaraorl85.obj         buildings/radaraorl85.obj
+EXPORT ruscenery/buildings/radaraorl85_stop.obj    buildings/radaraorl85_stop.obj
+EXPORT ruscenery/buildings/radaraorl85-2.obj       buildings/radaraorl85-2.obj
+EXPORT ruscenery/buildings/radaraorl85-2_stop.obj  buildings/radaraorl85-2_stop.obj
+EXPORT ruscenery/buildings/radaraorl85_box.obj     buildings/radaraorl85_box.obj
+EXPORT ruscenery/buildings/arp95-mast.obj       buildings/arp95-mast.obj
+EXPORT ruscenery/buildings/arp95-box.obj        buildings/arp95-box.obj
+EXPORT ruscenery/buildings/arp95-box-2.obj      buildings/arp95-box-2.obj
+EXPORT ruscenery/buildings/unvisible.obj        buildings/unvisible.obj
+#
+EXPORT ruscenery/buildings/tower-u.obj    buildings/tower-u.obj
+EXPORT ruscenery/buildings/tower-u1.obj   buildings/tower-u1.obj
+EXPORT ruscenery/buildings/tower-u2.obj   buildings/tower-u2.obj
+#
+EXPORT ruscenery/buildings/utes-a.obj     buildings/utes-a.obj
+EXPORT ruscenery/buildings/utes-t.obj     buildings/utes-t.obj
+EXPORT ruscenery/buildings/utes-a-2.obj   buildings/utes-a-2.obj
+EXPORT ruscenery/buildings/utes-t-2.obj   buildings/utes-t-2.obj
+#
+EXPORT ruscenery/buildings/Z-GA-bokgranKPB.obj       buildings/z-ga-bokgrankpb.obj
+EXPORT ruscenery/buildings/Z-GA-center.obj           buildings/z-ga-center.obj
+EXPORT ruscenery/buildings/Z-GA-closed.obj           buildings/z-ga-closed.obj
+EXPORT ruscenery/buildings/Z-GA-line.obj             buildings/z-ga-line.obj
+EXPORT ruscenery/buildings/Z-GA-konus.obj            buildings/z-ga-konus.obj
+EXPORT ruscenery/buildings/Z-GA-konus2.obj           buildings/z-ga-konus2.obj
+EXPORT ruscenery/buildings/Z-GA-konus-bw.obj         buildings/z-ga-konus-bw.obj
+EXPORT ruscenery/buildings/Z-GA-konus2-bw.obj        buildings/z-ga-konus2-bw.obj
+EXPORT ruscenery/buildings/Z-GA-MS1.obj              buildings/z-ga-ms1.obj
+EXPORT ruscenery/buildings/Z-GA-MS2.obj              buildings/z-ga-ms2.obj
+EXPORT ruscenery/buildings/Z-GA-MS3.obj              buildings/z-ga-ms3.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy.obj           buildings/z-ga-osevoy.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy15.obj         buildings/z-ga-osevoy15.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy30.obj         buildings/z-ga-osevoy30.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy45.obj         buildings/z-ga-osevoy45.obj
+EXPORT ruscenery/buildings/Z-GA-ospodhod.obj         buildings/z-ga-ospodhod.obj
+EXPORT ruscenery/buildings/Z-GA-RD1.obj              buildings/z-ga-rd1.obj
+EXPORT ruscenery/buildings/Z-GA-RD1L.obj             buildings/z-ga-rd1l.obj
+EXPORT ruscenery/buildings/Z-GA-RD2.obj              buildings/z-ga-rd2.obj
+EXPORT ruscenery/buildings/Z-GA-RD2L.obj             buildings/z-ga-rd2l.obj
+EXPORT ruscenery/buildings/Z-GA-T.obj                buildings/z-ga-t.obj
+EXPORT ruscenery/buildings/Z-GA-uglovoy.obj          buildings/z-ga-uglovoy.obj
+EXPORT ruscenery/buildings/Z-GA-uglovoy2.obj         buildings/z-ga-uglovoy2.obj
+EXPORT ruscenery/buildings/Z-GA-vhodnoy.obj          buildings/z-ga-vhodnoy.obj
+EXPORT ruscenery/buildings/Z-GA-zonaprizemleniya.obj buildings/z-ga-zonaprizemleniya.obj
+EXPORT ruscenery/buildings/Z-GA-meteomarker.obj      buildings/z-ga-meteomarker.obj
+EXPORT ruscenery/buildings/Z-GA-white.obj            buildings/z-ga-white.obj
+EXPORT ruscenery/buildings/Z-GA-white-old.obj        buildings/z-ga-white-old.obj
+#
+EXPORT ruscenery/buildings/Z-GA-bokgranKPB-old.obj       buildings/z-ga-bokgrankpb-old.obj
+EXPORT ruscenery/buildings/Z-GA-center-old.obj           buildings/z-ga-center-old.obj
+EXPORT ruscenery/buildings/Z-GA-closed-old.obj           buildings/z-ga-closed-old.obj
+EXPORT ruscenery/buildings/Z-GA-line-old.obj             buildings/z-ga-line-old.obj
+EXPORT ruscenery/buildings/Z-GA-konus-old.obj            buildings/z-ga-konus-old.obj
+EXPORT ruscenery/buildings/Z-GA-konus2-old.obj           buildings/z-ga-konus2-old.obj
+EXPORT ruscenery/buildings/Z-GA-konus-old-bw.obj         buildings/z-ga-konus-old-bw.obj
+EXPORT ruscenery/buildings/Z-GA-konus2-old-bw.obj        buildings/z-ga-konus2-old-bw.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy-old.obj           buildings/z-ga-osevoy-old.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy15-old.obj         buildings/z-ga-osevoy15-old.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy30-old.obj         buildings/z-ga-osevoy30-old.obj
+EXPORT ruscenery/buildings/Z-GA-osevoy45-old.obj         buildings/z-ga-osevoy45-old.obj
+EXPORT ruscenery/buildings/Z-GA-ospodhod-old.obj         buildings/z-ga-ospodhod-old.obj
+EXPORT ruscenery/buildings/Z-GA-T-old.obj                buildings/z-ga-t-old.obj
+EXPORT ruscenery/buildings/Z-GA-uglovoy-old.obj          buildings/z-ga-uglovoy-old.obj
+EXPORT ruscenery/buildings/Z-GA-uglovoy2-old.obj         buildings/z-ga-uglovoy2-old.obj
+EXPORT ruscenery/buildings/Z-GA-vhodnoy-old.obj          buildings/z-ga-vhodnoy-old.obj
+EXPORT ruscenery/buildings/Z-GA-zonaprizemleniya-old.obj buildings/z-ga-zonaprizemleniya-old.obj
+EXPORT ruscenery/buildings/Z-GA-meteomarker-old.obj      buildings/z-ga-meteomarker-old.obj
+#
+EXPORT ruscenery/buildings/meteomarker-A.obj      buildings/meteomarker0.obj
+EXPORT ruscenery/buildings/meteomarker1.obj       buildings/meteomarker1.obj
+EXPORT ruscenery/buildings/meteomarker2.obj       buildings/meteomarker2.obj
+EXPORT ruscenery/buildings/meteomarker3.obj       buildings/meteomarker3.obj
+EXPORT ruscenery/buildings/meteomarker4.obj       buildings/meteomarker4.obj
+EXPORT_EXTEND ruscenery/buildings/meteomarker.obj buildings/meteomarker1.obj
+EXPORT_EXTEND ruscenery/buildings/meteomarker.obj buildings/meteomarker2.obj
+EXPORT_EXTEND ruscenery/buildings/meteomarker.obj buildings/meteomarker3.obj
+EXPORT_EXTEND ruscenery/buildings/meteomarker.obj buildings/meteomarker4.obj
+#
+EXPORT ruscenery/buildings/Ip1.obj        buildings/ip1.obj
+EXPORT ruscenery/buildings/Ip2.obj        buildings/ip2.obj
+EXPORT ruscenery/buildings/Ip3.obj        buildings/ip3.obj
+EXPORT ruscenery/buildings/Ip4.obj        buildings/ip4.obj
+EXPORT ruscenery/buildings/Ip5.obj        buildings/ip5.obj
+EXPORT ruscenery/buildings/Trolley.obj    buildings/trolley.obj
+#
+EXPORT ruscenery/buildings/gazstation1.obj   buildings/gazstation1.obj
+EXPORT ruscenery/buildings/gazstation2.obj   buildings/gazstation2.obj
+EXPORT ruscenery/buildings/gazstation3.obj   buildings/gazstation3.obj
+EXPORT ruscenery/buildings/gazhose1.obj      buildings/gazhose1.obj
+EXPORT ruscenery/buildings/gazhose2.obj      buildings/gazhose2.obj
+EXPORT ruscenery/buildings/gazhose3.obj      buildings/gazhose3.obj
+EXPORT ruscenery/buildings/gazhose4.obj      buildings/gazhose4.obj
+EXPORT ruscenery/buildings/fireext.obj       buildings/fireext.obj
+#
+EXPORT ruscenery/buildings/Mast1.obj      buildings/mast1.obj
+EXPORT ruscenery/buildings/Mast2.obj      buildings/mast2.obj
+EXPORT ruscenery/buildings/Mast3.obj      buildings/mast3.obj
+EXPORT ruscenery/buildings/Mast4.obj      buildings/mast4.obj
+EXPORT ruscenery/buildings/Mast5.obj      buildings/mast5.obj
+EXPORT ruscenery/buildings/Mast6.obj      buildings/mast6.obj
+EXPORT ruscenery/buildings/Mast7.obj      buildings/mast7.obj
+#
+EXPORT ruscenery/buildings/pipe1.obj      buildings/pipe1.obj
+EXPORT ruscenery/buildings/pipe2.obj      buildings/pipe3.obj
+EXPORT ruscenery/buildings/pipe3.obj      buildings/pipe3.obj
+#
+EXPORT ruscenery/buildings/Stayrs1.obj    buildings/stayrs1.obj
+EXPORT ruscenery/buildings/Stayrs2.obj    buildings/stayrs2.obj
+EXPORT ruscenery/buildings/tug1.obj       buildings/tug1.obj
+EXPORT ruscenery/buildings/tug2.obj       buildings/tug2.obj
+EXPORT ruscenery/buildings/Tug.obj        buildings/tug1.obj
+EXPORT ruscenery/buildings/cart.obj       buildings/cart.obj
+EXPORT ruscenery/buildings/container.obj  buildings/container.obj
+#
+EXPORT ruscenery/buildings/gangway.obj    buildings/gangway.obj
+#
+EXPORT ruscenery/buildings/chemtank-1.obj buildings/chemtank-1.obj
+EXPORT ruscenery/buildings/chemtank-2.obj buildings/chemtank-2.obj
+EXPORT ruscenery/buildings/chemtank-3.obj buildings/chemtank-3.obj
+EXPORT ruscenery/buildings/chemtank-4.obj buildings/chemtank-4.obj
+EXPORT ruscenery/buildings/chemtank-5.obj buildings/chemtank-5.obj
+EXPORT ruscenery/buildings/minitank.obj   buildings/minitank.obj
+#
+EXPORT ruscenery/buildings/fuel-tank1.obj buildings/fuel-tank1.obj
+EXPORT ruscenery/buildings/fuel-tank2.obj buildings/fuel-tank2.obj
+EXPORT ruscenery/buildings/fuel-tank3.obj buildings/fuel-tank3.obj
+EXPORT ruscenery/buildings/fuel-tank4.obj buildings/fuel-tank4.obj
+#
+EXPORT ruscenery/buildings/concrete-bloks0.obj       buildings/concrete-bloks0.obj
+EXPORT ruscenery/buildings/concrete-bloks1.obj       buildings/concrete-bloks1.obj
+EXPORT ruscenery/buildings/concrete-bloks2.obj       buildings/concrete-bloks2.obj
+EXPORT ruscenery/buildings/concrete-bloks3.obj       buildings/concrete-bloks3.obj
+EXPORT ruscenery/buildings/concrete-bloks4.obj       buildings/concrete-bloks4.obj
+EXPORT ruscenery/buildings/concrete-bloks5.obj       buildings/concrete-bloks5.obj
+EXPORT ruscenery/buildings/concrete-bloks6.obj       buildings/concrete-bloks6.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks1.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks0.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks2.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks3.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks4.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks5.obj
+EXPORT_EXTEND ruscenery/buildings/concrete-bloks.obj buildings/concrete-bloks6.obj
+#
+EXPORT ruscenery/buildings/anthen1.obj buildings/anthen1.obj
+EXPORT ruscenery/buildings/anthen2.obj buildings/anthen2.obj
+EXPORT ruscenery/buildings/anthen3.obj buildings/anthen3.obj
+#
+EXPORT ruscenery/buildings/redramp.obj    buildings/redramp.obj
+EXPORT ruscenery/buildings/spot.obj       buildings/spot.obj
+#
+EXPORT ruscenery/buildings/autobarrier.obj   buildings/autobarrier.obj
+EXPORT ruscenery/buildings/autobarrier1.obj  buildings/autobarrier1.obj
+EXPORT ruscenery/buildings/kpp.obj           buildings/kpp.obj
+EXPORT ruscenery/buildings/securecontrol.obj buildings/securecontrol.obj
+#
+EXPORT ruscenery/buildings/meteosensor1.obj  buildings/meteosensor1.obj
+#
+EXPORT ruscenery/buildings/flagrussia.obj    buildings/flagrussia.obj
+EXPORT ruscenery/buildings/flagmoscow.obj    buildings/flagmoscow.obj
+#
+EXPORT ruscenery/buildings/pipes.obj      buildings/pipes.obj
+EXPORT ruscenery/buildings/pipes-b-1.obj  buildings/pipes-b-1.obj
+EXPORT ruscenery/buildings/pipes-b-3.obj  buildings/pipes-b-3.obj
+EXPORT ruscenery/buildings/pipes-b-5.obj  buildings/pipes-b-5.obj
+EXPORT ruscenery/buildings/pipes-b-6.obj  buildings/pipes-b-6.obj
+EXPORT ruscenery/buildings/pipes-b-a.obj  buildings/pipes-b-a.obj
+EXPORT ruscenery/buildings/pipes-b-b.obj  buildings/pipes-b-b.obj
+EXPORT ruscenery/buildings/pipes-g-1.obj  buildings/pipes-g-1.obj
+EXPORT ruscenery/buildings/pipes-g-3.obj  buildings/pipes-g-3.obj
+EXPORT ruscenery/buildings/pipes-g-a.obj  buildings/pipes-g-a.obj
+EXPORT ruscenery/buildings/pipes-g-b.obj  buildings/pipes-g-b.obj
+EXPORT ruscenery/buildings/pipes-m-1.obj  buildings/pipes-m-1.obj
+EXPORT ruscenery/buildings/pipes-m-3.obj  buildings/pipes-m-3.obj
+EXPORT ruscenery/buildings/pipes-m-a.obj  buildings/pipes-m-a.obj
+EXPORT ruscenery/buildings/pipes-r-1.obj  buildings/pipes-r-1.obj
+EXPORT ruscenery/buildings/pipes-r-a.obj  buildings/pipes-r-a.obj
+#
+EXPORT ruscenery/buildings/tara-angar.obj  buildings/tara-angar.obj
+EXPORT ruscenery/buildings/tara-wind.obj   buildings/tara-wind.obj
+#
+#
+#
+#
+# Tech
+#
+EXPORT ruscenery/tech/bagcar1.obj          tech/bagcar1.obj
+EXPORT ruscenery/tech/bagcar2.obj          tech/bagcar2.obj
+EXPORT ruscenery/tech/bagcar3.obj          tech/bagcar3.obj
+EXPORT ruscenery/tech/bagcar4.obj          tech/bagcar4.obj
+EXPORT ruscenery/tech/bagcar5.obj          tech/bagcar5.obj
+EXPORT ruscenery/tech/bagcar6.obj          tech/zil_cr1.obj
+EXPORT ruscenery/tech/bagcar7.obj          tech/zil_cr2.obj
+EXPORT ruscenery/tech/bagcarts.obj         tech/bagcarts.obj
+EXPORT_EXTEND ruscenery/tech/bagcar.obj    tech/bagcar1.obj
+EXPORT_EXTEND ruscenery/tech/bagcar.obj    tech/bagcar2.obj
+EXPORT_EXTEND ruscenery/tech/bagcar.obj    tech/bagcar5.obj
+EXPORT_EXTEND ruscenery/tech/bagcar.obj    tech/zil_cr1.obj
+EXPORT_EXTEND ruscenery/tech/bagcar.obj    tech/zil_cr2.obj
+
+#
+EXPORT ruscenery/tech/ep006-1.obj          tech/ep006-1.obj
+EXPORT ruscenery/tech/ep006-2.obj          tech/ep006-2.obj
+EXPORT ruscenery/tech/ep006-3.obj          tech/ep006-3.obj
+EXPORT ruscenery/tech/ep006-4.obj          tech/ep006-4.obj
+EXPORT ruscenery/tech/ep006-5.obj          tech/ep006-5.obj
+#
+EXPORT ruscenery/tech/et2054-1.obj         tech/et2054-1.obj
+EXPORT ruscenery/tech/et2054-2.obj         tech/et2054-2.obj
+#
+EXPORT ruscenery/tech/at6.obj              tech/at6.obj
+#
+EXPORT ruscenery/tech/bus-1.obj            tech/bus-1.obj
+EXPORT ruscenery/tech/bus-2.obj            tech/bus-2.obj
+EXPORT ruscenery/tech/bus-3.obj            tech/bus-3.obj
+EXPORT_EXTEND ruscenery/tech/bus.obj       tech/bus-1.obj
+EXPORT_EXTEND ruscenery/tech/bus.obj       tech/bus-2.obj
+EXPORT_EXTEND ruscenery/tech/bus.obj       tech/bus-3.obj
+#
+EXPORT ruscenery/tech/cleaner-1.obj        tech/cleaner-1.obj
+EXPORT ruscenery/tech/cleaner-2.obj        tech/cleaner-2.obj
+EXPORT ruscenery/tech/cleaner-3.obj        tech/cleaner-3.obj
+EXPORT ruscenery/tech/cleaner-4.obj        tech/cleaner-4.obj
+EXPORT_EXTEND ruscenery/tech/cleaner.obj   tech/cleaner-1.obj
+EXPORT_EXTEND ruscenery/tech/cleaner.obj   tech/cleaner-2.obj
+EXPORT_EXTEND ruscenery/tech/cleaner.obj   tech/cleaner-3.obj
+EXPORT_EXTEND ruscenery/tech/cleaner.obj   tech/cleaner-4.obj
+#
+EXPORT ruscenery/tech/firetruck-1.obj      tech/firetruck-1.obj
+EXPORT ruscenery/tech/firetruck-2.obj      tech/firetruck-2.obj
+EXPORT ruscenery/tech/firetruck-3.obj      tech/firetruck-3.obj
+EXPORT_EXTEND ruscenery/tech/firetruck.obj tech/firetruck-1.obj
+EXPORT_EXTEND ruscenery/tech/firetruck.obj tech/firetruck-2.obj
+EXPORT_EXTEND ruscenery/tech/firetruck.obj tech/firetruck-3.obj
+#
+EXPORT ruscenery/tech/gazel-1.obj          tech/gazel-1.obj
+EXPORT ruscenery/tech/gazel-2.obj          tech/gazel-2.obj
+EXPORT ruscenery/tech/gazel-3.obj          tech/gazel-3.obj
+EXPORT ruscenery/tech/gazel-4.obj          tech/gazel-4.obj
+EXPORT_EXTEND ruscenery/tech/gazel.obj     tech/gazel-2.obj
+EXPORT_EXTEND ruscenery/tech/gazel.obj     tech/gazel-3.obj
+EXPORT_EXTEND ruscenery/tech/gazel.obj     tech/gazel-4.obj
+#
+EXPORT ruscenery/tech/gazel2705-new.obj    tech/gazel2705-new.obj
+EXPORT ruscenery/tech/gazel2705-old.obj    tech/gazel2705-old.obj
+EXPORT ruscenery/tech/gazel2705-old-2.obj  tech/gazel2705-old-2.obj
+EXPORT ruscenery/tech/gazel3221-new.obj    tech/gazel3221-new.obj
+EXPORT ruscenery/tech/gazel3221-old.obj    tech/gazel3221-old.obj
+EXPORT ruscenery/tech/gazel3221-old-2.obj  tech/gazel3221-old-2.obj
+#
+EXPORT ruscenery/tech/tanker-1.obj         tech/tanker-1.obj
+EXPORT ruscenery/tech/tanker-2.obj         tech/tanker-2.obj
+EXPORT ruscenery/tech/tanker-3.obj         tech/tanker-3.obj
+EXPORT ruscenery/tech/tanker-4.obj         tech/tanker-4.obj
+EXPORT_EXTEND ruscenery/tech/tanker.obj    tech/tanker-1.obj
+EXPORT_EXTEND ruscenery/tech/tanker.obj    tech/tanker-2.obj
+EXPORT_EXTEND ruscenery/tech/tanker.obj    tech/tanker-3.obj
+#
+EXPORT ruscenery/tech/tech-1.obj           tech/tech-1.obj
+EXPORT ruscenery/tech/tech-2.obj           tech/tech-2.obj
+EXPORT ruscenery/tech/tech-3.obj           tech/tech-3.obj
+EXPORT ruscenery/tech/tech-4.obj           tech/tech-4.obj
+EXPORT ruscenery/tech/tech-5.obj           tech/tech-5.obj
+EXPORT ruscenery/tech/tech-6.obj           tech/tech-6.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-1.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-2.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-3.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-4.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-5.obj
+EXPORT_EXTEND ruscenery/tech/tech.obj      tech/tech-6.obj
+#
+EXPORT ruscenery/tech/spt114.obj           tech/spt114.obj
+EXPORT ruscenery/tech/spt154.obj           tech/spt154.obj
+EXPORT ruscenery/tech/tps22-gazel.obj      tech/tps22-gazel.obj
+EXPORT ruscenery/tech/tps22-uaz.obj        tech/tps22-uaz.obj
+EXPORT ruscenery/tech/trap-3.obj           tech/trap-3.obj
+#
+EXPORT_EXTEND ruscenery/tech/trap.obj      tech/spt114.obj
+EXPORT_EXTEND ruscenery/tech/trap.obj      tech/spt154.obj
+EXPORT_EXTEND ruscenery/tech/trap.obj      tech/tps22-gazel.obj
+EXPORT_EXTEND ruscenery/tech/trap.obj      tech/tps22-uaz.obj
+EXPORT_EXTEND ruscenery/tech/trap.obj      tech/trap-3.obj
+#
+EXPORT ruscenery/tech/trap-1.obj           tech/tps22-uaz.obj
+EXPORT ruscenery/tech/trap-2.obj           tech/spt114.obj
+#
+EXPORT ruscenery/tech/tug.obj              tech/tug-1.obj
+EXPORT ruscenery/tech/tug-1.obj            tech/tug-1.obj
+EXPORT ruscenery/tech/tug-2.obj            tech/tug-2.obj
+EXPORT ruscenery/tech/tug-3.obj            tech/tug-3.obj
+EXPORT ruscenery/tech/tug-4.obj            tech/tug-2.obj
+EXPORT ruscenery/tech/tug-mil.obj          tech/tug-mil.obj
+#
+EXPORT ruscenery/tech/uaz.obj              tech/uaz-mil.obj
+EXPORT ruscenery/tech/uaz469.obj           tech/uaz-mil.obj
+EXPORT ruscenery/tech/uaz469-followme.obj  tech/uaz469-followme.obj
+#
+EXPORT ruscenery/tech/uaz450.obj           tech/uaz450.obj
+EXPORT ruscenery/tech/uaz452.obj           tech/uaz452.obj
+#
+EXPORT ruscenery/tech/uaz452-followme.obj  tech/uaz452-followme.obj
+EXPORT ruscenery/tech/uaz3962-tech.obj     tech/uaz452-followme.obj
+#
+EXPORT ruscenery/tech/uaz3962-post.obj     tech/uaz3962-post.obj
+#
+EXPORT ruscenery/tech/gaz69.obj            tech/gaz69.obj
+#
+EXPORT ruscenery/tech/luaz1302.obj         tech/luaz1302.obj
+#
+EXPORT ruscenery/tech/paz.obj              tech/paz.obj
+EXPORT ruscenery/tech/paz672.obj           tech/paz672.obj
+EXPORT ruscenery/tech/paz3102.obj          tech/paz3102.obj
+EXPORT ruscenery/tech/ikarus.obj           tech/ikarus.obj
+EXPORT ruscenery/tech/ikarus250.obj        tech/ikarus250.obj
+EXPORT ruscenery/tech/liaz677.obj          tech/liaz677.obj
+EXPORT ruscenery/tech/liaz5256.obj         tech/liaz5256.obj
+EXPORT ruscenery/tech/maz103.obj           tech/maz103.obj
+EXPORT ruscenery/tech/maz1041.obj          tech/maz1041.obj
+#
+EXPORT ruscenery/tech/kamaz-mil.obj        tech/kamaz-mil.obj
+EXPORT ruscenery/tech/kamaz-mil-2.obj      tech/kamaz-mil-2.obj
+EXPORT ruscenery/tech/kraz-mil.obj         tech/kraz-mil.obj
+EXPORT ruscenery/tech/gaz-mil.obj          tech/gaz-mil.obj
+EXPORT ruscenery/tech/maz-mil.obj          tech/gaz-mil.obj
+EXPORT ruscenery/tech/uaz-mil.obj          tech/uaz-mil.obj
+EXPORT ruscenery/tech/ural-mil.obj         tech/ural-mil.obj
+EXPORT ruscenery/tech/ural-mil-2.obj       tech/ural-mil-2.obj
+EXPORT ruscenery/tech/zil-mil.obj          tech/zil-mil.obj
+EXPORT ruscenery/tech/zil-mil-2.obj        tech/zil-mil-2.obj
+#
+EXPORT ruscenery/tech/autolift1.obj        tech/autolift1.obj
+EXPORT ruscenery/tech/autolift1-up.obj     tech/autolift1-up.obj
+EXPORT ruscenery/tech/autolift2.obj        tech/autolift2.obj
+EXPORT ruscenery/tech/autolift3.obj        tech/autolift3.obj
+EXPORT_EXTEND ruscenery/tech/autolift.obj  tech/autolift1.obj
+EXPORT_EXTEND ruscenery/tech/autolift.obj  tech/autolift2.obj
+EXPORT_EXTEND ruscenery/tech/autolift.obj  tech/autolift3.obj
+
+EXPORT ruscenery/tech/zil131_d.obj         tech/zil131_d.obj
+EXPORT ruscenery/tech/zil_cr1.obj          tech/zil_cr1.obj
+EXPORT ruscenery/tech/zil_cr2.obj          tech/zil_cr2.obj
+EXPORT ruscenery/tech/zil_krm.obj          tech/zil_krm.obj
+EXPORT ruscenery/tech/zil4331.obj          tech/zil4331.obj
+#
+EXPORT ruscenery/tech/bulldozer.obj        tech/bulldozer.obj
+EXPORT ruscenery/tech/dredge.obj           tech/dredge.obj
+EXPORT ruscenery/tech/track-1.obj          tech/track-1.obj
+EXPORT ruscenery/tech/track-2.obj          tech/track-2.obj
+EXPORT ruscenery/tech/track-3.obj          tech/track-3.obj
+EXPORT ruscenery/tech/track-4.obj          tech/track-4.obj
+EXPORT ruscenery/tech/belarus1.obj         tech/belarus1.obj
+EXPORT ruscenery/tech/belarus2.obj         tech/belarus2.obj
+EXPORT ruscenery/tech/belarus3.obj         tech/belarus3.obj
+EXPORT ruscenery/tech/belarus4.obj         tech/belarus4.obj
+EXPORT ruscenery/tech/grader1.obj          tech/grader1.obj
+EXPORT ruscenery/tech/grader2.obj          tech/grader2.obj
+#
+EXPORT ruscenery/tech/agregat.obj          tech/agregat.obj
+#
+#
+#
+# Houses
+#
+EXPORT ruscenery/houses/hangar.obj         houses/hangar.obj
+EXPORT ruscenery/houses/batchhouse.obj     houses/batchhouse.obj
+EXPORT ruscenery/houses/boiler.obj         houses/boiler.obj
+EXPORT ruscenery/houses/factory.obj        houses/factory.obj
+EXPORT ruscenery/houses/store-01.obj       houses/store-01.obj
+EXPORT ruscenery/houses/store-02.obj       houses/store-02.obj
+#
+EXPORT ruscenery/houses/tec.obj            houses/tec.obj
+#
+EXPORT ruscenery/houses/hothouse-1.obj     houses/hothouse-1.obj
+EXPORT ruscenery/houses/hothouse-2.obj     houses/hothouse-2.obj
+EXPORT ruscenery/houses/hothouse-3.obj     houses/hothouse-3.obj
+EXPORT ruscenery/houses/hothouse-4.obj     houses/hothouse-4.obj
+EXPORT_EXTEND ruscenery/houses/hothouses.obj houses/hothouse-1.obj
+EXPORT_EXTEND ruscenery/houses/hothouses.obj houses/hothouse-2.obj
+EXPORT_EXTEND ruscenery/houses/hothouses.obj houses/hothouse-3.obj
+EXPORT_EXTEND ruscenery/houses/hothouses.obj houses/hothouse-4.obj
+#
+EXPORT ruscenery/houses/building-1.obj     houses/building-1.obj
+EXPORT ruscenery/houses/building-2.obj     houses/building-2.obj
+EXPORT ruscenery/houses/building-3.obj     houses/building-3.obj
+EXPORT ruscenery/houses/building-4.obj     houses/building-4.obj
+EXPORT ruscenery/houses/building-5.obj     houses/building-5.obj
+EXPORT ruscenery/houses/building-6.obj     houses/building-6.obj
+EXPORT ruscenery/houses/building-7.obj     houses/building-7.obj
+EXPORT ruscenery/houses/building-8.obj     houses/building-8.obj
+#
+EXPORT ruscenery/houses/house-01.obj       houses/house-01.obj
+EXPORT ruscenery/houses/house-02.obj       houses/house-02.obj
+EXPORT ruscenery/houses/house-03.obj       houses/house-03.obj
+EXPORT ruscenery/houses/house-04.obj       houses/house-04.obj
+EXPORT ruscenery/houses/house-05.obj       houses/house-05.obj
+EXPORT ruscenery/houses/house-06.obj       houses/house-06.obj
+EXPORT ruscenery/houses/house-07.obj       houses/house-07.obj
+EXPORT ruscenery/houses/house-08.obj       houses/house-08.obj
+EXPORT ruscenery/houses/house-09.obj       houses/house-09.obj
+EXPORT ruscenery/houses/house-10.obj       houses/house-10.obj
+EXPORT ruscenery/houses/house-11.obj       houses/house-11.obj
+EXPORT ruscenery/houses/house-12.obj       houses/house-12.obj
+EXPORT ruscenery/houses/house-13.obj       houses/house-13.obj
+EXPORT ruscenery/houses/house-14.obj       houses/house-14.obj
+EXPORT ruscenery/houses/house-15.obj       houses/house-15.obj
+EXPORT ruscenery/houses/house-16.obj       houses/house-16.obj
+EXPORT ruscenery/houses/house-17.obj       houses/house-17.obj
+EXPORT ruscenery/houses/house-18.obj       houses/house-18.obj
+EXPORT ruscenery/houses/house-19.obj       houses/house-19.obj
+EXPORT ruscenery/houses/house-20.obj       houses/house-20.obj
+EXPORT ruscenery/houses/house-21.obj       houses/house-21.obj
+EXPORT ruscenery/houses/house-22.obj       houses/house-22.obj
+EXPORT ruscenery/houses/house-23.obj       houses/house-23.obj
+EXPORT ruscenery/houses/house-24.obj       houses/house-24.obj
+EXPORT ruscenery/houses/house-25.obj       houses/house-25.obj
+EXPORT ruscenery/houses/house-26.obj       houses/house-26.obj
+EXPORT ruscenery/houses/house-27.obj       houses/house-27.obj
+EXPORT ruscenery/houses/house-28.obj       houses/house-28.obj
+EXPORT ruscenery/houses/house-29.obj       houses/house-29.obj
+EXPORT ruscenery/houses/house-30.obj       houses/house-30.obj
+EXPORT ruscenery/houses/house-31.obj       houses/house-31.obj
+EXPORT ruscenery/houses/house-32.obj       houses/house-32.obj
+EXPORT ruscenery/houses/house-33.obj       houses/house-33.obj
+EXPORT ruscenery/houses/house-34.obj       houses/house-34.obj
+EXPORT ruscenery/houses/house-35.obj       houses/house-35.obj
+EXPORT ruscenery/houses/house-36.obj       houses/house-36.obj
+EXPORT ruscenery/houses/house-37.obj       houses/house-37.obj
+EXPORT ruscenery/houses/house-38.obj       houses/house-38.obj
+EXPORT ruscenery/houses/house-39.obj       houses/house-39.obj
+EXPORT ruscenery/houses/house-40.obj       houses/house-40.obj
+EXPORT ruscenery/houses/house-41.obj       houses/house-41.obj
+EXPORT ruscenery/houses/house-42.obj       houses/house-42.obj
+EXPORT ruscenery/houses/house-43.obj       houses/house-43.obj
+EXPORT ruscenery/houses/house-44.obj       houses/house-44.obj
+EXPORT ruscenery/houses/house-45.obj       houses/house-45.obj
+EXPORT ruscenery/houses/house-46.obj       houses/house-46.obj
+EXPORT ruscenery/houses/house-47.obj       houses/house-47.obj
+EXPORT ruscenery/houses/house-48.obj       houses/house-48.obj
+EXPORT ruscenery/houses/house-49.obj       houses/house-49.obj
+EXPORT ruscenery/houses/house-50.obj       houses/house-50.obj
+EXPORT ruscenery/houses/house-51.obj       houses/house-51.obj
+EXPORT ruscenery/houses/house-52.obj       houses/house-52.obj
+EXPORT ruscenery/houses/house-53.obj       houses/house-53.obj
+EXPORT ruscenery/houses/house-54.obj       houses/house-54.obj
+EXPORT ruscenery/houses/house-55.obj       houses/house-55.obj
+EXPORT ruscenery/houses/house-56.obj       houses/house-56.obj
+EXPORT ruscenery/houses/house-57.obj       houses/house-57.obj
+EXPORT ruscenery/houses/house-58.obj       houses/house-58.obj
+EXPORT ruscenery/houses/house-59.obj       houses/house-59.obj
+EXPORT ruscenery/houses/house-60.obj       houses/house-60.obj
+EXPORT ruscenery/houses/house-61.obj       houses/house-61.obj
+EXPORT ruscenery/houses/house-unicon.obj   houses/house-unicon.obj
+#
+EXPORT ruscenery/houses/r-house-1.obj       houses/r-house-1.obj
+EXPORT ruscenery/houses/r-house-2.obj       houses/r-house-2.obj
+EXPORT ruscenery/houses/r-house-3.obj       houses/r-house-3.obj
+EXPORT ruscenery/houses/r-house-4.obj       houses/r-house-4.obj
+EXPORT ruscenery/houses/r-house-5.obj       houses/r-house-5.obj
+EXPORT ruscenery/houses/r-house-6.obj       houses/r-house-6.obj
+EXPORT ruscenery/houses/r-house-7.obj       houses/r-house-7.obj
+EXPORT ruscenery/houses/r-house-8.obj       houses/r-house-8.obj
+EXPORT ruscenery/houses/r-house-9.obj       houses/r-house-9.obj
+EXPORT ruscenery/houses/r-house-a.obj       houses/r-house-a.obj
+EXPORT ruscenery/houses/r-house-b.obj       houses/r-house-b.obj
+EXPORT ruscenery/houses/r-house-c.obj       houses/r-house-c.obj
+EXPORT ruscenery/houses/r-house-d.obj       houses/r-house-d.obj
+EXPORT ruscenery/houses/r-house-e.obj       houses/r-house-e.obj
+EXPORT ruscenery/houses/r-house-f.obj       houses/r-house-f.obj
+EXPORT ruscenery/houses/r-house-g.obj       houses/r-house-g.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-1.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-2.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-3.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-4.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-5.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-6.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-7.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-8.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-9.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-a.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-b.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-c.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-d.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-e.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-f.obj
+EXPORT_EXTEND ruscenery/houses/r-houses.obj houses/r-house-g.obj
+#
+EXPORT ruscenery/houses/village-1.obj       houses/village-1.obj
+EXPORT ruscenery/houses/village-2.obj       houses/village-2.obj
+EXPORT ruscenery/houses/village-3.obj       houses/village-3.obj
+EXPORT ruscenery/houses/village-4.obj       houses/village-4.obj
+EXPORT ruscenery/houses/village-5.obj       houses/village-5.obj
+EXPORT ruscenery/houses/village-6.obj       houses/village-6.obj
+EXPORT ruscenery/houses/village-7.obj       houses/village-7.obj
+EXPORT ruscenery/houses/village-8.obj       houses/village-8.obj
+EXPORT ruscenery/houses/village-9.obj       houses/village-9.obj
+EXPORT ruscenery/houses/village-a.obj       houses/village-a.obj
+#
+EXPORT ruscenery/houses/silo-tower.obj      houses/silo-tower.obj
+EXPORT ruscenery/houses/watertower-1.obj    houses/watertower-1.obj
+EXPORT ruscenery/houses/watertower-2.obj    houses/watertower-2.obj
+EXPORT ruscenery/houses/watertower-3.obj    houses/watertower-3.obj
+EXPORT ruscenery/houses/farm.obj            houses/farm.obj
+#
+EXPORT ruscenery/houses/transf1.obj         houses/transf1.obj
+EXPORT ruscenery/houses/transf2.obj         houses/transf2.obj
+EXPORT ruscenery/houses/transf3.obj         houses/transf3.obj
+EXPORT ruscenery/houses/transf4.obj         houses/transf4.obj
+EXPORT ruscenery/houses/transf5.obj         houses/transf5.obj
+#
+EXPORT ruscenery/houses/bench.obj           houses/bench.obj
+EXPORT ruscenery/houses/lantern.obj         houses/lantern.obj
+EXPORT ruscenery/houses/lantern-double.obj  houses/lantern-double.obj
+EXPORT ruscenery/houses/phonepole.obj       houses/phonepole.obj
+EXPORT ruscenery/houses/roadsign.obj        houses/roadsign.obj
+EXPORT ruscenery/houses/umbrella.obj        houses/umbrella.obj
+EXPORT ruscenery/houses/flowersmarket.obj   houses/flowersmarket.obj
+EXPORT ruscenery/houses/bus-column.obj      houses/bus-column.obj
+EXPORT ruscenery/houses/electro-column.obj  houses/electro-column.obj
+EXPORT ruscenery/houses/electro-column2.obj houses/electro-column2.obj
+#
+EXPORT ruscenery/houses/garage1.obj         houses/garage1.obj
+EXPORT ruscenery/houses/garage2.obj         houses/garage2.obj
+EXPORT ruscenery/houses/garage3.obj         houses/garage3.obj
+EXPORT ruscenery/houses/garage4.obj         houses/garage4.obj
+EXPORT_EXTEND ruscenery/houses/garage.obj   houses/garage1.obj
+EXPORT_EXTEND ruscenery/houses/garage.obj   houses/garage2.obj
+EXPORT_EXTEND ruscenery/houses/garage.obj   houses/garage3.obj
+EXPORT_EXTEND ruscenery/houses/garage.obj   houses/garage4.obj
+#
+EXPORT ruscenery/houses/school.obj          houses/school.obj
+#
+EXPORT ruscenery/houses/cow.obj             houses/cow.obj
+#
+#
+#
+EXPORT ruscenery/houses/box-d-01.obj        houses/box-d-01.obj
+EXPORT ruscenery/houses/box-d-02.obj        houses/box-d-02.obj
+EXPORT ruscenery/houses/firebrigade.obj     houses/firebrigade.obj
+EXPORT ruscenery/houses/house-d1-01.obj     houses/house-d1-01.obj
+EXPORT ruscenery/houses/house-d1-03.obj     houses/house-d1-03.obj
+EXPORT ruscenery/houses/house-d1-04.obj     houses/house-d1-04.obj
+EXPORT ruscenery/houses/house-d1-05.obj     houses/house-d1-05.obj
+EXPORT ruscenery/houses/house-d1-06.obj     houses/house-d1-06.obj
+EXPORT ruscenery/houses/house-d1-07.obj     houses/house-d1-07.obj
+EXPORT ruscenery/houses/house-d1-08.obj     houses/house-d1-08.obj
+EXPORT ruscenery/houses/house-d1-10.obj     houses/house-d1-10.obj
+EXPORT ruscenery/houses/house-d1-11.obj     houses/house-d1-11.obj
+EXPORT ruscenery/houses/house-d1-12.obj     houses/house-d1-12.obj
+EXPORT ruscenery/houses/house-d1-13.obj     houses/house-d1-13.obj
+EXPORT ruscenery/houses/house-d1-14.obj     houses/house-d1-14.obj
+EXPORT ruscenery/houses/shed-d-03.obj       houses/shed-d-03.obj
+EXPORT ruscenery/houses/shed-d-04.obj       houses/shed-d-04.obj
+EXPORT ruscenery/houses/shop_d-01.obj       houses/shop_d-01.obj
+EXPORT ruscenery/houses/stall-d-01.obj      houses/stall-d-01.obj
+EXPORT ruscenery/houses/stall-d-02.obj      houses/stall-d-02.obj
+EXPORT ruscenery/houses/stall-d-s.obj       houses/stall-d-s.obj
+EXPORT ruscenery/houses/warehouse-d-02.obj  houses/warehouse-d-02.obj
+EXPORT ruscenery/houses/warehouse-d-03.obj  houses/warehouse-d-03.obj
+EXPORT ruscenery/houses/warehouse-d-04.obj  houses/warehouse-d-04.obj
+#
+#
+#
+# Forest
+#
+EXPORT ruscenery/forest/grass.obj	   forest/grass.obj
+#
+EXPORT ruscenery/forest/bush1.obj          forest/bush1.obj
+EXPORT ruscenery/forest/bush2.obj          forest/bush2.obj
+EXPORT ruscenery/forest/bush3.obj          forest/bush3.obj
+EXPORT_EXTEND ruscenery/forest/bush.obj    forest/bush1.obj
+EXPORT_EXTEND ruscenery/forest/bush.obj    forest/bush2.obj
+EXPORT_EXTEND ruscenery/forest/bush.obj    forest/bush3.obj
+#
+EXPORT ruscenery/forest/spruce1-09.obj     forest/spruce1-09.obj
+EXPORT ruscenery/forest/spruce1-12.obj     forest/spruce1-12.obj
+EXPORT ruscenery/forest/spruce1-15.obj     forest/spruce1-15.obj
+EXPORT ruscenery/forest/spruce2-10.obj     forest/spruce2-10.obj
+EXPORT ruscenery/forest/spruce2-16.obj     forest/spruce2-16.obj
+EXPORT ruscenery/forest/spruce2-19.obj     forest/spruce2-19.obj
+EXPORT ruscenery/forest/spruce3-06.obj     forest/spruce3-06.obj
+EXPORT ruscenery/forest/spruce3-08.obj     forest/spruce3-08.obj
+EXPORT ruscenery/forest/spruce3-11.obj     forest/spruce3-11.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce1-09.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce1-12.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce1-15.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce2-10.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce2-16.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce2-19.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce3-06.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce3-08.obj
+EXPORT_EXTEND ruscenery/forest/spruce.obj  forest/spruce3-11.obj
+#
+EXPORT ruscenery/forest/pine1-13.obj       forest/pine1-13.obj
+EXPORT ruscenery/forest/pine1-15.obj       forest/pine1-15.obj
+EXPORT ruscenery/forest/pine1-18.obj       forest/pine1-18.obj
+EXPORT ruscenery/forest/pine2-19.obj       forest/pine2-19.obj
+EXPORT ruscenery/forest/pine2-22.obj       forest/pine2-22.obj
+EXPORT ruscenery/forest/pine2-25.obj       forest/pine2-25.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine1-13.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine1-15.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine1-18.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine2-19.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine2-22.obj
+EXPORT_EXTEND ruscenery/forest/pine.obj    forest/pine2-25.obj
+#
+EXPORT ruscenery/forest/thuya1-07.obj      forest/thuya1-07.obj
+EXPORT ruscenery/forest/thuya1-08.obj      forest/thuya1-08.obj
+EXPORT ruscenery/forest/thuya1-10.obj      forest/thuya1-10.obj
+EXPORT_EXTEND ruscenery/forest/thuya.obj   forest/thuya1-07.obj
+EXPORT_EXTEND ruscenery/forest/thuya.obj   forest/thuya1-08.obj
+EXPORT_EXTEND ruscenery/forest/thuya.obj   forest/thuya1-10.obj
+#
+EXPORT ruscenery/forest/birch1-14.obj      forest/birch1-14.obj
+EXPORT ruscenery/forest/birch1-17.obj      forest/birch1-17.obj
+EXPORT ruscenery/forest/birch1-20.obj      forest/birch1-20.obj
+EXPORT ruscenery/forest/birch2-09.obj      forest/birch2-09.obj
+EXPORT ruscenery/forest/birch2-11.obj      forest/birch2-11.obj
+EXPORT ruscenery/forest/birch2-13.obj      forest/birch2-13.obj
+EXPORT ruscenery/forest/birch3-07.obj      forest/birch3-07.obj
+EXPORT ruscenery/forest/birch3-11.obj      forest/birch3-11.obj
+EXPORT ruscenery/forest/birch3-14.obj      forest/birch3-14.obj
+EXPORT ruscenery/forest/birch4-18.obj      forest/birch4-18.obj
+EXPORT ruscenery/forest/birch4-19.obj      forest/birch4-19.obj
+EXPORT ruscenery/forest/birch4-21.obj      forest/birch4-21.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch1-14.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch1-17.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch1-20.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch2-09.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch2-11.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch2-13.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch3-07.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch3-11.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch3-14.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch4-18.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch4-19.obj
+EXPORT_EXTEND ruscenery/forest/birch.obj   forest/birch4-21.obj
+#
+EXPORT ruscenery/forest/tree1-13.obj       forest/tree1-13.obj
+EXPORT ruscenery/forest/tree1-17.obj       forest/tree1-17.obj
+EXPORT ruscenery/forest/tree1-20.obj       forest/tree1-20.obj
+EXPORT ruscenery/forest/tree2-09.obj       forest/tree2-09.obj
+EXPORT ruscenery/forest/tree2-12.obj       forest/tree2-12.obj
+EXPORT ruscenery/forest/tree2-14.obj       forest/tree2-14.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree1-13.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree1-17.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree1-20.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree2-09.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree2-12.obj
+EXPORT_EXTEND ruscenery/forest/tree.obj    forest/tree2-14.obj
+#
+EXPORT ruscenery/forest/oak1-07.obj        forest/oak1-07.obj
+EXPORT ruscenery/forest/oak1-09.obj        forest/oak1-09.obj
+EXPORT ruscenery/forest/oak1-17.obj        forest/oak1-17.obj
+EXPORT_EXTEND ruscenery/forest/oak.obj     forest/oak1-07.obj
+EXPORT_EXTEND ruscenery/forest/oak.obj     forest/oak1-09.obj
+EXPORT_EXTEND ruscenery/forest/oak.obj     forest/oak1-17.obj
+#
+EXPORT ruscenery/forest/poplar1-05.obj     forest/poplar1-05.obj
+EXPORT ruscenery/forest/poplar1-07.obj     forest/poplar1-07.obj
+EXPORT ruscenery/forest/poplar1-10.obj     forest/poplar1-10.obj
+EXPORT ruscenery/forest/poplar1-14.obj     forest/poplar1-14.obj
+EXPORT ruscenery/forest/poplar1-18.obj     forest/poplar1-18.obj
+EXPORT ruscenery/forest/poplar1-22.obj     forest/poplar1-22.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-05.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-07.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-10.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-14.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-18.obj
+EXPORT_EXTEND ruscenery/forest/poplar.obj  forest/poplar1-22.obj
+#
+EXPORT ruscenery/forest/cypress1-16.obj    forest/cypress1-16.obj
+EXPORT ruscenery/forest/cypress1-18.obj    forest/cypress1-18.obj
+EXPORT ruscenery/forest/cypress1-20.obj    forest/cypress1-20.obj
+EXPORT ruscenery/forest/cypress2-14.obj    forest/cypress2-14.obj
+EXPORT ruscenery/forest/cypress2-17.obj    forest/cypress2-17.obj
+EXPORT ruscenery/forest/cypress2-19.obj    forest/cypress2-19.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress1-16.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress1-18.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress1-20.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress2-14.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress2-17.obj
+EXPORT_EXTEND ruscenery/forest/cypress.obj forest/cypress2-19.obj
+#
+EXPORT ruscenery/forest/palm1-08.obj       forest/palm1-08.obj
+EXPORT ruscenery/forest/palm1-11.obj       forest/palm1-11.obj
+EXPORT ruscenery/forest/palm1-14.obj       forest/palm1-14.obj
+EXPORT ruscenery/forest/palm2-07.obj       forest/palm2-07.obj
+EXPORT ruscenery/forest/palm2-09.obj       forest/palm2-09.obj
+EXPORT ruscenery/forest/palm2-11.obj       forest/palm2-11.obj
+EXPORT ruscenery/forest/palm3-05.obj       forest/palm3-05.obj
+EXPORT ruscenery/forest/palm3-07.obj       forest/palm3-07.obj
+EXPORT ruscenery/forest/palm3-09.obj       forest/palm3-09.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm1-08.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm1-11.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm1-14.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm2-07.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm2-09.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm2-11.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm3-05.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm3-07.obj
+EXPORT_EXTEND ruscenery/forest/palm.obj    forest/palm3-09.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce1-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce1-12.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce1-15.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce2-10.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce2-16.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce3-06.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce3-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/spruce3-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine1-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine1-15.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine1-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine2-22.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/pine2-25.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch1-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch2-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch2-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch3-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch3-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch3-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch4-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch4-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/birch4-21.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree1-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree2-12.obj
+EXPORT_EXTEND ruscenery/forest/forest-w-eu.obj   forest/tree2-14.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/thuya1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/thuya1-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/thuya1-10.obj
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/poplar1-05.obj
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/poplar1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-city.obj   forest/poplar1-10.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/cypress1-16.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/cypress1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/cypress2-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/cypress2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/oak1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/oak1-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/thuya1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/thuya1-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/thuya1-10.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/poplar1-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/poplar1-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/poplar1-22.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree1-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree2-12.obj
+EXPORT_EXTEND ruscenery/forest/forest-s-eu.obj   forest/tree2-14.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/cypress1-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/cypress1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/cypress2-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/cypress2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm1-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm1-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm1-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm2-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm2-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm3-05.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm3-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/palm3-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/thuya1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/thuya1-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/thuya1-10.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/poplar1-05.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/poplar1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-curort.obj forest/poplar1-10.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce1-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce1-12.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce1-15.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce2-10.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce2-16.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce3-06.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce3-08.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/spruce3-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine1-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine1-15.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine1-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine2-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine2-22.obj
+EXPORT_EXTEND ruscenery/forest/forest-conif.obj  forest/pine2-25.obj
+#
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch1-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch2-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch2-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch3-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch3-11.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch3-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch4-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch4-19.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/birch4-21.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree1-13.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree1-20.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree2-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree2-12.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/tree2-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/oak1-07.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/oak1-09.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/oak1-17.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/poplar1-14.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/poplar1-18.obj
+EXPORT_EXTEND ruscenery/forest/forest-green.obj  forest/poplar1-22.obj
+#
+#
+EXPORT ruscenery/forest/hi-abies-20.obj          forest/abies-20.obj
+EXPORT ruscenery/forest/hi-abies-25.obj          forest/abies-25.obj
+EXPORT ruscenery/forest/hi-abies-30.obj          forest/abies-30.obj
+EXPORT ruscenery/forest/hi-acer-10.obj           forest/acer-10.obj
+EXPORT ruscenery/forest/hi-acer-15.obj           forest/acer-15.obj
+EXPORT ruscenery/forest/hi-acer-20.obj           forest/acer-20.obj
+EXPORT ruscenery/forest/hi-acer-25.obj           forest/acer-25.obj
+EXPORT ruscenery/forest/hi-acer-30.obj           forest/acer-30.obj
+EXPORT ruscenery/forest/hi-alnus-10.obj          forest/alnus-10.obj
+EXPORT ruscenery/forest/hi-alnus-15.obj          forest/alnus-15.obj
+EXPORT ruscenery/forest/hi-alnus-20.obj          forest/alnus-20.obj
+EXPORT ruscenery/forest/hi-betula-30.obj         forest/betula-30.obj
+EXPORT ruscenery/forest/hi-betula-35.obj         forest/betula-35.obj
+EXPORT ruscenery/forest/hi-betula-40.obj         forest/betula-40.obj
+EXPORT ruscenery/forest/hi-cedrus-30.obj         forest/cedrus-30.obj
+EXPORT ruscenery/forest/hi-cedrus-35.obj         forest/cedrus-35.obj
+EXPORT ruscenery/forest/hi-cedrus-40.obj         forest/cedrus-40.obj
+EXPORT ruscenery/forest/hi-fraxinus-20.obj       forest/fraxinus-20.obj
+EXPORT ruscenery/forest/hi-fraxinus-25.obj       forest/fraxinus-25.obj
+EXPORT ruscenery/forest/hi-fraxinus-30.obj       forest/fraxinus-30.obj
+EXPORT ruscenery/forest/hi-fraxinus-35.obj       forest/fraxinus-35.obj
+EXPORT ruscenery/forest/hi-larix-20.obj          forest/larix-20.obj
+EXPORT ruscenery/forest/hi-larix-25.obj          forest/larix-25.obj
+EXPORT ruscenery/forest/hi-larix-30.obj          forest/larix-30.obj
+EXPORT ruscenery/forest/hi-larix-35.obj          forest/larix-35.obj
+EXPORT ruscenery/forest/hi-picea-06.obj          forest/picea-06.obj
+EXPORT ruscenery/forest/hi-picea-08.obj          forest/picea-08.obj
+EXPORT ruscenery/forest/hi-picea-10.obj          forest/picea-10.obj
+EXPORT ruscenery/forest/hi-pinus-25.obj          forest/pinus-25.obj
+EXPORT ruscenery/forest/hi-pinus-30.obj          forest/pinus-30.obj
+EXPORT ruscenery/forest/hi-pinus-35.obj          forest/pinus-35.obj
+EXPORT ruscenery/forest/hi-quercus-15.obj        forest/quercus-15.obj
+EXPORT ruscenery/forest/hi-quercus-20.obj        forest/quercus-20.obj
+EXPORT ruscenery/forest/hi-tila-15.obj           forest/tila-15.obj
+EXPORT ruscenery/forest/hi-tila-20.obj           forest/tila-20.obj
+EXPORT ruscenery/forest/hi-tila-25.obj           forest/tila-25.obj
+#
+EXPORT_EXTEND ruscenery/forest/hi-abies.obj      forest/abies-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-abies.obj      forest/abies-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-abies.obj      forest/abies-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-acer.obj       forest/acer-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-acer.obj       forest/acer-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-acer.obj       forest/acer-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-acer.obj       forest/acer-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-acer.obj       forest/acer-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-alnus.obj      forest/alnus-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-alnus.obj      forest/alnus-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-alnus.obj      forest/alnus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-betula.obj     forest/betula-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-betula.obj     forest/betula-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-betula.obj     forest/betula-40.obj
+EXPORT_EXTEND ruscenery/forest/hi-cedrus.obj     forest/cedrus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-cedrus.obj     forest/cedrus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-cedrus.obj     forest/cedrus-40.obj
+EXPORT_EXTEND ruscenery/forest/hi-fraxinus.obj   forest/fraxinus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-fraxinus.obj   forest/fraxinus-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-fraxinus.obj   forest/fraxinus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-fraxinus.obj   forest/fraxinus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-larix.obj      forest/larix-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-larix.obj      forest/larix-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-larix.obj      forest/larix-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-larix.obj      forest/larix-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-picea.obj      forest/picea-06.obj
+EXPORT_EXTEND ruscenery/forest/hi-picea.obj      forest/picea-08.obj
+EXPORT_EXTEND ruscenery/forest/hi-picea.obj      forest/picea-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-pinus.obj      forest/pinus-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-pinus.obj      forest/pinus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-pinus.obj      forest/pinus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-quercus.obj    forest/quercus-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-quercus.obj    forest/quercus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-25.obj
+#
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/abies-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/abies-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/abies-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/acer-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/acer-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/acer-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/acer-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/acer-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/alnus-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/alnus-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/alnus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/betula-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/betula-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/betula-40.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/cedrus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/cedrus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/cedrus-40.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/fraxinus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/fraxinus-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/fraxinus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/fraxinus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/larix-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/larix-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/larix-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/larix-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/picea-06.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/picea-08.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/picea-10.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/pinus-25.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/pinus-30.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/pinus-35.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/quercus-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-tree.obj       forest/quercus-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-15.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-20.obj
+EXPORT_EXTEND ruscenery/forest/hi-tila.obj       forest/tila-25.obj
+#
+EXPORT ruscenery/forest/example_forest.for       forest/example_forest.for
+#
+#
+# lines
+#
+EXPORT ruscenery/lines/chainfence.fac      	 lines/chainfence.fac
+EXPORT ruscenery/lines/concretefence.fac   	 lines/concretefence.fac
+EXPORT ruscenery/lines/ironfence.fac       	 lines/ironfence.fac
+EXPORT ruscenery/lines/woodfence1.fac            lines/woodfence1.fac
+#
+EXPORT ruscenery/lines/gate1-closed.obj          lines/1-closed.obj
+EXPORT ruscenery/lines/gate1-open.obj            lines/1-open.obj
+EXPORT ruscenery/lines/gate2-closed.obj          lines/2-closed.obj
+EXPORT ruscenery/lines/gate2-open.obj            lines/2-open.obj
+EXPORT ruscenery/lines/gate3-closed.obj          lines/3-closed.obj
+EXPORT ruscenery/lines/gate3-open.obj            lines/3-open.obj
+#
+EXPORT ruscenery/lines/grassline.fac             lines/grassline2.fac
+EXPORT ruscenery/lines/grassline1.fac            lines/grassline1.fac
+EXPORT ruscenery/lines/grassline2.fac            lines/grassline2.fac
+#
+EXPORT ruscenery/lines/single_red.lin      	 lines/single_red.lin
+EXPORT ruscenery/lines/single_red2.lin      	 lines/single_red2.lin
+#
+EXPORT ruscenery/lines/closed.pol                lines/closed.pol
+EXPORT ruscenery/lines/whiteline.pol             lines/whiteline.pol
+EXPORT ruscenery/lines/gate1.pol                 lines/gate1.pol
+EXPORT ruscenery/lines/gate2.pol                 lines/gate2.pol
+EXPORT ruscenery/lines/lotok.lin                 lines/lotok.lin
+#
+#
+# poligons
+#
+EXPORT ruscenery/polygons/lightspot1.pol      	 polygons/lightspot1.pol
+EXPORT ruscenery/polygons/lightspot2.pol      	 polygons/lightspot2.pol
+#
+EXPORT ruscenery/polygons/splits1.pol      	 polygons/splits1.pol
+EXPORT ruscenery/polygons/splits2.pol      	 polygons/splits2.pol
+EXPORT ruscenery/polygons/splits3.pol      	 polygons/splits3.pol
+#

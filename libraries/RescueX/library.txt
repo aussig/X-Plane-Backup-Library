@@ -1,0 +1,291 @@
+A
+800
+LIBRARY
+
+# cars
+
+EXPORT RescueX/cars/ADAC_Masterlift.obj				 		   	cars/ADAC_Masterlift.obj
+EXPORT RescueX/cars/ADAC_TowTruck.obj				 		   	cars/ADAC_generic.obj
+EXPORT RescueX/cars/Crashed_CLK.obj								cars/crashed_CLK.obj
+EXPORT RescueX/cars/Crashed_Kia_Picanto.obj						cars/crashed_Kia_Picanto.obj
+EXPORT RescueX/cars/Crashed_Kia_Picanto2.obj					cars/crashed_Kia_Picanto2.obj
+EXPORT RescueX/cars/Crashed_Opel_Insignia.obj					cars/crashed_Opel_Insignia.obj
+EXPORT RescueX/cars/FW_BF_Karlsruhe_DLK.obj						cars/FW_BF_Karlsruhe_DLK.obj
+EXPORT RescueX/cars/FW_BF_Karlsruhe_HLF.obj					    cars/FW_BF_Karlsruhe_HLF.obj
+EXPORT RescueX/cars/FW_BF_Karlsruhe_HLF_open.obj				cars/FW_BF_Karlsruhe_HLF_open.obj
+EXPORT RescueX/cars/FW_BF_Karlsruhe_WLF.obj					    cars/FW_BF_Karlsruhe_WLF.obj
+EXPORT RescueX/cars/FW_GEN_DLK.obj								cars/FW_GEN_DLK.obj
+EXPORT RescueX/cars/FW_Lichtmast_doppel.obj						cars/FW_fahrzeug_doppel_LM.obj
+EXPORT RescueX/cars/FW_Stativ_4m5.obj							cars/FW_stativ_4m5.obj
+EXPORT RescueX/cars/FW_Notstrom.obj								cars/FW_notstrom.obj
+EXPORT RescueX/cars/FW_FF_Stuehlingen_RW1.obj					cars/FW_FF_Stuehlingen_RW1.obj
+EXPORT RescueX/cars/FW_FF_Stuehlingen_RW1_open.obj				cars/FW_FF_Stuehlingen_RW1_open.obj
+EXPORT RescueX/cars/FW_FF_Stuehlingen_RW1_open_Lichtmast.obj	cars/FW_FF_Stuehlingen_RW1_open_LM.obj
+EXPORT RescueX/cars/FW_FF_Stuehlingen_Stromanhaenger.obj		cars/FW_Stuehlingen_stromanhaenger.obj
+
+EXPORT RescueX/cars/Polizei_FuStw_01_lit_open.obj				cars/Polizei_FuStw_01_lit_open.obj
+EXPORT RescueX/cars/Polizei_FuStw_01_lit.obj					cars/Polizei_FuStw_01_lit.obj
+EXPORT RescueX/cars/Polizei_FuStw_01.obj						cars/Polizei_FuStw_01.obj
+EXPORT RescueX/cars/RTW_DRK_Bayern.obj		    				cars/RTW_01.obj
+EXPORT RescueX/cars/RTW_DRK_Bayern_not_tilted.obj		    	BW/Waldshut/RTW_01.obj
+EXPORT RescueX/cars/RTW_ASB_1.obj			    				cars/RTW_02.obj
+EXPORT RescueX/cars/RTW_ASB_2.obj				    			cars/RTW_03.obj
+EXPORT RescueX/cars/RTW_FEU_GUT.obj				    			cars/RTW_04.obj
+EXPORT RescueX/cars/NEF_Passat_sb1099.obj						cars/NEF_Passat_sb1099.obj
+EXPORT RescueX/cars/NEF_Passat_sb1099_lit.obj					cars/NEF_Passat_sb1099_lit.obj
+EXPORT RescueX/cars/NEF_Passat_sb1099_lit_open.obj				cars/NEF_Passat_sb1099_lit_open.obj
+EXPORT RescueX/cars/NEF_Passat_sb1099_not_tilted.obj			BW/Waldshut/NEF_Passat_sb1099.obj
+
+EXPORT RescueX/cars/car_alto.obj								cars/CamiDeBellis/car_alto.obj
+EXPORT RescueX/cars/car_daihatsu_tanto.obj						cars/CamiDeBellis/car_daihatsu_tanto.obj
+EXPORT RescueX/cars/car_Datsun_620-73.obj						cars/CamiDeBellis/car_Datsun_620-73.obj
+EXPORT RescueX/cars/car_datsunGO.obj							cars/CamiDeBellis/car_datsunGo.obj
+EXPORT RescueX/cars/car_datsunGOPlus.obj						cars/CamiDeBellis/car_datsunGoPlus.obj
+EXPORT RescueX/cars/car_fordRangerWhite.obj						cars/CamiDeBellis/car_fordRangerWhite.obj
+EXPORT RescueX/cars/car_gmc_airport.obj							cars/CamiDeBellis/car_gmc_airport.obj
+EXPORT RescueX/cars/car_gmc_old.obj								cars/CamiDeBellis/car_gmc_old.obj
+EXPORT RescueX/cars/car_KiaSuv.obj								cars/CamiDeBellis/car_KiaSuv.obj
+EXPORT RescueX/cars/car_LandRover107.obj						cars/CamiDeBellis/car_LandRover107.obj
+EXPORT RescueX/cars/car_lexus.obj								cars/CamiDeBellis/car_lexus.obj
+EXPORT RescueX/cars/car_mitshubishiTbox.obj						cars/CamiDeBellis/car_mitshubishiTbox.obj
+EXPORT RescueX/cars/car_mitsubishi_pack.obj						cars/CamiDeBellis/car_mitsubishi_pack.obj
+EXPORT RescueX/cars/car_nissanStanzaWG.obj						cars/CamiDeBellis/car_nissanStanzaWG.obj
+EXPORT RescueX/cars/car_old_pickup.obj							cars/CamiDeBellis/car_old_pickup.obj
+EXPORT RescueX/cars/car_Pajero.obj								cars/CamiDeBellis/car_Pajero.obj
+EXPORT RescueX/cars/car_peugeotrossa.obj						cars/CamiDeBellis/car_peugeotrossa.obj
+EXPORT RescueX/cars/car_postTruck.obj							cars/CamiDeBellis/car_postTruck.obj
+EXPORT RescueX/cars/car_sinca.obj								cars/CamiDeBellis/car_sinca.obj
+EXPORT RescueX/cars/car_subaru_wagon.obj						cars/CamiDeBellis/car_subaru_wagon.obj
+EXPORT RescueX/cars/car_suzuki_cappuccino.obj					cars/CamiDeBellis/car_suzuki_cappuccino.obj
+EXPORT RescueX/cars/car_suzukiCarry.obj							cars/CamiDeBellis/car_suzukiCarry.obj
+EXPORT RescueX/cars/car_SuzukiCarry_pickup.obj					cars/CamiDeBellis/car_SuzukiCarry_pickup.obj
+EXPORT RescueX/cars/car_SuzukiCarry2.obj						cars/CamiDeBellis/car_SuzukiCarry2.obj
+EXPORT RescueX/cars/car_toyota_camry.obj						cars/CamiDeBellis/car_toyota_camry.obj
+EXPORT RescueX/cars/car_toyota_corolla.obj						cars/CamiDeBellis/car_toyota_corolla.obj
+EXPORT RescueX/cars/car_toyota_corolla_old.obj					cars/CamiDeBellis/car_toyota_corolla_old.obj
+EXPORT RescueX/cars/car_toyotaRed_old_pickup.obj				cars/CamiDeBellis/car_toyotaRed_old_pickup.obj
+EXPORT RescueX/cars/car_toyotaTacoma.obj						cars/CamiDeBellis/car_toyotaTacoma.obj
+EXPORT RescueX/cars/CDBambassador_carblack.obj					cars/CamiDeBellis/CDBambassador_carblack.obj
+EXPORT RescueX/cars/CDBcar_van.obj								cars/CamiDeBellis/CDBcar_van.obj
+EXPORT RescueX/cars/CDBhummer.obj								cars/CamiDeBellis/CDBhummer.obj
+
+EXPORT RescueX/cars/Bergwacht_Vito.obj							cars/Bergwacht_Vito.obj
+EXPORT RescueX/cars/Bergwacht_Einsatzleitfahrzeug.obj			cars/Bergwacht_Einsatzleitfahrzeug.obj
+
+# buildings
+
+
+# objects
+
+EXPORT RescueX/objects/Strassenschild_DurchfahrtVerboten.obj	objects/Strassenschild_DurchfahrtVerboten.obj
+EXPORT RescueX/objects/Strassenschild_Einbahn.obj				objects/Strassenschild_Einbahn.obj
+EXPORT RescueX/objects/Strassenschild_Fussweg.obj				objects/Strassenschild_Fussweg.obj
+EXPORT RescueX/objects/Strassenschild_Gefahrstelle.obj			objects/Strassenschild_Gefahrstelle.obj
+EXPORT RescueX/objects/Strassenschild_Halteverbot.obj			objects/Strassenschild_Halteverbot.obj
+EXPORT RescueX/objects/Strassenschild_KeinePKW.obj				objects/Strassenschild_KeinePKW.obj
+EXPORT RescueX/objects/Strassenschild_Nachfahrt.obj				objects/Strassenschild_Nachfahrt.obj
+EXPORT RescueX/objects/Strassenschild_Schleudergefahr.obj		objects/Strassenschild_Schleudergefahr.obj
+EXPORT RescueX/objects/Strassenschild_Speed60.obj				objects/Strassenschild_Speed60.obj
+EXPORT RescueX/objects/Strassenschild_Speed70.obj				objects/Strassenschild_Speed70.obj
+EXPORT RescueX/objects/Strassenschild_Speed80.obj				objects/Strassenschild_Speed80.obj
+EXPORT RescueX/objects/Strassenschild_Speed120.obj				objects/Strassenschild_Speed120.obj
+EXPORT RescueX/objects/Strassenschild_SpeedEnde.obj				objects/Strassenschild_SpeedEnde.obj
+EXPORT RescueX/objects/Strassenschild_Stop.obj					objects/Strassenschild_Stop.obj
+EXPORT RescueX/objects/Strassenschild_Vorfahrt.obj				objects/Strassenschild_Vorfahrt.obj
+EXPORT RescueX/objects/Strassenschild_Vorfahrt2.obj				objects/Strassenschild_Vorfahrt2.obj
+
+EXPORT RescueX/objects/OBJ_pylone.obj							objects/OBJ_pylone.obj
+EXPORT RescueX/objects/OBJ_Leuchte.obj							objects/OBJ_Leuchte.obj
+EXPORT RescueX/objects/OBJ_Faltdreieck_Leuchte.obj				objects/OBJ_Faltdreieck_Leuchte.obj
+EXPORT RescueX/objects/OBJ_Faltdreieck.obj						objects/OBJ_Faltdreieck.obj
+
+EXPORT RescueX/objects/bank.obj									objects/bank.obj
+EXPORT RescueX/objects/bank_tisch.obj							objects/bank_tisch.obj
+EXPORT RescueX/objects/parkbank_gruen.obj						objects/parkbank_gruen.obj
+EXPORT RescueX/objects/parkbank_rot.obj							objects/parkbank_rot.obj
+EXPORT RescueX/objects/parkbank_braun.obj						objects/parkbank_braun.obj
+EXPORT RescueX/objects/baumeinfassung_mulch.obj					objects/baumeinfassung_mulch.obj
+EXPORT RescueX/objects/baumeinfassung_rasen.obj					objects/baumeinfassung_rasen.obj
+EXPORT RescueX/objects/sonnenschirm_blau_blau.obj				objects/sonnenschirm_blau_blau.obj
+EXPORT RescueX/objects/sonnenschirm_blau_weiss.obj				objects/sonnenschirm_blau_weiss.obj
+EXPORT RescueX/objects/sonnenschirm_rot_weiss.obj				objects/sonnenschirm_rot_weiss.obj
+EXPORT RescueX/objects/sonnenschirm_streifen.obj				objects/sonnenschirm_streifen.obj
+
+EXPORT RescueX/objects/parkautomat.obj							objects/Parkautomat.obj
+EXPORT RescueX/objects/parkautomat_mit_p.obj					objects/Parkautomat_mit_P.obj
+EXPORT RescueX/objects/streugutbox.obj							objects/streugutbox.obj
+
+EXPORT RescueX/objects/Baugeruest_01.obj						objects/Baugeruest_01.obj
+EXPORT RescueX/objects/Baugeruest_02.obj						objects/Baugeruest_02.obj
+EXPORT RescueX/objects/Baugeruest_03.obj						objects/Baugeruest_03.obj
+EXPORT RescueX/objects/Baugeruest_04.obj						objects/Baugeruest_04.obj
+
+EXPORT RescueX/objects/helipad_ADAC.obj							objects/pad.obj
+EXPORT RescueX/objects/helipad_KH.obj							BW/VillingenSchwenningen/Helipad_KH.obj
+EXPORT RescueX/objects/helitrans_stapler_5m6.obj				objects/helitrans_stapler_5m6.obj
+EXPORT RescueX/objects/helitrans_traktor_5m6.obj				objects/helitrans_traktor_5m6.obj
+
+EXPORT RescueX/objects/Fuel_JET_A-1.obj							objects/Fuel_JET_A-1.obj
+EXPORT RescueX/objects/Fuel_JET_A-1_mit_Erdung.obj				objects/Fuel_JET_A-1_mit_Erdung.obj
+EXPORT RescueX/objects/Fuel_AVGAS100LL.obj						objects/Fuel_AVGAS100LL.obj
+EXPORT RescueX/objects/Fuel_AVGAS100LL_mit_Erdung.obj			objects/Fuel_AVGAS100LL_mit_Erdung.obj
+EXPORT RescueX/objects/Zapfsaeule_stand.obj						objects/Zapfsaeule_stand.obj
+EXPORT RescueX/objects/Erdung.obj								objects/Erdung.obj
+EXPORT RescueX/objects/Erdung_m_Loescher.obj					objects/Erdung_m_Loescher.obj
+EXPORT RescueX/objects/Feuerloescher_100kg.obj					objects/Feuerloescher_100kg.obj
+EXPORT RescueX/objects/Leuchte_mast_2m_strobe.obj				objects/Leuchte_mast_2m_strobe.obj
+EXPORT RescueX/objects/Leuchte_mast_2m_rot.obj					objects/Leuchte_mast_2m_rot.obj
+EXPORT RescueX/objects/Tankbelueftung.obj						objects/Tankbelueftung.obj
+EXPORT RescueX/objects/Schaltschrank_1700x50x150.obj			objects/Schaltschrank_1700x50x150.obj
+EXPORT RescueX/objects/Schaltschrank_90x50x150.obj				objects/Schaltschrank_90x50x150.obj
+EXPORT RescueX/objects/Randstein_10x15x100cm.obj				objects/Randstein_10x15x100cm.obj
+EXPORT RescueX/objects/Randstein_10x15x50cm.obj					objects/Randstein_10x15x50cm.obj
+EXPORT RescueX/objects/Randstein_50cm.str						objects/Randstein_50cm.str
+EXPORT RescueX/objects/Randstein_1m.str							objects/Randstein_1m.str
+
+EXPORT RescueX/objects/fussballtor.obj							objects/goal.obj
+EXPORT RescueX/objects/eckfahne.obj								objects/flag.obj
+
+EXPORT RescueX/objects/Bergwacht_Luftrettungssack.obj			objects/Bergwacht_Luftrettungssack.obj
+EXPORT RescueX/objects/stretcher.obj							objects/Stretcher.obj
+
+#landmarks
+
+EXPORT RescueX/landmarks/Com_Edeka.obj							landmarks/Com_Edeka.obj
+EXPORT RescueX/landmarks/Com_Edeka2.obj							landmarks/Com_Edeka2.obj
+EXPORT RescueX/landmarks/Res_Rohbau.obj							landmarks/Res_Rohbau.obj
+EXPORT RescueX/landmarks/Res_Rohbau2.obj						landmarks/Res_Rohbau2.obj
+EXPORT RescueX/landmarks/schornstein_150m.obj					landmarks/schornstein_150m.obj
+EXPORT RescueX/landmarks/schornstein_180m.obj					landmarks/schornstein_180m.obj
+EXPORT RescueX/landmarks/schornstein_120m.obj					BW/Waldshut/schornstein_120m.obj
+EXPORT RescueX/landmarks/kuehlturm_144h_120b.obj				BW/Waldshut/kuehlturm_144h_120b.obj
+EXPORT RescueX/landmarks/gasometer_scheibe.obj					landmarks/gasometer_scheibe.obj
+
+EXPORT RescueX/landmarks/Gipfelkreuz.obj						landmarks/Gipfelkreuz.obj
+
+# trains
+
+EXPORT RescueX/trains/Straba_Ka_head.obj		      			trains/straba_ka_head.obj
+EXPORT RescueX/trains/Straba_Ka_back.obj		     			trains/straba_ka_back.obj
+EXPORT RescueX/trains/Straba_Ka_mid.obj		     				trains/straba_ka_mid.obj
+EXPORT RescueX/trains/Straba_Ka_intersec.obj		   			trains/straba_ka_intersec.obj
+EXPORT RescueX/trains/gg_bahn_head.obj							trains/gg_bahn_head.obj
+EXPORT RescueX/trains/gg_bahn_tail.obj							trains/gg_bahn_tail.obj
+
+# lights
+
+EXPORT RescueX/lights/flood_20.obj								lights/flood_20.obj
+EXPORT RescueX/lights/flood_helipad.obj							lights/floodhelipad.obj
+EXPORT RescueX/lights/flood_groundmounted.obj					lights/Floodlight_Ground_Mounted.obj
+EXPORT RescueX/lights/flood_wallmounted.obj						lights/floodwand.obj
+EXPORT RescueX/lights/scheinwerfer_mast_1m.obj					lights/scheinwerfer_mast_1m.obj
+EXPORT RescueX/lights/scheinwerfer_mast_4m.obj					lights/scheinwerfer_mast_4m.obj
+EXPORT RescueX/lights/scheinwerfer_wand_5m50.obj				lights/scheinwerfer_wand_5m50.obj
+EXPORT RescueX/lights/scheinwerfer_wand_6m50.obj				lights/scheinwerfer_wand_6m50.obj
+EXPORT RescueX/lights/obsl_s.obj								lights/obsl_s.obj
+EXPORT RescueX/lights/obsl+15.obj								lights/obsl+15.obj
+EXPORT RescueX/lights/obsl+50.obj								lights/obsl+50.obj
+EXPORT RescueX/lights/scheinwerfer_boden_30m_45o_120w.obj		lights/scheinwerfer_boden_30m_45o_120w.obj
+EXPORT RescueX/lights/scheinwerfer_boden_180m_45o_120w.obj		lights/scheinwerfer_boden_180m_45o_120w.obj
+EXPORT RescueX/lights/streetlamp_2m5_white.obj					lights/streetlamp_2m5_white.obj
+EXPORT RescueX/lights/streetlamp_3m5_white.obj					lights/streetlamp_3m5_white.obj
+
+
+# marks
+
+EXPORT RescueX/marks/cobblestone.pol							marks/cobblestone.pol
+EXPORT RescueX/marks/pflaster_gleichm_D.pol						marks/pflaster_gleichm_D.pol
+EXPORT RescueX/marks/pflaster_gleichm_L.pol						marks/pflaster_gleichm_L.pol
+EXPORT RescueX/marks/pflaster_gleichm_M.pol						marks/pflaster_gleichm_M.pol
+EXPORT RescueX/marks/pflaster_versetzt_D.pol					marks/pflaster_versetzt_D.pol
+EXPORT RescueX/marks/pflaster_versetzt_L.pol					marks/pflaster_versetzt_L.pol
+EXPORT RescueX/marks/pflaster_versetzt_M.pol					marks/pflaster_versetzt_M.pol
+EXPORT RescueX/marks/pflaster_versetzt_gross_M.pol				marks/pflaster_versetzt_gross_M.pol
+EXPORT RescueX/marks/verbundpflaster_D.pol						marks/verbundpflaster_D.pol
+EXPORT RescueX/marks/verbundpflaster_L.pol						marks/verbundpflaster_L.pol
+EXPORT RescueX/marks/verbundpflaster_M.pol						marks/verbundpflaster_M.pol
+EXPORT RescueX/marks/verbundstein.pol							marks/verbundstein.pol
+EXPORT RescueX/marks/zebrastreifen.pol							marks/zebrastreifen.pol
+
+EXPORT RescueX/marks/H_triang_concrete.pol						marks/H_triang_concrete.pol
+EXPORT RescueX/marks/H_triang_white.pol							marks/H_triang_white.pol
+EXPORT RescueX/marks/H_white.pol								marks/H_white.pol
+EXPORT RescueX/marks/H_yellow.pol								marks/H_yellow.pol
+EXPORT RescueX/marks/H_medical.pol								marks/H_medical.pol
+
+EXPORT RescueX/marks/tennisplatz.pol							marks/tennisplatz.pol
+
+EXPORT RescueX/marks/line_interrupted.lin						marks/line_interrupted.lin
+EXPORT RescueX/marks/road_curb.lin								marks/road_curb.lin
+EXPORT RescueX/marks/road_small.lin								marks/road_small.lin
+EXPORT RescueX/marks/road_small01.lin							marks/road_small01.lin
+
+EXPORT RescueX/marks/pfad.lin									marks/dirttrack_halb.lin
+EXPORT RescueX/marks/feldweg.lin								marks/dirttrack_small.lin
+EXPORT RescueX/marks/landing_careful.pol						marks/careful.pol
+EXPORT RescueX/marks/runway_closed.pol							marks/closed.pol
+EXPORT RescueX/marks/taxiing_not_limited.pol					marks/taxiing_not_limited.pol
+EXPORT RescueX/marks/taxiways_only.pol							marks/taxiways_only.pol
+
+EXPORT RescueX/marks/schiene.lin								RLP_SL/chris16/schiene.lin
+EXPORT RescueX/marks/metallband.lin								RLP_SL/chris16/metallband.lin
+
+#facades
+
+EXPORT RescueX/facades/bretterzaun_o.fac						facades/bretterzaun_o.fac
+EXPORT RescueX/facades/begrenzungshecke_o.fac					facades/begrenzungshecke_o.fac
+
+#people
+
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_004.obj		people/CIV/Ground/1/People_CIV_GND_01_004.obj
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_014.obj		people/CIV/Ground/1/People_CIV_GND_01_014.obj
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_016.obj		people/CIV/Ground/1/People_CIV_GND_01_016.obj
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_023.obj		people/CIV/Ground/1/People_CIV_GND_01_023.obj
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_024.obj		people/CIV/Ground/1/People_CIV_GND_01_024.obj
+EXPORT RescueX/people/CIV/Ground/1/People_CIV_GND_01_033.obj		people/CIV/Ground/1/People_CIV_GND_01_033.obj
+
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_001.obj			people/CIV/PAX/1/People_CIV_PAX_01_001.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_002.obj			people/CIV/PAX/1/People_CIV_PAX_01_002.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_004.obj			people/CIV/PAX/1/People_CIV_PAX_01_004.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_010.obj			people/CIV/PAX/1/People_CIV_PAX_01_010.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_011.obj			people/CIV/PAX/1/People_CIV_PAX_01_011.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_012.obj			people/CIV/PAX/1/People_CIV_PAX_01_012.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_013.obj			people/CIV/PAX/1/People_CIV_PAX_01_013.obj
+EXPORT RescueX/people/CIV/PAX/1/People_CIV_PAX_01_025.obj			people/CIV/PAX/1/People_CIV_PAX_01_025.obj
+
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_001.obj			people/CIV/PAX/3/People_CIV_PAX_03_001.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_002.obj			people/CIV/PAX/3/People_CIV_PAX_03_002.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_003.obj			people/CIV/PAX/3/People_CIV_PAX_03_003.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_004.obj			people/CIV/PAX/3/People_CIV_PAX_03_004.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_005.obj			people/CIV/PAX/3/People_CIV_PAX_03_005.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_008.obj			people/CIV/PAX/3/People_CIV_PAX_03_008.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_010.obj			people/CIV/PAX/3/People_CIV_PAX_03_010.obj
+EXPORT RescueX/people/CIV/PAX/3/People_CIV_PAX_03_025.obj			people/CIV/PAX/3/People_CIV_PAX_03_025.obj
+
+EXPORT RescueX/people/CIV/STAFF/1/People_CIV_STAFF_01_005.obj		people/CIV/STAFF/1/People_CIV_STAFF_01_005.obj
+EXPORT RescueX/people/CIV/STAFF/1/People_CIV_STAFF_01_010.obj		people/CIV/STAFF/1/People_CIV_STAFF_01_010.obj
+EXPORT RescueX/people/CIV/STAFF/1/People_CIV_STAFF_01_014.obj		people/CIV/STAFF/1/People_CIV_STAFF_01_014.obj
+EXPORT RescueX/people/CIV/STAFF/1/People_CIV_STAFF_01_023.obj		people/CIV/STAFF/1/People_CIV_STAFF_01_023.obj
+
+EXPORT RescueX/people/Bergwacht/Bergwacht_Hubschraubereinweiser.obj	people/Bergwacht/Bergwacht_Hubschraubereinweiser.obj
+EXPORT RescueX/people/Bergwacht/Bergwacht_Luftretter.obj			people/Bergwacht/Bergwacht_Luftretter.obj
+EXPORT RescueX/people/Bergwacht/Bergwacht_Luftretter2.obj			people/Bergwacht/Bergwacht_Luftretter2.obj
+
+
+# regionale Ersetzungen und Ergänzungen
+
+REGION_DEFINE RescueXGermany
+REGION_BITMAP region_d.png
+REGION RescueXGermany
+
+EXPORT lib/cars/police_car.obj									cars/Polizei_FuStw_01_lit.obj
+EXPORT lib/cars/police_car.obj									cars/RTW_01.obj
+EXPORT lib/cars/police_car.obj									cars/NEF_Passat_sb1099_lit.obj
+
+REGION_DEFINE Karlsruhe
+REGION_RECT 6 47 15 55
+REGION Karlsruhe
+
+EXPORT lib/trains/R_head.obj		trains/straba_ka_head.obj
+EXPORT lib/trains/R_body.obj		trains/straba_ka_mid2.obj
+EXPORT lib/trains/R_tail.obj		trains/straba_ka_back.obj

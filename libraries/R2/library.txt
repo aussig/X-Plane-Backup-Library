@@ -1,0 +1,1299 @@
+A
+800
+LIBRARY
+
+# R2 library - version: 2
+
+EXPORT R2_Library/_meritko.obj buildings/meritko.obj
+
+# ----------------------------------
+# autogen
+# ----------------------------------
+
+# domky
+# ----------------------------------
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10a.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10b.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10c.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10d.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10e.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10f.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10g.obj
+EXPORT R2_Library/autogen/domky/domek-Soliter_10x10.obj buildings/domekSol_10x10h.obj
+
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19a.obj
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19b.obj
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19c.obj
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19d.obj
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19e.obj
+EXPORT R2_Library/autogen/domky/domek-2x_10x19.obj buildings/domek2x_10x19f.obj
+
+EXPORT R2_Library/autogen/domky/plochaStrecha_11x13.obj buildings/domekPlo_11x13a.obj
+EXPORT R2_Library/autogen/domky/plochaStrecha_11x13.obj buildings/domekPlo_11x13b.obj
+EXPORT R2_Library/autogen/domky/plochaStrecha_11x13.obj buildings/domekPlo_11x13c.obj
+EXPORT R2_Library/autogen/domky/plochaStrecha_11x13.obj buildings/domekPlo_11x13d.obj
+
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10a.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10b.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10c.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10d.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10e.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10f.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10g.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10h.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10i.obj
+EXPORT R2_Library/autogen/domky/domek_1p_10m.obj buildings/domek_1p_10j.obj
+
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15a.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15b.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15c.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15d.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15e.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15f.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15g.obj
+EXPORT R2_Library/autogen/domky/domek_1p_15m.obj buildings/domek_1p_15h.obj
+
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19a.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19b.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19c.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19d.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19e.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19f.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19g.obj
+EXPORT R2_Library/autogen/domky/domek_1p_19m.obj buildings/domek_1p_19h.obj
+
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10a.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10b.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10c.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10d.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10e.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10f.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10g.obj
+EXPORT R2_Library/autogen/domky/domek_2p_10m.obj buildings/domek_2p_10h.obj
+
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15a.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15b.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15c.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15d.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15e.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15f.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15g.obj
+EXPORT R2_Library/autogen/domky/domek_2p_15m.obj buildings/domek_2p_15h.obj
+
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19a.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19b.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19c.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19d.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19e.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19f.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19g.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19h.obj
+EXPORT R2_Library/autogen/domky/domek_2p_19m.obj buildings/domek_2p_19i.obj
+
+EXPORT R2_Library/autogen/domky/domekPodelny_20m.obj buildings/domekPodelny_20a.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_20m.obj buildings/domekPodelny_20b.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_20m.obj buildings/domekPodelny_20c.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_20m.obj buildings/domekPodelny_20d.obj
+
+EXPORT R2_Library/autogen/domky/domekPodelny_25m.obj buildings/domekPodelny_25a.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_25m.obj buildings/domekPodelny_25b.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_25m.obj buildings/domekPodelny_25c.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_25m.obj buildings/domekPodelny_25d.obj
+
+EXPORT R2_Library/autogen/domky/domekPodelny_30m.obj buildings/domekPodelny_30a.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_30m.obj buildings/domekPodelny_30b.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_30m.obj buildings/domekPodelny_30c.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_30m.obj buildings/domekPodelny_30d.obj
+
+EXPORT R2_Library/autogen/domky/domekPodelny_35m.obj buildings/domekPodelny_35a.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_35m.obj buildings/domekPodelny_35b.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_35m.obj buildings/domekPodelny_35c.obj
+EXPORT R2_Library/autogen/domky/domekPodelny_35m.obj buildings/domekPodelny_35d.obj
+
+# RD
+# ----------------------------------
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12e.obj
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12a.obj
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12b.obj
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12c.obj
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12d.obj
+EXPORT R2_Library/autogen/domky/RD_12x12.obj buildings/RD_12x12f.obj
+
+EXPORT R2_Library/autogen/domky/RD_12x15.obj buildings/RD_12x15a.obj
+EXPORT R2_Library/autogen/domky/RD_12x15.obj buildings/RD_12x15b.obj
+EXPORT R2_Library/autogen/domky/RD_12x15.obj buildings/RD_12x15c.obj
+EXPORT R2_Library/autogen/domky/RD_12x15.obj buildings/RD_12x15d.obj
+
+EXPORT R2_Library/autogen/domky/RD-2x_12x20.obj buildings/RD2x_12x20d.obj
+EXPORT R2_Library/autogen/domky/RD-2x_12x20.obj buildings/RD2x_12x20a.obj
+EXPORT R2_Library/autogen/domky/RD-2x_12x20.obj buildings/RD2x_12x20b.obj
+EXPORT R2_Library/autogen/domky/RD-2x_12x20.obj buildings/RD2x_12x20c.obj
+
+EXPORT R2_Library/autogen/domky/RD-L_15x15.obj buildings/RD-L_15x15b.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x15.obj buildings/RD-L_15x15a.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x15.obj buildings/RD-L_15x15c.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x15.obj buildings/RD-L_15x15d.obj
+
+EXPORT R2_Library/autogen/domky/RD-L_15x20.obj buildings/RD-L_15x20c.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x20.obj buildings/RD-L_15x20a.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x20.obj buildings/RD-L_15x20b.obj
+EXPORT R2_Library/autogen/domky/RD-L_15x20.obj buildings/RD-L_15x20d.obj
+
+# viladomy
+# ----------------------------------
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13a.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13b.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13c.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13d.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13e.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13f.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13g.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x13.obj buildings/vilaSol_13x13h.obj
+
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16a.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16b.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16c.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16d.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16e.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16f.obj
+EXPORT R2_Library/autogen/domky/vila-Soliter_13x16.obj buildings/vilaSol_13x16g.obj
+
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26a.obj
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26b.obj
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26c.obj
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26d.obj
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26e.obj
+EXPORT R2_Library/autogen/domky/vila-2x_13x26.obj buildings/vila-2x_13x26f.obj
+
+# hospodarske
+# ----------------------------------
+EXPORT R2_Library/autogen/hospodarske/stodola_20m.obj buildings/stodola_20a.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_20m.obj buildings/stodola_20b.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_20m.obj buildings/stodola_20c.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_20m.obj buildings/stodola_20d.obj
+
+EXPORT R2_Library/autogen/hospodarske/stodola_25m.obj buildings/stodola_25a.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_25m.obj buildings/stodola_25b.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_25m.obj buildings/stodola_25c.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_25m.obj buildings/stodola_25d.obj
+
+EXPORT R2_Library/autogen/hospodarske/stodola_30m.obj buildings/stodola_30a.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_30m.obj buildings/stodola_30b.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_30m.obj buildings/stodola_30c.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_30m.obj buildings/stodola_30d.obj
+
+EXPORT R2_Library/autogen/hospodarske/stodola_35m.obj buildings/stodola_35a.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_35m.obj buildings/stodola_35b.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_35m.obj buildings/stodola_35c.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_35m.obj buildings/stodola_35d.obj
+
+EXPORT R2_Library/autogen/hospodarske/stodola_40m.obj buildings/stodola_40a.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_40m.obj buildings/stodola_40b.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_40m.obj buildings/stodola_40c.obj
+EXPORT R2_Library/autogen/hospodarske/stodola_40m.obj buildings/stodola_40d.obj
+
+# radove sekce
+# ----------------------------------
+EXPORT R2_Library/autogen/radove_sekce/radovyPlocha_13x13.obj buildings/radovyPlocha_13x13a.obj
+EXPORT R2_Library/autogen/radove_sekce/radovyPlocha_13x13.obj buildings/radovyPlocha_13x13b.obj
+EXPORT R2_Library/autogen/radove_sekce/radovyPlocha_13x13.obj buildings/radovyPlocha_13x13c.obj
+EXPORT R2_Library/autogen/radove_sekce/radovyPlocha_13x13.obj buildings/radovyPlocha_13x13d.obj
+
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10a.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10b.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10c.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10d.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10e.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10f.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10g.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10h.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10i.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10.obj buildings/radovaVila_12x10j.obj
+
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10_krajni.obj buildings/radovaVila_12x10kr_a.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10_krajni.obj buildings/radovaVila_12x10kr_b.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10_krajni.obj buildings/radovaVila_12x10kr_c.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10_krajni.obj buildings/radovaVila_12x10kr_d.obj
+EXPORT R2_Library/autogen/radove_sekce/radovaVila_12x10_krajni.obj buildings/radovaVila_12x10kr_e.obj
+
+# radove
+# ----------------------------------
+EXPORT R2_Library/autogen/radove/radovy_PlochaStrecha_13m.str strings/radovy_PlochaStrecha_13m.str
+EXPORT R2_Library/autogen/radove/radovy_Vila_10m.str strings/radovy_Vila_10m.str
+EXPORT R2_Library/autogen/radove/radovy_Cinzovni-5p_19m.str strings/radovy_Cinzovni-5p_19m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1-2p_10m.str strings/rada_domky_1-2p_10m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1-2p_15m.str strings/rada_domky_1-2p_15m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1-2p_19m.str strings/rada_domky_1-2p_19m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1p_10m.str strings/rada_domky_1p_10m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1p_15m.str strings/rada_domky_1p_15m.str
+EXPORT R2_Library/autogen/radove/rada_domky_1p_19m.str strings/rada_domky_1p_19m.str
+EXPORT R2_Library/autogen/radove/rada_domky_2p_10m.str strings/rada_domky_2p_10m.str
+EXPORT R2_Library/autogen/radove/rada_domky_2p_15m.str strings/rada_domky_2p_15m.str
+EXPORT R2_Library/autogen/radove/rada_domky_2p_19m.str strings/rada_domky_2p_19m.str
+
+# kostely
+# ----------------------------------
+EXPORT R2_Library/autogen/kostely/kostel-19m.obj buildings/kostel-19m-zluty.obj
+EXPORT R2_Library/autogen/kostely/kostel-19m.obj buildings/kostel-19m-cerveny.obj
+EXPORT R2_Library/autogen/kostely/kostel-19m.obj buildings/kostel-19m-sedy.obj
+EXPORT R2_Library/autogen/kostely/kostel-27m.obj buildings/kostel-27m-zluty.obj
+EXPORT R2_Library/autogen/kostely/kostel-27m.obj buildings/kostel-27m-cerveny.obj
+EXPORT R2_Library/autogen/kostely/kostel-27m.obj buildings/kostel-27m-sedy.obj
+EXPORT R2_Library/autogen/kostely/kostel-41m.obj buildings/kostel-41m-zluty.obj
+EXPORT R2_Library/autogen/kostely/kostel-41m.obj buildings/kostel-41m-cerveny.obj
+EXPORT R2_Library/autogen/kostely/kostel-41m.obj buildings/kostel-41m-sedy.obj
+
+# stromy
+# ----------------------------------
+EXPORT R2_Library/autogen/stromy/strom_topol.obj trees/str_topol01.obj
+EXPORT R2_Library/autogen/stromy/strom_topol.obj trees/str_topol02.obj
+EXPORT R2_Library/autogen/stromy/strom_topol.obj trees/str_topol03.obj
+
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_list-sad_01.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_list-sad_02.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_list-sad_03.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_list-sad_04.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_list-sad_05.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_briza01.obj
+EXPORT R2_Library/autogen/stromy/strom_zahrada.obj trees/str_briza02.obj
+
+EXPORT R2_Library/autogen/stromy/strom_krovi.obj trees/str_krovi01.obj
+EXPORT R2_Library/autogen/stromy/strom_krovi.obj trees/str_krovi02.obj
+EXPORT R2_Library/autogen/stromy/strom_krovi.obj trees/str_krovi03.obj
+EXPORT R2_Library/autogen/stromy/strom_krovi.obj trees/str_krovi04.obj
+EXPORT R2_Library/autogen/stromy/strom_krovi.obj trees/str_krovi05.obj
+
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list09.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list14.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list19.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list20.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list22.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list-sad_06.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty_maly.obj trees/str_list-sad_07.obj
+
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list01.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list02.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list03.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list04.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list05.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list06.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list10.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list11.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list12.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list13.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list15.obj
+EXPORT R2_Library/autogen/stromy/strom_listnaty.obj trees/str_list18.obj
+
+EXPORT R2_Library/autogen/stromy/strom_park.obj trees/str_list08.obj
+EXPORT R2_Library/autogen/stromy/strom_park.obj trees/str_list16.obj
+EXPORT R2_Library/autogen/stromy/strom_park.obj trees/str_list17.obj
+EXPORT R2_Library/autogen/stromy/strom_park.obj trees/str_list21.obj
+
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor02.obj
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor03.obj
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor04.obj
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor05.obj
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor06.obj
+EXPORT R2_Library/autogen/stromy/strom_borovice.obj trees/str_bor07.obj
+
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl01.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl02.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl03.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl04.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl05.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl06.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl07.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl08.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl09.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl10.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl11.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan.obj trees/str_jehl12.obj
+
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan_maly.obj trees/str_jehl14.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan_maly.obj trees/str_jehl16.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan_maly.obj trees/str_jehl17.obj
+EXPORT R2_Library/autogen/stromy/strom_jehlicnan_maly.obj trees/str_jehl18.obj
+
+# aleje
+# ----------------------------------
+EXPORT R2_Library/autogen/stromy/alej_topol_30m.str strings/alej_topol_30m.str
+EXPORT R2_Library/autogen/stromy/alej_ovocna_30m.str strings/alej_ovocna_30m.str
+EXPORT R2_Library/autogen/stromy/alej_listnata_20m.str strings/alej_listnata_20m.str
+EXPORT R2_Library/autogen/stromy/alej_listnata_stara_30m.str strings/alej_listnata_stara_30m.str
+EXPORT R2_Library/autogen/stromy/alej_remizek_5m.str strings/alej_remizek_5m.str
+
+# elektrarny
+EXPORT R2_Library/autogen/elektrarny/velektrarna_100m.obj industrial/velektrarna_100.obj
+EXPORT R2_Library/autogen/elektrarny/velektrarna_100m.obj industrial/velektrarna_100_1.obj
+EXPORT R2_Library/autogen/elektrarny/velektrarna_100m.obj industrial/velektrarna_100_2.obj
+
+# autogen chladici veze kour-bezkoure
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A50.obj industrial/chvez_A50.obj
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A50.obj industrial/chvez_kour_A50.obj
+
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A70.obj industrial/chvez_A70.obj
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A70.obj industrial/chvez_kour_A70.obj
+
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A95.obj industrial/chvez_A95.obj
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A95.obj industrial/chvez_kour_A95.obj
+
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A130.obj industrial/chvez_A130.obj
+EXPORT R2_Library/autogen/elektrarny/chladici_vez_A130.obj industrial/chvez_kour_A130.obj
+
+# autogen billboard
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-1.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-2.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-3.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-4.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-5.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-6.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-11.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-12.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-13.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-14.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-15.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-16.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-21.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-22.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-23.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-24.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-25.obj
+EXPORT R2_Library/autogen/reklamy/billboard-900x360.obj industrial/billboard-900x360-26.obj
+
+# autogen vodojem
+EXPORT R2_Library/autogen/vodojem_reklama.obj industrial/vodojem_BILY.obj
+EXPORT R2_Library/autogen/vodojem_reklama.obj industrial/vodojem_ORION.obj
+EXPORT R2_Library/autogen/vodojem_reklama.obj industrial/vodojem_VEOLIA.obj
+EXPORT R2_Library/autogen/vodojem_reklama.obj industrial/vodojem_VEOLIA2.obj
+EXPORT R2_Library/autogen/vodojem_reklama.obj industrial/vodojem_VODAFONE.obj
+
+# ----------------------------------
+# buildings
+# ----------------------------------
+
+# panelaky
+# ----------------------------------
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_12p_75m_4s.obj buildings/panA12_4s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_10p_75m_4s.obj buildings/panA12_4s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_75m_4s.obj buildings/panA12_4s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_75m_4s.obj buildings/panA12_4s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_12p_56m_3s.obj buildings/panA12_3s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_10p_56m_3s.obj buildings/panA12_3s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_56m_3s.obj buildings/panA12_3s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_56m_3s.obj buildings/panA12_3s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_4p_56m_3s.obj buildings/panA12_3s4p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_12p_37m_2s.obj buildings/panA12_2s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_10p_37m_2s.obj buildings/panA12_2s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_37m_2s.obj buildings/panA12_2s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_37m_2s.obj buildings/panA12_2s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_4p_37m_2s.obj buildings/panA12_2s4p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_12p_19m_1s.obj buildings/panA12_1s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_10p_19m_1s.obj buildings/panA12_1s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_19m_1s.obj buildings/panA12_1s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_19m_1s.obj buildings/panA12_1s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_4p_19m_1s.obj buildings/panA12_1s4p.obj
+
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_30m.obj buildings/panA12_m8-8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_30m.obj buildings/panA12_m8-6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_48m.obj buildings/panA12_m13-8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_48m.obj buildings/panA12_m13-6p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_8p_63m.obj buildings/panA12_m17-8p.obj
+EXPORT R2_Library/budovy/bytove/panel_12m/panA12_6p_63m.obj buildings/panA12_m17-6p.obj
+
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_12p_75m_4s.obj buildings/panB16_4s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_10p_75m_4s.obj buildings/panB16_4s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_8p_75m_4s.obj buildings/panB16_4s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_6p_75m_4s.obj buildings/panB16_4s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_12p_56m_3s.obj buildings/panB16_3s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_10p_56m_3s.obj buildings/panB16_3s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_8p_56m_3s.obj buildings/panB16_3s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_6p_56m_3s.obj buildings/panB16_3s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_14p_37m_2s.obj buildings/panB16_2s14p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_12p_37m_2s.obj buildings/panB16_2s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_10p_37m_2s.obj buildings/panB16_2s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_8p_37m_2s.obj buildings/panB16_2s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_6p_37m_2s.obj buildings/panB16_2s6p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_14p_19m_1s.obj buildings/panB16_1s14p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_12p_19m_1s.obj buildings/panB16_1s12p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_10p_19m_1s.obj buildings/panB16_1s10p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_8p_19m_1s.obj buildings/panB16_1s8p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_6p_19m_1s.obj buildings/panB16_1s6p.obj
+
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_14p_25m.obj buildings/panB16_m4-14p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_12p_25m.obj buildings/panB16_m4-12p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_10p_25m.obj buildings/panB16_m4-10p.obj
+EXPORT R2_Library/budovy/bytove/panel_16m/panB16_8p_25m.obj buildings/panB16_m4-8p.obj
+
+EXPORT R2_Library/budovy/bytove/panel_central/panC1_14p.obj buildings/panC1_14p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panC1_12p.obj buildings/panC1_12p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panC1_10p.obj buildings/panC1_10p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panC1_8p.obj buildings/panC1_8p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panZ1_14p.obj buildings/panZ1_14p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panZ1_12p.obj buildings/panZ1_12p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panZ1_10p.obj buildings/panZ1_10p.obj
+EXPORT R2_Library/budovy/bytove/panel_central/panZ1_8p.obj buildings/panZ1_8p.obj
+
+# haly
+# ----------------------------------
+EXPORT R2_Library/budovy/haly/hala_56x85a.obj buildings/hala_56x85a.obj
+EXPORT R2_Library/budovy/haly/hala_56x125a.obj buildings/hala_56x125a.obj
+EXPORT R2_Library/budovy/haly/hala_76x180a.obj buildings/hala_76x180a.obj
+EXPORT R2_Library/budovy/haly/hala_80x100a.obj buildings/hala_80x100a.obj
+EXPORT R2_Library/budovy/haly/hala_100x100a.obj buildings/hala_100x100a.obj
+EXPORT R2_Library/budovy/haly/hala_100x160a.obj buildings/hala_100x160a.obj
+EXPORT R2_Library/budovy/haly/hala_130x260a.obj buildings/hala_130x260a.obj
+
+# cinzaky
+# ----------------------------------
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_34m.obj buildings/cinz5p_34m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_38m.obj buildings/cinz5p_38m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_42m.obj buildings/cinz5p_42m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_46m.obj buildings/cinz5p_46m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_57m.obj buildings/cinz5p_57m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_65m.obj buildings/cinz5p_65m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_76m.obj buildings/cinz5p_76m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_95m.obj buildings/cinz5p_95m.obj
+
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_kraj-19m.obj buildings/cinz5p_kraj-19m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_roh-90.obj buildings/cinz5p_roh-90a.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_rada-38m.obj buildings/cinz5p_rada-38m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_rada-57m.obj buildings/cinz5p_rada-57m.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_rada-76m.obj buildings/cinz5p_rada-76m.obj
+
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_a.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_b.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_c.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_d.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_e.obj
+EXPORT R2_Library/budovy/bytove/cinz_5p/cinz5p_sekce-19m.obj buildings/cinz5p_radovy_f.obj
+
+# domky - soliterni
+# ----------------------------------
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10a.obj buildings/domekSol_10x10a.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10b.obj buildings/domekSol_10x10b.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10c.obj buildings/domekSol_10x10c.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10d.obj buildings/domekSol_10x10d.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10e.obj buildings/domekSol_10x10e.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10f.obj buildings/domekSol_10x10f.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10g.obj buildings/domekSol_10x10g.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-Soliter_10x10h.obj buildings/domekSol_10x10h.obj
+
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19a.obj buildings/domek2x_10x19a.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19b.obj buildings/domek2x_10x19b.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19c.obj buildings/domek2x_10x19c.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19d.obj buildings/domek2x_10x19d.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19e.obj buildings/domek2x_10x19e.obj
+EXPORT R2_Library/budovy/domky/soliterni/domek-2x_10x19f.obj buildings/domek2x_10x19f.obj
+
+EXPORT R2_Library/budovy/domky/soliterni/plochaStrecha_11x13a.obj buildings/domekPlo_11x13a.obj
+EXPORT R2_Library/budovy/domky/soliterni/plochaStrecha_11x13b.obj buildings/domekPlo_11x13b.obj
+EXPORT R2_Library/budovy/domky/soliterni/plochaStrecha_11x13c.obj buildings/domekPlo_11x13c.obj
+EXPORT R2_Library/budovy/domky/soliterni/plochaStrecha_11x13d.obj buildings/domekPlo_11x13d.obj
+
+# domky - 1-2p
+# ----------------------------------
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10a.obj buildings/domek_1p_10a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10b.obj buildings/domek_1p_10b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10c.obj buildings/domek_1p_10c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10d.obj buildings/domek_1p_10d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10e.obj buildings/domek_1p_10e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10f.obj buildings/domek_1p_10f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10g.obj buildings/domek_1p_10g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10h.obj buildings/domek_1p_10h.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10i.obj buildings/domek_1p_10i.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_10j.obj buildings/domek_1p_10j.obj
+
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15a.obj buildings/domek_1p_15a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15b.obj buildings/domek_1p_15b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15c.obj buildings/domek_1p_15c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15d.obj buildings/domek_1p_15d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15e.obj buildings/domek_1p_15e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15f.obj buildings/domek_1p_15f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15g.obj buildings/domek_1p_15g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_15h.obj buildings/domek_1p_15h.obj
+
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19a.obj buildings/domek_1p_19a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19b.obj buildings/domek_1p_19b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19c.obj buildings/domek_1p_19c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19d.obj buildings/domek_1p_19d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19e.obj buildings/domek_1p_19e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19f.obj buildings/domek_1p_19f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19g.obj buildings/domek_1p_19g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_1p_19h.obj buildings/domek_1p_19h.obj
+
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10a.obj buildings/domek_2p_10a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10b.obj buildings/domek_2p_10b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10c.obj buildings/domek_2p_10c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10d.obj buildings/domek_2p_10d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10e.obj buildings/domek_2p_10e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10f.obj buildings/domek_2p_10f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10g.obj buildings/domek_2p_10g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_10h.obj buildings/domek_2p_10h.obj
+
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15a.obj buildings/domek_2p_15a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15b.obj buildings/domek_2p_15b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15c.obj buildings/domek_2p_15c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15d.obj buildings/domek_2p_15d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15e.obj buildings/domek_2p_15e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15f.obj buildings/domek_2p_15f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15g.obj buildings/domek_2p_15g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_15h.obj buildings/domek_2p_15h.obj
+
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19a.obj buildings/domek_2p_19a.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19b.obj buildings/domek_2p_19b.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19c.obj buildings/domek_2p_19c.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19d.obj buildings/domek_2p_19d.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19e.obj buildings/domek_2p_19e.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19f.obj buildings/domek_2p_19f.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19g.obj buildings/domek_2p_19g.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19h.obj buildings/domek_2p_19h.obj
+EXPORT R2_Library/budovy/domky/1-2p/domek_2p_19i.obj buildings/domek_2p_19i.obj
+
+# domky - podelne
+# ----------------------------------
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_20a.obj buildings/domekPodelny_20a.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_20b.obj buildings/domekPodelny_20b.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_20c.obj buildings/domekPodelny_20c.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_20d.obj buildings/domekPodelny_20d.obj
+
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_25a.obj buildings/domekPodelny_25a.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_25b.obj buildings/domekPodelny_25b.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_25c.obj buildings/domekPodelny_25c.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_25d.obj buildings/domekPodelny_25d.obj
+
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_30a.obj buildings/domekPodelny_30a.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_30b.obj buildings/domekPodelny_30b.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_30c.obj buildings/domekPodelny_30c.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_30d.obj buildings/domekPodelny_30d.obj
+
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_35a.obj buildings/domekPodelny_35a.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_35b.obj buildings/domekPodelny_35b.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_35c.obj buildings/domekPodelny_35c.obj
+EXPORT R2_Library/budovy/domky/podelne/domekPodelny_35d.obj buildings/domekPodelny_35d.obj
+
+# domky - RD
+# ----------------------------------
+EXPORT R2_Library/budovy/domky/RD/RD_12x12a.obj buildings/RD_12x12a.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x12b.obj buildings/RD_12x12b.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x12c.obj buildings/RD_12x12c.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x12d.obj buildings/RD_12x12d.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x12e.obj buildings/RD_12x12e.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x12f.obj buildings/RD_12x12f.obj
+
+EXPORT R2_Library/budovy/domky/RD/RD_12x15a.obj buildings/RD_12x15a.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x15b.obj buildings/RD_12x15b.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x15c.obj buildings/RD_12x15c.obj
+EXPORT R2_Library/budovy/domky/RD/RD_12x15d.obj buildings/RD_12x15d.obj
+
+EXPORT R2_Library/budovy/domky/RD/RD-2x_12x20a.obj buildings/RD2x_12x20a.obj
+EXPORT R2_Library/budovy/domky/RD/RD-2x_12x20b.obj buildings/RD2x_12x20b.obj
+EXPORT R2_Library/budovy/domky/RD/RD-2x_12x20c.obj buildings/RD2x_12x20c.obj
+EXPORT R2_Library/budovy/domky/RD/RD-2x_12x20d.obj buildings/RD2x_12x20d.obj
+
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x15a.obj buildings/RD-L_15x15a.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x15b.obj buildings/RD-L_15x15b.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x15c.obj buildings/RD-L_15x15c.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x15d.obj buildings/RD-L_15x15d.obj
+
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x20a.obj buildings/RD-L_15x20a.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x20b.obj buildings/RD-L_15x20b.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x20c.obj buildings/RD-L_15x20c.obj
+EXPORT R2_Library/budovy/domky/RD/RD-L_15x20d.obj buildings/RD-L_15x20d.obj
+
+# viladomy
+# ----------------------------------
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13a.obj buildings/vilaSol_13x13a.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13b.obj buildings/vilaSol_13x13b.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13c.obj buildings/vilaSol_13x13c.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13d.obj buildings/vilaSol_13x13d.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13e.obj buildings/vilaSol_13x13e.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13f.obj buildings/vilaSol_13x13f.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13g.obj buildings/vilaSol_13x13g.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x13h.obj buildings/vilaSol_13x13h.obj
+
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16a.obj buildings/vilaSol_13x16a.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16b.obj buildings/vilaSol_13x16b.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16c.obj buildings/vilaSol_13x16c.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16d.obj buildings/vilaSol_13x16d.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16e.obj buildings/vilaSol_13x16e.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16f.obj buildings/vilaSol_13x16f.obj
+EXPORT R2_Library/budovy/viladomy/vila-Soliter_13x16g.obj buildings/vilaSol_13x16g.obj
+
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26a.obj buildings/vila-2x_13x26a.obj
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26b.obj buildings/vila-2x_13x26b.obj
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26c.obj buildings/vila-2x_13x26c.obj
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26d.obj buildings/vila-2x_13x26d.obj
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26e.obj buildings/vila-2x_13x26e.obj
+EXPORT R2_Library/budovy/viladomy/vila-2x_13x26f.obj buildings/vila-2x_13x26f.obj
+
+# hospodarske
+# ----------------------------------
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_20a.obj buildings/stodola_20a.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_20b.obj buildings/stodola_20b.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_20c.obj buildings/stodola_20c.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_20d.obj buildings/stodola_20d.obj
+
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_25a.obj buildings/stodola_25a.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_25b.obj buildings/stodola_25b.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_25c.obj buildings/stodola_25c.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_25d.obj buildings/stodola_25d.obj
+
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_30a.obj buildings/stodola_30a.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_30b.obj buildings/stodola_30b.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_30c.obj buildings/stodola_30c.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_30d.obj buildings/stodola_30d.obj
+
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_35a.obj buildings/stodola_35a.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_35b.obj buildings/stodola_35b.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_35c.obj buildings/stodola_35c.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_35d.obj buildings/stodola_35d.obj
+
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_40a.obj buildings/stodola_40a.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_40b.obj buildings/stodola_40b.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_40c.obj buildings/stodola_40c.obj
+EXPORT R2_Library/budovy/hospodarske/stodola/stodola_40d.obj buildings/stodola_40d.obj
+
+# radove sekce
+# ----------------------------------
+EXPORT R2_Library/budovy/radove_sekce/radovyPlocha_13x13a.obj buildings/radovyPlocha_13x13a.obj
+EXPORT R2_Library/budovy/radove_sekce/radovyPlocha_13x13b.obj buildings/radovyPlocha_13x13b.obj
+EXPORT R2_Library/budovy/radove_sekce/radovyPlocha_13x13c.obj buildings/radovyPlocha_13x13c.obj
+EXPORT R2_Library/budovy/radove_sekce/radovyPlocha_13x13d.obj buildings/radovyPlocha_13x13d.obj
+
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10a.obj buildings/radovaVila_12x10a.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10b.obj buildings/radovaVila_12x10b.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10c.obj buildings/radovaVila_12x10c.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10d.obj buildings/radovaVila_12x10d.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10e.obj buildings/radovaVila_12x10e.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10f.obj buildings/radovaVila_12x10f.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10g.obj buildings/radovaVila_12x10g.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10h.obj buildings/radovaVila_12x10h.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10i.obj buildings/radovaVila_12x10i.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10j.obj buildings/radovaVila_12x10j.obj
+
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10kraj_a.obj buildings/radovaVila_12x10kr_a.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10kraj_b.obj buildings/radovaVila_12x10kr_b.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10kraj_c.obj buildings/radovaVila_12x10kr_c.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10kraj_d.obj buildings/radovaVila_12x10kr_d.obj
+EXPORT R2_Library/budovy/radove_sekce/radovaVila_12x10kraj_e.obj buildings/radovaVila_12x10kr_e.obj
+
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_a.obj buildings/cinz5p_radovy_a.obj
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_b.obj buildings/cinz5p_radovy_b.obj
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_c.obj buildings/cinz5p_radovy_c.obj
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_d.obj buildings/cinz5p_radovy_d.obj
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_e.obj buildings/cinz5p_radovy_e.obj
+EXPORT R2_Library/budovy/radove_sekce/cinz5p_radovy_f.obj buildings/cinz5p_radovy_f.obj
+
+# sklady
+# ----------------------------------
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_12m.obj buildings/sklad12_12m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_16m.obj buildings/sklad12_16m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_20m.obj buildings/sklad12_20m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_24m.obj buildings/sklad12_24m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_30m.obj buildings/sklad12_30m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_36m.obj buildings/sklad12_36m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_42m.obj buildings/sklad12_42m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_48m.obj buildings/sklad12_48m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_54m.obj buildings/sklad12_54m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_60m.obj buildings/sklad12_60m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_66m.obj buildings/sklad12_66m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_72m.obj buildings/sklad12_72m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_78m.obj buildings/sklad12_78m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_84m.obj buildings/sklad12_84m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_90m.obj buildings/sklad12_90m.obj
+EXPORT R2_Library/budovy/sklady/sklad_12m/sklad12_96m.obj buildings/sklad12_96m.obj
+
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_20m.obj buildings/sklad16_20m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_24m.obj buildings/sklad16_24m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_30m.obj buildings/sklad16_30m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_36m.obj buildings/sklad16_36m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_42m.obj buildings/sklad16_42m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_48m.obj buildings/sklad16_48m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_54m.obj buildings/sklad16_54m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_60m.obj buildings/sklad16_60m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_66m.obj buildings/sklad16_66m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_72m.obj buildings/sklad16_72m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_78m.obj buildings/sklad16_78m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_84m.obj buildings/sklad16_84m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_90m.obj buildings/sklad16_90m.obj
+EXPORT R2_Library/budovy/sklady/sklad_16m/sklad16_96m.obj buildings/sklad16_96m.obj
+
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_20m.obj buildings/sklad20_20m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_24m.obj buildings/sklad20_24m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_30m.obj buildings/sklad20_30m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_36m.obj buildings/sklad20_36m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_42m.obj buildings/sklad20_42m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_48m.obj buildings/sklad20_48m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_54m.obj buildings/sklad20_54m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_60m.obj buildings/sklad20_60m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_66m.obj buildings/sklad20_66m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_72m.obj buildings/sklad20_72m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_78m.obj buildings/sklad20_78m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_84m.obj buildings/sklad20_84m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_90m.obj buildings/sklad20_90m.obj
+EXPORT R2_Library/budovy/sklady/sklad_20m/sklad20_96m.obj buildings/sklad20_96m.obj
+
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_30m.obj buildings/sklad26_30m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_36m.obj buildings/sklad26_36m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_42m.obj buildings/sklad26_42m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_48m.obj buildings/sklad26_48m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_54m.obj buildings/sklad26_54m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_60m.obj buildings/sklad26_60m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_66m.obj buildings/sklad26_66m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_72m.obj buildings/sklad26_72m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_78m.obj buildings/sklad26_78m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_84m.obj buildings/sklad26_84m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_90m.obj buildings/sklad26_90m.obj
+EXPORT R2_Library/budovy/sklady/sklad_26m/sklad26_96m.obj buildings/sklad26_96m.obj
+
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_36m.obj buildings/sklad32_36m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_42m.obj buildings/sklad32_42m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_48m.obj buildings/sklad32_48m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_54m.obj buildings/sklad32_54m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_60m.obj buildings/sklad32_60m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_66m.obj buildings/sklad32_66m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_72m.obj buildings/sklad32_72m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_78m.obj buildings/sklad32_78m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_84m.obj buildings/sklad32_84m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_90m.obj buildings/sklad32_90m.obj
+EXPORT R2_Library/budovy/sklady/sklad_32m/sklad32_96m.obj buildings/sklad32_96m.obj
+
+# administrativa
+# ----------------------------------
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_24m.obj buildings/admA16_2p_24m.obj
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_30m.obj buildings/admA16_2p_30m.obj
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_36m.obj buildings/admA16_2p_36m.obj
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_42m.obj buildings/admA16_2p_42m.obj
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_48m.obj buildings/admA16_2p_48m.obj
+EXPORT R2_Library/budovy/admin/admin_A/2p/adminA16_2p_54m.obj buildings/admA16_2p_54m.obj
+
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_24m.obj buildings/admA12_4p_24m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_30m.obj buildings/admA12_4p_30m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_36m.obj buildings/admA12_4p_36m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_42m.obj buildings/admA12_4p_42m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_48m.obj buildings/admA12_4p_48m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_54m.obj buildings/admA12_4p_54m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_60m.obj buildings/admA12_4p_60m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_66m.obj buildings/admA12_4p_66m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_72m.obj buildings/admA12_4p_72m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_78m.obj buildings/admA12_4p_78m.obj
+EXPORT R2_Library/budovy/admin/admin_A/4p/adminA12_4p_84m.obj buildings/admA12_4p_84m.obj
+
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_24m.obj buildings/admA12_6p_24m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_30m.obj buildings/admA12_6p_30m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_36m.obj buildings/admA12_6p_36m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_42m.obj buildings/admA12_6p_42m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_48m.obj buildings/admA12_6p_48m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_54m.obj buildings/admA12_6p_54m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_60m.obj buildings/admA12_6p_60m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_66m.obj buildings/admA12_6p_66m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_72m.obj buildings/admA12_6p_72m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_78m.obj buildings/admA12_6p_78m.obj
+EXPORT R2_Library/budovy/admin/admin_A/6p/adminA12_6p_84m.obj buildings/admA12_6p_84m.obj
+
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_24m.obj buildings/admA12_8p_24m.obj
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_30m.obj buildings/admA12_8p_30m.obj
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_36m.obj buildings/admA12_8p_36m.obj
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_42m.obj buildings/admA12_8p_42m.obj
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_48m.obj buildings/admA12_8p_48m.obj
+EXPORT R2_Library/budovy/admin/admin_A/8p/adminA12_8p_54m.obj buildings/admA12_8p_54m.obj
+
+EXPORT R2_Library/budovy/admin/admin_A/10p/adminA12_10p_24m.obj buildings/admA12_10p_24m.obj
+EXPORT R2_Library/budovy/admin/admin_A/10p/adminA12_10p_30m.obj buildings/admA12_10p_30m.obj
+EXPORT R2_Library/budovy/admin/admin_A/10p/adminA12_10p_36m.obj buildings/admA12_10p_36m.obj
+EXPORT R2_Library/budovy/admin/admin_A/10p/adminA12_10p_42m.obj buildings/admA12_10p_42m.obj
+
+# kostely
+EXPORT R2_Library/budovy/kostely/kostel-19m-zluty.obj buildings/kostel-19m-zluty.obj
+EXPORT R2_Library/budovy/kostely/kostel-19m-cerveny.obj buildings/kostel-19m-cerveny.obj
+EXPORT R2_Library/budovy/kostely/kostel-19m-sedy.obj buildings/kostel-19m-sedy.obj
+EXPORT R2_Library/budovy/kostely/kostel-27m-zluty.obj buildings/kostel-27m-zluty.obj
+EXPORT R2_Library/budovy/kostely/kostel-27m-cerveny.obj buildings/kostel-27m-cerveny.obj
+EXPORT R2_Library/budovy/kostely/kostel-27m-sedy.obj buildings/kostel-27m-sedy.obj
+EXPORT R2_Library/budovy/kostely/kostel-41m-zluty.obj buildings/kostel-41m-zluty.obj
+EXPORT R2_Library/budovy/kostely/kostel-41m-cerveny.obj buildings/kostel-41m-cerveny.obj
+EXPORT R2_Library/budovy/kostely/kostel-41m-sedy.obj buildings/kostel-41m-sedy.obj
+EXPORT R2_Library/budovy/kostely/kostel-30m.obj buildings/kostel-30m.obj
+EXPORT R2_Library/budovy/kostely/kostel-50m.obj buildings/kostel-50m.obj
+
+# posedy
+EXPORT R2_Library/budovy/posedy/posed.obj buildings/posed.obj
+EXPORT R2_Library/budovy/posedy/posed-velky.obj buildings/posed-velky.obj
+
+# bunky
+EXPORT R2_Library/budovy/bunky/Bunka1.obj buildings/Bunka1.obj
+EXPORT R2_Library/budovy/bunky/Bunka2.obj buildings/Bunka2.obj
+EXPORT R2_Library/budovy/bunky/Bunka3.obj buildings/Bunka3.obj
+EXPORT R2_Library/budovy/bunky/Bunka4.obj buildings/Bunka4.obj
+
+# ----------------------------------
+# letiste hangary
+# ----------------------------------
+
+# hangary
+EXPORT R2_Library/budovy/letiste/hangary/hangar_ul.obj buildings/hangar_ul.obj
+EXPORT R2_Library/budovy/letiste/hangary/hangar_ul-o.obj buildings/hangar_ul-o.obj
+EXPORT R2_Library/budovy/letiste/hangary/hangar_50x32.obj buildings/hangar_50x32.obj
+
+# JB hangary
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-10x22m.obj buildings/JB_Hangar-10x22m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-10x27m.obj buildings/JB_Hangar-10x27m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-10x6m.obj buildings/JB_Hangar-10x6m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-11x10m.obj buildings/JB_Hangar-11x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-11x14m.obj buildings/JB_Hangar-11x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-122x11m.obj buildings/JB_Hangar-122x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x10m.obj buildings/JB_Hangar-12x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x11m.obj buildings/JB_Hangar-12x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x13m.obj buildings/JB_Hangar-12x13m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x15m-a.obj buildings/JB_Hangar-12x15m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x15m.obj buildings/JB_Hangar-12x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x18m.obj buildings/JB_Hangar-12x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x20m.obj buildings/JB_Hangar-12x20m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m-a.obj buildings/JB_Hangar-12x7m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m-b.obj buildings/JB_Hangar-12x7m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m-c.obj buildings/JB_Hangar-12x7m-c.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m-d.obj buildings/JB_Hangar-12x7m-d.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m-e.obj buildings/JB_Hangar-12x7m-e.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x7m.obj buildings/JB_Hangar-12x7m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-12x8m.obj buildings/JB_Hangar-12x8m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x11m-a.obj buildings/JB_Hangar-13x11m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x11m-b.obj buildings/JB_Hangar-13x11m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x11m.obj buildings/JB_Hangar-13x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x12m.obj buildings/JB_Hangar-13x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x14m.obj buildings/JB_Hangar-13x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x18m.obj buildings/JB_Hangar-13x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x35m.obj buildings/JB_Hangar-13x35m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x9m-a.obj buildings/JB_Hangar-13x9m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x9m-b.obj buildings/JB_Hangar-13x9m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-13x9m.obj buildings/JB_Hangar-13x9m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-a.obj buildings/JB_Hangar-14x11m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-b.obj buildings/JB_Hangar-14x11m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-c.obj buildings/JB_Hangar-14x11m-c.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-d.obj buildings/JB_Hangar-14x11m-d.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-e.obj buildings/JB_Hangar-14x11m-e.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-f.obj buildings/JB_Hangar-14x11m-f.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-g.obj buildings/JB_Hangar-14x11m-g.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-h.obj buildings/JB_Hangar-14x11m-h.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-i.obj buildings/JB_Hangar-14x11m-i.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-j.obj buildings/JB_Hangar-14x11m-j.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m-k.obj buildings/JB_Hangar-14x11m-k.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x11m.obj buildings/JB_Hangar-14x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x12m.obj buildings/JB_Hangar-14x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x14m.obj buildings/JB_Hangar-14x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x15m.obj buildings/JB_Hangar-14x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x16m.obj buildings/JB_Hangar-14x16m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x17m-a.obj buildings/JB_Hangar-14x17m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x17m-b.obj buildings/JB_Hangar-14x17m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x17m-c.obj buildings/JB_Hangar-14x17m-c.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x17m.obj buildings/JB_Hangar-14x17m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x8m.obj buildings/JB_Hangar-14x8m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-14x9m.obj buildings/JB_Hangar-14x9m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x11m.obj buildings/JB_Hangar-15x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m-a.obj buildings/JB_Hangar-15x12m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m-b.obj buildings/JB_Hangar-15x12m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m-c.obj buildings/JB_Hangar-15x12m-c.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m-d.obj buildings/JB_Hangar-15x12m-d.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m-e.obj buildings/JB_Hangar-15x12m-e.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x12m.obj buildings/JB_Hangar-15x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x14m-a.obj buildings/JB_Hangar-15x14m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x14m-b.obj buildings/JB_Hangar-15x14m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x14m.obj buildings/JB_Hangar-15x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x18m.obj buildings/JB_Hangar-15x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x9m-a.obj buildings/JB_Hangar-15x9m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-15x9m.obj buildings/JB_Hangar-15x9m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-16x12m.obj buildings/JB_Hangar-16x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-16x15m.obj buildings/JB_Hangar-16x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-16x18m.obj buildings/JB_Hangar-16x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-17x19m-a.obj buildings/JB_Hangar-17x19m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-17x19m.obj buildings/JB_Hangar-17x19m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x12m-a.obj buildings/JB_Hangar-18x12m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x12m-b.obj buildings/JB_Hangar-18x12m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x12m.obj buildings/JB_Hangar-18x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x13m-a.obj buildings/JB_Hangar-18x13m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x13m.obj buildings/JB_Hangar-18x13m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x15m.obj buildings/JB_Hangar-18x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x21m.obj buildings/JB_Hangar-18x21m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x24m.obj buildings/JB_Hangar-18x24m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x30m.obj buildings/JB_Hangar-18x30m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-18x9m.obj buildings/JB_Hangar-18x9m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-21x18m.obj buildings/JB_Hangar-21x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-21x20m.obj buildings/JB_Hangar-21x20m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-21x23m.obj buildings/JB_Hangar-21x23m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-21x30m.obj buildings/JB_Hangar-21x30m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-22x12m.obj buildings/JB_Hangar-22x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-22x24m.obj buildings/JB_Hangar-22x24m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-23x18m.obj buildings/JB_Hangar-23x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-23x20m.obj buildings/JB_Hangar-23x20m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-23x55m-a.obj buildings/JB_Hangar-23x55m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-23x55m.obj buildings/JB_Hangar-23x55m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-24x14m.obj buildings/JB_Hangar-24x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-24x18m.obj buildings/JB_Hangar-24x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-24x23m.obj buildings/JB_Hangar-24x23m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-24x32m-a.obj buildings/JB_Hangar-24x32m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-24x32m.obj buildings/JB_Hangar-24x32m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-25x15m.obj buildings/JB_Hangar-25x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-25x9m.obj buildings/JB_Hangar-25x9m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-27x112m.obj buildings/JB_Hangar-27x112m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-27x15m.obj buildings/JB_Hangar-27x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-28x10m.obj buildings/JB_Hangar-28x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-28x18m.obj buildings/JB_Hangar-28x18m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-30x23m.obj buildings/JB_Hangar-30x23m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-31x10m-a.obj buildings/JB_Hangar-31x10m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-31x10m.obj buildings/JB_Hangar-31x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-31x13m.obj buildings/JB_Hangar-31x13m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-32x15m-a.obj buildings/JB_Hangar-32x15m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-32x15m.obj buildings/JB_Hangar-32x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-32x37m.obj buildings/JB_Hangar-32x37m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-33x20m.obj buildings/JB_Hangar-33x20m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-34x11m.obj buildings/JB_Hangar-34x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-35x27m.obj buildings/JB_Hangar-35x27m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-35x30m-vez.obj buildings/JB_Hangar-35x30m-vez.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-35x60m.obj buildings/JB_Hangar-35x60m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-36x16m.obj buildings/JB_Hangar-36x16m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-37x10m.obj buildings/JB_Hangar-37x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-38x15m-a.obj buildings/JB_Hangar-38x15m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-38x15m.obj buildings/JB_Hangar-38x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-38x26m.obj buildings/JB_Hangar-38x26m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-41x12m.obj buildings/JB_Hangar-41x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x11m-a.obj buildings/JB_Hangar-46x11m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x11m-b.obj buildings/JB_Hangar-46x11m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x11m-c.obj buildings/JB_Hangar-46x11m-c.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x11m-d.obj buildings/JB_Hangar-46x11m-d.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x11m.obj buildings/JB_Hangar-46x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x12m.obj buildings/JB_Hangar-46x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x14m.obj buildings/JB_Hangar-46x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x30m-a.obj buildings/JB_Hangar-46x30m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x30m-b.obj buildings/JB_Hangar-46x30m-b.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-46x30m.obj buildings/JB_Hangar-46x30m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-49x11m.obj buildings/JB_Hangar-49x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-49x12m-a.obj buildings/JB_Hangar-49x12m-a.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-49x12m.obj buildings/JB_Hangar-49x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-52x12m.obj buildings/JB_Hangar-52x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-55x11m.obj buildings/JB_Hangar-55x11m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-56x10m.obj buildings/JB_Hangar-56x10m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-58x21m.obj buildings/JB_Hangar-58x21m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-60x35m.obj buildings/JB_Hangar-60x35m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-69x12m.obj buildings/JB_Hangar-69x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-7x4m.obj buildings/JB_Hangar-7x4m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-80x12m.obj buildings/JB_Hangar-80x12m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-82x14m.obj buildings/JB_Hangar-82x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-87x15m.obj buildings/JB_Hangar-87x15m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-91x14m.obj buildings/JB_Hangar-91x14m.obj
+EXPORT R2_Library/budovy/letiste/hangary/JB_Hangar-9x11m.obj buildings/JB_Hangar-9x11m.obj
+
+# ----------------------------------
+# industrial
+# ----------------------------------
+
+# kominy
+EXPORT R2_Library/industrial/kominy/komin_A60.obj industrial/komin_A60.obj
+EXPORT R2_Library/industrial/kominy/komin_A80.obj industrial/komin_A80.obj
+EXPORT R2_Library/industrial/kominy/komin_A120.obj industrial/komin_A120.obj
+EXPORT R2_Library/industrial/kominy/komin_A160.obj industrial/komin_A160.obj
+EXPORT R2_Library/industrial/kominy/komin_A200.obj industrial/komin_A200.obj
+EXPORT R2_Library/industrial/kominy/komin_A250.obj industrial/komin_A250.obj
+EXPORT R2_Library/industrial/kominy/komin_B30.obj industrial/komin_B30.obj
+EXPORT R2_Library/industrial/kominy/komin_B30-h.obj industrial/komin_B30-h.obj
+EXPORT R2_Library/industrial/kominy/komin_B50.obj industrial/komin_B50.obj
+EXPORT R2_Library/industrial/kominy/komin_B100.obj industrial/komin_B100.obj
+EXPORT R2_Library/industrial/kominy/komin_B140.obj industrial/komin_B140.obj
+EXPORT R2_Library/industrial/kominy/komin_B180.obj industrial/komin_B180.obj
+EXPORT R2_Library/industrial/kominy/komin_B225.obj industrial/komin_B225.obj
+EXPORT R2_Library/industrial/kominy/komin_B275.obj industrial/komin_B275.obj
+EXPORT R2_Library/industrial/kominy/komin_B300.obj industrial/komin_B300.obj
+EXPORT R2_Library/industrial/kominy/komin_C40.obj industrial/komin_C40.obj
+EXPORT R2_Library/industrial/kominy/komin_C50.obj industrial/komin_C50.obj
+EXPORT R2_Library/industrial/kominy/komin_C70.obj industrial/komin_C70.obj
+
+# elektrarny
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_A50.obj industrial/chvez_A50.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_A70.obj industrial/chvez_A70.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_A95.obj industrial/chvez_A95.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_A130.obj industrial/chvez_A130.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_kour_A50.obj industrial/chvez_kour_A50.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_kour_A70.obj industrial/chvez_kour_A70.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_kour_A95.obj industrial/chvez_kour_A95.obj
+EXPORT R2_Library/industrial/elektrarny/chladici_vez_kour_A130.obj industrial/chvez_kour_A130.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_100m.obj industrial/velektrarna_100.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_120m.obj industrial/velektrarna_120.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_150m.obj industrial/velektrarna_150.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_pasiv_100m.obj industrial/velektrarna_pasiv_100.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_pasiv_120m.obj industrial/velektrarna_pasiv_120.obj
+EXPORT R2_Library/industrial/elektrarny/velektrarna_pasiv_150m.obj industrial/velektrarna_pasiv_150.obj
+EXPORT R2_Library/industrial/elektrarny/solar_panel_25m.obj industrial/solar_panel_25m.obj
+EXPORT R2_Library/industrial/elektrarny/solar_panel_50m.obj industrial/solar_panel_50m.obj
+EXPORT R2_Library/industrial/elektrarny/solar_panel_75m.obj industrial/solar_panel_75m.obj
+EXPORT R2_Library/industrial/elektrarny/solar_panel_100m.obj industrial/solar_panel_100m.obj
+EXPORT R2_Library/industrial/elektrarny/reaktor.obj industrial/reaktor.obj
+
+# billboardy
+EXPORT R2_Library/industrial/reklamy/mattoni_orlice.obj industrial/mattoni_orlice.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-1.obj industrial/billboard-900x360-1.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-2.obj industrial/billboard-900x360-2.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-3.obj industrial/billboard-900x360-3.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-4.obj industrial/billboard-900x360-4.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-5.obj industrial/billboard-900x360-5.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-6.obj industrial/billboard-900x360-6.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-11.obj industrial/billboard-900x360-11.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-12.obj industrial/billboard-900x360-12.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-13.obj industrial/billboard-900x360-13.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-14.obj industrial/billboard-900x360-14.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-15.obj industrial/billboard-900x360-15.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-16.obj industrial/billboard-900x360-16.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-21.obj industrial/billboard-900x360-21.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-22.obj industrial/billboard-900x360-22.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-23.obj industrial/billboard-900x360-23.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-24.obj industrial/billboard-900x360-24.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-25.obj industrial/billboard-900x360-25.obj
+EXPORT R2_Library/industrial/reklamy/billboard-900x360-26.obj industrial/billboard-900x360-26.obj
+
+# vodojemy
+EXPORT R2_Library/industrial/hydro/vodojem_A1_38m.obj industrial/vodojem_A1_38m.obj
+EXPORT R2_Library/industrial/hydro/vodojem_B1_50m.obj industrial/vodojem_B1_50m.obj
+EXPORT R2_Library/industrial/hydro/vodojem_BILY.obj industrial/vodojem_BILY.obj
+EXPORT R2_Library/industrial/hydro/vodojem_ORION.obj industrial/vodojem_ORION.obj
+EXPORT R2_Library/industrial/hydro/vodojem_VEOLIA.obj industrial/vodojem_VEOLIA.obj
+EXPORT R2_Library/industrial/hydro/vodojem_VEOLIA2.obj industrial/vodojem_VEOLIA2.obj
+EXPORT R2_Library/industrial/hydro/vodojem_VODAFONE.obj industrial/vodojem_VODAFONE.obj
+
+# nadrze
+EXPORT R2_Library/industrial/nadrze/Nadrz_koule_16m.obj industrial/Nadrz_koule_16m.obj
+EXPORT R2_Library/industrial/nadrze/nadrz12m.obj industrial/nadrz12m.obj
+EXPORT R2_Library/industrial/nadrze/nadrz22m.obj industrial/nadrz22m.obj
+EXPORT R2_Library/industrial/nadrze/nadrz36m.obj industrial/nadrz36m.obj
+EXPORT R2_Library/industrial/nadrze/nadrz65m.obj industrial/nadrz65m.obj
+EXPORT R2_Library/industrial/nadrze/nadrz88m.obj industrial/nadrz88m.obj
+
+# bts
+EXPORT R2_Library/industrial/bts/BTSka_autogen.obj industrial/BTSka_autogen.obj
+EXPORT R2_Library/industrial/bts/BTSka_mala.obj industrial/BTSka_mala.obj
+EXPORT R2_Library/industrial/bts/BTSka_velka.obj industrial/BTSka_velka.obj
+
+# ----------------------------------
+# forests
+# ----------------------------------
+EXPORT R2_Library/zelen/lesy/les_jehlicnaty.for forests/les_jeh.for
+EXPORT R2_Library/zelen/lesy/les_jehlicnaty_borovy.for forests/les_jeh_bor.for
+EXPORT R2_Library/zelen/lesy/les_jehlicnaty_kraj.for forests/les_jeh_kraj.for
+EXPORT R2_Library/zelen/lesy/les_listnaty.for forests/les_list.for
+EXPORT R2_Library/zelen/lesy/les_listnaty_sad.for forests/les_list_sad.for
+EXPORT R2_Library/zelen/lesy/les_smiseny.for forests/les_mix.for
+EXPORT R2_Library/zelen/lesy/les_remizky.for forests/les_remizky.for
+EXPORT R2_Library/zelen/lesy/les_brezovy.for forests/les_briza.for
+EXPORT R2_Library/zelen/lesy/les_topoly.for forests/les_topol.for
+
+# ----------------------------------
+# trees
+# ----------------------------------
+EXPORT R2_Library/zelen/stromy/str_briza01.obj trees/str_briza01.obj
+EXPORT R2_Library/zelen/stromy/str_briza02.obj trees/str_briza02.obj
+EXPORT R2_Library/zelen/stromy/str_briza03.obj trees/str_briza03.obj
+EXPORT R2_Library/zelen/stromy/str_briza04.obj trees/str_briza04.obj
+
+EXPORT R2_Library/zelen/stromy/str_bor01.obj trees/str_bor01.obj
+EXPORT R2_Library/zelen/stromy/str_bor02.obj trees/str_bor02.obj
+EXPORT R2_Library/zelen/stromy/str_bor03.obj trees/str_bor03.obj
+EXPORT R2_Library/zelen/stromy/str_bor04.obj trees/str_bor04.obj
+EXPORT R2_Library/zelen/stromy/str_bor05.obj trees/str_bor05.obj
+EXPORT R2_Library/zelen/stromy/str_bor06.obj trees/str_bor06.obj
+EXPORT R2_Library/zelen/stromy/str_bor07.obj trees/str_bor07.obj
+EXPORT R2_Library/zelen/stromy/str_bor08.obj trees/str_bor08.obj
+
+EXPORT R2_Library/zelen/stromy/str_jehl01.obj trees/str_jehl01.obj
+EXPORT R2_Library/zelen/stromy/str_jehl02.obj trees/str_jehl02.obj
+EXPORT R2_Library/zelen/stromy/str_jehl03.obj trees/str_jehl03.obj
+EXPORT R2_Library/zelen/stromy/str_jehl04.obj trees/str_jehl04.obj
+EXPORT R2_Library/zelen/stromy/str_jehl05.obj trees/str_jehl05.obj
+EXPORT R2_Library/zelen/stromy/str_jehl06.obj trees/str_jehl06.obj
+EXPORT R2_Library/zelen/stromy/str_jehl07.obj trees/str_jehl07.obj
+EXPORT R2_Library/zelen/stromy/str_jehl08.obj trees/str_jehl08.obj
+EXPORT R2_Library/zelen/stromy/str_jehl09.obj trees/str_jehl09.obj
+EXPORT R2_Library/zelen/stromy/str_jehl10.obj trees/str_jehl10.obj
+EXPORT R2_Library/zelen/stromy/str_jehl11.obj trees/str_jehl11.obj
+EXPORT R2_Library/zelen/stromy/str_jehl12.obj trees/str_jehl12.obj
+EXPORT R2_Library/zelen/stromy/str_jehl13.obj trees/str_jehl13.obj
+EXPORT R2_Library/zelen/stromy/str_jehl14.obj trees/str_jehl14.obj
+EXPORT R2_Library/zelen/stromy/str_jehl15.obj trees/str_jehl15.obj
+EXPORT R2_Library/zelen/stromy/str_jehl16.obj trees/str_jehl16.obj
+EXPORT R2_Library/zelen/stromy/str_jehl17.obj trees/str_jehl17.obj
+EXPORT R2_Library/zelen/stromy/str_jehl18.obj trees/str_jehl18.obj
+
+EXPORT R2_Library/zelen/stromy/str_list01.obj trees/str_list01.obj
+EXPORT R2_Library/zelen/stromy/str_list02.obj trees/str_list02.obj
+EXPORT R2_Library/zelen/stromy/str_list03.obj trees/str_list03.obj
+EXPORT R2_Library/zelen/stromy/str_list04.obj trees/str_list04.obj
+EXPORT R2_Library/zelen/stromy/str_list05.obj trees/str_list05.obj
+EXPORT R2_Library/zelen/stromy/str_list06.obj trees/str_list06.obj
+EXPORT R2_Library/zelen/stromy/str_list07.obj trees/str_list07.obj
+EXPORT R2_Library/zelen/stromy/str_list08.obj trees/str_list08.obj
+EXPORT R2_Library/zelen/stromy/str_list09.obj trees/str_list09.obj
+EXPORT R2_Library/zelen/stromy/str_list10.obj trees/str_list10.obj
+EXPORT R2_Library/zelen/stromy/str_list11.obj trees/str_list11.obj
+EXPORT R2_Library/zelen/stromy/str_list12.obj trees/str_list12.obj
+EXPORT R2_Library/zelen/stromy/str_list13.obj trees/str_list13.obj
+EXPORT R2_Library/zelen/stromy/str_list14.obj trees/str_list14.obj
+EXPORT R2_Library/zelen/stromy/str_list15.obj trees/str_list15.obj
+EXPORT R2_Library/zelen/stromy/str_list16.obj trees/str_list16.obj
+EXPORT R2_Library/zelen/stromy/str_list17.obj trees/str_list17.obj
+EXPORT R2_Library/zelen/stromy/str_list18.obj trees/str_list18.obj
+EXPORT R2_Library/zelen/stromy/str_list19.obj trees/str_list19.obj
+EXPORT R2_Library/zelen/stromy/str_list20.obj trees/str_list20.obj
+EXPORT R2_Library/zelen/stromy/str_list21.obj trees/str_list21.obj
+EXPORT R2_Library/zelen/stromy/str_list22.obj trees/str_list22.obj
+
+EXPORT R2_Library/zelen/stromy/str_list-sad_01.obj trees/str_list-sad_01.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_02.obj trees/str_list-sad_02.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_03.obj trees/str_list-sad_03.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_04.obj trees/str_list-sad_04.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_05.obj trees/str_list-sad_05.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_06.obj trees/str_list-sad_06.obj
+EXPORT R2_Library/zelen/stromy/str_list-sad_07.obj trees/str_list-sad_07.obj
+
+EXPORT R2_Library/zelen/stromy/str_krovi01.obj trees/str_krovi01.obj
+EXPORT R2_Library/zelen/stromy/str_krovi02.obj trees/str_krovi02.obj
+EXPORT R2_Library/zelen/stromy/str_krovi03.obj trees/str_krovi03.obj
+EXPORT R2_Library/zelen/stromy/str_krovi04.obj trees/str_krovi04.obj
+EXPORT R2_Library/zelen/stromy/str_krovi05.obj trees/str_krovi05.obj
+
+EXPORT R2_Library/zelen/stromy/str_topol01.obj trees/str_topol01.obj
+EXPORT R2_Library/zelen/stromy/str_topol02.obj trees/str_topol02.obj
+EXPORT R2_Library/zelen/stromy/str_topol03.obj trees/str_topol03.obj
+
+# ----------------------------------
+# polys
+# ----------------------------------
+
+# asfalt
+EXPORT R2_Library/plochy/asfalt-stredni.pol polys/asfalt-stredni.pol
+EXPORT R2_Library/plochy/asfalt-svetly.pol polys/asfalt-svetly.pol
+EXPORT R2_Library/plochy/asfalt-tmavy.pol polys/asfalt-tmavy.pol
+EXPORT R2_Library/plochy/pol_beton1.pol polys/pol_beton1.pol
+
+# grass
+EXPORT R2_Library/plochy/trava/trava-zelena-syta.pol polys/grass/trava-zelena-syta.pol
+EXPORT R2_Library/plochy/trava/trava-hneda.pol polys/grass/trava-hneda.pol
+EXPORT R2_Library/plochy/trava/povrch-jemny-svetly.pol polys/grass/povrch-jemny-svetly.pol
+EXPORT R2_Library/plochy/trava/trava-zelena.pol polys/grass/trava-zelena.pol
+EXPORT R2_Library/plochy/trava/povrch-hrubsi-tmavsi.pol polys/grass/povrch-hrubsi-tmavsi.pol
+EXPORT R2_Library/plochy/trava/trava-desatur.pol polys/grass/trava-desatur.pol
+EXPORT R2_Library/plochy/trava/povrch-hruby-svetly.pol polys/grass/povrch-hruby-svetly.pol
+EXPORT R2_Library/plochy/trava/povrch-hruby-tmavsi.pol polys/grass/povrch-hruby-tmavsi.pol
+EXPORT R2_Library/plochy/trava/povrch-hrubsi-svetly.pol polys/grass/povrch-hrubsi-svetly.pol
+EXPORT R2_Library/plochy/trava/povrch-jemny-tmavsi.pol polys/grass/povrch-jemny-tmavsi.pol
+
+# ----------------------------------
+# facades
+# ----------------------------------
+
+# fences
+EXPORT R2_Library/fasady/ploty/otevreny-sikmy-seda.fac facades/fences/otevreny-sikmy-seda.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-sikmy-seda.fac facades/fences/uzavreny-sikmy-seda.fac
+EXPORT R2_Library/fasady/ploty/otevreny-sikmy-seda-bezstredu.fac facades/fences/otevreny-sikmy-seda-bezstredu.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-sikmy-seda-bezstredu.fac facades/fences/uzavreny-sikmy-seda-bezstredu.fac
+EXPORT R2_Library/fasady/ploty/otevreny-plny-seda.fac facades/fences/otevreny-plny-seda.fac
+EXPORT R2_Library/fasady/ploty/otevreny-sikmy-zel.fac facades/fences/otevreny-sikmy-zel.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-sikmy-zel.fac facades/fences/uzavreny-sikmy-zel.fac
+EXPORT R2_Library/fasady/ploty/otevreny-sikmy-zel-bezstredu.fac facades/fences/otevreny-sikmy-zel-bezstredu.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-sikmy-zel-bezstredu.fac facades/fences/uzavreny-sikmy-zel-bezstredu.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-vzor-seda.fac facades/fences/uzavreny-vzor-seda.fac
+EXPORT R2_Library/fasady/ploty/uzavreny-plny-seda.fac facades/fences/uzavreny-plny-seda.fac
+EXPORT R2_Library/fasady/ploty/otevreny-vzor-seda.fac facades/fences/otevreny-vzor-seda.fac
+
+# ----------------------------------
+# lines
+# ----------------------------------
+
+# paths
+EXPORT R2_Library/linie/silnice/silnice-2.lin lines/paths/silnice-2.lin
+EXPORT R2_Library/linie/silnice/silnice-1.lin lines/paths/silnice-1.lin
+EXPORT R2_Library/linie/silnice/silnice-4.lin lines/paths/silnice-4.lin
+EXPORT R2_Library/linie/silnice/silnice-3.lin lines/paths/silnice-3.lin
+EXPORT R2_Library/linie/silnice/polni-cesta-plna.lin lines/paths/polni-cesta-plna.lin
+EXPORT R2_Library/linie/silnice/polni-cesta-koleje-normal.lin lines/paths/polni-cesta-koleje-normal.lin
+EXPORT R2_Library/linie/silnice/polni-cesta-koleje-tmava.lin lines/paths/polni-cesta-koleje-tmava.lin
+EXPORT R2_Library/linie/silnice/polni-cesta-uzka.lin lines/paths/polni-cesta-uzka.lin
+
+# -------------------------------------
+# doprava
+# -------------------------------------
+
+# vozidla
+EXPORT R2_Library/doprava/vozidla/s105-red.obj doprava/vozidla/s105-red.obj
+EXPORT R2_Library/doprava/vozidla/s105-blue.obj doprava/vozidla/s105-blue.obj
+EXPORT R2_Library/doprava/vozidla/s105-green.obj doprava/vozidla/s105-green.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25.obj doprava/vozidla/liaz101cas25.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25-o.obj doprava/vozidla/liaz101cas25-o.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25+svet.obj doprava/vozidla/liaz101cas25+S.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25+svet+maj.obj doprava/vozidla/liaz101cas25+SM.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25-o+svet.obj doprava/vozidla/liaz101cas25-o+S.obj
+EXPORT R2_Library/doprava/vozidla/liaz101cas25-o+svet+maj.obj doprava/vozidla/liaz101cas25-o+SM.obj
+EXPORT R2_Library/doprava/vozidla/avia.obj doprava/vozidla/avia.obj
+EXPORT R2_Library/doprava/vozidla/skoda_favorit_blue.obj doprava/vozidla/skoda_favorit_blue.obj
+EXPORT R2_Library/doprava/vozidla/skoda_favorit_red.obj doprava/vozidla/skoda_favorit_red.obj
+EXPORT R2_Library/doprava/vozidla/skoda_favorit_white.obj doprava/vozidla/skoda_favorit_white.obj
+EXPORT R2_Library/doprava/vozidla/skoda_favorit_yellow.obj doprava/vozidla/skoda_favorit_yellow.obj
+EXPORT R2_Library/doprava/vozidla/T815.obj doprava/vozidla/T815.obj
+EXPORT R2_Library/doprava/vozidla/z7745.obj doprava/vozidla/z7745.obj
+EXPORT R2_Library/doprava/vozidla/bus_mhd.obj doprava/vozidla/bus_mhd.obj
+EXPORT R2_Library/doprava/vozidla/DAF55.obj doprava/vozidla/DAF55.obj
+EXPORT R2_Library/doprava/vozidla/bus_2.obj doprava/vozidla/bus_2.obj
+
+# privesy
+EXPORT R2_Library/doprava/privesy/karavan_maly.obj doprava/privesy/karavan_maly.obj
+EXPORT R2_Library/doprava/privesy/karavan_velky.obj doprava/privesy/karavan_velky.obj
+
+# letadla
+EXPORT R2_Library/doprava/letadla/L60_LKF.obj doprava/letadla/L60_LKF.obj
+EXPORT R2_Library/doprava/letadla/L60_NNB.obj doprava/letadla/L60_NNB.obj
+EXPORT R2_Library/doprava/letadla/z37_JKA.obj doprava/letadla/z37_JKA.obj
+EXPORT R2_Library/doprava/letadla/Allegro2000_OKCUU45.obj doprava/letadla/Allegro2000_OKCUU45.obj
+EXPORT R2_Library/doprava/letadla/Tulak_OKBUR02.obj doprava/letadla/Tulak_OKBUR02.obj
+EXPORT R2_Library/doprava/letadla/Tulak_OKGUD01.obj doprava/letadla/Tulak_OKGUD01.obj
+EXPORT R2_Library/doprava/letadla/Typhoon_OKYUU33.obj doprava/letadla/Typhoon_OKYUU33.obj
+EXPORT R2_Library/doprava/letadla/ZlinXII_OKBTB.obj doprava/letadla/ZlinXII_OKBTB.obj
+
+# kolejova
+EXPORT R2_Library/doprava/kolejova/vlak_471a.obj doprava/trains/vlak_471a.obj
+EXPORT R2_Library/doprava/kolejova/vlak_471b.obj doprava/trains/vlak_471b.obj
+EXPORT R2_Library/doprava/kolejova/vlak_471c.obj doprava/trains/vlak_471c.obj
+EXPORT R2_Library/doprava/kolejova/tram_t6a.obj doprava/trains/tram_t6a.obj
+EXPORT R2_Library/doprava/kolejova/tram_t6b.obj doprava/trains/tram_t6b.obj
+EXPORT R2_Library/doprava/kolejova/motoracek.obj doprava/trains/motoracek.obj
+EXPORT R2_Library/doprava/kolejova/lok_nakl_di.obj doprava/trains/lok_nakl_di.obj
+EXPORT R2_Library/doprava/kolejova/lok_rychl_el.obj doprava/trains/lok_rychl_el.obj
+EXPORT R2_Library/doprava/kolejova/vag_nakl_kr.obj doprava/trains/vag_nakl_kr.obj
+EXPORT R2_Library/doprava/kolejova/vag_nakl_pl_1.obj doprava/trains/vag_nakl_pl_1.obj
+EXPORT R2_Library/doprava/kolejova/vag_nakl_pl_2.obj doprava/trains/vag_nakl_pl_2.obj
+EXPORT R2_Library/doprava/kolejova/vag_nakl_pl_3.obj doprava/trains/vag_nakl_pl_3.obj
+EXPORT R2_Library/doprava/kolejova/vag_nakl_uh.obj doprava/trains/vag_nakl_uh.obj
+EXPORT R2_Library/doprava/kolejova/vag_rychl_os_1.obj doprava/trains/vag_rychl_os_1.obj
+
+# -------------------------------------
+# letiste
+# -------------------------------------
+
+# palivo
+EXPORT R2_Library/letiste/palivo/nadrz-stojan-jeta1.obj airport/fuel/nadrz-stojan-jeta1.obj
+EXPORT R2_Library/letiste/palivo/stojan-palivo.obj airport/fuel/stojan-palivo.obj
+EXPORT R2_Library/letiste/palivo/Cerpacka_1.obj airport/fuel/Cerpacka_1.obj
+EXPORT R2_Library/letiste/palivo/Cerpacka_2.obj airport/fuel/Cerpacka_2.obj
+
+# heliporty
+EXPORT R2_Library/letiste/heliporty/heliport_beton_10x10.obj airport/heliports/heliport_beton_10x10.obj
+EXPORT R2_Library/letiste/heliporty/heliport_asfalt_10x10.obj airport/heliports/heliport_asfalt_10x10.obj
+EXPORT R2_Library/letiste/heliporty/heliport_beton_15x15.obj airport/heliports/heliport_beton_15x15.obj
+EXPORT R2_Library/letiste/heliporty/heliport_asfalt_15x15.obj airport/heliports/heliport_asfalt_15x15.obj
+
+# doplnky
+EXPORT R2_Library/letiste/doplnky/dlazdice_draha.obj airport/accessories/dlazdice_draha.obj
+EXPORT R2_Library/letiste/doplnky/oznaceni_letiste.obj airport/accessories/oznaceni_letiste.obj
+EXPORT R2_Library/letiste/doplnky/oznaceni_letiste_dlouhe.obj airport/accessories/oznaceni_letiste_dlouhe.obj
+EXPORT R2_Library/letiste/doplnky/praporek_bily.obj airport/accessories/praporek_bily.obj
+EXPORT R2_Library/letiste/doplnky/praporek_oranzovy.obj airport/accessories/praporek_oranzovy.obj
+EXPORT R2_Library/letiste/doplnky/sudy_CB_letiste.obj airport/accessories/sudy_CB_letiste.obj
+EXPORT R2_Library/letiste/doplnky/sudy_letiste.obj airport/accessories/sudy_letiste.obj
+EXPORT R2_Library/letiste/doplnky/kuzel_cerveny.obj airport/accessories/kuzel_cerveny.obj
+EXPORT R2_Library/letiste/doplnky/kuzel_modry.obj airport/accessories/kuzel_modry.obj
+EXPORT R2_Library/letiste/doplnky/kuzely_cervene.obj airport/accessories/kuzely_cervene.obj
+EXPORT R2_Library/letiste/doplnky/kuzely_modre.obj airport/accessories/kuzely_modre.obj
+EXPORT R2_Library/letiste/doplnky/znaceni_letiste_prkna.obj airport/accessories/znaceni_letiste_prkna.obj

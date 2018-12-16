@@ -1,0 +1,204 @@
+A
+800
+LIBRARY
+
+# RA library - version: 1.2
+
+
+EXPORT RA_Library/Textures/Asphalt01.pol   Textures/Asphalt01.pol
+EXPORT RA_Library/Textures/Asphalt02.pol   Textures/Asphalt02.pol
+EXPORT RA_Library/Textures/Asphalt03.pol   Textures/Asphalt03.pol
+EXPORT RA_Library/Textures/Asphalt04.pol   Textures/Asphalt04.pol
+EXPORT RA_Library/Textures/Asphalt05.pol   Textures/Asphalt05.pol
+EXPORT RA_Library/Textures/Asphalt06.pol   Textures/Asphalt06.pol
+EXPORT RA_Library/Textures/Asphalt08.pol   Textures/Asphalt08.pol
+EXPORT RA_Library/Textures/Asphalt09.pol   Textures/Asphalt09.pol
+EXPORT RA_Library/Textures/Asphalt10.pol   Textures/Asphalt10.pol
+EXPORT RA_Library/Textures/Asphalt11.pol   Textures/Asphalt11.pol
+EXPORT RA_Library/Textures/Concrete01.pol   Textures/Concrete01.pol
+EXPORT RA_Library/Textures/Concrete02.pol   Textures/Concrete02.pol
+EXPORT RA_Library/Textures/Concrete03.pol   Textures/Concrete03.pol
+EXPORT RA_Library/Textures/Concrete04.pol   Textures/Concrete04.pol
+EXPORT RA_Library/Textures/Concrete05.pol   Textures/Concrete05.pol
+EXPORT RA_Library/Textures/Concrete06.pol   Textures/Concrete06.pol
+EXPORT RA_Library/Textures/Concrete07.pol   Textures/Concrete07.pol
+EXPORT RA_Library/Textures/Concrete08.pol   Textures/Concrete08.pol
+EXPORT RA_Library/Textures/Dirt01.pol   Textures/Dirt01.pol
+EXPORT RA_Library/Textures/Dirt02.pol   Textures/Dirt02.pol
+EXPORT RA_Library/Textures/Stone.pol   Textures/Stone.pol
+
+
+
+EXPORT RA_Library/Overlays/overlay01_Pol.pol   Overlays/overlay01_Pol.pol
+EXPORT RA_Library/Overlays/overlay01_LineL.lin   Overlays/overlay01_LineL.lin
+EXPORT RA_Library/Overlays/overlay01_LineXL.lin   Overlays/overlay01_LineXL.lin
+EXPORT RA_Library/Overlays/overlay02_Pol.pol   Overlays/overlay02_Pol.pol
+EXPORT RA_Library/Overlays/overlay02_LineL.lin   Overlays/overlay02_LineL.lin
+EXPORT RA_Library/Overlays/overlay02_LineXL.lin   Overlays/overlay02_LineXL.lin
+EXPORT RA_Library/Overlays/overlay03_Pol.pol   Overlays/overlay03_Pol.pol
+EXPORT RA_Library/Overlays/overlay03_LineL.lin   Overlays/overlay03_LineL.lin
+EXPORT RA_Library/Overlays/overlay03_LineXL.lin   Overlays/overlay03_LineXL.lin
+EXPORT RA_Library/Overlays/overlay04_Pol.pol   Overlays/overlay04_Pol.pol
+EXPORT RA_Library/Overlays/overlay04_LineL.lin   Overlays/overlay04_LineL.lin
+EXPORT RA_Library/Overlays/overlay04_LineXL.lin   Overlays/overlay04_LineXL.lin
+EXPORT RA_Library/Overlays/overlay05_Pol.pol   Overlays/overlay05_Pol.pol
+EXPORT RA_Library/Overlays/overlay05_LineL.lin   Overlays/overlay05_LineL.lin
+EXPORT RA_Library/Overlays/overlay05_LineXL.lin   Overlays/overlay05_LineXL.lin
+EXPORT RA_Library/Overlays/overlay06.pol   Overlays/overlay06.pol
+EXPORT RA_Library/Overlays/overlay07_Pol.pol   Overlays/overlay07_Pol.pol
+EXPORT RA_Library/Overlays/overlay07_LineL.lin   Overlays/overlay07_LineL.lin
+EXPORT RA_Library/Overlays/overlay08_Pol.pol   Overlays/overlay08_Pol.pol
+EXPORT RA_Library/Overlays/overlay08_LineL.lin   Overlays/overlay08_LineL.lin
+EXPORT RA_Library/Overlays/overlay09_Pol.pol   Overlays/overlay09_Pol.pol
+EXPORT RA_Library/Overlays/overlay09_LineL.lin   Overlays/overlay09_LineL.lin
+
+EXPORT RA_Library/Runways/QuickSpecular/asphalt_dark.pol   Runways/QuickSpecular/asphalt_dark.pol
+EXPORT RA_Library/Runways/QuickSpecular/asphalt_light.pol   Runways/QuickSpecular/asphalt_light.pol
+EXPORT RA_Library/Runways/QuickSpecular/asphalt_brown.pol   Runways/QuickSpecular/asphalt_brown.pol
+EXPORT RA_Library/Runways/QuickSpecular/concrete_dark.pol   Runways/QuickSpecular/concrete_dark.pol
+EXPORT RA_Library/Runways/QuickSpecular/concrete_light.pol   Runways/QuickSpecular/concrete_light.pol
+EXPORT RA_Library/Runways/QuickSpecular/concrete_brown.pol   Runways/QuickSpecular/concrete_brown.pol
+
+EXPORT RA_Library/Runways/Overlays/Runway_overlay01.lin   Runways/Overlays/Runway_overlay01.lin
+EXPORT RA_Library/Runways/Overlays/Runway_overlay02.lin   Runways/Overlays/Runway_overlay02.lin
+EXPORT RA_Library/Runways/Overlays/Grass_Runway.pol   Runways/Overlays/Grass_Runway.pol
+EXPORT RA_Library/Runways/Runway_EdgeMask.lin   Runways/Runway_EdgeMask.lin
+
+
+EXPORT RA_Library/Patches/Tar00.lin   Patches/Tar00.lin
+EXPORT RA_Library/Patches/Tar01_Line.lin   Patches/Tar01_Line.lin
+EXPORT RA_Library/Patches/Tar01_PolL.pol   Patches/Tar01_PolL.pol
+EXPORT RA_Library/Patches/Tar01_PolXL.pol   Patches/Tar01_PolXL.pol
+EXPORT RA_Library/Patches/Tar02_PolL.pol   Patches/Tar02_PolL.pol
+EXPORT RA_Library/Patches/Tar02_PolXL.pol   Patches/Tar02_PolXL.pol
+EXPORT RA_Library/Patches/Tar03_Pol.pol   Patches/Tar03_Pol.pol
+EXPORT RA_Library/Patches/Tar03_LineL.lin   Patches/Tar03_LineL.lin
+EXPORT RA_Library/Patches/Tar03_LineXL.lin   Patches/Tar03_LineXL.lin
+EXPORT RA_Library/Patches/Tar04_Line.lin   Patches/Tar04_Line.lin
+EXPORT RA_Library/Patches/Tar05_Line.lin   Patches/Tar05_Line.lin
+EXPORT RA_Library/Patches/Tar05_LineXL.lin   Patches/Tar05_LineXL.lin
+EXPORT RA_Library/Patches/Tar&Stains01.lin   Patches/Tar&Stains01.lin
+EXPORT RA_Library/Patches/Tar&Stains02.lin   Patches/Tar&Stains02.lin
+
+
+EXPORT RA_Library/Markings/1_single_taxi_new.lin   Markings/1_single_taxi_new.lin
+EXPORT RA_Library/Markings/2_single_taxi_dash_new.lin   Markings/2_single_taxi_dash_new.lin
+EXPORT RA_Library/Markings/3_double_taxi_new.lin   Markings/3_double_taxi_new.lin
+EXPORT RA_Library/Markings/4_double_hold_new.lin   Markings/4_double_hold_new.lin
+EXPORT RA_Library/Markings/5_single_hold_new.lin   Markings/5_single_hold_new.lin
+EXPORT RA_Library/Markings/6_ils_hold_new.lin   Markings/6_ils_hold_new.lin
+EXPORT RA_Library/Markings/7_taxi_hold_new.lin   Markings/7_taxi_hold_new.lin
+EXPORT RA_Library/Markings/8_single_parking_new.lin   Markings/8_single_parking_new.lin
+EXPORT RA_Library/Markings/9_double_parking_new.lin   Markings/9_double_parking_new.lin
+EXPORT RA_Library/Markings/20_road_edge_new.lin   Markings/20_road_edge_new.lin
+EXPORT RA_Library/Markings/21_road_edge_zipper_new.lin   Markings/21_road_edge_zipper_new.lin
+EXPORT RA_Library/Markings/22_road_edge_dash_new.lin   Markings/22_road_edge_dash_new.lin
+EXPORT RA_Library/Markings/51_single_taxi_b_new.lin   Markings/51_single_taxi_b_new.lin
+EXPORT RA_Library/Markings/52_single_taxi_dash_b_new.lin   Markings/52_single_taxi_dash_b_new.lin
+EXPORT RA_Library/Markings/53_double_taxi_b_new.lin   Markings/53_double_taxi_b_new.lin
+EXPORT RA_Library/Markings/54_double_hold_b_new.lin   Markings/54_double_hold_b_new.lin
+EXPORT RA_Library/Markings/55_single_hold_b_new.lin   Markings/55_single_hold_b_new.lin
+EXPORT RA_Library/Markings/56_ils_hold_b_new.lin   Markings/56_ils_hold_b_new.lin
+EXPORT RA_Library/Markings/57_taxi_hold_b_new.lin   Markings/57_taxi_hold_b_new.lin
+EXPORT RA_Library/Markings/58_single_parking_b_new.lin   Markings/58_single_parking_b_new.lin
+EXPORT RA_Library/Markings/59_double_parking_b_new.lin   Markings/59_double_parking_b_new.lin
+EXPORT RA_Library/Markings/1_single_taxi_old.lin   Markings/1_single_taxi_old.lin
+EXPORT RA_Library/Markings/2_single_taxi_dash_old.lin   Markings/2_single_taxi_dash_old.lin
+EXPORT RA_Library/Markings/3_double_taxi_old.lin   Markings/3_double_taxi_old.lin
+EXPORT RA_Library/Markings/4_double_hold_old.lin   Markings/4_double_hold_old.lin
+EXPORT RA_Library/Markings/5_single_hold_old.lin   Markings/5_single_hold_old.lin
+EXPORT RA_Library/Markings/6_ils_hold_old.lin   Markings/6_ils_hold_old.lin
+EXPORT RA_Library/Markings/7_taxi_hold_old.lin   Markings/7_taxi_hold_old.lin
+EXPORT RA_Library/Markings/8_single_parking_old.lin   Markings/8_single_parking_old.lin
+EXPORT RA_Library/Markings/9_double_parking_old.lin   Markings/9_double_parking_old.lin
+EXPORT RA_Library/Markings/20_road_edge_old.lin   Markings/20_road_edge_old.lin
+EXPORT RA_Library/Markings/21_road_edge_zipper_old.lin   Markings/21_road_edge_zipper_old.lin
+EXPORT RA_Library/Markings/22_road_edge_dash_old.lin   Markings/22_road_edge_dash_old.lin
+EXPORT RA_Library/Markings/51_single_taxi_b_old.lin   Markings/51_single_taxi_b_old.lin
+EXPORT RA_Library/Markings/52_single_taxi_dash_b_old.lin   Markings/52_single_taxi_dash_b_old.lin
+EXPORT RA_Library/Markings/53_double_taxi_b_old.lin   Markings/53_double_taxi_b_old.lin
+EXPORT RA_Library/Markings/54_double_hold_b_old.lin   Markings/54_double_hold_b_old.lin
+EXPORT RA_Library/Markings/55_single_hold_b_old.lin   Markings/55_single_hold_b_old.lin
+EXPORT RA_Library/Markings/56_ils_hold_b_old.lin   Markings/56_ils_hold_b_old.lin
+EXPORT RA_Library/Markings/57_taxi_hold_b_old.lin   Markings/57_taxi_hold_b_old.lin
+EXPORT RA_Library/Markings/58_single_parking_b_old.lin   Markings/58_single_parking_b_old.lin
+EXPORT RA_Library/Markings/59_double_parking_b_old.lin   Markings/59_double_parking_b_old.lin
+EXPORT RA_Library/Markings/big_line_yellow.lin   Markings/big_line_yellow.lin
+EXPORT RA_Library/Markings/big_line_white.lin   Markings/big_line_white.lin
+EXPORT RA_Library/Markings/Colour/white.pol   Markings/Colour/white.pol
+EXPORT RA_Library/Markings/Colour/black.pol   Markings/Colour/black.pol
+EXPORT RA_Library/Markings/Colour/red.pol   Markings/Colour/red.pol
+EXPORT RA_Library/Markings/Colour/yellow.pol   Markings/Colour/yellow.pol
+
+EXPORT RA_Library/Vegetation/DryLandscape/Bushes01.for   Vegetation/DryLandscape/Bushes01.for
+EXPORT RA_Library/Vegetation/DryLandscape/Bushes02.for   Vegetation/DryLandscape/Bushes02.for
+EXPORT RA_Library/Vegetation/DryLandscape/DryGrass01.for   Vegetation/DryLandscape/DryGrass01.for
+EXPORT RA_Library/Vegetation/DryLandscape/DryGrass02.for   Vegetation/DryLandscape/DryGrass02.for
+EXPORT RA_Library/Vegetation/DryLandscape/Grass4Edge01.for   Vegetation/DryLandscape/Grass4Edge01.for
+EXPORT RA_Library/Vegetation/DryLandscape/Grass4Edge02.for   Vegetation/DryLandscape/Grass4Edge02.for
+EXPORT RA_Library/Vegetation/DryLandscape/Grass4TarLine.for   Vegetation/DryLandscape/Grass4TarLine.for
+EXPORT RA_Library/Vegetation/DryLandscape/SmallGrass01.for   Vegetation/DryLandscape/SmallGrass01.for
+EXPORT RA_Library/Vegetation/DryLandscape/SmallGrass02.for   Vegetation/DryLandscape/SmallGrass02.for
+EXPORT RA_Library/Vegetation/DryLandscape/TallGrass01.for   Vegetation/DryLandscape/TallGrass01.for
+EXPORT RA_Library/Vegetation/DryLandscape/TallGrass02.for   Vegetation/DryLandscape/TallGrass02.for
+EXPORT RA_Library/Vegetation/DryLandscape/Grass&Shrubs01.for   Vegetation/DryLandscape/Grass&Shrubs01.for
+EXPORT RA_Library/Vegetation/DryLandscape/Grass&Shrubs02.for   Vegetation/DryLandscape/Grass&Shrubs02.for
+
+EXPORT RA_Library/Vegetation/GreenLandscape/Bushes01.for   Vegetation/GreenLandscape/Bushes01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Bushes02.for   Vegetation/GreenLandscape/Bushes02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/GreenGrass01.for   Vegetation/GreenLandscape/GreenGrass01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/GreenGrass02.for   Vegetation/GreenLandscape/GreenGrass02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Grass4Edge01.for   Vegetation/GreenLandscape/Grass4Edge01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Grass4Edge02.for   Vegetation/GreenLandscape/Grass4Edge02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Grass4TarLine.for   Vegetation/GreenLandscape/Grass4TarLine.for
+EXPORT RA_Library/Vegetation/GreenLandscape/SmallGrass01.for   Vegetation/GreenLandscape/SmallGrass01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/SmallGrass02.for   Vegetation/GreenLandscape/SmallGrass02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/TallGrass01.for   Vegetation/GreenLandscape/TallGrass01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/TallGrass02.for   Vegetation/GreenLandscape/TallGrass02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Grass&Shrubs01.for   Vegetation/GreenLandscape/Grass&Shrubs01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Grass&Shrubs02.for   Vegetation/GreenLandscape/Grass&Shrubs02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn01.for  Vegetation/GreenLandscape/Lawn01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn02.for  Vegetation/GreenLandscape/Lawn02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn03.for  Vegetation/GreenLandscape/Lawn03.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn04.for  Vegetation/GreenLandscape/Lawn04.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn4Edge01.for  Vegetation/GreenLandscape/Lawn4Edge01.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn4Edge02.for  Vegetation/GreenLandscape/Lawn4Edge02.for
+EXPORT RA_Library/Vegetation/GreenLandscape/Lawn4Runway.for  Vegetation/GreenLandscape/Lawn4Runway.for
+
+EXPORT RA_Library/Vegetation/Hedges/Hedge01.for   Vegetation/Hedges/Hedge01.for
+EXPORT RA_Library/Vegetation/Hedges/Hedge02.for   Vegetation/Hedges/Hedge02.for
+EXPORT RA_Library/Vegetation/Hedges/Hedge03.for   Vegetation/Hedges/Hedge03.for
+EXPORT RA_Library/Vegetation/Hedges/Hedge04.for   Vegetation/Hedges/Hedge04.for
+EXPORT RA_Library/Vegetation/Hedges/Hedge05.for   Vegetation/Hedges/Hedge05.for
+EXPORT RA_Library/Vegetation/Hedges/Hedge06.for   Vegetation/Hedges/Hedge06.for
+
+
+EXPORT RA_Library/Ground/Edges/Edge00.lin   Ground/Edges/Edge00.lin
+EXPORT RA_Library/Ground/Edges/Edge01.lin   Ground/Edges/Edge01.lin
+EXPORT RA_Library/Ground/Edges/Edge02.lin   Ground/Edges/Edge02.lin
+EXPORT RA_Library/Ground/Edges/Edge03.lin   Ground/Edges/Edge03.lin
+EXPORT RA_Library/Ground/Edges/Edge04.lin   Ground/Edges/Edge04.lin
+EXPORT RA_Library/Ground/Edges/Edge05.lin   Ground/Edges/Edge05.lin
+EXPORT RA_Library/Ground/Soil/soil01.pol   Ground/Soil/soil01.pol
+EXPORT RA_Library/Ground/Soil/soil02.pol   Ground/Soil/soil02.pol
+EXPORT RA_Library/Ground/Soil/grass01.pol   Ground/Soil/grass01.pol
+
+EXPORT RA_Library/Ground/objects/blank.obj   Ground/objects/blank.obj
+EXPORT RA_Library/Ground/objects/zGravel01.obj   Ground/objects/zGravel01.obj
+EXPORT RA_Library/Ground/objects/zGravel02.obj   Ground/objects/zGravel02.obj
+EXPORT RA_Library/Ground/objects/zGravel03.obj   Ground/objects/zGravel03.obj
+EXPORT RA_Library/Ground/objects/zRock01_A.obj   Ground/objects/zRock01_A.obj
+EXPORT RA_Library/Ground/objects/zRock01_B.obj   Ground/objects/zRock01_B.obj
+EXPORT RA_Library/Ground/objects/zRock02_A.obj   Ground/objects/zRock02_A.obj
+EXPORT RA_Library/Ground/objects/zRock02_B.obj   Ground/objects/zRock02_B.obj
+EXPORT RA_Library/Ground/objects/zRock03_A.obj   Ground/objects/zRock03_A.obj
+EXPORT RA_Library/Ground/objects/zRock03_B.obj   Ground/objects/zRock03_B.obj
+EXPORT RA_Library/Ground/objects/zRock04_A.obj   Ground/objects/zRock04_A.obj
+EXPORT RA_Library/Ground/objects/zRock04_B.obj   Ground/objects/zRock04_B.obj
+EXPORT RA_Library/Ground/objects/zStone01.obj   Ground/objects/zStone01.obj
+EXPORT RA_Library/Ground/objects/zStone02.obj   Ground/objects/zStone02.obj
+EXPORT RA_Library/Ground/objects/zStone03.obj   Ground/objects/zStone03.obj
+
+EXPORT RA_Library/Ground/objects/gravel.str   Ground/objects/gravel.str
+EXPORT RA_Library/Ground/objects/rocks.str   Ground/objects/rocks.str
+EXPORT RA_Library/Ground/objects/stones.str   Ground/objects/stones.str

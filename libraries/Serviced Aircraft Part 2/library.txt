@@ -1,0 +1,30 @@
+A
+800
+LIBRARY
+
+# royaloak's Serviced Aircraft Library
+
+EXPORT Serviced_Aircraft_North_America_Part2/Air_Canada_DO328.obj 			ServicedNAPart2/DO328 Air Canada Serviced/D328_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_DO328.obj 				ServicedNAPart2/DO328 Fedex Serviced/D328_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Star_Alliance_DO328.obj 		ServicedNAPart2/DO328 Star Alliance Serviced/D328_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/United_DO328.obj 				ServicedNAPart2/DO328 United Serviced/D328_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_DO328.obj 					ServicedNAPart2/DO328 UPS Serviced/D328_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Air_Canada_ERJ145.obj			ServicedNAPart2/ERJ145 Air Canada Serviced/ERJ145_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_ERJ145.obj 				ServicedNAPart2/ERJ145 Fedex Serviced/ERJ145_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Star_Alliance_ERJ145.obj 		ServicedNAPart2/ERJ145 Star Alliance Serviced/ERJ145_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/United_ERJ145.obj 				ServicedNAPart2/ERJ145 United Serviced/ERJ145_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_ERJ145.obj 				ServicedNAPart2/ERJ145 UPS Serviced/ERJ145_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Air_Canada_MD11.obj 			ServicedNAPart2/MD11 Air Canada Serviced/MD11_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_MD11.obj 				ServicedNAPart2/MD11 Fedex Serviced/MD11_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Star_Alliance_MD11.obj 		ServicedNAPart2/MD11 Star Alliance Serviced/MD11_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/United_MD11.obj 				ServicedNAPart2/MD11 United Serviced/MD11_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_MD11.obj					ServicedNAPart2/MD11 UPS Serviced/MD11_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Air_Canada_RJ70.obj 			ServicedNAPart2/RJ70 Air Canada Serviced/RJ70_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_RJ70.obj 				ServicedNAPart2/RJ70 Fedex Serviced/RJ70_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Star_Alliance_RJ70.obj 		ServicedNAPart2/RJ70 Star Alliance Serviced/RJ70_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/United_RJ70.obj 				ServicedNAPart2/RJ70 United Serviced/RJ70_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_RJ70.obj 					ServicedNAPart2/RJ70 UPS Serviced/RJ70_services.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_747_Animated.obj			ServicedNAPart2/Fedex 747 Animated/B747cargo_anim.obj
+EXPORT Serviced_Aircraft_North_America_Part2/Fedex_MD11_Animated.obj 		ServicedNAPart2/Fedex MD11 Animated/MD11cargo_anim.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_747_Animated.obj 			ServicedNAPart2/UPS 747 Animated/B747cargo_anim.obj
+EXPORT Serviced_Aircraft_North_America_Part2/UPS_MD11_Animated.obj 			ServicedNAPart2/UPS MD11 Animated/MD11cargo_anim.obj

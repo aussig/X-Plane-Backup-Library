@@ -1,0 +1,26 @@
+A
+800
+LIBRARY
+
+# royaloak's Serviced Aircraft Library
+
+EXPORT Serviced_Aircraft_North_America_Part1/Air_Canada_737.obj 		ServicedNAPart1/737 Air Canada Serviced/B737_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Fedex_737.obj 				ServicedNAPart1/737 Fedex Serviced/B737_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Star_Alliance_737.obj		ServicedNAPart1/737 Star Alliance Serviced/B737_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/United_737.obj				ServicedNAPart1/737 United Serviced/B737_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/UPS_737.obj 				ServicedNAPart1/737 UPS Serviced/B737_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Air_Canada_A320.obj 		ServicedNAPart1/A320 Air Canada Serviced/A320_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Fedex_A320.obj 			ServicedNAPart1/A320 Fedex Serviced/A320_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Star_Alliance_A320.obj 	ServicedNAPart1/A320 Star Alliance Serviced/A320_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/United_A320.obj			ServicedNAPart1/A320 United Serviced/A320_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/UPS_A320.obj 				ServicedNAPart1/A320 UPS Serviced/A320_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Air_Canada_A340.obj 		ServicedNAPart1/A340 Air Canada Serviced/A340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Fedex_A340.obj 			ServicedNAPart1/A340 Fedex Serviced/A340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Star_Alliance_A340.obj 	ServicedNAPart1/A340 Star Alliance Serviced/A340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/United_A340.obj 			ServicedNAPart1/A340 United Serviced/A340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/UPS_A340.obj 				ServicedNAPart1/A340 UPS Serviced/A340_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Air_Canada_ATR42.obj 		ServicedNAPart1/ATR42 Air Canada Serviced/ATR42_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Fedex_ATR42.obj 			ServicedNAPart1/ATR42 Fedex Serviced/ATR42_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/Star_Alliance_ATR42.obj 	ServicedNAPart1/ATR42 Star Alliance Serviced/ATR42_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/United_ATR42.obj 			ServicedNAPart1/ATR42 United Serviced/ATR42_services.obj
+EXPORT Serviced_Aircraft_North_America_Part1/UPS_ATR42.obj 				ServicedNAPart1/ATR42 UPS Serviced/ATR42_services.obj

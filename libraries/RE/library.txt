@@ -1,0 +1,1272 @@
+A
+800
+LIBRARY
+
+# RE airport buildings library - version: v1.8
+
+# ----------------------------------
+# Administrative & Office buildings
+# ----------------------------------
+
+# One floor
+# ----------------------------------
+EXPORT RE_Library/Admin/1floor_10x20/brick/blue_doors/Cargo_off2_b1.obj Cargo/Cargo_off2_b1_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/brick/grey_doors/Cargo_off2_b2.obj Cargo/Cargo_off2_b2_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/brick/green_doors/Cargo_off2_b3.obj Cargo/Cargo_off2_b3_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/brick/red_doors/Cargo_off2_b4.obj Cargo/Cargo_off2_b4_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/brick/yellow_doors/Cargo_off2_b5.obj Cargo/Cargo_off2_b5_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/brick/orange_doors/Cargo_off2_b6.obj Cargo/Cargo_off2_b6_LIB.obj
+
+EXPORT RE_Library/Admin/1floor_10x20/block/blue_doors/Cargo_off2_s1.obj Cargo/Cargo_off2_s1_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/block/grey_doors/Cargo_off2_s2.obj Cargo/Cargo_off2_s2_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/block/green_doors/Cargo_off2_s3.obj Cargo/Cargo_off2_s3_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/block/red_doors/Cargo_off2_s4.obj Cargo/Cargo_off2_s4_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/block/yellow_doors/Cargo_off2_s5.obj Cargo/Cargo_off2_s5_LIB.obj
+EXPORT RE_Library/Admin/1floor_10x20/block/orange_doors/Cargo_off2_s6.obj Cargo/Cargo_off2_s6_LIB.obj
+
+# Two floors
+# ----------------------------------
+EXPORT RE_Library/Admin/2floor_15x10/brick/blue_doors/Cargo_off1_b1.obj Cargo/Cargo_off1_b1_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/brick/grey_doors/Cargo_off1_b2.obj Cargo/Cargo_off1_b2_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/brick/green_doors/Cargo_off1_b3.obj Cargo/Cargo_off1_b3_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/brick/red_doors/Cargo_off1_b4.obj Cargo/Cargo_off1_b4_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/brick/yellow_doors/Cargo_off1_b5.obj Cargo/Cargo_off1_b5_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/brick/orange_doors/Cargo_off1_b6.obj Cargo/Cargo_off1_b6_LIB.obj
+
+EXPORT RE_Library/Admin/2floor_15x10/block/blue_doors/Cargo_off1_s1.obj Cargo/Cargo_off1_s1_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/block/grey_doors/Cargo_off1_s2.obj Cargo/Cargo_off1_s2_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/block/green_doors/Cargo_off1_s3.obj Cargo/Cargo_off1_s3_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/block/red_doors/Cargo_off1_s4.obj Cargo/Cargo_off1_s4_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/block/yellow_doors/Cargo_off1_s5.obj Cargo/Cargo_off1_s5_LIB.obj
+EXPORT RE_Library/Admin/2floor_15x10/block/orange_doors/Cargo_off1_s6.obj Cargo/Cargo_off1_s6_LIB.obj
+
+# Three floors
+# ----------------------------------
+EXPORT RE_Library/Admin/3floor_15x40/red_brick/Admin_long_1.obj Admin_buildings/Admin_long_1_LIB.obj
+EXPORT RE_Library/Admin/3floor_15x40/block/Admin_long_2.obj Admin_buildings/Admin_long_2_LIB.obj
+EXPORT RE_Library/Admin/3floor_15x40/light_brick/Admin_long_3.obj Admin_buildings/Admin_long_3_LIB.obj
+EXPORT RE_Library/Admin/3floor_15x40/white_stucco/Admin_long_4.obj Admin_buildings/Admin_long_4_LIB.obj
+
+# Four floors
+# ----------------------------------
+EXPORT RE_Library/Admin/4floor_60x20/red_brick/grey_slate/Admin2_1t.obj Admin_buildings/Admin2_1t_LIB.obj
+EXPORT RE_Library/Admin/4floor_60x20/light_brick/grey_slate/Admin2_3t.obj Admin_buildings/Admin2_3t_LIB.obj
+EXPORT RE_Library/Admin/4floor_60x20/white_stucco/grey_slate/Admin2_4t.obj Admin_buildings/Admin2_4t_LIB.obj
+
+EXPORT RE_Library/Admin/4floor_60x20/red_brick/red_tile/Admin2_1s.obj Admin_buildings/Admin2_1s_LIB.obj
+EXPORT RE_Library/Admin/4floor_60x20/light_brick/red_tile/Admin2_3s.obj Admin_buildings/Admin2_3s_LIB.obj
+EXPORT RE_Library/Admin/4floor_60x20/white_stucco/red_tile/Admin2_4s.obj Admin_buildings/Admin2_4s_LIB.obj
+
+# Five floors
+# ----------------------------------
+EXPORT RE_Library/Admin/5floor_15x15/red_brick/Admin_sqr_1.obj Admin_buildings/Admin_sqr_1_LIB.obj
+EXPORT RE_Library/Admin/5floor_15x15/block/Admin_sqr_2.obj Admin_buildings/Admin_sqr_2_LIB.obj
+EXPORT RE_Library/Admin/5floor_15x15/light_brick/Admin_sqr_3.obj Admin_buildings/Admin_sqr_3_LIB.obj
+EXPORT RE_Library/Admin/5floor_15x15/white_stucco/Admin_sqr_4.obj Admin_buildings/Admin_sqr_4_LIB.obj
+
+# ----------------------------------
+# Cargo terminals
+# ----------------------------------
+
+# Full terminal - closed doors _ grey
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/blue_doors/Cargo_full_clb1.obj Cargo/Cargo_full_clb1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/grey_doors/Cargo_full_clb2.obj Cargo/Cargo_full_clb2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/green_doors/Cargo_full_clb3.obj Cargo/Cargo_full_clb3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/red_doors/Cargo_full_clb4.obj Cargo/Cargo_full_clb4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/yellow_doors/Cargo_full_clb5.obj Cargo/Cargo_full_clb5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/grey/orange_doors/Cargo_full_clb6.obj Cargo/Cargo_full_clb6_LIB.obj
+
+# Full terminal - closed doors _ beige
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/blue_doors/Cargo_full_cs1.obj Cargo/Cargo_full_cs1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/grey_doors/Cargo_full_cs2.obj Cargo/Cargo_full_cs2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/green_doors/Cargo_full_cs3.obj Cargo/Cargo_full_cs3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/red_doors/Cargo_full_cs4.obj Cargo/Cargo_full_cs4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/yellow_doors/Cargo_full_cs5.obj Cargo/Cargo_full_cs5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/closed/beige/orange_doors/Cargo_full_cs6.obj Cargo/Cargo_full_cs6_LIB.obj
+
+# Full terminal - open doors _ grey
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/blue_doors/Cargo_full_olb1.obj Cargo/Cargo_full_olb1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/grey_doors/Cargo_full_olb2.obj Cargo/Cargo_full_olb2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/green_doors/Cargo_full_olb3.obj Cargo/Cargo_full_olb3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/red_doors/Cargo_full_olb4.obj Cargo/Cargo_full_olb4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/yellow_doors/Cargo_full_olb5.obj Cargo/Cargo_full_olb5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/grey/orange_doors/Cargo_full_olb6.obj Cargo/Cargo_full_olb6_LIB.obj
+
+# Full terminal - open doors _ beige
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/blue_doors/Cargo_full_os1.obj Cargo/Cargo_full_os1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/grey_doors/Cargo_full_os2.obj Cargo/Cargo_full_os2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/green_doors/Cargo_full_os3.obj Cargo/Cargo_full_os3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/red_doors/Cargo_full_os4.obj Cargo/Cargo_full_os4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/yellow_doors/Cargo_full_os5.obj Cargo/Cargo_full_os5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/complete/open/beige/orange_doors/Cargo_full_os6.obj Cargo/Cargo_full_os6_LIB.obj
+
+# Main building - closed doors _ grey
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/blue_doors/Cargo_main_cl1.obj Cargo/Cargo_main_cl1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/grey_doors/Cargo_main_cl2.obj Cargo/Cargo_main_cl2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/green_doors/Cargo_main_cl3.obj Cargo/Cargo_main_cl3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/red_doors/Cargo_main_cl4.obj Cargo/Cargo_main_cl4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/yellow_doors/Cargo_main_cl5.obj Cargo/Cargo_main_cl5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/grey/orange_doors/Cargo_main_cl6.obj Cargo/Cargo_main_cl6_LIB.obj
+
+# Main building - closed doors _ beige
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/blue_doors/Cargo_main_cs1.obj Cargo/Cargo_main_cs1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/grey_doors/Cargo_main_cs2.obj Cargo/Cargo_main_cs2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/green_doors/Cargo_main_cs3.obj Cargo/Cargo_main_cs3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/red_doors/Cargo_main_cs4.obj Cargo/Cargo_main_cs4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/yellow_doors/Cargo_main_cs5.obj Cargo/Cargo_main_cs5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/closed/beige/orange_doors/Cargo_main_cs6.obj Cargo/Cargo_main_cs6_LIB.obj
+
+# Main building - open doors _ grey
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/main/open/grey/blue_doors/Cargo_main_ol1.obj Cargo/Cargo_main_ol1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/grey/grey_doors/Cargo_main_ol2.obj Cargo/Cargo_main_ol2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/grey/green_doors/Cargo_main_ol3.obj Cargo/Cargo_main_ol3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/grey/red_doors/Cargo_main_ol4.obj Cargo/Cargo_main_ol4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/grey/yellow_doors/Cargo_main_ol5.obj Cargo/Cargo_main_ol5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/grey/orange_doors/Cargo_main_ol6.obj Cargo/Cargo_main_ol6_LIB.obj
+
+# Main building - open doors _ beige
+# --------------------------------------
+EXPORT RE_Library/Cargo_terminal/main/open/beige/blue_doors/Cargo_main_os1.obj Cargo/Cargo_main_os1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/beige/grey_doors/Cargo_main_os2.obj Cargo/Cargo_main_os2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/beige/green_doors/Cargo_main_os3.obj Cargo/Cargo_main_os3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/beige/red_doors/Cargo_main_os4.obj Cargo/Cargo_main_os4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/beige/yellow_doors/Cargo_main_os5.obj Cargo/Cargo_main_os5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/main/open/beige/orange_doors/Cargo_main_os6.obj Cargo/Cargo_main_os6_LIB.obj
+
+# Office building - 2 floors
+# ----------------------------------
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/blue_doors/Cargo_off1_b1.obj Cargo/Cargo_off1_b1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/grey_doors/Cargo_off1_b2.obj Cargo/Cargo_off1_b2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/green_doors/Cargo_off1_b3.obj Cargo/Cargo_off1_b3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/red_doors/Cargo_off1_b4.obj Cargo/Cargo_off1_b4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/yellow_doors/Cargo_off1_b5.obj Cargo/Cargo_off1_b5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/brick/orange_doors/Cargo_off1_b6.obj Cargo/Cargo_off1_b6_LIB.obj
+
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/blue_doors/Cargo_off1_s1.obj Cargo/Cargo_off1_s1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/grey_doors/Cargo_off1_s2.obj Cargo/Cargo_off1_s2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/green_doors/Cargo_off1_s3.obj Cargo/Cargo_off1_s3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/red_doors/Cargo_off1_s4.obj Cargo/Cargo_off1_s4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/yellow_doors/Cargo_off1_s5.obj Cargo/Cargo_off1_s5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/2floor_15x10/block/orange_doors/Cargo_off1_s6.obj Cargo/Cargo_off1_s6_LIB.obj
+
+# Office building - 1 floor
+# ----------------------------------
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/blue_doors/Cargo_off2_b1.obj Cargo/Cargo_off2_b1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/grey_doors/Cargo_off2_b2.obj Cargo/Cargo_off2_b2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/green_doors/Cargo_off2_b3.obj Cargo/Cargo_off2_b3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/red_doors/Cargo_off2_b4.obj Cargo/Cargo_off2_b4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/yellow_doors/Cargo_off2_b5.obj Cargo/Cargo_off2_b5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/brick/orange_doors/Cargo_off2_b6.obj Cargo/Cargo_off2_b6_LIB.obj
+
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/blue_doors/Cargo_off2_s1.obj Cargo/Cargo_off2_s1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/grey_doors/Cargo_off2_s2.obj Cargo/Cargo_off2_s2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/green_doors/Cargo_off2_s3.obj Cargo/Cargo_off2_s3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/red_doors/Cargo_off2_s4.obj Cargo/Cargo_off2_s4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/yellow_doors/Cargo_off2_s5.obj Cargo/Cargo_off2_s5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/office/1floor_10x20/block/orange_doors/Cargo_off2_s6.obj Cargo/Cargo_off2_s6_LIB.obj
+
+# Shed - 10x20m - closed doors
+# ----------------------------------
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/blue/Cargo_shed_c1.obj Cargo/Cargo_shed_c1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/grey/Cargo_shed_c2.obj Cargo/Cargo_shed_c2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/green/Cargo_shed_c3.obj Cargo/Cargo_shed_c3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/red/Cargo_shed_c4.obj Cargo/Cargo_shed_c4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/yellow/Cargo_shed_c5.obj Cargo/Cargo_shed_c5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/closed/orange/Cargo_shed_c6.obj Cargo/Cargo_shed_c6_LIB.obj
+
+# Shed - 10x20m - closed doors
+# ----------------------------------
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/blue/Cargo_shed_o1.obj Cargo/Cargo_shed_o1_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/grey/Cargo_shed_o2.obj Cargo/Cargo_shed_o2_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/green/Cargo_shed_o3.obj Cargo/Cargo_shed_o3_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/red/Cargo_shed_o4.obj Cargo/Cargo_shed_o4_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/yellow/Cargo_shed_o5.obj Cargo/Cargo_shed_o5_LIB.obj
+EXPORT RE_Library/Cargo_terminal/shed_10x20m/open/orange/Cargo_shed_o6.obj Cargo/Cargo_shed_o6_LIB.obj
+
+# ----------------------------------
+# Control towers
+# ----------------------------------
+
+# Control tower - tall UK prototypes
+# ----------------------------------
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_b_blk_blk.obj Control_tower/EGCC_60m_b_blk_blk_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_b_blu_w.obj Control_tower/EGCC_60m_b_blu_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_b_grn_w.obj Control_tower/EGCC_60m_b_grn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_b_gry_blk.obj Control_tower/EGCC_60m_b_gry_blk_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_g_blk_blk.obj Control_tower/EGCC_60m_g_blk_blk_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_g_blu_w.obj Control_tower/EGCC_60m_g_blu_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_g_grn_w.obj Control_tower/EGCC_60m_g_grn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_60m/EGCC_60m_g_gry_blk.obj Control_tower/EGCC_60m_g_gry_blk_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_b_blu_g.obj Control_tower/EGGP_55m_b_blu_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_b_brn_w.obj Control_tower/EGGP_55m_b_brn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_b_grn_g.obj Control_tower/EGGP_55m_b_grn_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_b_gry_w.obj Control_tower/EGGP_55m_b_gry_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_g_blu_g.obj Control_tower/EGGP_55m_g_blu_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_g_brn_w.obj Control_tower/EGGP_55m_g_brn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_g_grn_g.obj Control_tower/EGGP_55m_g_grn_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGP_55m/EGGP_55m_g_gry_w.obj Control_tower/EGGP_55m_g_gry_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_b_blu_g.obj Control_tower/EGNX_52m_b_blu_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_b_brn_w.obj Control_tower/EGNX_52m_b_brn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_b_grn_g.obj Control_tower/EGNX_52m_b_grn_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_b_gry_w.obj Control_tower/EGNX_52m_b_gry_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_g_blu_g.obj Control_tower/EGNX_52m_g_blu_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_g_brn_w.obj Control_tower/EGNX_52m_g_brn_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_g_grn_g.obj Control_tower/EGNX_52m_g_grn_g_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNX_52m/EGNX_52m_g_gry_w.obj Control_tower/EGNX_52m_g_gry_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_b_blu_blu.obj Control_tower/EGSS_60m_b_blu_blu_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_b_blu_w.obj Control_tower/EGSS_60m_b_blu_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_b_grn_grn.obj Control_tower/EGSS_60m_b_grn_grn_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_b_grn_w.obj Control_tower/EGSS_60m_b_grn_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_g_blu_blu.obj Control_tower/EGSS_60m_g_blu_blu_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_g_blu_w.obj Control_tower/EGSS_60m_g_blu_w_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_g_grn_grn.obj Control_tower/EGSS_60m_g_grn_grn_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSS_60m/EGSS_60m_g_grn_w.obj Control_tower/EGSS_60m_g_grn_w_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGBB_34m/EGBB_34m.obj Control_tower/EGBB_34m_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGJJ_39m/EGJJ_39m.obj Control_tower/EGJJ_39m_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGPH_57m/EGPH_57m.obj Control_tower/EGPH_57m_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGKK_43m/Gatwick_full.obj Control_tower/Gatwick_full_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGNT_34m/EGNT_46m_plain.obj Control_tower/EGNT_46m_plain_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGGD_28m/EGGD_28m.obj Control_tower/EGGD_28m_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_old/Complete/EGCC_old_main+rear.obj Control_tower/EGCC_old_main+rear_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_old/Tower_only/EGCC_old_mainblock.obj Control_tower/EGCC_old_mainblock_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_old/Extension/EGCC_old_rear.obj Control_tower/EGCC_old_rear_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGMC_28m/Tower_only/EGMC_28m_tower.obj Control_tower/EGMC_28m_tower_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGMC_28m/with_base/EGMC_28m_tower+base.obj Control_tower/EGMC_28m_tower+base_LIB.obj
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSC_27.5m/EGSC_27.5m_1.obj Control_tower/EGSC_27.5m_1_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSC_27.5m/EGSC_27.5m_2.obj Control_tower/EGSC_27.5m_2_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSC_27.5m/EGSC_27.5m_3.obj Control_tower/EGSC_27.5m_3_LIB.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGSC_27.5m/EGSC_27.5m_4.obj Control_tower/EGSC_27.5m_4_LIB.obj
+
+
+# Control tower - five floor
+# ----------------------------------
+EXPORT RE_Library/Control_Tower/alone/VCRa/pedestal/Control_tower_a1.obj Control_tower/Control_tower_a1_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/pedestal/Control_tower_a2.obj Control_tower/Control_tower_a2_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/pedestal/Control_tower_a3.obj Control_tower/Control_tower_a3_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/pedestal/Control_tower_a4.obj Control_tower/Control_tower_a4_LIB.obj
+
+EXPORT RE_Library/Control_Tower/alone/VCRa/flush/Control_tower_flush_a1.obj Control_tower/Control_tower_flush_a1_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/flush/Control_tower_flush_a2.obj Control_tower/Control_tower_flush_a2_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/flush/Control_tower_flush_a3.obj Control_tower/Control_tower_flush_a3_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRa/flush/Control_tower_flush_a4.obj Control_tower/Control_tower_flush_a4_LIB.obj
+
+EXPORT RE_Library/Control_Tower/alone/VCRb/pedestal/Control_tower_b1.obj Control_tower/Control_tower_b1_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/pedestal/Control_tower_b2.obj Control_tower/Control_tower_b2_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/pedestal/Control_tower_b3.obj Control_tower/Control_tower_b3_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/pedestal/Control_tower_b4.obj Control_tower/Control_tower_b4_LIB.obj
+
+EXPORT RE_Library/Control_Tower/alone/VCRb/flush/Control_tower_flush_b1.obj Control_tower/Control_tower_flush_b1_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/flush/Control_tower_flush_b2.obj Control_tower/Control_tower_flush_b2_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/flush/Control_tower_flush_b3.obj Control_tower/Control_tower_flush_b3_LIB.obj
+EXPORT RE_Library/Control_Tower/alone/VCRb/flush/Control_tower_flush_b4.obj Control_tower/Control_tower_flush_b4_LIB.obj
+
+# Control tower with admin building
+# ----------------------------------
+EXPORT RE_Library/Control_Tower/with_admin/VCRa/Control_admin_a1.obj Control_tower/Control_admin_a1_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRa/Control_admin_a2.obj Control_tower/Control_admin_a2_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRa/Control_admin_a3.obj Control_tower/Control_admin_a3_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRa/Control_admin_a4.obj Control_tower/Control_admin_a4_LIB.obj
+
+EXPORT RE_Library/Control_Tower/with_admin/VCRb/Control_admin_b1.obj Control_tower/Control_admin_b1_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRb/Control_admin_b2.obj Control_tower/Control_admin_b2_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRb/Control_admin_b3.obj Control_tower/Control_admin_b3_LIB.obj
+EXPORT RE_Library/Control_Tower/with_admin/VCRb/Control_admin_b4.obj Control_tower/Control_admin_b4_LIB.obj
+
+
+# Control tower with small terminal
+# ----------------------------------
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_1s_hex.obj Control_tower/Control_admin2_1s_hex_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_1t_hex.obj Control_tower/Control_admin2_1t_hex_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_3s_hex.obj Control_tower/Control_admin2_3s_hex_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_3t_hex.obj Control_tower/Control_admin2_3t_hex_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_4s_hex.obj Control_tower/Control_admin2_4s_hex_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/hex_VCR/Control_admin2_4t_hex.obj Control_tower/Control_admin2_4t_hex_LIB.obj
+
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_1s_oct.obj Control_tower/Control_admin2_1s_oct_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_1t_oct.obj Control_tower/Control_admin2_1t_oct_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_3s_oct.obj Control_tower/Control_admin2_3s_oct_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_3t_oct.obj Control_tower/Control_admin2_3t_oct_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_4s_oct.obj Control_tower/Control_admin2_4s_oct_LIB.obj
+EXPORT RE_Library/Control_Tower/small_terminal/oct_VCR/Control_admin2_4t_oct.obj Control_tower/Control_admin2_4t_oct_LIB.obj
+
+# Control tower - ex-RAF types
+# ----------------------------------
+EXPORT RE_Library/Control_Tower/ex_RAF/V_bomber/V_bomber_brick.obj Control_tower/V_bomber_brick_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/V_bomber/V_bomber_white.obj Control_tower/V_bomber_white_LIB.obj
+
+EXPORT RE_Library/Control_Tower/ex_RAF/Valley/Valley_brick.obj Control_tower/Valley_brick_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/Valley/Valley_white.obj Control_tower/Valley_white_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/Valley/Valley_brick_brown.obj Control_tower/Valley_brick_brown_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/Valley/Valley_brick_green.obj Control_tower/Valley_brick_green_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/Valley/Valley_brick_white.obj Control_tower/Valley_brick_white_LIB.obj
+
+EXPORT RE_Library/Control_Tower/ex_RAF/2548c/2458c_brick.obj Control_tower/2458c_brick_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/2548c/2458c_white.obj Control_tower/2458c_white_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/7378a/7378a_brick.obj Control_tower/7378a_brick_LIB.obj
+EXPORT RE_Library/Control_Tower/ex_RAF/7378a/7378a_white.obj Control_tower/7378a_white_LIB.obj
+
+# VCRs - Types a & b
+# ----------------------------------
+EXPORT RE_Library/Control_Tower/VCRs/VCRa/VCR_only_a.obj Control_tower/VCR_only_a_LIB.obj
+EXPORT RE_Library/Control_Tower/VCRs/VCRa/VCR_ped_a.obj Control_tower/VCR_ped_a_LIB.obj
+EXPORT RE_Library/Control_Tower/VCRs/VCRb/VCR_only_b.obj Control_tower/VCR_only_b_LIB.obj
+EXPORT RE_Library/Control_Tower/VCRs/VCRb/VCR_ped_b.obj Control_tower/VCR_ped_b_LIB.obj
+
+# ----------------------------------
+# Fire stations
+# ----------------------------------
+
+# small 1 bay shed - closed doors
+# ----------------------------------
+EXPORT RE_Library/Fire_station/1_bay/closed/Fire_shed_sm_c_r.obj Fire_Stations/Fire_shed_sm_c_r_LIB.obj
+EXPORT RE_Library/Fire_station/1_bay/closed/Fire_shed_sm_c_w.obj Fire_Stations/Fire_shed_sm_c_w_LIB.obj
+
+# small 1 bay shed - open doors
+# ----------------------------------
+EXPORT RE_Library/Fire_station/1_bay/open/Fire_shed_sm_o_r.obj Fire_Stations/Fire_shed_sm_o_r_LIB.obj
+EXPORT RE_Library/Fire_station/1_bay/open/Fire_shed_sm_o_w.obj Fire_Stations/Fire_shed_sm_o_w_LIB.obj
+
+# 4 bay unit only - closed doors
+# ----------------------------------
+EXPORT RE_Library/Fire_station/4_bay/closed/red_doors/brick/FS_4bay_crb.obj Fire_Stations/FS_4bay_crb_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/closed/red_doors/block/FS_4bay_crc.obj Fire_Stations/FS_4bay_crc_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/closed/red_doors/metal/FS_4bay_crm.obj Fire_Stations/FS_4bay_crm_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/closed/white_doors/brick/FS_4bay_cwb.obj Fire_Stations/FS_4bay_cwb_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/closed/white_doors/block/FS_4bay_cwc.obj Fire_Stations/FS_4bay_cwc_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/closed/white_doors/metal/FS_4bay_cwm.obj Fire_Stations/FS_4bay_cwm_LIB.obj
+
+# 4 bay unit only - 2 open doors
+# ----------------------------------
+EXPORT RE_Library/Fire_station/4_bay/open/red_doors/brick/FS_4bay_orb.obj Fire_Stations/FS_4bay_orb_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/open/red_doors/block/FS_4bay_crc.obj Fire_Stations/FS_4bay_crc_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/open/red_doors/metal/FS_4bay_crm.obj Fire_Stations/FS_4bay_crm_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/open/white_doors/brick/FS_4bay_cwb.obj Fire_Stations/FS_4bay_cwb_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/open/white_doors/block/FS_4bay_cwc.obj Fire_Stations/FS_4bay_cwc_LIB.obj
+EXPORT RE_Library/Fire_station/4_bay/open/white_doors/metal/FS_4bay_cwm.obj Fire_Stations/FS_4bay_cwm_LIB.obj
+
+# 4 bay unit - closed doors - with office block
+# ---------------------------------------------
+EXPORT RE_Library/Fire_station/+office/closed/red_doors/brick/FS_4bay_off_crb.obj Fire_Stations/FS_4bay_off_crb_LIB.obj
+EXPORT RE_Library/Fire_station/+office/closed/red_doors/block/FS_4bay_off_crc.obj Fire_Stations/FS_4bay_off_crc_LIB.obj
+EXPORT RE_Library/Fire_station/+office/closed/red_doors/metal/FS_4bay_off_crm.obj Fire_Stations/FS_4bay_off_crm_LIB.obj
+EXPORT RE_Library/Fire_station/+office/closed/white_doors/brick/FS_4bay_off_cwb.obj Fire_Stations/FS_4bay_off_cwb_LIB.obj
+EXPORT RE_Library/Fire_station/+office/closed/white_doors/block/FS_4bay_off_cwc.obj Fire_Stations/FS_4bay_off_cwc_LIB.obj
+EXPORT RE_Library/Fire_station/+office/closed/white_doors/metal/FS_4bay_off_cwm.obj Fire_Stations/FS_4bay_off_cwm_LIB.obj
+
+# 4 bay unit - open doors - with office block
+# ---------------------------------------------
+EXPORT RE_Library/Fire_station/+office/open/red_doors/brick/FS_4bay_off_orb.obj Fire_Stations/FS_4bay_off_orb_LIB.obj
+EXPORT RE_Library/Fire_station/+office/open/red_doors/block/FS_4bay_off_orc.obj Fire_Stations/FS_4bay_off_orc_LIB.obj
+EXPORT RE_Library/Fire_station/+office/open/red_doors/metal/FS_4bay_off_orm.obj Fire_Stations/FS_4bay_off_orm_LIB.obj
+EXPORT RE_Library/Fire_station/+office/open/white_doors/brick/FS_4bay_off_owb.obj Fire_Stations/FS_4bay_off_owb_LIB.obj
+EXPORT RE_Library/Fire_station/+office/open/white_doors/block/FS_4bay_off_owc.obj Fire_Stations/FS_4bay_off_owc_LIB.obj
+EXPORT RE_Library/Fire_station/+office/open/white_doors/metal/FS_4bay_off_owm.obj Fire_Stations/FS_4bay_off_owm_LIB.obj
+
+# 4 bay unit - closed doors - with office block and hexagonal observation tower
+# -----------------------------------------------------------------------------
+EXPORT RE_Library/Fire_station/hex_tower/closed/red_doors/brick/FS_4bay_off_hex_crb.obj Fire_Stations/FS_4bay_off_hex_crb_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/closed/red_doors/block/FS_4bay_off_hex_crc.obj Fire_Stations/FS_4bay_off_hex_crc_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/closed/red_doors/metal/FS_4bay_off_hex_crm.obj Fire_Stations/FS_4bay_off_hex_crm_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/closed/white_doors/brick/FS_4bay_off_hex_cwb.obj Fire_Stations/FS_4bay_off_hex_cwb_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/closed/white_doors/block/FS_4bay_off_hex_cwc.obj Fire_Stations/FS_4bay_off_hex_cwc_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/closed/white_doors/metal/FS_4bay_off_hex_cwm.obj Fire_Stations/FS_4bay_off_hex_cwm_LIB.obj
+
+# 4 bay unit - closed doors - with office block and square observation tower
+# -----------------------------------------------------------------------------
+EXPORT RE_Library/Fire_station/sq_tower/closed/red_doors/brick/FS_4bay_off_twr_crb.obj Fire_Stations/FS_4bay_off_twr_crb_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/closed/red_doors/block/FS_4bay_off_twr_crc.obj Fire_Stations/FS_4bay_off_twr_crc_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/closed/red_doors/metal/FS_4bay_off_twr_crm.obj Fire_Stations/FS_4bay_off_twr_crm_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/closed/white_doors/brick/FS_4bay_off_twr_cwb.obj Fire_Stations/FS_4bay_off_twr_cwb_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/closed/white_doors/block/FS_4bay_off_twr_cwc.obj Fire_Stations/FS_4bay_off_twr_cwc_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/closed/white_doors/metal/FS_4bay_off_twr_cwm.obj Fire_Stations/FS_4bay_off_twr_cwm_LIB.obj
+
+# 4 bay unit - open doors - with office block and hexagonal observation tower
+# -----------------------------------------------------------------------------
+EXPORT RE_Library/Fire_station/hex_tower/open/red_doors/brick/FS_4bay_off_hex_orb.obj Fire_Stations/FS_4bay_off_hex_orb_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/open/red_doors/block/FS_4bay_off_hex_orc.obj Fire_Stations/FS_4bay_off_hex_orc_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/open/red_doors/metal/FS_4bay_off_hex_orm.obj Fire_Stations/FS_4bay_off_hex_orm_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/open/white_doors/brick/FS_4bay_off_hex_owb.obj Fire_Stations/FS_4bay_off_hex_owb_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/open/white_doors/block/FS_4bay_off_hex_owc.obj Fire_Stations/FS_4bay_off_hex_owc_LIB.obj
+EXPORT RE_Library/Fire_station/hex_tower/open/white_doors/metal/FS_4bay_off_hex_owm.obj Fire_Stations/FS_4bay_off_hex_owm_LIB.obj
+
+# 4 bay unit - open doors - with office block and square observation tower
+# -----------------------------------------------------------------------------
+EXPORT RE_Library/Fire_station/sq_tower/open/red_doors/brick/FS_4bay_off_twr_orb.obj Fire_Stations/FS_4bay_off_twr_orb_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/open/red_doors/block/FS_4bay_off_twr_orc.obj Fire_Stations/FS_4bay_off_twr_orc_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/open/red_doors/metal/FS_4bay_off_twr_orm.obj Fire_Stations/FS_4bay_off_twr_orm_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/open/white_doors/brick/FS_4bay_off_twr_owb.obj Fire_Stations/FS_4bay_off_twr_owb_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/open/white_doors/block/FS_4bay_off_twr_owc.obj Fire_Stations/FS_4bay_off_twr_owc_LIB.obj
+EXPORT RE_Library/Fire_station/sq_tower/open/white_doors/metal/FS_4bay_off_twr_owm.obj Fire_Stations/FS_4bay_off_twr_owm_LIB.obj
+
+# Type 2 - 4 bay unit - closed doors - with office block and control room
+# -----------------------------------------------------------------------------
+
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_cbr.obj Fire_Stations/Firestation2_L_4_cbr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_cby.obj Fire_Stations/Firestation2_L_4_cby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_ccr.obj Fire_Stations/Firestation2_L_4_ccr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_ccy.obj Fire_Stations/Firestation2_L_4_ccy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_clr.obj Fire_Stations/Firestation2_L_4_clr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/closed/Firestation2_L_4_cly.obj Fire_Stations/Firestation2_L_4_cly_LIB.obj
+
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_cbr.obj Fire_Stations/Firestation2_R_4_cbr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_cby.obj Fire_Stations/Firestation2_R_4_cby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_ccr.obj Fire_Stations/Firestation2_R_4_ccr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_ccy.obj Fire_Stations/Firestation2_R_4_ccy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_clr.obj Fire_Stations/Firestation2_R_4_clr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/closed/Firestation2_R_4_cly.obj Fire_Stations/Firestation2_R_4_cly_LIB.obj
+
+# Type 2 - 4 bay unit - open doors - with office block and control room
+# -----------------------------------------------------------------------------
+
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_obr.obj Fire_Stations/Firestation2_L_4_obr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_oby.obj Fire_Stations/Firestation2_L_4_oby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_ocr.obj Fire_Stations/Firestation2_L_4_ocr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_ocy.obj Fire_Stations/Firestation2_L_4_ocy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_olr.obj Fire_Stations/Firestation2_L_4_olr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/4_bay/open/Firestation2_L_4_oly.obj Fire_Stations/Firestation2_L_4_oly_LIB.obj
+
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_obr.obj Fire_Stations/Firestation2_R_4_obr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_oby.obj Fire_Stations/Firestation2_R_4_oby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_ocr.obj Fire_Stations/Firestation2_R_4_ocr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_ocy.obj Fire_Stations/Firestation2_R_4_ocy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_olr.obj Fire_Stations/Firestation2_R_4_olr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/4_bay/open/Firestation2_R_4_oly.obj Fire_Stations/Firestation2_R_4_oly_LIB.obj
+
+# Type 2 - 6 bay unit - closed doors - with office block and control room
+# -----------------------------------------------------------------------------
+
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_cbr.obj Fire_Stations/Firestation2_L_6_cbr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_cby.obj Fire_Stations/Firestation2_L_6_cby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_ccr.obj Fire_Stations/Firestation2_L_6_ccr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_ccy.obj Fire_Stations/Firestation2_L_6_ccy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_clr.obj Fire_Stations/Firestation2_L_6_clr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/closed/Firestation2_L_6_cly.obj Fire_Stations/Firestation2_L_6_cly_LIB.obj
+
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_cbr.obj Fire_Stations/Firestation2_R_6_cbr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_cby.obj Fire_Stations/Firestation2_R_6_cby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_ccr.obj Fire_Stations/Firestation2_R_6_ccr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_ccy.obj Fire_Stations/Firestation2_R_6_ccy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_clr.obj Fire_Stations/Firestation2_R_6_clr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/closed/Firestation2_R_6_cly.obj Fire_Stations/Firestation2_R_6_cly_LIB.obj
+
+# Type 2 - 6 bay unit - open doors - with office block and control room
+# -----------------------------------------------------------------------------
+
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_obr.obj Fire_Stations/Firestation2_L_6_obr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_oby.obj Fire_Stations/Firestation2_L_6_oby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_ocr.obj Fire_Stations/Firestation2_L_6_ocr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_ocy.obj Fire_Stations/Firestation2_L_6_ocy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_olr.obj Fire_Stations/Firestation2_L_6_olr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/left_hand/6_bay/open/Firestation2_L_6_oly.obj Fire_Stations/Firestation2_L_6_oly_LIB.obj
+
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_obr.obj Fire_Stations/Firestation2_R_6_obr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_oby.obj Fire_Stations/Firestation2_R_6_oby_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_ocr.obj Fire_Stations/Firestation2_R_6_ocr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_ocy.obj Fire_Stations/Firestation2_R_6_ocy_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_olr.obj Fire_Stations/Firestation2_R_6_olr_LIB.obj
+EXPORT RE_Library/Fire_station/Type_2/right_hand/6_bay/open/Firestation2_R_6_oly.obj Fire_Stations/Firestation2_R_6_oly_LIB.obj
+
+# ----------------------------------
+# GA "Terminal" buildings
+# ----------------------------------
+
+# Grey slate roof
+# ----------------------------------
+EXPORT RE_Library/GA_Terminal/Grey_slate/Lakeland_stone/GA_terminal_1.obj GA_Terminal/GA_Terminal_1_LIB.obj
+EXPORT RE_Library/GA_Terminal/Grey_slate/Grey_stone/GA_terminal_2.obj GA_Terminal/GA_Terminal_2_LIB.obj
+EXPORT RE_Library/GA_Terminal/Grey_slate/Brick/GA_terminal_3.obj GA_Terminal/GA_Terminal_3_LIB.obj
+EXPORT RE_Library/GA_Terminal/Grey_slate/Block/GA_terminal_4.obj GA_Terminal/GA_Terminal_4_LIB.obj
+
+# Red tile roof
+# ----------------------------------
+EXPORT RE_Library/GA_Terminal/Red_tile/Lakeland_stone/GA_terminal_1b.obj GA_Terminal/GA_Terminal_1b_LIB.obj
+EXPORT RE_Library/GA_Terminal/Red_tile/Grey_stone/GA_terminal_2b.obj GA_Terminal/GA_Terminal_2b_LIB.obj
+EXPORT RE_Library/GA_Terminal/Red_tile/Brick/GA_terminal_3b.obj GA_Terminal/GA_Terminal_3b_LIB.obj
+EXPORT RE_Library/GA_Terminal/Red_tile/Block/GA_terminal_4b.obj GA_Terminal/GA_Terminal_4b_LIB.obj
+
+# ----------------------------------
+# Hangars - 40x50m
+# ----------------------------------
+
+# Pointed roof - closed doors
+# ----------------------------------
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/blue/RE_hangar_40x50_c1.obj Hangars/RE_hangar_40x50_c1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/grey/RE_hangar_40x50_c2.obj Hangars/RE_hangar_40x50_c2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/green/RE_hangar_40x50_c3.obj Hangars/RE_hangar_40x50_c3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/red/RE_hangar_40x50_c4.obj Hangars/RE_hangar_40x50_c4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/yellow/RE_hangar_40x50_c5.obj Hangars/RE_hangar_40x50_c5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/orange/RE_hangar_40x50_c6.obj Hangars/RE_hangar_40x50_c6_LIB.obj
+
+# Pointed roof - closed doors - rear extension
+# ---------------------------------------------
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/blue/RE_hangar_40x50_ce1.obj Hangars/RE_hangar_40x50_ce1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/grey/RE_hangar_40x50_ce2.obj Hangars/RE_hangar_40x50_ce2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/green/RE_hangar_40x50_ce3.obj Hangars/RE_hangar_40x50_ce3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/red/RE_hangar_40x50_ce4.obj Hangars/RE_hangar_40x50_ce4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/yellow/RE_hangar_40x50_ce5.obj Hangars/RE_hangar_40x50_ce5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/closed/rear_ext/orange/RE_hangar_40x50_ce6.obj Hangars/RE_hangar_40x50_ce6_LIB.obj
+
+# Pointed roof - open doors
+# ----------------------------------
+EXPORT RE_Library/Hangars/40x50m/pointed/open/blue/RE_hangar_40x50_o1.obj Hangars/RE_hangar_40x50_o1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/grey/RE_hangar_40x50_o2.obj Hangars/RE_hangar_40x50_o2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/green/RE_hangar_40x50_o3.obj Hangars/RE_hangar_40x50_o3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/red/RE_hangar_40x50_o4.obj Hangars/RE_hangar_40x50_o4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/yellow/RE_hangar_40x50_o5.obj Hangars/RE_hangar_40x50_o5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/orange/RE_hangar_40x50_o6.obj Hangars/RE_hangar_40x50_o6_LIB.obj
+
+# Pointed roof - open doors - rear extension
+# -------------------------------------------
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/blue/RE_hangar_40x50_oe1.obj Hangars/RE_hangar_40x50_oe1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/grey/RE_hangar_40x50_oe2.obj Hangars/RE_hangar_40x50_oe2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/green/RE_hangar_40x50_oe3.obj Hangars/RE_hangar_40x50_oe3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/red/RE_hangar_40x50_oe4.obj Hangars/RE_hangar_40x50_oe4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/yellow/RE_hangar_40x50_oe5.obj Hangars/RE_hangar_40x50_oe5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/pointed/open/rear_ext/orange/RE_hangar_40x50_oe6.obj Hangars/RE_hangar_40x50_oe6_LIB.obj
+
+# curved roof - closed doors
+# ----------------------------------
+EXPORT RE_Library/Hangars/40x50m/curved/closed/blue/RE_hangar_crv_40x50_c1.obj Hangars/RE_hangar_crv_40x50_c1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/grey/RE_hangar_crv_40x50_c2.obj Hangars/RE_hangar_crv_40x50_c2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/green/RE_hangar_crv_40x50_c3.obj Hangars/RE_hangar_crv_40x50_c3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/red/RE_hangar_crv_40x50_c4.obj Hangars/RE_hangar_crv_40x50_c4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/yellow/RE_hangar_crv_40x50_c5.obj Hangars/RE_hangar_crv_40x50_c5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/orange/RE_hangar_crv_40x50_c6.obj Hangars/RE_hangar_crv_40x50_c6_LIB.obj
+
+# Curved roof - closed doors - rear extension
+# ---------------------------------------------
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/blue/RE_hangar_crv_40x50_ce1.obj Hangars/RE_hangar_crv_40x50_ce1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/grey/RE_hangar_crv_40x50_ce2.obj Hangars/RE_hangar_crv_40x50_ce2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/green/RE_hangar_crv_40x50_ce3.obj Hangars/RE_hangar_crv_40x50_ce3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/red/RE_hangar_crv_40x50_ce4.obj Hangars/RE_hangar_crv_40x50_ce4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/yellow/RE_hangar_crv_40x50_ce5.obj Hangars/RE_hangar_crv_40x50_ce5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/closed/rear_ext/orange/RE_hangar_crv_40x50_ce6.obj Hangars/RE_hangar_crv_40x50_ce6_LIB.obj
+
+# Curved roof - open doors
+# ----------------------------------
+EXPORT RE_Library/Hangars/40x50m/curved/open/blue/RE_hangar_crv_40x50_o1.obj Hangars/RE_hangar_crv_40x50_o1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/grey/RE_hangar_crv_40x50_o2.obj Hangars/RE_hangar_crv_40x50_o2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/green/RE_hangar_crv_40x50_o3.obj Hangars/RE_hangar_crv_40x50_o3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/red/RE_hangar_crv_40x50_o4.obj Hangars/RE_hangar_crv_40x50_o4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/yellow/RE_hangar_crv_40x50_o5.obj Hangars/RE_hangar_crv_40x50_o5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/orange/RE_hangar_crv_40x50_o6.obj Hangars/RE_hangar_crv_40x50_o6_LIB.obj
+
+# Curved roof - open doors - rear extension
+# -------------------------------------------
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/blue/RE_hangar_crv_40x50_oe1.obj Hangars/RE_hangar_crv_40x50_oe1_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/grey/RE_hangar_crv_40x50_oe2.obj Hangars/RE_hangar_crv_40x50_oe2_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/green/RE_hangar_crv_40x50_oe3.obj Hangars/RE_hangar_crv_40x50_oe3_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/red/RE_hangar_crv_40x50_oe4.obj Hangars/RE_hangar_crv_40x50_oe4_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/yellow/RE_hangar_crv_40x50_oe5.obj Hangars/RE_hangar_crv_40x50_oe5_LIB.obj
+EXPORT RE_Library/Hangars/40x50m/curved/open/rear_ext/orange/RE_hangar_crv_40x50_oe6.obj Hangars/RE_hangar_crv_40x50_oe6_LIB.obj
+
+# ----------------------------------
+# Hangars - 40x38m
+# ----------------------------------
+EXPORT RE_Library/Hangars/40x38m/closed/Hangar_pk_40x38_c_beige.obj Hangars/Hangar_pk_40x38_c_beige_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/closed/Hangar_pk_40x38_c_blue.obj Hangars/Hangar_pk_40x38_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/closed/Hangar_pk_40x38_c_green.obj Hangars/Hangar_pk_40x38_c_green_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/closed/Hangar_pk_40x38_c_grey.obj Hangars/Hangar_pk_40x38_c_grey_LIB.obj
+
+EXPORT RE_Library/Hangars/40x38m/open/Hangar_pk_40x38_o_beige.obj Hangars/Hangar_pk_40x38_o_beige_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/open/Hangar_pk_40x38_o_blue.obj Hangars/Hangar_pk_40x38_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/open/Hangar_pk_40x38_o_green.obj Hangars/Hangar_pk_40x38_o_green_LIB.obj
+EXPORT RE_Library/Hangars/40x38m/open/Hangar_pk_40x38_o_grey.obj Hangars/Hangar_pk_40x38_o_grey_LIB.obj
+
+# ----------------------------------
+# Hangars - 54x34m
+# ----------------------------------
+EXPORT RE_Library/Hangars/54x34m/closed/Hangar_crv_54x34_c_beige.obj Hangars/Hangar_crv_54x34_c_beige_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/closed/Hangar_crv_54x34_c_blue.obj Hangars/Hangar_crv_54x34_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/closed/Hangar_crv_54x34_c_green.obj Hangars/Hangar_crv_54x34_c_green_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/closed/Hangar_crv_54x34_c_grey.obj Hangars/Hangar_crv_54x34_c_grey_LIB.obj
+
+EXPORT RE_Library/Hangars/54x34m/open/Hangar_crv_54x34_o_beige.obj Hangars/Hangar_crv_54x34_o_beige_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/open/Hangar_crv_54x34_o_blue.obj Hangars/Hangar_crv_54x34_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/open/Hangar_crv_54x34_o_green.obj Hangars/Hangar_crv_54x34_o_green_LIB.obj
+EXPORT RE_Library/Hangars/54x34m/open/Hangar_crv_54x34_o_grey.obj Hangars/Hangar_crv_54x34_o_grey_LIB.obj
+
+
+# ----------------------------------
+# Hangars - based on EGGP types
+# ----------------------------------
+
+# Block of 4
+# ----------------------------------
+EXPORT RE_Library/Hangars/Rectangular/4-block/closed/EGGP_hangars.obj Hangars/EGGP_hangars_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/closed/EGGP_hangars_bgy.obj Hangars/EGGP_hangars_bgy_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/open/EGGP_hangars_open.obj Hangars/EGGP_hangars_open_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/open/EGGP_hangars_open_bgy.obj Hangars/EGGP_hangars_open_bgy_LIB.obj
+
+# Block of 2
+# ----------------------------------
+EXPORT RE_Library/Hangars/Rectangular/2-block/closed/EGGP_hangars_lpl_2_c.obj Hangars/EGGP_hangars_lpl_2_c_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/closed/EGGP_hangars_bgy_2_c.obj Hangars/EGGP_hangars_bgy_2_c_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/1_open/EGGP_hangars_lpl_2_1o.obj Hangars/EGGP_hangars_lpl_2_1o_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/1_open/EGGP_hangars_bgy_2_1o.obj Hangars/EGGP_hangars_bgy_2_1o_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/2_open/EGGP_hangars_lpl_2_2o.obj Hangars/EGGP_hangars_lpl_2_2o_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/2_open/EGGP_hangars_bgy_2_2o.obj Hangars/EGGP_hangars_bgy_2_2o_LIB.obj
+
+# Single
+# ----------------------------------
+EXPORT RE_Library/Hangars/Rectangular/single_low/closed/EGGP_hangars_lpl_s_c.obj Hangars/EGGP_hangars_lpl_s_c_LIB.obj
+EXPORT RE_Library/Hangars/Rectangular/single_low/closed/EGGP_hangars_bgy_s_c.obj Hangars/EGGP_hangars_bgy_s_c_LIB.obj
+
+
+# ----------------------------------
+# Hangars - ex-military types
+# ----------------------------------
+
+# Ballykelly cantilever - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/closed/BKC_blue_c.obj Hangars/BKC_blue_c_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/closed/BKC_brown_c.obj Hangars/BKC_brown_c_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/closed/BKC_green_c.obj Hangars/BKC_green_c_LIB.obj
+
+# Ballykelly cantilever - open
+# ----------------------------------
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/partly_open/BKC_blue_po.obj Hangars/BKC_blue_po_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/partly_open/BKC_brown_po.obj Hangars/BKC_brown_po_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/partly_open/BKC_green_po.obj Hangars/BKC_green_po_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/fully_open/BKC_blue_fo.obj Hangars/BKC_blue_fo_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/fully_open/BKC_brown_fo.obj Hangars/BKC_brown_fo_LIB.obj
+EXPORT RE_Library/Hangars/Ballykelly_112x48m/fully_open/BKC_green_fo.obj Hangars/BKC_green_fo_LIB.obj
+
+
+# Bellman - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Bellman/closed/Bellman_c_blk.obj Hangars/Bellman_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/closed/Bellman_c_blue.obj Hangars/Bellman_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/closed/Bellman_c_brn.obj Hangars/Bellman_c_brn_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/closed/Bellman_c_grey.obj Hangars/Bellman_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/closed/Bellman_c_grn.obj Hangars/Bellman_c_grn_LIB.obj
+
+# Bellman - open one end
+# ----------------------------------
+EXPORT RE_Library/Hangars/Bellman/open_one_end/Bellman_o1_blk.obj Hangars/Bellman_o1_blk_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_one_end/Bellman_o1_blue.obj Hangars/Bellman_o1_blue_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_one_end/Bellman_o1_brn.obj Hangars/Bellman_o1_brn_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_one_end/Bellman_o1_grey.obj Hangars/Bellman_o1_grey_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_one_end/Bellman_o1_grn.obj Hangars/Bellman_o1_grn_LIB.obj
+
+# Bellman - open both ends
+# ----------------------------------
+EXPORT RE_Library/Hangars/Bellman/open_both_ends/Bellman_o2_blk.obj Hangars/Bellman_o2_blk_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_both_ends/Bellman_o2_blue.obj Hangars/Bellman_o2_blue_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_both_ends/Bellman_o2_brn.obj Hangars/Bellman_o2_brn_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_both_ends/Bellman_o2_grey.obj Hangars/Bellman_o2_grey_LIB.obj
+EXPORT RE_Library/Hangars/Bellman/open_both_ends/Bellman_o2_grn.obj Hangars/Bellman_o2_grn_LIB.obj
+
+# Callender - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Callender/closed/Callender_c_blk.obj Hangars/Callender_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Callender/closed/Callender_c_blue.obj Hangars/Callender_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Callender/closed/Callender_c_brn.obj Hangars/Callender_c_brn_LIB.obj
+EXPORT RE_Library/Hangars/Callender/closed/Callender_c_grey.obj Hangars/Callender_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Callender/closed/Callender_c_grn.obj Hangars/Callender_c_grn_LIB.obj
+
+# Callender - open one end
+# ----------------------------------
+EXPORT RE_Library/Hangars/Callender/open_one_end/Callender_o1_blk.obj Hangars/Callender_o1_blk_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_one_end/Callender_o1_blue.obj Hangars/Callender_o1_blue_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_one_end/Callender_o1_brn.obj Hangars/Callender_o1_brn_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_one_end/Callender_o1_grey.obj Hangars/Callender_o1_grey_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_one_end/Callender_o1_grn.obj Hangars/Callender_o1_grn_LIB.obj
+
+# Callender - open both ends
+# ----------------------------------
+EXPORT RE_Library/Hangars/Callender/open_both_ends/Callender_o2_blk.obj Hangars/Callender_o2_blk_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_both_ends/Callender_o2_blue.obj Hangars/Callender_o2_blue_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_both_ends/Callender_o2_brn.obj Hangars/Callender_o2_brn_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_both_ends/Callender_o2_grey.obj Hangars/Callender_o2_grey_LIB.obj
+EXPORT RE_Library/Hangars/Callender/open_both_ends/Callender_o2_grn.obj Hangars/Callender_o2_grn_LIB.obj
+
+# T2 - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/T2/closed/T2_c_blk.obj Hangars/T2_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/T2/closed/T2_c_blue.obj Hangars/T2_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/T2/closed/T2_c_brn.obj Hangars/T2_c_brn_LIB.obj
+EXPORT RE_Library/Hangars/T2/closed/T2_c_grey.obj Hangars/T2_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/T2/closed/T2_c_grn.obj Hangars/T2_c_grn_LIB.obj
+
+# T2 - open one end
+# ----------------------------------
+EXPORT RE_Library/Hangars/T2/open_one_end/T2_o1_blk.obj Hangars/T2_o1_blk_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_one_end/T2_o1_blue.obj Hangars/T2_o1_blue_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_one_end/T2_o1_brn.obj Hangars/T2_o1_brn_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_one_end/T2_o1_grey.obj Hangars/T2_o1_grey_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_one_end/T2_o1_grn.obj Hangars/T2_o1_grn_LIB.obj
+
+# T2 - open both ends
+# ----------------------------------
+EXPORT RE_Library/Hangars/T2/open_both_ends/T2_o2_blk.obj Hangars/T2_o2_blk_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_both_ends/T2_o2_blue.obj Hangars/T2_o2_blue_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_both_ends/T2_o2_brn.obj Hangars/T2_o2_brn_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_both_ends/T2_o2_grey.obj Hangars/T2_o2_grey_LIB.obj
+EXPORT RE_Library/Hangars/T2/open_both_ends/T2_o2_grn.obj Hangars/T2_o2_grn_LIB.obj
+
+# Main 70 ft - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_blk.obj Hangars/Main_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_blue.obj Hangars/Main_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_grey.obj Hangars/Main_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_grn.obj Hangars/Main_c_grn_LIB.obj
+
+# Main 70 ft - open
+# ----------------------------------
+EXPORT RE_Library/Hangars/Main_70ft/open/Main_o_blk.obj Hangars/Main_o_blk_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/open/Main_o_blue.obj Hangars/Main_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/open/Main_o_grey.obj Hangars/Main_o_grey_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/open/Main_o_grn.obj Hangars/Main_o_grn_LIB.obj
+
+# Main 84 ft - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Main_84ft/closed/Main_84_c_blk.obj Hangars/Main_84_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/closed/Main_84_c_blue.obj Hangars/Main_84_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/closed/Main_84_c_grey.obj Hangars/Main_84_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/closed/Main_84_c_grn.obj Hangars/Main_84_c_grn_LIB.obj
+
+# Main 84 ft - open
+# ----------------------------------
+EXPORT RE_Library/Hangars/Main_84ft/open/Main_84_o_blk.obj Hangars/Main_84_o_blk_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/open/Main_84_o_blue.obj Hangars/Main_84_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/open/Main_84_o_grey.obj Hangars/Main_84_o_grey_LIB.obj
+EXPORT RE_Library/Hangars/Main_84ft/open/Main_84_o_grn.obj Hangars/Main_84_o_grn_LIB.obj
+
+# Main 70 ft - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_blk.obj Hangars/Main_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_blue.obj Hangars/Main_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_grey.obj Hangars/Main_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Main_70ft/closed/Main_c_grn.obj Hangars/Main_c_grn_LIB.obj
+
+# Robin - profiled doors - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Robin/profiled/closed/Robin_p_c_blk.obj Hangars/Robin_p_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/closed/Robin_p_c_blue.obj Hangars/Robin_p_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/closed/Robin_p_c_grey.obj Hangars/Robin_p_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/closed/Robin_p_c_grn.obj Hangars/Robin_p_c_grn_LIB.obj
+
+# Robin - profiled doors - open
+# ----------------------------------
+EXPORT RE_Library/Hangars/Robin/profiled/open/Robin_p_o_blk.obj Hangars/Robin_p_o_blk_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/open/Robin_p_o_blue.obj Hangars/Robin_p_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/open/Robin_p_o_grey.obj Hangars/Robin_p_o_grey_LIB.obj
+EXPORT RE_Library/Hangars/Robin/profiled/open/Robin_p_o_grn.obj Hangars/Robin_p_o_grn_LIB.obj
+
+# Robin - squared doors - closed
+# ----------------------------------
+EXPORT RE_Library/Hangars/Robin/squared/closed/Robin_s_c_blk.obj Hangars/Robin_s_c_blk_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/closed/Robin_s_c_blue.obj Hangars/Robin_s_c_blue_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/closed/Robin_s_c_grey.obj Hangars/Robin_s_c_grey_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/closed/Robin_s_c_grn.obj Hangars/Robin_s_c_grn_LIB.obj
+
+# Robin - squared doors - open
+# ----------------------------------
+EXPORT RE_Library/Hangars/Robin/squared/open/Robin_s_o_blk.obj Hangars/Robin_s_o_blk_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/open/Robin_s_o_blue.obj Hangars/Robin_s_o_blue_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/open/Robin_s_o_grey.obj Hangars/Robin_s_o_grey_LIB.obj
+EXPORT RE_Library/Hangars/Robin/squared/open/Robin_s_o_grn.obj Hangars/Robin_s_o_grn_LIB.obj
+
+
+
+# ----------------------------------
+# Navaids
+# ----------------------------------
+
+# Equipment Cabins
+# ----------------------------------
+EXPORT RE_Library/Navaids/Cabin/Large/Navcabin_lge_rect_c.obj Navaids/Navcabin_lge_rect_c_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Large/Navcabin_lge_rect_s.obj Navaids/Navcabin_lge_rect_s_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Medium/Navcabin_med_rect_c.obj Navaids/Navcabin_med_rect_c_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Medium/Navcabin_med_rect_s.obj Navaids/Navcabin_med_rect_s_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Small/Navcabin_sm_rect_c.obj Navaids/Navcabin_sm_rect_c_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Small/Navcabin_sm_rect_s.obj Navaids/Navcabin_sm_rect_s_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Small/Navcabin_sm_sq_c.obj Navaids/Navcabin_sm_sq_c_LIB.obj
+EXPORT RE_Library/Navaids/Cabin/Small/Navcabin_sm_sq_s.obj Navaids/Navcabin_sm_sq_s_LIB.obj
+
+# ILS Localisers
+# ----------------------------------
+EXPORT RE_Library/Navaids/Localiser/Type_A/LOC_A_o.obj Navaids/LOC_A_o_LIB.obj
+EXPORT RE_Library/Navaids/Localiser/Type_A/LOC_A_r.obj Navaids/LOC_A_r_LIB.obj
+EXPORT RE_Library/Navaids/Localiser/Type_B/LOC_B_o.obj Navaids/LOC_B_o_LIB.obj
+EXPORT RE_Library/Navaids/Localiser/Type_B/LOC_B_w.obj Navaids/LOC_B_w_LIB.obj
+EXPORT RE_Library/Navaids/Localiser/Type_C/LOC_C_o.obj Navaids/LOC_C_o_LIB.obj
+EXPORT RE_Library/Navaids/Localiser/Type_C/LOC_C_r.obj Navaids/LOC_C_r_LIB.obj
+
+# VDF & UDF antennae
+# ----------------------------------
+EXPORT RE_Library/Navaids/VDF/VDF_r_r.obj Navaids/VDF_r_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF/VDF_r_w.obj Navaids/VDF_r_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF/VDF_s_r.obj Navaids/VDF_s_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF/VDF_s_w.obj Navaids/VDF_s_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF/VDF_w_r.obj Navaids/VDF_w_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF/VDF_w_w.obj Navaids/VDF_w_w_LIB.obj
+
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_r_r.obj Navaids/VDF_12_r_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_r_w.obj Navaids/VDF_12_r_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_s_r.obj Navaids/VDF_12_s_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_s_w.obj Navaids/VDF_12_s_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_w_r.obj Navaids/VDF_12_w_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_12m/VDF_12_w_w.obj Navaids/VDF_12_w_w_LIB.obj
+
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_r_r.obj Navaids/VDF_UDF_r_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_r_w.obj Navaids/VDF_UDF_r_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_s_r.obj Navaids/VDF_UDF_s_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_s_w.obj Navaids/VDF_UDF_s_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_w_r.obj Navaids/VDF_UDF_w_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF/VDF_UDF_w_w.obj Navaids/VDF_UDF_w_w_LIB.obj
+
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_r_r.obj Navaids/VDF_UDF_12_r_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_r_w.obj Navaids/VDF_UDF_12_r_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_s_r.obj Navaids/VDF_UDF_12_s_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_s_w.obj Navaids/VDF_UDF_12_s_w_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_w_r.obj Navaids/VDF_UDF_12_w_r_LIB.obj
+EXPORT RE_Library/Navaids/VDF_UDF_12m/VDF_UDF_12_w_w.obj Navaids/VDF_UDF_12_w_w_LIB.obj
+
+# VORs
+# ----------------------------------
+EXPORT RE_Library/Navaids/VORs/grey/VOR_ggo.obj Navaids/VOR_ggo_LIB.obj
+EXPORT RE_Library/Navaids/VORs/grey/VOR_ggr.obj Navaids/VOR_ggr_LIB.obj
+EXPORT RE_Library/Navaids/VORs/grey/VOR_ggw.obj Navaids/VOR_ggw_LIB.obj
+
+EXPORT RE_Library/Navaids/VORs/red/VOR_rsw.obj Navaids/VOR_rsw_LIB.obj
+
+EXPORT RE_Library/Navaids/VORs/white/VOR_wco.obj Navaids/VOR_wco_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wcr.obj Navaids/VOR_wcr_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wcw.obj Navaids/VOR_wcw_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wso.obj Navaids/VOR_wso_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wsr.obj Navaids/VOR_wsr_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wsw.obj Navaids/VOR_wsw_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wwo.obj Navaids/VOR_wwo_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wwr.obj Navaids/VOR_wwr_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_www.obj Navaids/VOR_www_LIB.obj
+
+# VORTACs
+# ----------------------------------
+EXPORT RE_Library/Navaids/VORTACs/white/VORTAC_wcr.obj Navaids/VORTAC_wcr_LIB.obj
+EXPORT RE_Library/Navaids/VORTACs/white/VORTAC_wcw.obj Navaids/VORTAC_wcw_LIB.obj
+EXPORT RE_Library/Navaids/VORTACs/white/VORTAC_wgo.obj Navaids/VORTAC_wgo_LIB.obj
+
+EXPORT RE_Library/Navaids/VORs/white/VOR_wcr.obj Navaids/VOR_wcr_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wcw.obj Navaids/VOR_wcw_LIB.obj
+EXPORT RE_Library/Navaids/VORs/white/VOR_wso.obj Navaids/VOR_wso_LIB.obj
+
+# ----------------------------------
+# Passenger terminals
+# ----------------------------------
+
+# Complete, with piers
+# ----------------------------------
+EXPORT RE_Library/Terminals/complete/pointed_roof/RE_Terminal_full_1.obj Terminals/RE_Terminal_full_1_LIB.obj
+EXPORT RE_Library/Terminals/complete/pointed_roof/RE_Terminal_full_2.obj Terminals/RE_Terminal_full_2_LIB.obj
+EXPORT RE_Library/Terminals/complete/pointed_roof/RE_Terminal_full_3.obj Terminals/RE_Terminal_full_3_LIB.obj
+EXPORT RE_Library/Terminals/complete/pointed_roof/RE_Terminal_full_4.obj Terminals/RE_Terminal_full_4_LIB.obj
+EXPORT RE_Library/Terminals/complete/curved_roof/RE_Terminal_full_5.obj Terminals/RE_Terminal_full_5_LIB.obj
+EXPORT RE_Library/Terminals/complete/curved_roof/RE_Terminal_full_6.obj Terminals/RE_Terminal_full_6_LIB.obj
+
+# Main building
+# ----------------------------------
+EXPORT RE_Library/Terminals/main_buiding/pointed_roof/RE_Terminal_main_1.obj Terminals/RE_Terminal_main_1_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/pointed_roof/RE_Terminal_main_2.obj Terminals/RE_Terminal_main_2_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/pointed_roof/RE_Terminal_main_3.obj Terminals/RE_Terminal_main_3_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/pointed_roof/RE_Terminal_main_4.obj Terminals/RE_Terminal_main_4_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/curved_roof/RE_Terminal_main_5.obj Terminals/RE_Terminal_main_5_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/curved_roof/RE_Terminal_main_6.obj Terminals/RE_Terminal_main_6_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/new_style/RE_Terminal_main_7.obj Terminals/RE_Terminal_main_7_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/new_style/RE_Terminal_main_8.obj Terminals/RE_Terminal_main_8_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/EGCN_type/EGCN_main_unnamed.obj Terminals/EGCN_main_unnamed_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/EGGP_type/EGGP_term_main_unnamed.obj Terminals/EGGP_term_main_unnamed_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/EICK_type/Complete/Cork_complete.obj Terminals/Cork_complete_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/EICK_type/Interior_structure/Cork_interior.obj Terminals/Cork_interior_LIB.obj
+EXPORT RE_Library/Terminals/main_buiding/EICK_type/Outer_shell/Cork_shell.obj Terminals/Cork_shell_LIB.obj
+
+# Piers 45m, single sided
+# ----------------------------------
+EXPORT RE_Library/Terminals/pier/45m/sgl_sided/RE_Pier_45m_sgl_a.obj Terminals/RE_Pier_45m_sgl_a_LIB.obj
+EXPORT RE_Library/Terminals/pier/45m/sgl_sided/RE_Pier_45m_sgl_b.obj Terminals/RE_Pier_45m_sgl_b_LIB.obj
+EXPORT RE_Library/Terminals/pier/45m/sgl_sided/RE_Pier_45m_sgl_c.obj Terminals/RE_Pier_45m_sgl_c_LIB.obj
+
+# Piers 45m, double sided
+# ----------------------------------
+EXPORT RE_Library/Terminals/pier/45m/dbl_sided/RE_Pier_45m_dbl_a.obj Terminals/RE_Pier_45m_dbl_a_LIB.obj
+EXPORT RE_Library/Terminals/pier/45m/dbl_sided/RE_Pier_45m_dbl_b.obj Terminals/RE_Pier_45m_dbl_b_LIB.obj
+EXPORT RE_Library/Terminals/pier/45m/dbl_sided/RE_Pier_45m_dbl_c.obj Terminals/RE_Pier_45m_dbl_c_LIB.obj
+
+# Piers 90m, single sided
+# ----------------------------------
+EXPORT RE_Library/Terminals/pier/90m/sgl_sided/RE_Pier_90m_sgl_a.obj Terminals/RE_Pier_90m_sgl_a_LIB.obj
+EXPORT RE_Library/Terminals/pier/90m/sgl_sided/RE_Pier_90m_sgl_b.obj Terminals/RE_Pier_90m_sgl_b_LIB.obj
+EXPORT RE_Library/Terminals/pier/90m/sgl_sided/RE_Pier_90m_sgl_c.obj Terminals/RE_Pier_90m_sgl_c_LIB.obj
+
+# Piers 90m, double sided
+# ----------------------------------
+
+EXPORT RE_Library/Terminals/pier/90m/dbl_sided/RE_Pier_90m_dbl_a.obj Terminals/RE_Pier_90m_dbl_a_LIB.obj
+EXPORT RE_Library/Terminals/pier/90m/dbl_sided/RE_Pier_90m_dbl_b.obj Terminals/RE_Pier_90m_dbl_b_LIB.obj
+EXPORT RE_Library/Terminals/pier/90m/dbl_sided/RE_Pier_90m_dbl_c.obj Terminals/RE_Pier_90m_dbl_c_LIB.obj
+
+# Finger pier _ EGGP
+# ----------------------------------
+EXPORT RE_Library/Terminals/pier/90m/EGGP_type/EGGP_pier.obj Terminals/EGGP_pier_LIB.obj
+
+# Octagonal junction
+# ----------------------------------
+EXPORT RE_Library/Terminals/octagon/Octagon_a.obj Terminals/Octagon_a_LIB.obj
+EXPORT RE_Library/Terminals/octagon/Octagon_b.obj Terminals/Octagon_b_LIB.obj
+EXPORT RE_Library/Terminals/octagon/Octagon_c.obj Terminals/Octagon_c_LIB.obj
+
+# Airbridges
+# ----------------------------------
+EXPORT RE_Library/Terminals/Airbridges/4m_agl/6m_length/Airbridge_4agl_6m_g.obj Terminals/Airbridge_4agl_6m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/4m_agl/12m_length/Airbridge_4agl_12m_g.obj Terminals/Airbridge_4agl_12m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/4m_agl/16m_length/Airbridge_4agl_16m_g.obj Terminals/Airbridge_4agl_16m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/4m_agl/28m_length/Airbridge_4agl_28m_g.obj Terminals/Airbridge_4agl_28m_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Airbridges/7.25m_agl/6m_length/Airbridge_7.25agl_6m_g.obj Terminals/Airbridge_7.25agl_6m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/7.25m_agl/12m_length/Airbridge_7.25agl_12m_g.obj Terminals/Airbridge_7.25agl_12m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/7.25m_agl/16m_length/Airbridge_7.25agl_16m_g.obj Terminals/Airbridge_7.25agl_16m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/7.25m_agl/28m_length/Airbridge_7.25agl_28m_g.obj Terminals/Airbridge_7.25agl_28m_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/4m_agl/Airbridge_4agl_8+17m_45L_g.obj Terminals/Airbridge_4agl_8+17m_45L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/4m_agl/Airbridge_4agl_8+17m_45R_g.obj Terminals/Airbridge_4agl_8+17m_45R_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/4m_agl/Airbridge_4agl_29m_30L_g.obj Terminals/Airbridge_4agl_29m_30L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/4m_agl/Airbridge_4agl_29m_30R_g.obj Terminals/Airbridge_4agl_29m_30R_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/5m_agl/Airbridge_5agl_8+17m_45L_g.obj Terminals/Airbridge_5agl_8+17m_45L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/5m_agl/Airbridge_5agl_8+17m_45R_g.obj Terminals/Airbridge_5agl_8+17m_45R_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/5m_agl/Airbridge_5agl_29m_30L_g.obj Terminals/Airbridge_5agl_29m_30L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/5m_agl/Airbridge_5agl_29m_30R_g.obj Terminals/Airbridge_5agl_29m_30R_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/7.25m_agl/Airbridge_7.25agl_8+17m_45L_g.obj Terminals/Airbridge_7.25agl_8+17m_45L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/45_degree/7.25m_agl/Airbridge_7.25agl_8+17m_45R_g.obj Terminals/Airbridge_7.25agl_8+17m_45R_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/7.25m_agl/Airbridge_7.25agl_29m_30L_g.obj Terminals/Airbridge_7.25agl_29m_30L_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Angled/30_degree/7.25m_agl/Airbridge_7.25agl_29m_30R_g.obj Terminals/Airbridge_7.25agl_29m_30R_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Airbridges/Wide/4m_agl/20m_length/Airbridge_W_4agl_20m_g.obj Terminals/Airbridge_W_4agl_20m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Wide/5m_agl/20m_length/Airbridge_W_5agl_20m_g.obj Terminals/Airbridge_W_5agl_20m_g_LIB.obj
+EXPORT RE_Library/Terminals/Airbridges/Wide/7.25m_agl/20m_length/Airbridge_W_7.25agl_20m_g.obj Terminals/Airbridge_W_7.25agl_20m_g_LIB.obj
+
+# Gate blocks
+# ----------------------------------
+EXPORT RE_Library/Terminals/Gate_block/7.5m/Gateblock_7.5m_a.obj Terminals/Gateblock_7.5m_a_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/7.5m/Gateblock_7.5m_b.obj Terminals/Gateblock_7.5m_b_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/7.5m/Gateblock_7.5m_c.obj Terminals/Gateblock_7.5m_c_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/7.5m/Gateblock_7.5m_g.obj Terminals/Gateblock_7.5m_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Gate_block/9.5m/Gateblock_9.5m_a.obj Terminals/Gateblock_9.5m_a_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/9.5m/Gateblock_9.5m_b.obj Terminals/Gateblock_9.5m_b_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/9.5m/Gateblock_9.5m_c.obj Terminals/Gateblock_9.5m_c_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/9.5m/Gateblock_9.5m_g.obj Terminals/Gateblock_9.5m_g_LIB.obj
+
+EXPORT RE_Library/Terminals/Gate_block/10.75m/Gateblock_10.75m_a.obj Terminals/Gateblock_10.75m_a_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/10.75m/Gateblock_10.75m_b.obj Terminals/Gateblock_10.75m_b_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/10.75m/Gateblock_10.75m_c.obj Terminals/Gateblock_10.75m_c_LIB.obj
+EXPORT RE_Library/Terminals/Gate_block/10.75m/Gateblock_10.75m_g.obj Terminals/Gateblock_10.75m_g_LIB.obj
+
+# Miscellaneous components
+# ----------------------------------
+
+EXPORT RE_Library/Terminals/Extensions/EGGP_term_ext_e.obj Terminals/EGGP_term_ext_e_LIB.obj
+EXPORT RE_Library/Terminals/Extensions/EGGP_term_ext_w.obj Terminals/EGGP_term_ext_w_LIB.obj
+EXPORT RE_Library/Terminals/Door_awning/EGGP_awning.obj Terminals/EGGP_awning_LIB.obj
+
+# ----------------------------------
+# Prefab buildings
+# ----------------------------------
+
+# Prefab buildings - 21m
+# ----------------------------------
+EXPORT RE_Library/Prefabs/21m/Prefab21m_blue.obj Prefabs/Prefab21m_blue_LIB.obj
+EXPORT RE_Library/Prefabs/21m/Prefab21m_brn.obj Prefabs/Prefab21m_brn_LIB.obj
+EXPORT RE_Library/Prefabs/21m/Prefab21m_grn.obj Prefabs/Prefab21m_grn_LIB.obj
+EXPORT RE_Library/Prefabs/21m/Prefab21m_red.obj Prefabs/Prefab21m_red_LIB.obj
+
+# Prefab buildings - 30m
+# ----------------------------------
+EXPORT RE_Library/Prefabs/30m/Prefab30m_blue.obj Prefabs/Prefab30m_blue_LIB.obj
+EXPORT RE_Library/Prefabs/30m/Prefab30m_brn.obj Prefabs/Prefab30m_brn_LIB.obj
+EXPORT RE_Library/Prefabs/30m/Prefab30m_grn.obj Prefabs/Prefab30m_grn_LIB.obj
+EXPORT RE_Library/Prefabs/30m/Prefab30m_red.obj Prefabs/Prefab30m_red_LIB.obj
+
+
+# Prefab buildings - 42m - type "a"
+# ----------------------------------
+EXPORT RE_Library/Prefabs/42m/type_a/Prefab42m_a_blue.obj Prefabs/Prefab42m_a_blue_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_a/Prefab42m_a_brn.obj Prefabs/Prefab42m_a_brn_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_a/Prefab42m_a_grn.obj Prefabs/Prefab42m_a_grn_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_a/Prefab42m_a_red.obj Prefabs/Prefab42m_a_red_LIB.obj
+
+
+# Prefab buildings - 42m - type "b"
+# ----------------------------------
+EXPORT RE_Library/Prefabs/42m/type_b/Prefab42m_b_blue.obj Prefabs/Prefab42m_b_blue_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_b/Prefab42m_b_brn.obj Prefabs/Prefab42m_b_brn_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_b/Prefab42m_b_grn.obj Prefabs/Prefab42m_b_grn_LIB.obj
+EXPORT RE_Library/Prefabs/42m/type_b/Prefab42m_b_red.obj Prefabs/Prefab42m_b_red_LIB.obj
+
+
+# Prefab buildings - squadron badge
+# ----------------------------------
+EXPORT RE_Library/Prefabs/squadron/10AEF.obj Prefabs/10AEF_LIB.obj
+EXPORT RE_Library/Prefabs/squadron/631VGS.obj Prefabs/631VGS_LIB.obj
+EXPORT RE_Library/Prefabs/squadron/LUAS.obj Prefabs/LUAS_LIB.obj
+EXPORT RE_Library/Prefabs/squadron/MASUAS.obj Prefabs/MASUAS_LIB.obj
+
+
+# ----------------------------------
+# Vehicles
+# ----------------------------------
+
+# Fire engines
+# ----------------------------------
+
+EXPORT RE_Library/Fire_engines/Carmichael/small/CommandoFE_r.obj Vehicles/CommandoFE_r_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/small/CommandoFE_y.obj Vehicles/CommandoFE_y_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_4x4/Cobra_4x4_red.obj Vehicles/Cobra_4x4_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_4x4/Cobra_4x4_r-y.obj Vehicles/Cobra_4x4_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_4x4/Cobra_4x4_y-b.obj Vehicles/Cobra_4x4_y-b_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_4x4/Cobra_4x4_yellow.obj Vehicles/Cobra_4x4_yellow_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6/Cobra_6x6_red.obj Vehicles/Cobra_6x6_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6/Cobra_6x6_r-y.obj Vehicles/Cobra_6x6_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6/Cobra_6x6_y-b.obj Vehicles/Cobra_6x6_y-b_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6/Cobra_6x6_yellow.obj Vehicles/Cobra_6x6_yellow_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8/Cobra_8x8_red.obj Vehicles/Cobra_8x8_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8/Cobra_8x8_r-y.obj Vehicles/Cobra_8x8_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8/Cobra_8x8_y-b.obj Vehicles/Cobra_8x8_y-b_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8/Cobra_8x8_yellow.obj Vehicles/Cobra_8x8_yellow_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6_hret/Cobra_6x6_hret_red.obj Vehicles/Cobra_6x6_hret_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6_hret/Cobra_6x6_hret_r-y.obj Vehicles/Cobra_6x6_hret_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6_hret/Cobra_6x6_hret_y-b.obj Vehicles/Cobra_6x6_hret_y-b_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_6x6_hret/Cobra_6x6_hret_yellow.obj Vehicles/Cobra_6x6_hret_yellow_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8_hret/Cobra_8x8_hret_red.obj Vehicles/Cobra_8x8_hret_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8_hret/Cobra_8x8_hret_r-y.obj Vehicles/Cobra_8x8_hret_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8_hret/Cobra_8x8_hret_y-b.obj Vehicles/Cobra_8x8_hret_y-b_LIB.obj
+EXPORT RE_Library/Fire_engines/Carmichael/Cobra_8x8_hret/Cobra_8x8_hret_yellow.obj Vehicles/Cobra_8x8_hret_yellow_LIB.obj
+
+
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_4x4/Panther_4x4_red.obj Vehicles/Panther_4x4_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_4x4/Panther_4x4_r-g.obj Vehicles/Panther_4x4_r-g_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_4x4/Panther_4x4_r-y.obj Vehicles/Panther_4x4_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_4x4/Panther_4x4_y-g.obj Vehicles/Panther_4x4_y-g_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6/Panther_6x6_red.obj Vehicles/Panther_6x6_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6/Panther_6x6_r-g.obj Vehicles/Panther_6x6_r-g_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6/Panther_6x6_r-y.obj Vehicles/Panther_6x6_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6/Panther_6x6_y-g.obj Vehicles/Panther_6x6_y-g_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8/Panther_8x8_red.obj Vehicles/Panther_8x8_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8/Panther_8x8_r-g.obj Vehicles/Panther_8x8_r-g_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8/Panther_8x8_r-y.obj Vehicles/Panther_8x8_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8/Panther_8x8_y-g.obj Vehicles/Panther_8x8_y-g_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6_hret/Panther_6x6_hret_red.obj Vehicles/Panther_6x6_hret_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6_hret/Panther_6x6_hret_r-g.obj Vehicles/Panther_6x6_hret_r-g_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6_hret/Panther_6x6_hret_r-y.obj Vehicles/Panther_6x6_hret_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_6x6_hret/Panther_6x6_hret_y-g.obj Vehicles/Panther_6x6_hret_y-g_LIB.obj
+
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8_hret/Panther_8x8_hret_red.obj Vehicles/Panther_8x8_hret_red_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8_hret/Panther_8x8_hret_r-g.obj Vehicles/Panther_8x8_hret_r-g_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8_hret/Panther_8x8_hret_r-y.obj Vehicles/Panther_8x8_hret_r-y_LIB.obj
+EXPORT RE_Library/Fire_engines/Rosenbauer/Panther_8x8_hret/Panther_8x8_hret_y-g.obj Vehicles/Panther_8x8_hret_y-g_LIB.obj
+
+# ----------------------------------
+# Visual control rooms
+# ----------------------------------
+
+# Type a
+# ----------------------------------
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_gbg.obj VCRs/VCRa_gbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_lbb.obj VCRs/VCRa_lbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wbb.obj VCRs/VCRa_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wbg.obj VCRs/VCRa_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wdb.obj VCRs/VCRa_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wdg.obj VCRs/VCRa_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wgb.obj VCRs/VCRa_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/no_rail/VCRa_wgg.obj VCRs/VCRa_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_ggg.obj VCRs/VCRa_ggg_r_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_lgb.obj VCRs/VCRa_r_lgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wbb.obj VCRs/VCRa_r_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wbg.obj VCRs/VCRa_r_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wdb.obj VCRs/VCRa_r_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wdg.obj VCRs/VCRa_r_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wgb.obj VCRs/VCRa_r_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_a/rail/VCRa_r_wgg.obj VCRs/VCRa_r_wgg_LIB.obj
+
+# Type b
+# ----------------------------------
+
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_gdb.obj VCRs/VCRb1_gdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_lbg.obj VCRs/VCRb1_lbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wbb.obj VCRs/VCRb1_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wbg.obj VCRs/VCRb1_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wdb.obj VCRs/VCRb1_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wdg.obj VCRs/VCRb1_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wgb.obj VCRs/VCRb1_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/no_rail/VCRb1_wgg.obj VCRs/VCRb1_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_gbb.obj VCRs/VCRb1_r_gbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_ldg.obj VCRs/VCRb1_r_ldg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wbb.obj VCRs/VCRb1_r_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wbg.obj VCRs/VCRb1_r_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wdb.obj VCRs/VCRb1_r_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wdg.obj VCRs/VCRb1_r_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wgb.obj VCRs/VCRb1_r_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b1/rail/VCRb1_r_wgg.obj VCRs/VCRb1_r_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_gbb.obj VCRs/VCRb2_gbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_ldg.obj VCRs/VCRb2_ldg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wbb.obj VCRs/VCRb2_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wbg.obj VCRs/VCRb2_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wdb.obj VCRs/VCRb2_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wdg.obj VCRs/VCRb2_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wgb.obj VCRs/VCRb2_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b2/VCRb2_wgg.obj VCRs/VCRb2_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_gbg.obj VCRs/VCRb3_gbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_lbb.obj VCRs/VCRb3_lbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wbb.obj VCRs/VCRb3_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wbg.obj VCRs/VCRb3_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wdb.obj VCRs/VCRb3_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wdg.obj VCRs/VCRb3_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wgb.obj VCRs/VCRb3_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_b/b3/VCRb3_wgg.obj VCRs/VCRb3_wgg_LIB.obj
+
+# Type c
+# ----------------------------------
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_ggb.obj VCRs/VCRc1_ggb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_lbg.obj VCRs/VCRc1_lbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wbb.obj VCRs/VCRc1_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wbg.obj VCRs/VCRc1_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wdb.obj VCRs/VCRc1_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wdg.obj VCRs/VCRc1_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wgb.obj VCRs/VCRc1_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c1/VCRc1_wgg.obj VCRs/VCRc1_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_gbb.obj VCRs/VCRc2_gbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_lgg.obj VCRs/VCRc2_lgg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wbb.obj VCRs/VCRc2_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wbg.obj VCRs/VCRc2_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wdb.obj VCRs/VCRc2_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wdg.obj VCRs/VCRc2_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wgb.obj VCRs/VCRc2_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c2/VCRc2_wgg.obj VCRs/VCRc2_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_gdg.obj VCRs/VCRc3_gdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_lgb.obj VCRs/VCRc3_lgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wbb.obj VCRs/VCRc3_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wbg.obj VCRs/VCRc3_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wdb.obj VCRs/VCRc3_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wdg.obj VCRs/VCRc3_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wgb.obj VCRs/VCRc3_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_c/c3/VCRc3_wgg.obj VCRs/VCRc3_wgg_LIB.obj
+
+# Type d
+# ----------------------------------
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_gbb.obj VCRs/VCRd1_gbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_lgg.obj VCRs/VCRd1_lgg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wbb.obj VCRs/VCRd1_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wbg.obj VCRs/VCRd1_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wdb.obj VCRs/VCRd1_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wdg.obj VCRs/VCRd1_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wgb.obj VCRs/VCRd1_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d1/VCRd1_wgg.obj VCRs/VCRd1_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_lbb.obj VCRs/VCRd2_lbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_ldg.obj VCRs/VCRd2_ldg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wbb.obj VCRs/VCRd2_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wbg.obj VCRs/VCRd2_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wdb.obj VCRs/VCRd2_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wdg.obj VCRs/VCRd2_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wgb.obj VCRs/VCRd2_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_d/d2/VCRd2_wgg.obj VCRs/VCRd2_wgg_LIB.obj
+
+# Type e
+# ----------------------------------
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_gdb.obj VCRs/VCRe1_gdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_lgg.obj VCRs/VCRe1_lgg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wbb.obj VCRs/VCRe1_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wbg.obj VCRs/VCRe1_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wdb.obj VCRs/VCRe1_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wdg.obj VCRs/VCRe1_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wgb.obj VCRs/VCRe1_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e1/VCRe1_wgg.obj VCRs/VCRe1_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_gbb.obj VCRs/VCRe2_gbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_ldg.obj VCRs/VCRe2_ldg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wbb.obj VCRs/VCRe2_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wbg.obj VCRs/VCRe2_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wdb.obj VCRs/VCRe2_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wdg.obj VCRs/VCRe2_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wgb.obj VCRs/VCRe2_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_e/e2/VCRe2_wgg.obj VCRs/VCRe2_wgg_LIB.obj
+
+# Type f
+# ----------------------------------
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_gdb.obj VCRs/VCRf_gdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_lgg.obj VCRs/VCRf_lgg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wbb.obj VCRs/VCRf_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wbg.obj VCRs/VCRf_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wdb.obj VCRs/VCRf_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wdg.obj VCRs/VCRf_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wgb.obj VCRs/VCRf_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/no_rail/VCRf_wgg.obj VCRs/VCRf_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_gdb.obj VCRs/VCRf_r_gdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_lbg.obj VCRs/VCRf_r_lbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wbb.obj VCRs/VCRf_r_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wbg.obj VCRs/VCRf_r_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wdb.obj VCRs/VCRf_r_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wdg.obj VCRs/VCRf_r_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wgb.obj VCRs/VCRf_r_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Type_f/rail/VCRf_r_wgg.obj VCRs/VCRf_r_wgg_LIB.obj
+
+# Type hex
+# ----------------------------------
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_ggb.obj VCRs/VCRhex_ggb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_ldb.obj VCRs/VCRhex_ldb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wbb.obj VCRs/VCRhex_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wbg.obj VCRs/VCRhex_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wdb.obj VCRs/VCRhex_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wdg.obj VCRs/VCRhex_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wgb.obj VCRs/VCRhex_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/no_rail/VCRhex_wgg.obj VCRs/VCRhex_wgg_LIB.obj
+
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_ggg.obj VCRs/VCRhex_r_ggg_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_lgb.obj VCRs/VCRhex_r_lgb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wbb.obj VCRs/VCRhex_r_wbb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wbg.obj VCRs/VCRhex_r_wbg_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wdb.obj VCRs/VCRhex_r_wdb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wdg.obj VCRs/VCRhex_r_wdg_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wgb.obj VCRs/VCRhex_r_wgb_LIB.obj
+EXPORT RE_Library/VCRs/Hexagonal/rail/VCRhex_r_wgg.obj VCRs/VCRhex_r_wgg_LIB.obj
+
+# ---------
+# [  END  ]
+# ---------

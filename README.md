@@ -29,13 +29,17 @@ This file also does not interfere if you have the actual library. X-Plane® will
  
 I highly suggest (and freely encourage) all of you to include this in any scenery you produce for the end-user. This way, if you reference any of the above libraries, and your end-user does not have it installed, your scenery will still work without errors. As scenery developers, we have an obligation to the end-user to make our scenery as easy and painless as possible to install and use.
  
-This works the same as the OpensceneryX shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button". Please consider using this, and it will make your users happy.
+This works the same as the [OpensceneryX](https://www.opensceneryx.com) shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button". Please consider using this, and it will make your users happy.
+
+_Note: If you include the Backup Library in your scenery package, you don't also need to include the OpenSceneryX Placeholder from the [OpenSceneryX Developer Pack](https://www.opensceneryx.com/support/scenery-developers/)._
 
 ## Building
 
-The library is built by running `create.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
+The library is built by running `python build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
 
 It outputs a folder into `builds` which includes the version number.
+
+_Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, and excludes `EXPORT_BACKUP` lines for OpenSceneryX itself._
 
 ## Distribution
 

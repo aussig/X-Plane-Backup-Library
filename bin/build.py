@@ -236,6 +236,8 @@ def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
         backupLibraryFile.write("800\n")
         backupLibraryFile.write("LIBRARY\n")
         backupLibraryFile.write("\n")
+        backupLibraryFile.write("PRIVATE\n")
+        backupLibraryFile.write("\n")
 
     backupLibraryFile.write("# Backup Library Version: v" + version + "\n")
     backupLibraryFile.write("# https://github.com/aussig/X-Plane-Backup-Library\n")

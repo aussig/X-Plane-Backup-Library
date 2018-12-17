@@ -223,9 +223,3 @@ EXPORT_BACKUP RescueX/people/CIV/STAFF/1/People_CIV_STAFF_01_023.obj openscenery
 EXPORT_BACKUP RescueX/people/Bergwacht/Bergwacht_Hubschraubereinweiser.obj opensceneryx/placeholder.obj
 EXPORT_BACKUP RescueX/people/Bergwacht/Bergwacht_Luftretter.obj opensceneryx/placeholder.obj
 EXPORT_BACKUP RescueX/people/Bergwacht/Bergwacht_Luftretter2.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/cars/police_car.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/cars/police_car.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/cars/police_car.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/trains/R_head.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/trains/R_body.obj opensceneryx/placeholder.obj
-EXPORT_BACKUP lib/trains/R_tail.obj opensceneryx/placeholder.obj

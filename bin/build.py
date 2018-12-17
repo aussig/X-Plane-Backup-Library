@@ -23,8 +23,13 @@ exportStringPattern = re.compile("EXPORT\s+(.*\.str)\s+.*\.str")
 exportNetworkPattern = re.compile("EXPORT\s+(.*\.net)\s+.*\.net")
 exportAutogenPointPattern = re.compile("EXPORT\s+(.*\.agp)\s+.*\.agp")
 exportDecalPattern = re.compile("EXPORT\s+(.*\.dcl)\s+.*\.dcl")
+
+# Special processing
+regionPattern = re.compile("REGION\s+([^\s]+)")
+
+# Ignored items
 blankPattern = re.compile("\s+")
-ignorePattern = re.compile("(EXPORT_BACKUP|EXPORT_EXTEND|REGION|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
 
 def processLibraries(libraryPath, includeOSX):
     """ Process all the third party libraries and generate backup libraries """
@@ -73,6 +78,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
     
     outputFile.write("\n")
 
+    inRegion = False
+
     # Begin parsing
     for line in inputContents:
         # Handle empty lines (ignore)
@@ -109,8 +116,23 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
             continue
 
         # Handle various ignored patterns (ignore)
-        result = ignorePattern.match(line)
+        result = silentIgnorePattern.match(line)
         if result:
+            continue
+
+        # Handle REGION patterns (ignore everything unless a REGION WORLD is encountered)
+        result = regionPattern.match(line)
+        if result:
+            if (result.group(1).upper() == "WORLD"):
+                inRegion = False
+                displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs\n", "note")
+            else:
+                inRegion = True
+                displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+            continue
+
+        # If we're in a region, don't do any processing of EXPORTs
+        if inRegion:
             continue
 
         # Handle EXPORT for objects (rewrite into output file)

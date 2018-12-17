@@ -76,6 +76,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
     outputFile.write("\n")
 
     inRegion = False
+    hasLibExports = False
 
     # Begin parsing
     for line in inputContents:
@@ -136,59 +137,79 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
         result = exportObjectPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.obj\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.pol\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.lin\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.fac\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.for\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.str\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.net\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.agp\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Handle EXPORT for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.dcl\n")
+            if (result.group(1)[:4] == "lib/"):
+                hasLibExports = True
             continue
         
         # Default is to report an issue with the line.
-        displayMessage("Unknown line: \n", "error")
-        displayMessage("  " + line + "\n", "error")
+        displayMessage("Unexpected line: " + line + "\n", "error")
+
+    if hasLibExports:
+        displayMessage("This library has lib/ paths which may need review\n", "note")
 
     outputFile.close()
 

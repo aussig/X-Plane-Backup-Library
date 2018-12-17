@@ -39,7 +39,7 @@ The library is built by running `python build.py` from within the `bin` folder. 
 
 It outputs a folder into `builds` which includes the version number.
 
-_Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, and excludes `EXPORT_BACKUP` lines for OpenSceneryX itself._
+_Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, and omits `EXPORT_BACKUP` lines for OpenSceneryX itself._
 
 ## Distribution
 

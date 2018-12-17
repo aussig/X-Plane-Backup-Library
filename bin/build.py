@@ -14,15 +14,16 @@ import shutil
 import re
 import pcrt
 
-exportObjectPattern = re.compile("EXPORT\s+(.*\.obj)\s+.*\.obj")
-exportPolygonPattern = re.compile("EXPORT\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile("EXPORT\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile("EXPORT\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile("EXPORT\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile("EXPORT\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile("EXPORT\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile("EXPORT\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile("EXPORT\s+(.*\.dcl)\s+.*\.dcl")
+# Basic EXPORT matching
+exportObjectPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.obj)\s+.*\.obj")
+exportPolygonPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.pol)\s+.*\.pol")
+exportLinePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.lin)\s+.*\.lin")
+exportFacadePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.fac)\s+.*\.fac")
+exportForestPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.for)\s+.*\.for")
+exportStringPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.str)\s+.*\.str")
+exportNetworkPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.net)\s+.*\.net")
+exportAutogenPointPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.agp)\s+.*\.agp")
+exportDecalPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.dcl)\s+.*\.dcl")
 
 # Special processing
 regionPattern = re.compile("REGION\s+([^\s]+)")
@@ -53,10 +54,6 @@ def processLibraries(libraryPath, includeOSX):
 
 def handleLibraryFile(inputPath, outputPath, versionPath):
     """ Parse the contents of a library file, and write out an equivalent backup library """
-
-    global exportObjectPattern, exportPolygonPattern, exportLinePattern, exportFacadePattern, exportForestPattern
-    global exportStringPattern, exportNetworkPattern, exportAutogenPointPattern, exportDecalPattern
-    global blankPattern, ignorePattern
 
     displayMessage("Processing " + inputPath + "\n")
 

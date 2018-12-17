@@ -32,14 +32,14 @@ regionPattern = re.compile("REGION\s+([^\s]+)")
 blankPattern = re.compile("\s+")
 silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
 
-def processLibraries(libraryPath, includeOSX):
+def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
 
     libraries = os.listdir(libraryPath)
     libraries.sort()
 
     for item in libraries:
-        if (item == "OpenSceneryX" and not includeOSX):
+        if (item == "OpenSceneryX" and openSceneryX):
             continue
 
         inputPath = os.path.join(libraryPath, item, "library.txt")
@@ -214,11 +214,15 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
     outputFile.close()
 
 
-def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
+def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
     """ Collate all the built backup libraries into a single library, with supporting files, in a build folder"""
 
-    fullBuildPath = os.path.join(buildPath, "Backup Scenery Library " + version)
-    backupLibraryPath = os.path.join(fullBuildPath, "library.txt")
+    if openSceneryX:
+        fullBuildPath = os.path.join(buildPath, "Backup Scenery Library (for OpenSceneryX) " + version)
+        backupLibraryPath = os.path.join(fullBuildPath, "backup_library.txt")
+    else:
+        fullBuildPath = os.path.join(buildPath, "Backup Scenery Library " + version)
+        backupLibraryPath = os.path.join(fullBuildPath, "library.txt")
 
     if os.path.isdir(fullBuildPath):
         displayMessage("Build path: " + fullBuildPath + " already exists\n", "error")
@@ -226,14 +230,18 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
     else:
         os.makedirs(fullBuildPath)
 
-    shutil.copytree(os.path.join(supportPath, "placeholders"), os.path.join(fullBuildPath, "opensceneryx"))
-    shutil.copy(os.path.join(supportPath, "readme.txt"), os.path.join(fullBuildPath, "readme.txt"))
+    if not openSceneryX:
+        shutil.copytree(os.path.join(supportPath, "placeholders"), os.path.join(fullBuildPath, "opensceneryx"))
+        shutil.copy(os.path.join(supportPath, "readme.txt"), os.path.join(fullBuildPath, "readme.txt"))
+
     backupLibraryFile = open(backupLibraryPath, "w")
 
-    backupLibraryFile.write("A\n")
-    backupLibraryFile.write("800\n")
-    backupLibraryFile.write("LIBRARY\n")
-    backupLibraryFile.write("\n")
+    if not openSceneryX:
+        backupLibraryFile.write("A\n")
+        backupLibraryFile.write("800\n")
+        backupLibraryFile.write("LIBRARY\n")
+        backupLibraryFile.write("\n")
+
     backupLibraryFile.write("# Backup Library Version: v" + version + "\n")
     backupLibraryFile.write("# https://github.com/aussig/X-Plane-Backup-Library\n")
     backupLibraryFile.write("\n")
@@ -242,7 +250,7 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
     libraries.sort()
 
     for item in libraries:
-        if (item == "OpenSceneryX" and not includeOSX):
+        if (item == "OpenSceneryX" and openSceneryX):
             continue
 
         inputPath = os.path.join(libraryPath, item, "processed.txt")
@@ -252,6 +260,7 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
 
         inputFile = open(inputPath)
         backupLibraryFile.write(inputFile.read())
+        backupLibraryFile.write("\n")
         inputFile.close()
     
     backupLibraryFile.close()
@@ -298,8 +307,8 @@ version = ""
 while version == "":
     version = raw_input("Enter the library version number (e.g. 2.0.0): ")
 
-includeOSXInput = raw_input("Include OpenSceneryX? [Y/n]: ")
-includeOSX = (includeOSXInput == "" or includeOSXInput == "y" or includeOSXInput == "Y")
+openSceneryXInput = raw_input("Build For OpenSceneryX? [y/N]: ")
+openSceneryX = (openSceneryXInput == "y" or openSceneryXInput == "Y")
 
-processLibraries(libraryPath, includeOSX)
-buildRelease(libraryPath, buildPath, supportPath, version, includeOSX)
+processLibraries(libraryPath, openSceneryX)
+buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX)

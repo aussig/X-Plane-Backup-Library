@@ -5,7 +5,7 @@
 * Now maintained by [aussi](https://forums.x-plane.org/index.php?/profile/2431-aussi/)
 * Now includes 38 libraries, up from 12
 * Implemented a Python project to build the library automatically, hosted on [GitHub](https://github.com/aussig/X-Plane-Backup-Library) for futureproofing
-
+* Placeholder path is now `placeholders/` rather than `opensceneryx/` to avoid confusion
 
 ## v1.7 - 2015-04-25
 

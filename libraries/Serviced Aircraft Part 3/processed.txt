@@ -1,7 +1,7 @@
 # Serviced Aircraft Library Part 3
 # v1.1
 # By Beber, managed by royaloak
-# https://forums.x-plane.org/index.php?/files/file/15363-north-american-serviced-aircraft-library-part-1/
+# https://forums.x-plane.org/index.php?/files/file/15386-north-american-serviced-aircraft-library-part-3/
 
 EXPORT_BACKUP Serviced_Aircraft_North_America_Part3/Air_Canada_MD90.obj opensceneryx/placeholder.obj
 EXPORT_BACKUP Serviced_Aircraft_North_America_Part3/Fedex_MD90.obj opensceneryx/placeholder.obj

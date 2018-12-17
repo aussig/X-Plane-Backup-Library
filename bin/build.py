@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 # Script to create a release
 # Copyright (c) 2018 Austin Goudge
-# Based on original idea and work by Chris K
-# This script is free to use or modify, provided this copyright message remains at the top of the file.
-# If this script is used to generate a scenery library other than OpenSceneryX, recognition MUST be given
-# to the author in any documentation accompanying the library.
-# Version: $Revision$
 
 import sys
 import os

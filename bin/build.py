@@ -37,12 +37,20 @@ def processLibraries(libraryPath, openSceneryX):
         if (item == "OpenSceneryX" and openSceneryX):
             continue
 
-        inputPath = os.path.join(libraryPath, item, "library.txt")
-        outputPath = os.path.join(libraryPath, item, "processed.txt")
-        versionPath = os.path.join(libraryPath, item, "version.txt")
+        # If we are building for OpenSceneryX, look for a special version of the library. In the case of libraries that have been merged into OSX,
+        # allows the OpenSceneryX version to be cut down to just those items that were not merged. Fall back to the normal library.
+        if openSceneryX:
+            inputPath = os.path.join(libraryPath, item, "library_osx.txt")
+            if (not os.path.isfile(inputPath)):
+                inputPath = os.path.join(libraryPath, item, "library.txt")
+        else:
+            inputPath = os.path.join(libraryPath, item, "library.txt")
 
         if (not os.path.isfile(inputPath)):
             continue
+
+        outputPath = os.path.join(libraryPath, item, "processed.txt")
+        versionPath = os.path.join(libraryPath, item, "version.txt")
 
         handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX)
 

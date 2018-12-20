@@ -6,6 +6,7 @@
 * Now includes 38 libraries, up from 12
 * Implemented a Python project to build the library automatically, hosted on [GitHub](https://github.com/aussig/X-Plane-Backup-Library) for futureproofing
 * Placeholder path is now `placeholders/` rather than `opensceneryx/` to avoid confusion
+* Paths starting lib/airport/aircraft are not included - these are virtual paths that X-Plane uses for its static aircraft system and adding blank placeholders to them is not appropriate
 
 ## v1.7 - 2015-04-25
 

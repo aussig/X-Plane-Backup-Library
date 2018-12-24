@@ -6,7 +6,7 @@
 * Now includes 40 libraries, up from 12. The latest list of supported libraries is [always available here](https://github.com/aussig/X-Plane-Backup-Library/tree/master/libraries) 
 * Implemented a Python project to build the library automatically, hosted on [GitHub](https://github.com/aussig/X-Plane-Backup-Library) for futureproofing against abandonware
 * Placeholder path is now `placeholders/` rather than `opensceneryx/` to avoid confusion
-* Paths starting lib/airport/aircraft are not included - these are virtual paths that X-Plane uses for its static aircraft system and adding blank placeholders to them is not appropriate
+* Exports to built-in X-Plane® library paths (e.g. lib/airport/aircraft) are excluded - these are virtual paths that X-Plane® uses for e.g. placing static aircraft and adding blank placeholders to them is not appropriate
 
 ## v1.7 - 2015-04-25
 

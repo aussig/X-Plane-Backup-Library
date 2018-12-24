@@ -27,6 +27,9 @@ regionPattern = re.compile("REGION\s+([^\s]+)")
 blankPattern = re.compile("\s+")
 silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
 
+# 'lib/' paths to exclude - these should all be existing X-Plane library paths
+pathExcludes = re.compile("lib/(airport/aircraft|cars)")
+
 def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
 
@@ -144,8 +147,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for objects (rewrite into output file)
         result = exportObjectPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+            if (pathExcludes.match(result.group(1))):
+                # An export to an excluded path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
                 # An export to a different lib/ path, include but flag up
@@ -156,7 +159,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -168,7 +171,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -180,7 +183,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -192,7 +195,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -204,7 +207,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -216,7 +219,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -228,7 +231,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):
@@ -240,7 +243,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT and EXPORT_EXTEND for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
-            if (result.group(1).startswith("lib/airport/aircraft")):
+            if (pathExcludes.match(result.group(1))):
                 # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
                 continue
             elif (result.group(1).startswith("lib/")):

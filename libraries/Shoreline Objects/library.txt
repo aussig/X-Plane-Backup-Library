@@ -1,0 +1,13 @@
+A
+800
+LIBRARY
+
+# Shoreline_Objects
+
+EXPORT Shoreline_Objects/Concrete_Jacks/Concrete_Jacks_18_Meters.obj    	Concrete_Jacks/Concrete_Jacks_18_Meters.obj
+EXPORT Shoreline_Objects/Concrete_Jacks/Concrete_Jacks_36_Meters.obj    	Concrete_Jacks/Concrete_Jacks_36_Meters.obj
+EXPORT Shoreline_Objects/RipRap/RipRap.obj									RipRap/RipRap.obj
+EXPORT Shoreline_Objects/RipRap/RipRap.str									RipRap/RipRap.str
+EXPORT Shoreline_Objects/RockField/RockField.obj							RockField/RockField.obj
+EXPORT Shoreline_Objects/Seawall/Seawall.obj								Seawall/Seawall.obj
+EXPORT Shoreline_Objects/Seawall/Seawall.str								Seawall/Seawall.str

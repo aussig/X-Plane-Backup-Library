@@ -1,0 +1,45 @@
+A
+800
+LIBRARY
+
+EXPORT swisscreations/helipad/piazzale_erba_1.obj	 		swisscreations/Helipad_mountain_01.obj
+EXPORT swisscreations/helipad/piazzale_erba_2.obj 			swisscreations/Helipad_mountain_02.obj
+EXPORT swisscreations/helipad/piazzale_erba_3.obj 			swisscreations/Helipad_mountain_03.obj
+EXPORT swisscreations/helipad/piazzale_erba_4.obj 			swisscreations/Helipad_mountain_07.obj
+EXPORT swisscreations/helipad/piazzale_erba_5.obj 			swisscreations/Helipad_mountain_09.obj
+EXPORT swisscreations/helipad/piazzale_metallo_1.obj 			swisscreations/Helipad_mountain_05.obj
+EXPORT swisscreations/helipad/strada_1.obj 				swisscreations/Helipad_mountain_04.obj
+EXPORT swisscreations/helipad/strada_2.obj 				swisscreations/Helipad_mountain_06.obj
+EXPORT swisscreations/helipad/strada_3.obj 				swisscreations/Helipad_mountain_10.obj
+EXPORT swisscreations/helipad/strada_4.obj 				swisscreations/Helipad_mountain_11.obj
+EXPORT swisscreations/helipad/ripida_1.obj 				swisscreations/Helipad_mountain_08.obj
+EXPORT swisscreations/helipad/piazzuola_tronchi_4.obj			swisscreations/Helipad_mountain_12.obj
+
+EXPORT swisscreations/oggetti_scenario/soletta.obj			swisscreations/soletta.obj
+EXPORT swisscreations/oggetti_eli/benna_beton_fissa.obj			swisscreations/benna_beton_dep.obj
+EXPORT swisscreations/oggetti_eli/bacino_animato.obj			swisscreations/bacino_animato.obj
+EXPORT swisscreations/oggetti_eli/mucchio_alberi.obj			swisscreations/mucchio_alberi.obj
+EXPORT swisscreations/oggetti_eli/ceppa.obj				swisscreations/ceppa.obj
+EXPORT swisscreations/oggetti_eli/ceppa_con_motosega.obj		swisscreations/ceppa_motosega.obj
+
+EXPORT swisscreations/oggetti_scenario/furgone_htv_2b.obj 		swisscreations/furgone_htv_2b.obj
+EXPORT swisscreations/oggetti_scenario/furgone_htv_1b.obj 		swisscreations/furgone_htv_1b.obj
+EXPORT swisscreations/oggetti_scenario/furgone_htv_0b.obj 		swisscreations/furgone_htv_0b.obj
+EXPORT swisscreations/oggetti_scenario/furgone_swisscreations.obj 	swisscreations/furgone_swisscreations.obj
+
+EXPORT swisscreations/alberi/abete_1.obj 				swisscreations/abete.obj
+EXPORT swisscreations/alberi/abete_2.obj 				swisscreations/abete2.obj
+EXPORT swisscreations/alberi/abete_3.obj 				swisscreations/abete3.obj
+EXPORT swisscreations/alberi/betulla_1.obj 				swisscreations/betulla.obj
+EXPORT swisscreations/alberi/betulla_2.obj 				swisscreations/betulla2.obj
+EXPORT swisscreations/alberi/betulla_3.obj 				swisscreations/betulla3.obj
+EXPORT swisscreations/alberi/faggio_1.obj 				swisscreations/Faggio1.obj
+EXPORT swisscreations/alberi/faggio_2.obj 				swisscreations/Faggio2.obj
+EXPORT swisscreations/alberi/faggio_3.obj 				swisscreations/Faggio3.obj
+EXPORT swisscreations/alberi/faggio_4.obj 				swisscreations/Faggio4.obj
+EXPORT swisscreations/alberi/pero_1.obj 				swisscreations/pero.obj
+EXPORT swisscreations/alberi/pero_2.obj 				swisscreations/pero2.obj
+EXPORT swisscreations/alberi/platano_1.obj 				swisscreations/platano.obj
+EXPORT swisscreations/alberi/platano_2.obj 				swisscreations/platano2.obj
+EXPORT swisscreations/alberi/platano_3.obj 				swisscreations/platano3.obj
+EXPORT swisscreations/alberi/platano_4.obj 				swisscreations/platano4.obj

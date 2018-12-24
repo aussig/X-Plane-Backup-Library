@@ -1,0 +1,20 @@
+A
+800
+LIBRARY
+
+# Wrecked_Vehicles
+
+EXPORT Wrecked_Vehicles/DumpTruckWreck.obj    		DumpTruckWreck.obj
+EXPORT Wrecked_Vehicles/Halftrack_Rusted.obj			Halftrack_Rusted.obj
+EXPORT Wrecked_Vehicles/Shipwreck.obj				Shipwreck.obj
+EXPORT Wrecked_Vehicles/Shipwreck2.obj			Shipwreck2.obj
+EXPORT Wrecked_Vehicles/Shipwreck3.obj			Shipwreck3.obj
+EXPORT Wrecked_Vehicles/Shipwreck4.obj			Shipwreck4.obj
+EXPORT Wrecked_Vehicles/Shipwreck5.obj			Shipwreck5.obj
+EXPORT Wrecked_Vehicles/Shipwreck6.obj			Shipwreck6.obj
+EXPORT Wrecked_Vehicles/Shipwreck7.obj			Shipwreck7.obj
+EXPORT Wrecked_Vehicles/Shipwreck8_Landing_Craft.obj		Shipwreck8_Landing_Craft.obj
+EXPORT Wrecked_Vehicles/Shipwreck9_Landing_Craft_2.obj	Shipwreck9_Landing_Craft_2.obj
+EXPORT Wrecked_Vehicles/TankWreckRightSideup.obj		TankWreckRightSideup.obj
+EXPORT Wrecked_Vehicles/TankWreckUpSideDown.obj		TankWreckUpSideDown.obj
+EXPORT Wrecked_Vehicles/WW2_Jeep_Rusted.obj			WW2_Jeep_Rusted.obj

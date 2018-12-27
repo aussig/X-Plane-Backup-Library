@@ -1,0 +1,74 @@
+A
+800
+LIBRARY
+#Version 0.14
+
+#ACU
+EXPORT Ground_Services-TW/ACU/Static/TAS.obj ACU/Static/TAS.obj
+
+
+#PushBack_Car
+EXPORT Ground_Services-TW/Pushback/Static/EGAS/1.obj PushBack/Static/EVA.obj
+EXPORT Ground_Services-TW/Pushback/Static/TAS/1.obj PushBack/Static/TAS.obj
+EXPORT Ground_Services-TW/Pushback/Static/TAS/2.obj PushBack/Static/TAS_2.obj
+EXPORT Ground_Services-TW/Pushback/Static/FAT/1.obj PushBack/Static/FAT.obj
+#Active
+EXPORT Ground_Services-TW/Pushback/Active/EGAS/1.obj PushBack/Active/EVA.obj
+EXPORT Ground_Services-TW/Pushback/Active/TAS/1.obj PushBack/Active/TAS.obj
+EXPORT Ground_Services-TW/Pushback/Active/TAS/2.obj PushBack/Active/TAS_2.obj
+EXPORT Ground_Services-TW/Pushback/Active/FAT/1.obj PushBack/Active/FAT.obj
+
+
+#Truck
+EXPORT Ground_Services-TW/Truck/Static/TAS/1.obj Truck/Static/TAS.obj
+EXPORT Ground_Services-TW/Truck/Static/EGAS/1.obj Truck/Static/EVA.obj
+EXPORT Ground_Services-TW/Truck/Static/EGAS/2.obj Truck/Static/EGAS_M.obj
+EXPORT Ground_Services-TW/Truck/Static/EGAS/3.obj Truck/Static/EGAS_M1.obj
+#Active
+EXPORT Ground_Services-TW/Truck/Active/TAS/1.obj Truck/Active/TAS.obj
+EXPORT Ground_Services-TW/Truck/Active/EGAS/1.obj Truck/Active/EVA.obj
+EXPORT Ground_Services-TW/Truck/Active/EGAS/2.obj Truck/Active/EGAS_M.obj
+EXPORT Ground_Services-TW/Truck/Active/EGAS/3.obj Truck/Active/EGAS_M1.obj
+
+
+#Baggage
+EXPORT Ground_Services-TW/Baggage/Static/TAS/1.obj Baggage/Static/TAS_1.obj
+EXPORT Ground_Services-TW/Baggage/Static/TAS/2.obj Baggage/Static/TAS_2.obj
+EXPORT Ground_Services-TW/Baggage/Static/TAS/3.obj Baggage/Static/TAS_3.obj
+EXPORT Ground_Services-TW/Baggage/Static/EGAS/1.obj Baggage/Static/EGAS.obj
+EXPORT Ground_Services-TW/Baggage/Static/FAT/1.obj Baggage/Static/FAT.obj
+EXPORT Ground_Services-TW/Baggage/Static/FAT/2.obj Baggage/Static/FAT_1.obj
+EXPORT Ground_Services-TW/Baggage/Static/FAT/3.obj Baggage/Static/FAT_2.obj
+#Active
+EXPORT Ground_Services-TW/Baggage/Active/EGAS/1.obj Baggage/Active/EGAS.obj
+EXPORT Ground_Services-TW/Baggage/Active/TAS/1.obj Baggage/Active/TAS_1.obj
+EXPORT Ground_Services-TW/Baggage/Active/TAS/2.obj Baggage/Active/TAS_2.obj
+EXPORT Ground_Services-TW/Baggage/Active/TAS/3.obj Baggage/Active/TAS_3.obj
+EXPORT Ground_Services-TW/Baggage/Active/FAT/1.obj Baggage/Active/FAT.obj
+EXPORT Ground_Services-TW/Baggage/Active/FAT/2.obj Baggage/Active/FAT_1.obj
+EXPORT Ground_Services-TW/Baggage/Active/FAT/3.obj Baggage/Active/FAT_2.obj
+
+
+#Aviation Police
+EXPORT Ground_Services-TW/Aviation_Police/Static/Xray_car.obj APB/Static/APB_Xray.obj
+
+#TUG
+EXPORT Ground_Services-TW/Tug/Static/EGAS/1.obj Tug/Static/EGAS.obj
+EXPORT Ground_Services-TW/Tug/Static/TAS/1.obj Tug/Static/TAS.obj
+EXPORT Ground_Services-TW/Tug/Static/TIAS/1.obj Tug/Static/TIAS.obj
+EXPORT Ground_Services-TW/Tug/Static/TIAS/1-1.obj Tug/Static/TIAS_1.obj
+#Active
+EXPORT Ground_Services-TW/Tug/Active/EGAS/1.obj Tug/Active/EGAS.obj
+EXPORT Ground_Services-TW/Tug/Active/TAS/1.obj Tug/Active/TAS.obj
+EXPORT Ground_Services-TW/Tug/Active/TIAS/1.obj Tug/Active/TIAS.obj
+EXPORT Ground_Services-TW/Tug/Active/TIAS/1-1.obj Tug/Active/TIAS_1.obj
+
+
+#Catering
+EXPORT Ground_Services-TW/Catering/Static/EGSC/1.obj Catering/Static/EGSC.obj
+EXPORT Ground_Services-TW/Catering/Static/EGSC/2.obj Catering/Static/EGSC_1.obj
+EXPORT Ground_Services-TW/Catering/Static/KACS/1.obj Catering/Static/KACS.obj
+#Active
+EXPORT Ground_Services-TW/Catering/Active/EGSC/1.obj Catering/Active/EGSC.obj
+EXPORT Ground_Services-TW/Catering/Active/EGSC/2.obj Catering/Active/EGSC_1.obj
+EXPORT Ground_Services-TW/Catering/Active/KACS/1.obj Catering/Active/KACS.obj

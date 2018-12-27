@@ -1,0 +1,3 @@
+# FlyAgi Wind Turbines
+# No exports for OpenSceneryX, fully integrated
+##################

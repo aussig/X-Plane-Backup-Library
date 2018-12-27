@@ -1,0 +1,4 @@
+AR Library
+v1.0.1
+By Sebastián Semmartin Zugarramurdy and Daniela Rodríguez
+https://forums.x-plane.org/index.php?/files/file/44586-ar_library-librer%C3%ADa-de-objetos-argentinos/

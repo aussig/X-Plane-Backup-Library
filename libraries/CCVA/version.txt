@@ -1,0 +1,4 @@
+CCVA Library
+v1.9.0
+By Lars de Jonge
+https://forums.x-plane.org/index.php?/files/file/42673-ccva022_object_library/

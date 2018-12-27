@@ -1,0 +1,175 @@
+A
+800
+LIBRARY
+
+########################################################################################################
+# Mostly typically argentine objects for use with ArgentinaReal Sceneries
+# http://forums.x-plane.org/index.php?/tags/ArgentinaReal/
+# Authors: Sebastián Semmartin Zugarramurdy & Daniela Rodríguez Careri
+# ------------------------------------------------------------------------------------------------------
+# Convención para los nombres de objetos: {objeto}_{particularidad}_{variante} (ej. windsock_orange_1)
+########################################################################################################
+
+# Aircrafts
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/airport/aircraft/b738_andes.obj Airport/Aircraft/B738_Andes/B738_Andes.obj
+EXPORT AR_Library/airport/aircraft/b738_arsa.obj Airport/Aircraft/B738_Aerolineas_Argentinas/B738_ARG.obj
+EXPORT AR_Library/airport/aircraft/b738_gol.obj Airport/Aircraft/B738_Gol/B738_GOL.obj
+EXPORT AR_Library/airport/aircraft/a320_lan.obj Airport/Aircraft/A320_LAN/A320IAE_DSM.obj
+EXPORT AR_Library/airport/aircraft/a320_tam.obj Airport/Aircraft/A320_TAM/A320SCFM_TAM.obj
+EXPORT AR_Library/airport/aircraft/e190_austral.obj Airport/Aircraft/E190_AUT/E190_Austral.obj
+EXPORT AR_Library/airport/aircraft/atr42_american_jet.obj Airport/Aircraft/ATR42_American_Jet/ATR42_AmericanJet_1.obj
+
+# Extends default aircraft library
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_ans.obj Airport/Aircraft/B738_Andes/B738_Andes.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_arg.obj Airport/Aircraft/B738_Aerolineas_Argentinas/B738_ARG.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_gol.obj Airport/Aircraft/B738_Gol/B738_GOL.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_glo.obj Airport/Aircraft/B738_Gol/B738_GOL.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_lan.obj Airport/Aircraft/A320_LAN/A320IAE_DSM.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_dsm.obj Airport/Aircraft/A320_LAN/A320IAE_DSM.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_tam.obj Airport/Aircraft/A320_TAM/A320SCFM_TAM.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/jet_c_aut.obj Airport/Aircraft/E190_AUT/E190_Austral.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/turboprop_c_ajt.obj Airport/Aircraft/ATR42_American_Jet/ATR42_AmericanJet_1.obj
+EXPORT_EXTEND lib/airport/aircraft/airliners/turboprop_d_ajt.obj Airport/Aircraft/ATR42_American_Jet/ATR42_AmericanJet_1.obj
+
+# Aiport lights
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/airport/lights/ramp_light.obj Airport/Lights/luminaria.obj
+EXPORT AR_Library/airport/lights/ramp_light_yellow.obj Airport/Lights/luminaria2.obj
+EXPORT AR_Library/airport/lights/papi_inop.obj Airport/Lights/papi_inop.obj
+
+# Airport markings
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/airport/markings/line_red.lin Airport/Markings/redline2.lin
+EXPORT AR_Library/airport/markings/transparent_grass.pol Airport/Markings/transparent_grass.pol
+EXPORT AR_Library/airport/markings/transparent_concrete.pol Airport/Markings/transparent_concrete.pol
+EXPORT AR_Library/airport/markings/acf_type_a320.pol Airport/Markings/Tipo_de_avion_A320.pol
+EXPORT AR_Library/airport/markings/acf_type_b737.pol Airport/Markings/Tipo_de_avion_B737.pol
+EXPORT AR_Library/airport/markings/acf_type_b747.pol Airport/Markings/Tipo_de_avion_B747.pol
+EXPORT AR_Library/airport/markings/acf_type_b757.pol Airport/Markings/Tipo_de_avion_B757.pol
+EXPORT AR_Library/airport/markings/acf_type_md80.pol Airport/Markings/Tipo_de_avion_MD80.pol
+EXPORT AR_Library/airport/markings/acf_type_rj.pol Airport/Markings/Tipo_de_avion_RJ.pol
+EXPORT AR_Library/airport/markings/max_20_kph.pol Airport/Markings/Velocidad_maxima_20.pol
+EXPORT AR_Library/airport/markings/background_black_7.pol Airport/Markings/7_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_1.pol Airport/Markings/1_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_2.pol Airport/Markings/2_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_3.pol Airport/Markings/3_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_4.pol Airport/Markings/4_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_5.pol Airport/Markings/5_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_6.pol Airport/Markings/6_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_8.pol Airport/Markings/8_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_8A.pol Airport/Markings/8A_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_9.pol Airport/Markings/9_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_10.pol Airport/Markings/10_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_7A.pol Airport/Markings/7A_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_11.pol Airport/Markings/11_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_12.pol Airport/Markings/12_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_A.pol Airport/Markings/A_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_26.pol Airport/Markings/26_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_25.pol Airport/Markings/25_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_24.pol Airport/Markings/24_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_23.pol Airport/Markings/23_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_22.pol Airport/Markings/22_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_21.pol Airport/Markings/21_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_20.pol Airport/Markings/20_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_19.pol Airport/Markings/19_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_18.pol Airport/Markings/18_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_17.pol Airport/Markings/17_amarillo.pol
+EXPORT AR_Library/airport/markings/background_black_16.pol Airport/Markings/16_amarillo.pol
+EXPORT AR_Library/airport/markings/background_yellow_17_18_19.pol Airport/Markings/17_18_19.pol
+EXPORT AR_Library/airport/markings/background_yellow_20_21_22.pol Airport/Markings/20_21_22.pol
+EXPORT AR_Library/airport/markings/line_1_single_taxi.lin             Airport/Markings/1_single_taxi.lin
+EXPORT AR_Library/airport/markings/line_2_single_taxi_dash.lin        Airport/Markings/2_single_taxi_dash.lin
+EXPORT AR_Library/airport/markings/line_3_double_taxi.lin             Airport/Markings/3_double_taxi.lin
+EXPORT AR_Library/airport/markings/line_4_double_hold.lin             Airport/Markings/4_double_hold.lin
+EXPORT AR_Library/airport/markings/line_5_single_hold.lin             Airport/Markings/5_single_hold.lin
+EXPORT AR_Library/airport/markings/line_6_ils_hold.lin                Airport/Markings/6_ils_hold.lin
+EXPORT AR_Library/airport/markings/line_7_taxi_hold.lin               Airport/Markings/7_taxi_hold.lin
+EXPORT AR_Library/airport/markings/line_8_single_parking.lin          Airport/Markings/8_single_parking.lin
+EXPORT AR_Library/airport/markings/line_9_double_parking.lin          Airport/Markings/9_double_parking.lin
+EXPORT AR_Library/airport/markings/line_51_single_taxi_b.lin          	Airport/Markings/51_single_taxi_b.lin
+EXPORT AR_Library/airport/markings/line_52_single_taxi_dash_b.lin     Airport/Markings/52_single_taxi_dash_b.lin
+EXPORT AR_Library/airport/markings/line_53_double_taxi_b.lin          Airport/Markings/53_double_taxi_b.lin
+EXPORT AR_Library/airport/markings/line_54_double_hold_b.lin          Airport/Markings/54_double_hold_b.lin
+EXPORT AR_Library/airport/markings/line_55_single_hold_b.lin         	Airport/Markings/55_single_hold_b.lin
+EXPORT AR_Library/airport/markings/line_56_ils_hold_b.lin             Airport/Markings/56_ils_hold_b.lin
+EXPORT AR_Library/airport/markings/line_57_taxi_hold_b.lin            Airport/Markings/57_taxi_hold_b.lin
+EXPORT AR_Library/airport/markings/line_58_single_parking_b.lin       	Airport/Markings/58_single_parking_b.lin
+EXPORT AR_Library/airport/markings/line_59_double_parking_b.lin       	Airport/Markings/59_double_parking_b.lin
+EXPORT AR_Library/airport/markings/line_20_road_edge.lin              Airport/Markings/20_road_edge.lin
+EXPORT AR_Library/airport/markings/line_21_road_edge_zipper.lin       	Airport/Markings/21_road_edge_zipper.lin
+EXPORT AR_Library/airport/markings/line_22_road_edge_dash.lin         	Airport/Markings/22_road_edge_dash.lin
+EXPORT AR_Library/airport/markings/arrow_taxiline.obj         	Airport/Markings/Flecha_Taxiline.obj
+EXPORT AR_Library/airport/markings/background_yellow_1.pol Airport/Markings/1_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_2.pol Airport/Markings/2_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_2A.pol Airport/Markings/2A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_3.pol Airport/Markings/3_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_4.pol Airport/Markings/4_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_4A.pol Airport/Markings/4A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_5.pol Airport/Markings/5_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_6.pol Airport/Markings/6_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_6A.pol Airport/Markings/6A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_6B.pol Airport/Markings/6B_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_6C.pol Airport/Markings/6C_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_7.pol Airport/Markings/7_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_7A.pol Airport/Markings/7A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_7B.pol Airport/Markings/7B_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_8.pol Airport/Markings/8_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_8A.pol Airport/Markings/8A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_8B.pol Airport/Markings/8B_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_9.pol Airport/Markings/9_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_9A.pol Airport/Markings/9A_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_10.pol Airport/Markings/10_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_11.pol Airport/Markings/11_negro.pol
+EXPORT AR_Library/airport/markings/background_yellow_12.pol Airport/Markings/12_negro.pol
+
+
+# Airport misc
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/airport/misc/windsock_orange.obj Airport/Misc/manga.obj
+EXPORT AR_Library/airport/misc/fuel_100ll_cart.obj Airport/Misc/misc_batan.obj
+EXPORT AR_Library/airport/misc/fire_extinguisher_cart.obj Airport/Misc/misc_extintor_carro.obj
+EXPORT AR_Library/airport/misc/fuel_manhole_cover_blue.obj Airport/Misc/misc_tapa_azul.obj
+EXPORT AR_Library/airport/misc/fuel_manhole_cover_ypf.obj Airport/Misc/misc_tapa_ypf.obj
+EXPORT AR_Library/airport/misc/radar_rsma.obj Airport/Misc/radar.obj
+EXPORT AR_Library/airport/misc/transmitter_box.obj Airport/Misc/transmisor.obj
+
+# Airport vehicles
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/airport/vehicles/firetruck_anac_51.obj Airport/Vehicles/autobomba_anac.obj
+EXPORT AR_Library/airport/vehicles/gpu_arsa.obj Airport/Vehicles/GPU_ARSA.obj
+EXPORT AR_Library/airport/vehicles/baggage_trains_arsa.obj Airport/Vehicles/Carro_ARSA.obj
+EXPORT AR_Library/airport/vehicles/baggage_trains_arsa_2.obj Airport/Vehicles/Carro_ARSA_2.obj
+EXPORT AR_Library/airport/vehicles/baggage_trains_arsa_3.obj Airport/Vehicles/Carro_ARSA_3.obj
+
+# Lights
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/lights/streetlight_blue.obj Lights/poste_luz.obj
+EXPORT AR_Library/lights/streetlight_blue.str Lights/poste_luz.str
+
+# Misc
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/misc/fence_country.fac Misc/alambrado.fac
+EXPORT AR_Library/misc/flag_argentina_animated.obj Misc/bandera.obj
+EXPORT AR_Library/misc/road_asphalt.lin Misc/carretera.lin
+EXPORT AR_Library/misc/sign_handicapped.obj Misc/CartelDiscapacitados.obj
+EXPORT AR_Library/misc/sign_parking_official.obj Misc/CartelEstacionamiento.obj
+EXPORT AR_Library/misc/billboard_advertising_road_1.obj Misc/carteles_1.obj
+EXPORT AR_Library/misc/billboard_advertising_road_2.obj Misc/carteles_2.obj
+EXPORT AR_Library/misc/billboard_advertising_road_3.obj Misc/carteles_3.obj
+EXPORT AR_Library/misc/billboard_advertising_road_empty.obj Misc/carteles_vacante.obj
+
+# Vegetation
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/vegetation/grass/grass_lod1300.for Vegetation/Grass/grass_lod1300.for
+EXPORT AR_Library/vegetation/grass/grass_lod1300_sparse.for Vegetation/Grass/grass_lod1300sparse.for
+EXPORT AR_Library/vegetation/trees/trees_single_decorative_small.obj Vegetation/Trees/arbolito.obj
+
+# Vehicles
+# ------------------------------------------------------------------------------------------------------
+EXPORT AR_Library/vehicles/car_toyota_corolla_taxi.obj Vehicles/car_toyota_corolla_taxi.obj
+
+# Extends default vehicle library
+EXPORT_EXTEND lib/cars/car.obj Vehicles/car_toyota_corolla_taxi.obj
+
+

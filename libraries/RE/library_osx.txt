@@ -1,0 +1,20 @@
+# RE_Library
+# Version: V1.8
+# Cut down to those items not merged into OpenSceneryX
+##################
+
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_old/Complete/EGCC_old_main+rear.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Control_Tower/UK_prototype/EGCC_old/Tower_only/EGCC_old_mainblock.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/1_open/EGGP_hangars_bgy_2_1o.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/1_open/EGGP_hangars_lpl_2_1o.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/2_open/EGGP_hangars_bgy_2_2o.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/2_open/EGGP_hangars_lpl_2_2o.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/closed/EGGP_hangars_bgy_2_c.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/2-block/closed/EGGP_hangars_lpl_2_c.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/closed/EGGP_hangars_bgy.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/closed/EGGP_hangars.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/open/EGGP_hangars_open_bgy.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/4-block/open/EGGP_hangars_open.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/single_low/closed/EGGP_hangars_bgy_s_c.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Hangars/Rectangular/single_low/closed/EGGP_hangars_lpl_s_c.obj opensceneryx/placeholder.obj
+EXPORT RE_Library/Terminals/main_buiding/EICK_type/Interior_structure/Cork_interior.obj opensceneryx/placeholder.obj

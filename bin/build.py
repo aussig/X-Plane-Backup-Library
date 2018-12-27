@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 # Script to create a release
 # Copyright (c) 2018 Austin Goudge
-# Based on original idea and work by Chris K
-# This script is free to use or modify, provided this copyright message remains at the top of the file.
-# If this script is used to generate a scenery library other than OpenSceneryX, recognition MUST be given
-# to the author in any documentation accompanying the library.
-# Version: $Revision$
 
 import sys
 import os
@@ -14,44 +9,57 @@ import shutil
 import re
 import pcrt
 
-exportObjectPattern = re.compile("EXPORT\s+(.*\.obj)\s+.*\.obj")
-exportPolygonPattern = re.compile("EXPORT\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile("EXPORT\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile("EXPORT\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile("EXPORT\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile("EXPORT\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile("EXPORT\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile("EXPORT\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile("EXPORT\s+(.*\.dcl)\s+.*\.dcl")
-blankPattern = re.compile("\s+")
-ignorePattern = re.compile("(EXPORT_BACKUP|EXPORT_EXTEND|REGION|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+# Basic EXPORT matching
+exportObjectPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.obj)\s+.*\.obj")
+exportPolygonPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.pol)\s+.*\.pol")
+exportLinePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.lin)\s+.*\.lin")
+exportFacadePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.fac)\s+.*\.fac")
+exportForestPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.for)\s+.*\.for")
+exportStringPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.str)\s+.*\.str")
+exportNetworkPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.net)\s+.*\.net")
+exportAutogenPointPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.agp)\s+.*\.agp")
+exportDecalPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.dcl)\s+.*\.dcl")
 
-def processLibraries(libraryPath, includeOSX):
+# Special processing
+regionPattern = re.compile("REGION\s+([^\s]+)")
+
+# Ignored items
+blankPattern = re.compile("\s+")
+silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+
+# 'lib/' paths to exclude - these should all be existing X-Plane library paths
+pathExcludes = re.compile("lib/(airport/aircraft|cars)")
+
+def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
 
     libraries = os.listdir(libraryPath)
     libraries.sort()
 
     for item in libraries:
-        if (item == "OpenSceneryX" and not includeOSX):
+        if (item == "OpenSceneryX" and openSceneryX):
             continue
 
-        inputPath = os.path.join(libraryPath, item, "library.txt")
-        outputPath = os.path.join(libraryPath, item, "processed.txt")
-        versionPath = os.path.join(libraryPath, item, "version.txt")
+        # If we are building for OpenSceneryX, look for a special version of the library. In the case of libraries that have been merged into OSX,
+        # allows the OpenSceneryX version to be cut down to just those items that were not merged. Fall back to the normal library.
+        if openSceneryX:
+            inputPath = os.path.join(libraryPath, item, "library_osx.txt")
+            if (not os.path.isfile(inputPath)):
+                inputPath = os.path.join(libraryPath, item, "library.txt")
+        else:
+            inputPath = os.path.join(libraryPath, item, "library.txt")
 
         if (not os.path.isfile(inputPath)):
             continue
 
-        handleLibraryFile(inputPath, outputPath, versionPath)
+        outputPath = os.path.join(libraryPath, item, "processed.txt")
+        versionPath = os.path.join(libraryPath, item, "version.txt")
+
+        handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX)
 
 
-def handleLibraryFile(inputPath, outputPath, versionPath):
+def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
     """ Parse the contents of a library file, and write out an equivalent backup library """
-
-    global exportObjectPattern, exportPolygonPattern, exportLinePattern, exportFacadePattern, exportForestPattern
-    global exportStringPattern, exportNetworkPattern, exportAutogenPointPattern, exportDecalPattern
-    global blankPattern, ignorePattern
 
     displayMessage("Processing " + inputPath + "\n")
 
@@ -72,6 +80,14 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
         outputFile.write("# " + line + "\n")
     
     outputFile.write("\n")
+
+    if openSceneryX:
+        placeholderFolder = "opensceneryx"
+    else:
+        placeholderFolder = "placeholders"
+
+    inRegion = False
+    hasLibExports = False
 
     # Begin parsing
     for line in inputContents:
@@ -109,76 +125,151 @@ def handleLibraryFile(inputPath, outputPath, versionPath):
             continue
 
         # Handle various ignored patterns (ignore)
-        result = ignorePattern.match(line)
+        result = silentIgnorePattern.match(line)
         if result:
             continue
 
-        # Handle EXPORT for objects (rewrite into output file)
+        # Handle REGION patterns (ignore everything unless a REGION WORLD is encountered)
+        result = regionPattern.match(line)
+        if result:
+            if (result.group(1).upper() == "WORLD"):
+                inRegion = False
+                displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs\n", "note")
+            else:
+                inRegion = True
+                displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+            continue
+
+        # If we're in a region, don't do any processing of EXPORTs
+        if inRegion:
+            continue
+
+        # Handle EXPORT and EXPORT_EXTEND for objects (rewrite into output file)
         result = exportObjectPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.obj\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to an excluded path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.obj\n")
             continue
         
-        # Handle EXPORT for polygons (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.pol\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.pol\n")
             continue
         
-        # Handle EXPORT for lines (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.lin\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.lin\n")
             continue
         
-        # Handle EXPORT for facades (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.fac\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.fac\n")
             continue
         
-        # Handle EXPORT for forests (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.for\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.for\n")
             continue
         
-        # Handle EXPORT for strings (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.str\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.str\n")
             continue
         
-        # Handle EXPORT for networks (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.net\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.net\n")
             continue
         
-        # Handle EXPORT for autogen points (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.agp\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.agp\n")
             continue
         
-        # Handle EXPORT for decals (rewrite into output file)
+        # Handle EXPORT and EXPORT_EXTEND for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " opensceneryx/placeholder.dcl\n")
+            if (pathExcludes.match(result.group(1))):
+                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+                continue
+            elif (result.group(1).startswith("lib/")):
+                # An export to a different lib/ path, include but flag up
+                hasLibExports = True
+            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.dcl\n")
             continue
         
         # Default is to report an issue with the line.
-        displayMessage("Unknown line: \n", "error")
-        displayMessage("  " + line + "\n", "error")
+        displayMessage("Unexpected line: " + line + "\n", "error")
+
+    if hasLibExports:
+        displayMessage("This library has lib/ paths which may need review\n", "note")
 
     outputFile.close()
 
 
-def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
+def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
     """ Collate all the built backup libraries into a single library, with supporting files, in a build folder"""
 
-    fullBuildPath = os.path.join(buildPath, "Backup Scenery Library " + version)
-    backupLibraryPath = os.path.join(fullBuildPath, "library.txt")
+    if openSceneryX:
+        fullBuildPath = os.path.join(buildPath, "Backup Scenery Library (for OpenSceneryX) " + version)
+        backupLibraryPath = os.path.join(fullBuildPath, "backup_library.txt")
+    else:
+        fullBuildPath = os.path.join(buildPath, "Backup Scenery Library " + version)
+        backupLibraryPath = os.path.join(fullBuildPath, "library.txt")
 
     if os.path.isdir(fullBuildPath):
         displayMessage("Build path: " + fullBuildPath + " already exists\n", "error")
@@ -186,14 +277,20 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
     else:
         os.makedirs(fullBuildPath)
 
-    shutil.copytree(os.path.join(supportPath, "placeholders"), os.path.join(fullBuildPath, "opensceneryx"))
-    shutil.copy(os.path.join(supportPath, "readme.txt"), os.path.join(fullBuildPath, "readme.txt"))
+    if not openSceneryX:
+        shutil.copytree(os.path.join(supportPath, "placeholders"), os.path.join(fullBuildPath, "placeholders"))
+        shutil.copy(os.path.join(supportPath, "readme.txt"), os.path.join(fullBuildPath, "readme.txt"))
+
     backupLibraryFile = open(backupLibraryPath, "w")
 
-    backupLibraryFile.write("A\n")
-    backupLibraryFile.write("800\n")
-    backupLibraryFile.write("LIBRARY\n")
-    backupLibraryFile.write("\n")
+    if not openSceneryX:
+        backupLibraryFile.write("A\n")
+        backupLibraryFile.write("800\n")
+        backupLibraryFile.write("LIBRARY\n")
+        backupLibraryFile.write("\n")
+        backupLibraryFile.write("PRIVATE\n")
+        backupLibraryFile.write("\n")
+
     backupLibraryFile.write("# Backup Library Version: v" + version + "\n")
     backupLibraryFile.write("# https://github.com/aussig/X-Plane-Backup-Library\n")
     backupLibraryFile.write("\n")
@@ -202,7 +299,7 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
     libraries.sort()
 
     for item in libraries:
-        if (item == "OpenSceneryX" and not includeOSX):
+        if (item == "OpenSceneryX" and openSceneryX):
             continue
 
         inputPath = os.path.join(libraryPath, item, "processed.txt")
@@ -212,6 +309,7 @@ def buildRelease(libraryPath, buildPath, supportPath, version, includeOSX):
 
         inputFile = open(inputPath)
         backupLibraryFile.write(inputFile.read())
+        backupLibraryFile.write("\n")
         inputFile.close()
     
     backupLibraryFile.close()
@@ -258,8 +356,8 @@ version = ""
 while version == "":
     version = raw_input("Enter the library version number (e.g. 2.0.0): ")
 
-includeOSXInput = raw_input("Include OpenSceneryX? [Y/n]: ")
-includeOSX = (includeOSXInput == "" or includeOSXInput == "y" or includeOSXInput == "Y")
+openSceneryXInput = raw_input("Build For OpenSceneryX? [y/N]: ")
+openSceneryX = (openSceneryXInput == "y" or openSceneryXInput == "Y")
 
-processLibraries(libraryPath, includeOSX)
-buildRelease(libraryPath, buildPath, supportPath, version, includeOSX)
+processLibraries(libraryPath, openSceneryX)
+buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX)

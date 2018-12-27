@@ -1,6 +1,6 @@
 # Release Notes
 
-## v2.0.0 - xxxx-xx-xx
+## v2.0.0 - 2018-12-27
 
 * Now maintained by [aussi](https://forums.x-plane.org/index.php?/profile/2431-aussi/)
 * Now includes 46 libraries, up from 12. The latest list of supported libraries is [always available here](https://github.com/aussig/X-Plane-Backup-Library/tree/master/libraries) 

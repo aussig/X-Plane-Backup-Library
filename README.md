@@ -6,7 +6,7 @@ This is a placeholder shim library for all known X-Plane® third party scenery l
 
 It is based on ideas and work by [Chris K](https://forums.x-plane.org/index.php?/profile/45106-chris-k/) and subsequently [Richard Elliott](https://forums.x-plane.org/index.php?/profile/389608-einstein/).
 
-- Tired of facade/forest/beach crashes?
+- Tired of facade/forest/beach warnings?
 - Get annoyed at missing a particular object in a 3rd party scenery?
 - Can't find the library online, or the library has disappeared from x-plane.org downloads?
 

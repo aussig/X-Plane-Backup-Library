@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a placeholder shim library for all the major X-Plane® third party scenery libraries.
+This is a placeholder shim library for all known X-Plane® third party scenery libraries.
 
 It is based on ideas and work by [Chris K](https://forums.x-plane.org/index.php?/profile/45106-chris-k/) and subsequently [Richard Elliott](https://forums.x-plane.org/index.php?/profile/389608-einstein/).
 
@@ -27,9 +27,9 @@ This package does not include any actual objects. It does not replace actually h
 This file also does not interfere if you have the actual library. X-Plane® will simply ignore this file if you have the real library installed.
 
 ## For Scenery Developers
- 
+
 I highly suggest (and freely encourage) all of you to include this in any scenery you produce for the end-user. This way, if you reference any of the above libraries, and your end-user does not have it installed, your scenery will still work without errors. As scenery developers, we have an obligation to the end-user to make our scenery as easy and painless as possible to install and use.
- 
+
 This works the same as the [OpenSceneryX](https://www.opensceneryx.com) shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button". Please consider using this, and it will make your users happy.
 
 _Note: If you include this Backup Library in your scenery package, you don't also need to include the OpenSceneryX Placeholder from the [OpenSceneryX Developer Pack](https://www.opensceneryx.com/support/scenery-developers/)._

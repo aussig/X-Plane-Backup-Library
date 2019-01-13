@@ -1,4 +1,3 @@
-#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 # Script to create a release
 # Copyright (c) 2018 Austin Goudge
@@ -8,7 +7,8 @@ import os
 import datetime
 import shutil
 import re
-import pcrt
+
+from colorama import Fore, Style
 
 # Basic EXPORT matching
 exportObjectPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.obj)\s+.*\.obj")
@@ -319,27 +319,17 @@ def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
     backupLibraryFile.close()
 
 
-
-
-
 def displayMessage(message, type="message"):
 	""" Display a message to the user of a given type (determines message colour) """
 
 	if (type == "error"):
-		pcrt.fg(pcrt.RED)
-		print "ERROR: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.RED}ERROR: {message}{Style.RESET_ALL}', end='')
 	elif (type == "warning"):
-		pcrt.fg(pcrt.YELLOW)
-		print "WARNING: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.YELLOW}WARNING: {message}{Style.RESET_ALL}', end='')
 	elif (type == "note"):
-		pcrt.fg(pcrt.CYAN)
-		print "NOTE: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.CYAN}NOTE: {message}{Style.RESET_ALL}', end='')
 	elif (type == "message"):
-		pcrt.fg(pcrt.WHITE)
-		print message,
+		print(message, end='')
 
 	sys.stdout.flush()
 
@@ -358,9 +348,9 @@ if not os.path.isdir(libraryPath):
 
 version = ""
 while version == "":
-    version = raw_input("Enter the library version number (e.g. 2.0.0): ")
+    version = input("Enter the library version number (e.g. 2.0.0): ")
 
-openSceneryXInput = raw_input("Build For OpenSceneryX? [y/N]: ")
+openSceneryXInput = input("Build For OpenSceneryX? [y/N]: ")
 openSceneryX = (openSceneryXInput == "y" or openSceneryXInput == "Y")
 
 processLibraries(libraryPath, openSceneryX)

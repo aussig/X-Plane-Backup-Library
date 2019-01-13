@@ -3,6 +3,8 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Added DT Library
+* Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
+
 
 ## v2.0.0 - 2018-12-27
 

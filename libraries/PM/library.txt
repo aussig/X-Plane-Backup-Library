@@ -209,7 +209,7 @@ EXPORT pm_library/HotAirBalloonUS50ft.obj  HotAirBalloonUS50ft.obj
 EXPORT pm_library/HotAirBalloonUS150ft.obj  HotAirBalloonUS150ft.obj
 EXPORT pm_library/HotAirBalloonUS500ft.obj  HotAirBalloonUS500ft.obj
 EXPORT pm_library/ClockTower_Animated.obj  ClockTower.obj
-EXPORT pm_library/Forklift_Truck.obj  Forklift.obj
+EXPORT pm_library/Forklift_Truck.obj  Forklift.obj
 EXPORT pm_library/ForkliftAnimated.obj  ForkliftAnimated.obj
 EXPORT pm_library/ForkLiftDriver.obj  ForkLiftDriver.obj
 EXPORT pm_library/SecurityCameras_Twin_Animated.obj  SecurityCameras.obj

@@ -4,6 +4,7 @@
 
 * Added DT Library
 * Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
+* Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
 
 
 ## v2.0.0 - 2018-12-27

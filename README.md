@@ -36,7 +36,7 @@ _Note: If you include this Backup Library in your scenery package, you don't als
 
 ## Building
 
-The library is built by running `python build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
+The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
 
 It outputs a folder into `builds` which includes the version number.
 

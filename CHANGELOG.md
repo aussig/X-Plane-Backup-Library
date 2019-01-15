@@ -6,6 +6,7 @@
 * Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
 * Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
 * No longer include EXPORT_EXTEND lines - most of these are lib/ entries so ignored anyway, and the rest should be extending existing paths so don't need backups.
+* Update NAPS library to 6.3
 
 ## v2.0.0 - 2018-12-27
 

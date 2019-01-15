@@ -11,22 +11,22 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.obj)\s+.*\.obj")
-exportPolygonPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.dcl)\s+.*\.dcl")
+exportObjectPattern = re.compile("(?:EXPORT)\s+(.*\.obj)\s+.*\.obj")
+exportPolygonPattern = re.compile("(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
+exportLinePattern = re.compile("(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
+exportFacadePattern = re.compile("(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")
+exportForestPattern = re.compile("(?:EXPORT)\s+(.*\.for)\s+.*\.for")
+exportStringPattern = re.compile("(?:EXPORT)\s+(.*\.str)\s+.*\.str")
+exportNetworkPattern = re.compile("(?:EXPORT)\s+(.*\.net)\s+.*\.net")
+exportAutogenPointPattern = re.compile("(?:EXPORT)\s+(.*\.agp)\s+.*\.agp")
+exportDecalPattern = re.compile("(?:EXPORT)\s+(.*\.dcl)\s+.*\.dcl")
 
 # Special processing
 regionPattern = re.compile("REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile("\s+")
-silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars)")
@@ -145,7 +145,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         if inRegion:
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for objects (rewrite into output file)
+        # Handle EXPORT for objects (rewrite into output file)
         result = exportObjectPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -157,7 +157,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.obj\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for polygons (rewrite into output file)
+        # Handle EXPORT for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -169,7 +169,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.pol\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for lines (rewrite into output file)
+        # Handle EXPORT for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -181,7 +181,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.lin\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for facades (rewrite into output file)
+        # Handle EXPORT for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -193,7 +193,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.fac\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for forests (rewrite into output file)
+        # Handle EXPORT for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -205,7 +205,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.for\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for strings (rewrite into output file)
+        # Handle EXPORT for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -217,7 +217,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.str\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for networks (rewrite into output file)
+        # Handle EXPORT for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -229,7 +229,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.net\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for autogen points (rewrite into output file)
+        # Handle EXPORT for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -241,7 +241,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.agp\n")
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for decals (rewrite into output file)
+        # Handle EXPORT for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):

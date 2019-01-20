@@ -2,10 +2,13 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+
+## v2.1.0 - 2018-01-20
+
 * Added DT Library
 * Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
 * Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
-* No longer include EXPORT_EXTEND lines - most of these are lib/ entries so ignored anyway, and the rest should be extending existing paths so don't need backups.
+* No longer include <tt>EXPORT_EXTEND</tt> lines - most of these are <tt>lib/</tt> entries so ignored anyway, and the rest should be extending existing paths so don't need backups. This was causing problems with libraries such as RuScenery, which use <tt>EXPORT_EXTEND</tt> to publish some of their objects to paths that don't already exist. This is an undocumented thing to do, and using the backup library with RuScenery and the optional visible placeholders would cause some objects to appear as red squares instead of the correct model.
 * Updated NAPS library to 6.3
 
 ## v2.0.0 - 2018-12-27

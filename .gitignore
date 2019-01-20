@@ -1,3 +1,4 @@
 builds
 *.pyc
 processed.txt
+.vscode

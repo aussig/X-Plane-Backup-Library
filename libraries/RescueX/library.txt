@@ -272,7 +272,7 @@ EXPORT RescueX/people/Bergwacht/Bergwacht_Luftretter.obj			people/Bergwacht/Berg
 EXPORT RescueX/people/Bergwacht/Bergwacht_Luftretter2.obj			people/Bergwacht/Bergwacht_Luftretter2.obj
 
 
-# regionale Ersetzungen und Erg‰nzungen
+# regionale Ersetzungen und Erg√§nzungen
 
 REGION_DEFINE RescueXGermany
 REGION_BITMAP region_d.png

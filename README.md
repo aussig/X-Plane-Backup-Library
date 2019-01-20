@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is a placeholder shim library for all the major X-Plane® third party scenery libraries.
+This is a placeholder shim library for all known X-Plane® third party scenery libraries.
 
 It is based on ideas and work by [Chris K](https://forums.x-plane.org/index.php?/profile/45106-chris-k/) and subsequently [Richard Elliott](https://forums.x-plane.org/index.php?/profile/389608-einstein/).
 
-- Tired of facade/forest/beach crashes?
+- Tired of facade/forest/beach warnings?
 - Get annoyed at missing a particular object in a 3rd party scenery?
 - Can't find the library online, or the library has disappeared from x-plane.org downloads?
 
@@ -27,24 +27,24 @@ This package does not include any actual objects. It does not replace actually h
 This file also does not interfere if you have the actual library. X-Plane® will simply ignore this file if you have the real library installed.
 
 ## For Scenery Developers
- 
+
 I highly suggest (and freely encourage) all of you to include this in any scenery you produce for the end-user. This way, if you reference any of the above libraries, and your end-user does not have it installed, your scenery will still work without errors. As scenery developers, we have an obligation to the end-user to make our scenery as easy and painless as possible to install and use.
- 
+
 This works the same as the [OpenSceneryX](https://www.opensceneryx.com) shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button". Please consider using this, and it will make your users happy.
 
 _Note: If you include this Backup Library in your scenery package, you don't also need to include the OpenSceneryX Placeholder from the [OpenSceneryX Developer Pack](https://www.opensceneryx.com/support/scenery-developers/)._
 
 ## Building
 
-The library is built by running `python build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
+The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
 
 It outputs a folder into `builds` which includes the version number.
 
-_Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, and omits `EXPORT_BACKUP` lines for OpenSceneryX itself._
+_Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, omits OpenSceneryX itself, and uses special OpenSceneryX-specific versions for libraries that are partially or fully integrated into OpenSceneryX._
 
 ## Distribution
 
-The library is distributed by zipping the built version folder and uploading to x-plane.org.
+The library is distributed by zipping the built version folder and uploading to the [Downloads page on x-plane.org](https://forums.x-plane.org/index.php?/files/file/25033-backup-scenery-library/).
 
 ## Missing libraries
 

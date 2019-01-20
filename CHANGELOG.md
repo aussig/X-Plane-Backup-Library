@@ -1,9 +1,17 @@
 # Release Notes
 
+## vx.x.x - xxxx-xx-xx
+
+* Added DT Library
+* Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
+* Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
+* No longer include EXPORT_EXTEND lines - most of these are lib/ entries so ignored anyway, and the rest should be extending existing paths so don't need backups.
+* Updated NAPS library to 6.3
+
 ## v2.0.0 - 2018-12-27
 
 * Now maintained by [aussi](https://forums.x-plane.org/index.php?/profile/2431-aussi/)
-* Now includes 46 libraries, up from 12. The latest list of supported libraries is [always available here](https://github.com/aussig/X-Plane-Backup-Library/tree/master/libraries) 
+* Now includes 46 libraries, up from 12. The latest list of supported libraries is [always available here](https://github.com/aussig/X-Plane-Backup-Library/tree/master/libraries)
 * Implemented a Python project to build the library automatically, hosted on [GitHub](https://github.com/aussig/X-Plane-Backup-Library) for futureproofing against abandonware
 * Placeholder path is now `placeholders/` rather than `opensceneryx/` to avoid confusion
 * Exports to built-in X-Plane® library paths (e.g. lib/airport/aircraft) are excluded - these are virtual paths that X-Plane® uses for e.g. placing static aircraft and adding blank placeholders to them is not appropriate

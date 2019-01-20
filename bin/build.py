@@ -1,31 +1,32 @@
-#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 # Script to create a release
 # Copyright (c) 2018 Austin Goudge
 
 import sys
 import os
+import datetime
 import shutil
 import re
-import pcrt
+
+from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.obj)\s+.*\.obj")
-exportPolygonPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile("(?:EXPORT|EXPORT_EXTEND)\s+(.*\.dcl)\s+.*\.dcl")
+exportObjectPattern = re.compile("(?:EXPORT)\s+(.*\.obj)\s+.*\.obj")
+exportPolygonPattern = re.compile("(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
+exportLinePattern = re.compile("(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
+exportFacadePattern = re.compile("(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")
+exportForestPattern = re.compile("(?:EXPORT)\s+(.*\.for)\s+.*\.for")
+exportStringPattern = re.compile("(?:EXPORT)\s+(.*\.str)\s+.*\.str")
+exportNetworkPattern = re.compile("(?:EXPORT)\s+(.*\.net)\s+.*\.net")
+exportAutogenPointPattern = re.compile("(?:EXPORT)\s+(.*\.agp)\s+.*\.agp")
+exportDecalPattern = re.compile("(?:EXPORT)\s+(.*\.dcl)\s+.*\.dcl")
 
 # Special processing
 regionPattern = re.compile("REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile("\s+")
-silentIgnorePattern = re.compile("(EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars)")
@@ -78,7 +79,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
     # Write version info header
     for line in versionContents:
         outputFile.write("# " + line + "\n")
-    
+
     outputFile.write("\n")
 
     if openSceneryX:
@@ -94,11 +95,11 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle empty lines (ignore)
         if line == "":
             continue
-        
+
         # Handle OS filetype (ignore)
         if line == "A" or line == "I":
             continue
-        
+
         # Handle X-Plane version (ignore)
         if line == "800":
             continue
@@ -144,7 +145,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         if inRegion:
             continue
 
-        # Handle EXPORT and EXPORT_EXTEND for objects (rewrite into output file)
+        # Handle EXPORT for objects (rewrite into output file)
         result = exportObjectPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -155,8 +156,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.obj\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for polygons (rewrite into output file)
+
+        # Handle EXPORT for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -167,8 +168,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.pol\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for lines (rewrite into output file)
+
+        # Handle EXPORT for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -179,8 +180,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.lin\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for facades (rewrite into output file)
+
+        # Handle EXPORT for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -191,8 +192,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.fac\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for forests (rewrite into output file)
+
+        # Handle EXPORT for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -203,8 +204,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.for\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for strings (rewrite into output file)
+
+        # Handle EXPORT for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -215,8 +216,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.str\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for networks (rewrite into output file)
+
+        # Handle EXPORT for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -227,8 +228,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.net\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for autogen points (rewrite into output file)
+
+        # Handle EXPORT for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -239,8 +240,8 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.agp\n")
             continue
-        
-        # Handle EXPORT and EXPORT_EXTEND for decals (rewrite into output file)
+
+        # Handle EXPORT for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
             if (pathExcludes.match(result.group(1))):
@@ -251,7 +252,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
                 hasLibExports = True
             outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.dcl\n")
             continue
-        
+
         # Default is to report an issue with the line.
         displayMessage("Unexpected line: " + line + "\n", "error")
 
@@ -280,6 +281,9 @@ def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
     if not openSceneryX:
         shutil.copytree(os.path.join(supportPath, "placeholders"), os.path.join(fullBuildPath, "placeholders"))
         shutil.copy(os.path.join(supportPath, "readme.txt"), os.path.join(fullBuildPath, "readme.txt"))
+        versionInfoFileHandle = open(os.path.join(fullBuildPath, "version.txt"), "w")
+        versionInfoFileHandle.write(version + " " + datetime.datetime.now().strftime("%a, %d %b %Y"))
+        versionInfoFileHandle.close()
 
     backupLibraryFile = open(backupLibraryPath, "w")
 
@@ -311,31 +315,21 @@ def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):
         backupLibraryFile.write(inputFile.read())
         backupLibraryFile.write("\n")
         inputFile.close()
-    
+
     backupLibraryFile.close()
-
-
-
 
 
 def displayMessage(message, type="message"):
 	""" Display a message to the user of a given type (determines message colour) """
-	
+
 	if (type == "error"):
-		pcrt.fg(pcrt.RED)
-		print "ERROR: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.RED}ERROR: {message}{Style.RESET_ALL}', end='')
 	elif (type == "warning"):
-		pcrt.fg(pcrt.YELLOW)
-		print "WARNING: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.YELLOW}WARNING: {message}{Style.RESET_ALL}', end='')
 	elif (type == "note"):
-		pcrt.fg(pcrt.CYAN)
-		print "NOTE: " + message,
-		pcrt.fg(pcrt.WHITE)
+		print(f'{Fore.CYAN}NOTE: {message}{Style.RESET_ALL}', end='')
 	elif (type == "message"):
-		pcrt.fg(pcrt.WHITE)
-		print message,
+		print(message, end='')
 
 	sys.stdout.flush()
 
@@ -354,9 +348,9 @@ if not os.path.isdir(libraryPath):
 
 version = ""
 while version == "":
-    version = raw_input("Enter the library version number (e.g. 2.0.0): ")
+    version = input("Enter the library version number (e.g. 2.0.0): ")
 
-openSceneryXInput = raw_input("Build For OpenSceneryX? [y/N]: ")
+openSceneryXInput = input("Build For OpenSceneryX? [y/N]: ")
 openSceneryX = (openSceneryXInput == "y" or openSceneryXInput == "Y")
 
 processLibraries(libraryPath, openSceneryX)

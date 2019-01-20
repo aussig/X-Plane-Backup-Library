@@ -5,9 +5,9 @@ LIBRARY
 ########################################################################################################
 # Mostly typically argentine objects for use with ArgentinaReal Sceneries
 # http://forums.x-plane.org/index.php?/tags/ArgentinaReal/
-# Authors: Sebasti·n Semmartin Zugarramurdy & Daniela RodrÌguez Careri
+# Authors: Sebasti√°n Semmartin Zugarramurdy & Daniela Rodr√≠guez Careri
 # ------------------------------------------------------------------------------------------------------
-# ConvenciÛn para los nombres de objetos: {objeto}_{particularidad}_{variante} (ej. windsock_orange_1)
+# Convenci√≥n para los nombres de objetos: {objeto}_{particularidad}_{variante} (ej. windsock_orange_1)
 ########################################################################################################
 
 # Aircrafts

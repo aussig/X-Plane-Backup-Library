@@ -2,6 +2,9 @@ A
 800
 LIBRARY
 
+EXPORT DT_Library/Numbers/Large_White2.pol Numbers/Large_White2.pol
+EXPORT DT_Library/Numbers/Large_White2Dirty.pol Numbers/Large_White2Dirty.pol
+EXPORT DT_Library/Numbers/Large_White2Dirty2.pol Numbers/Large_White2Dirty2.pol
 EXPORT DT_Library/Numbers/White_0.pol Numbers/White_0.pol
 EXPORT DT_Library/Numbers/White_0Dirty1.pol Numbers/White_0Dirty1.pol
 EXPORT DT_Library/Numbers/White_0Dirty2.pol Numbers/White_0Dirty2.pol
@@ -208,6 +211,33 @@ EXPORT DT_Library/Chevrons/YellowChevron3.pol Chevrons/YellowChevron3.pol
 EXPORT DT_Library/Chevrons/YellowChevron3Dirty1.pol Chevrons/YellowChevron3Dirty1.pol
 EXPORT DT_Library/Chevrons/YellowChevron3Dirty2.pol Chevrons/YellowChevron3Dirty2.pol
 EXPORT DT_Library/Chevrons/YellowChevron3Dirty2Faded.pol Chevrons/YellowChevron3Dirty2Faded.pol
+
+EXPORT DT_Library/Letters/LWhite.pol Letters/LWhite.pol
+EXPORT DT_Library/Letters/LWhiteDirty.pol Letters/LWhiteDirty.pol
+EXPORT DT_Library/Letters/LWhiteDirty2.pol Letters/LWhiteDirty2.pol
+EXPORT DT_Library/Letters/LWhiteDirtyFaded.pol Letters/LWhiteDirtyFaded.pol
+EXPORT DT_Library/Letters/RWhite.pol Letters/RWhite.pol
+EXPORT DT_Library/Letters/RWhiteDirty.pol Letters/RWhiteDirty.pol
+EXPORT DT_Library/Letters/RWhiteDirty2.pol Letters/RWhiteDirty2.pol
+EXPORT DT_Library/Letters/RWhiteDirtyFaded.pol Letters/RWhiteDirtyFaded.pol
+
+EXPORT DT_Library/Miscellaneous/ClosedXbWhite.pol Miscellaneous/ClosedXbWhite.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbWhiteDirty.pol Miscellaneous/ClosedXbWhiteDirty.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbWhiteDirty2.pol Miscellaneous/ClosedXbWhiteDirty2.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbWhiteDirtyFaded.pol Miscellaneous/ClosedXbWhiteDirtyFaded.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbYellow1.pol Miscellaneous/ClosedXbYellow1.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbYellow2.pol Miscellaneous/ClosedXbYellow2.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbYellow3.pol Miscellaneous/ClosedXbYellow3.pol
+EXPORT DT_Library/Miscellaneous/ClosedXbYellow3Faded.pol Miscellaneous/ClosedXbYellow3Faded.pol
+EXPORT DT_Library/Miscellaneous/ClosedXWhite.pol Miscellaneous/ClosedXWhite.pol
+EXPORT DT_Library/Miscellaneous/ClosedXWhiteDirty.pol Miscellaneous/ClosedXWhiteDirty.pol
+EXPORT DT_Library/Miscellaneous/ClosedXWhiteDirtyFaded.pol Miscellaneous/ClosedXWhiteDirtyFaded.pol
+EXPORT DT_Library/Miscellaneous/ClosedXYellow1.pol Miscellaneous/ClosedXYellow1.pol
+EXPORT DT_Library/Miscellaneous/ClosedXYellow2.pol Miscellaneous/ClosedXYellow2.pol
+EXPORT DT_Library/Miscellaneous/ClosedXYellow3.pol Miscellaneous/ClosedXYellow3.pol
+EXPORT DT_Library/Miscellaneous/ClosedXYellow3faded.pol Miscellaneous/ClosedXYellow3faded.pol
+
+
 
 
 

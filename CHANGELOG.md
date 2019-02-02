@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated OpenSceneryX Library to 3.2.0
 * Updated Handy Objects Library to v7.0
 * Updated DT Library to v1.3
 
@@ -24,36 +25,36 @@
 ## v1.7 - 2015-04-25
 
 * Now maintained by [einstein](https://forums.x-plane.org/index.php?/profile/389608-einstein/)
-* Updated Handy Objects to 3.3
+* Updated Handy Objects Library to 3.3
 
 ## v1.6
 
-* Updated World Models to 7.1.0
+* Updated World Models Library to 7.1.0
 
 ## v1.5
 
-* Updated RE_Library
-* Updated Handy Objects
-* Updated OpenSceneryX
-* Added 3D People
+* Updated RE Library
+* Updated Handy Objects Library
+* Updated OpenSceneryX Library
+* Added 3D People Library
 
 ## v1.4 - 2015-02-01
 
-* Added another 80 objects from RE_Library v1.5 (einstein)
+* Added another 80 objects from RE Library v1.5 (einstein)
 
 ## v1.3 - 2015-01-10
 
-* Updated RE_Library
+* Updated RE Library
 
 ## v1.2 - 2014-12-13
 
 * Fixed .STR placeholder
-* Updated RE_Library
+* Updated RE Library
 * Marked library as PRIVATE so it doesnt show up in WED/OE as a usable art asset.
 
 ## v1.1 - 2014-12-02
 
-* Added Madagascar
+* Added Madagascar Library
 
 ## v1.0 - 2014-12-01
 

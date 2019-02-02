@@ -71,6 +71,8 @@ EXPORT handyobjects/3Danimals/husky_lying.obj Husky_Lying.obj
 EXPORT handyobjects/3Danimals/husky_running.obj Husky_Running.obj
 EXPORT handyobjects/3Danimals/husky_standing.obj Husky_Standing.obj
 
+EXPORT handyobjects/3Danimals/brown_bear.obj Brown_Bear.obj
+
 EXPORT handyobjects/flags/aberdeen_large_flag.obj Aberdeen_Large_Flag.obj
 EXPORT handyobjects/flags/lion_rampant_large_flag.obj Lion_Rampant_Large_Flag.obj
 EXPORT handyobjects/flags/shell_large_flag.obj Shell_Large_Flag.obj
@@ -472,6 +474,8 @@ EXPORT handyobjects/storage/hold_all_black.obj Hold_All_Black.obj
 EXPORT handyobjects/storage/hold_all_blue.obj Hold_All_Blue.obj
 EXPORT handyobjects/storage/hold_all_red.obj Hold_All_Red.obj
 EXPORT handyobjects/storage/hold_all_group.obj Hold_All_Group.obj
+
+EXPORT handyobjects/storage/fuel_tank.obj Fuel_Tank.obj
 
 EXPORT handyobjects/lighting/generator.obj Generator.obj
 EXPORT handyobjects/lighting/generator_running.obj Generator_Running.obj
@@ -1080,6 +1084,8 @@ EXPORT handyobjects/gatesandfences/metal_gate_with_cattle_grid_double.obj Metal_
 EXPORT handyobjects/gatesandfences/triangular_gate.obj Triangular_Gate.obj
 EXPORT handyobjects/gatesandfences/triangular_gate_closed.obj Triangular_Gate_Closed.obj
 
+EXPORT handyobjects/gatesandfences/metal_gate_double_one_section.obj Metal_Gate_Double_One_Section.obj
+
 EXPORT handyobjects/gatesandfences/0.10_x_0.10_post.obj 0.10_x_0.10_Post.obj
 EXPORT handyobjects/gatesandfences/0.15_x_0.15_post.obj 0.15_x_0.15_Post.obj
 EXPORT handyobjects/gatesandfences/0.10_x_0.10_post.str 0.10_x_0.10_Post.str
@@ -1322,6 +1328,11 @@ EXPORT handyobjects/vehicles/ride_on_mower_roller.obj Ride_On_Mower_Roller.obj
 EXPORT handyobjects/vehicles/ride_on_mower_snow_plough.obj Ride_On_Mower_Snow_Plough.obj
 EXPORT handyobjects/vehicles/ride_on_mower_grass_collector.obj Ride_On_Mower_Grass_Collector.obj
 
+EXPORT handyobjects/vehicles/ride_on_mower_with_grass_collector_and_operator_for_ground_routes.obj Ride_On_Mower_With_Grass_Collector_And_Operator_For_Ground_Routes.obj
+
+EXPORT handyobjects/vehicles/ride_on_mower_with_grass_collector_and_operator.obj Ride_On_Mower_With_Grass_Collector_And_Operator.obj
+
+
 EXPORT handyobjects/vehicles/segway.obj Segway.obj
 
 EXPORT handyobjects/vehicles/tour_bus_lhd.obj Tour_Bus_LHD.obj
@@ -1365,6 +1376,14 @@ EXPORT handyobjects/vehicles/atv_bare_no_smoke.obj ATV_Bare_No_Smoke.obj
 EXPORT handyobjects/vehicles/atv_no_rifle_no_smoke.obj ATV_No_Rifle_No_Smoke.obj
 EXPORT handyobjects/vehicles/atv_follow_me_no_smoke.obj ATV_Follow_Me_No_Smoke.obj
 
+EXPORT handyobjects/vehicles/ATV_follow_me_with_rider_for_ground_routes.obj ATV_Follow_Me_With_Rider_For_Ground_Routes.obj
+EXPORT handyobjects/vehicles/ATV_Lower_Tow_Hook.obj ATV_Lower_Tow_Hook.obj
+EXPORT handyobjects/vehicles/atv_no_rifle_no_smoke_lower_tow_hook.obj ATV_No_Rifle_No_Smoke_Lower_Tow_Hook.obj
+EXPORT handyobjects/vehicles/atv_no_smoke_lower_tow_hook.obj ATV_No_Smoke_Lower_Tow_Hook.obj
+EXPORT handyobjects/vehicles/atv_trailor.obj ATV_Trailor.obj
+EXPORT handyobjects/vehicles/atv_trailor_tilted_backward.obj ATV_Trailor_Tilted_Backward.obj
+EXPORT handyobjects/vehicles/atv_trailor_tilted_forward.obj ATV_Trailor_Tilted_Forward.obj
+
 EXPORT handyobjects/vehicles/snow_mobile_red.obj Snow_Mobile_Red.obj
 EXPORT handyobjects/vehicles/snow_mobile_yellow.obj Snow_Mobile_Yellow.obj
 
@@ -1372,6 +1391,14 @@ EXPORT handyobjects/vehicles/tractor.obj Tractor.obj
 EXPORT handyobjects/vehicles/tractor_static.obj Tractor_Static.obj
 EXPORT handyobjects/vehicles/tractor_with_roof.obj Tractor_With_Roof.obj
 EXPORT handyobjects/vehicles/tractor_with_roof_static.obj Tractor_With_Roof_Static.obj
+
+EXPORT handyobjects/vehicles/tractor_with_roof_for_ground_routes.obj Tractor_With_Roof_For_Ground_Routes.obj
+
+EXPORT handyobjects/vehicles/articulated_lorry_and_white_box_trailor.obj Articulated_Lorry_And_White_Box_Trailor.obj
+EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit.obj Articulated_Lorry_Tractor_Unit.obj
+EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit_static.obj Articulated_Lorry_Tractor_Unit_Static.obj
+EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_Static.obj Articulated_Lorry_Trailor_Black_Static.obj
+EXPORT handyobjects/vehicles/articulated_lorry_trailor_blue_Static.obj Articulated_Lorry_Trailor_Blue_Static.obj
 
 EXPORT handyobjects/buildings/portacabin.obj Portacabin.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows.obj Portacabin_Dark_Windows.obj
@@ -1413,6 +1440,7 @@ EXPORT handyobjects/buildings/clubhouse_4.obj Clubhouse_4.obj
 EXPORT handyobjects/buildings/clubhouse_5.obj Clubhouse_5.obj
 EXPORT handyobjects/buildings/clubhouse_6.obj Clubhouse_6.obj
 EXPORT handyobjects/buildings/clubhouse_7.obj Clubhouse_7.obj
+EXPORT handyobjects/buildings/clubhouse_8.obj Clubhouse_8.obj
 
 EXPORT handyobjects/buildings/hot_tub.obj Hot_Tub.obj
 
@@ -1490,6 +1518,7 @@ EXPORT handyobjects/buildings/glass_walkway.obj Glass_Walkway.obj
 
 EXPORT handyobjects/buildings/lighthouse.obj Lighthouse.obj
 EXPORT handyobjects/buildings/lighthouse_II.obj Lighthouse_II.obj
+EXPORT handyobjects/buildings/lighthouse_III.obj Lighthouse_III.obj
 EXPORT handyobjects/buildings/lighthouse_with_helideck.obj Lighthouse_With_Helideck.obj
 EXPORT handyobjects/buildings/lighthouse_with_helideck_no_rocks.obj Lighthouse_With_Helideck_No_Rocks.obj
 EXPORT handyobjects/buildings/lighthouse_with_helideck_II.obj Lighthouse_With_Helideck_II.obj
@@ -1588,6 +1617,8 @@ EXPORT handyobjects/buildings/shed_7.obj Shed_7.obj
 EXPORT handyobjects/buildings/shed_8_open.obj Shed_8_Open.obj
 EXPORT handyobjects/buildings/shed_8_closed.obj Shed_8_Closed.obj
 
+EXPORT handyobjects/buildings/shed_9.obj Shed_9.obj
+
 EXPORT handyobjects/buildings/warehouse_I.obj Warehouse_I.obj
 EXPORT handyobjects/buildings/warehouse_II.obj Warehouse_II.obj
 
@@ -1596,6 +1627,15 @@ EXPORT handyobjects/buildings/visitor_centre.obj Visitor_Centre.obj
 
 EXPORT handyobjects/buildings/outhouse_closed.obj Outhouse_closed.obj
 EXPORT handyobjects/buildings/outhouse_open.obj Outhouse_Open.obj
+
+EXPORT handyobjects/buildings/outhouse_II.obj Outhouse_II.obj
+EXPORT handyobjects/buildings/byre.obj Byre.obj
+EXPORT handyobjects/buildings/byre_complete.obj Byre_Complete.obj
+
+EXPORT handyobjects/buildings/farm_house.obj Farm_House.obj
+EXPORT handyobjects/buildings/farm_house_complete.obj Farm_House_Complete.obj
+
+EXPORT handyobjects/buildings/cottage.obj Cottage.obj
 
 EXPORT handyobjects/seaplane/sea_plane_dock.obj Sea_Plane_Dock.obj
 EXPORT handyobjects/seaplane/sea_plane_dock_I.obj Sea_Plane_Dock_I.obj
@@ -1690,6 +1730,9 @@ EXPORT handyobjects/hangers/smhanger20.obj SMHanger20.obj
 EXPORT handyobjects/hangers/smhanger21.obj SMHanger21.obj
 EXPORT handyobjects/hangers/smhanger22.obj SMHanger22.obj
 
+EXPORT handyobjects/hangers/smhanger23.obj SMHanger23.obj
+EXPORT handyobjects/hangers/smhanger24.obj SMHanger24.obj
+
 EXPORT handyobjects/hangers/curved_green_hanger_14_x_20_closed.obj Curved_Green_Hanger_14_x_20_Closed.obj
 EXPORT handyobjects/hangers/curved_green_hanger_14_x_20_closed_up_and_over.obj Curved_Green_Hanger_14_x_20_Closed_Up_And_Over.obj
 EXPORT handyobjects/hangers/curved_green_hanger_14_x_20_no_front.obj Curved_Green_Hanger_14_x_20_No_Front.obj
@@ -1766,7 +1809,9 @@ EXPORT handyobjects/helipads/helipad_ground_square.obj Helipad_Ground_Square.obj
 EXPORT handyobjects/helipads/hotspot_white_cross.obj Hotspot_White_Cross.obj
 EXPORT handyobjects/helipads/hotspot_yellow.obj Hotspot_Yellow.obj
 
-EXPORT handyobjects/helipads/helicopter_H.obj Helicopter_H.obj
+EXPORT handyobjects/helipads/circular_contrete_helipad_raised.obj Circular_Contrete_Helipad_Raised.obj
+
+EXPORT handyobjects/helipads/helipad.obj Helipad.obj
 
 EXPORT handyobjects/harbour/ferry_ramp_number_1.obj Ferry_Ramp_Number_1.obj
 EXPORT handyobjects/harbour/ferry_ramp_number_2.obj Ferry_Ramp_Number_2.obj
@@ -1787,6 +1832,7 @@ EXPORT handyobjects/instruments/anemometer_with_weather_vane.obj Anemometer_With
 EXPORT handyobjects/instruments/anemometer_with_weather_vane_no_base.obj Anemometer_With_Weather_Vane_No_Base.obj
 
 EXPORT handyobjects/instruments/anemometer_II.obj Anemometer_II.obj
+EXPORT handyobjects/instruments/anemometer_III.obj Anemometer_III.obj
 EXPORT handyobjects/instruments/ariel_with_anemometer.obj Ariel_With_Anemometer.obj
 
 EXPORT handyobjects/instruments/radome.obj Radome.obj
@@ -1796,6 +1842,8 @@ EXPORT handyobjects/instruments/large_ground_radome.obj Large_Ground_Radome.obj
 EXPORT handyobjects/instruments/large_weather_vane.obj Large_Weather_Vane.obj
 
 EXPORT handyobjects/instruments/arial.obj Arial.obj
+
+EXPORT handyobjects/instruments/radio_mast.obj Radio_Mast.obj
 
 EXPORT handyobjects/floraandfauna/hanging_basket_2.0m.obj Hanging_Basket_2.0m.obj
 EXPORT handyobjects/floraandfauna/hanging_basket_2.5m.obj Hanging_Basket_2.5m.obj
@@ -1840,6 +1888,14 @@ EXPORT handyobjects/floraandfauna/fireweed_1.0m_spacing.for Fireweed_1.0m_Spacin
 
 EXPORT handyobjects/floraandfauna/bluebell.for Bluebell.for
 
+EXPORT handyobjects/floraandfauna/bush.for Bush.for
+EXPORT handyobjects/floraandfauna/bush_II.for Bush_II.for
+EXPORT handyobjects/floraandfauna/bush_III.for Bush_III.for
+EXPORT handyobjects/floraandfauna/bush_IV.for Bush_IV.for
+EXPORT handyobjects/floraandfauna/bush_Tall.for Bush_Tall.for
+EXPORT handyobjects/floraandfauna/gorse.for Gorse.for
+EXPORT handyobjects/floraandfauna/nettle.for Nettle.for
+
 EXPORT handyobjects/groundtexutres/wheat_field_cut.pol Wheat_Field_Cut.pol
 EXPORT handyobjects/groundtexutres/wheat_field.pol Wheat_Field.pol
 EXPORT handyobjects/groundtexutres/ploughed_field.pol Ploughed_Field.pol
@@ -1848,6 +1904,8 @@ EXPORT handyobjects/groundtexutres/grass_field.pol Grass_Field.pol
 EXPORT handyobjects/groundtexutres/grass_field_II.pol Grass_Field_II.pol
 
 EXPORT handyobjects/groundtexutres/chalk.pol Chalk.pol
+
+EXPORT handyobjects/groundtexutres/rough_ground.pol Rough_Ground.pol
 
 EXPORT handyobjects/birds/pelican_I.obj Pelican_I.obj
 EXPORT handyobjects/birds/pelican_II.obj Pelican_II.obj
@@ -1886,6 +1944,8 @@ EXPORT handyobjects/sports/rugby_union_pitch.obj Rugby_Union_Pitch.obj
 
 EXPORT handyobjects/sports/softball_field.obj Softball_Field.obj
 EXPORT handyobjects/sports/softball_field_no_grass.obj Softball_Field_No_Grass.obj
+
+EXPORT handyobjects/sports/softball_field_snow.obj Softball_Field_Snow.obj
 
 EXPORT handyobjects/sports/tennis_court.obj Tennis_Court.obj
 EXPORT handyobjects/sports/tennis_court_no_surround.obj Tennis_Court_No_Surround.obj
@@ -2123,6 +2183,9 @@ EXPORT handyobjects/signs/airfield_sign_2.obj Airfield_Sign_2.obj
 
 EXPORT handyobjects/signs/disabled_sign_ground.obj Disabled_Sign_Ground.obj
 
+EXPORT handyobjects/signs/fuel_sign_I.obj Fuel_Sign_I.obj
+EXPORT handyobjects/signs/fuel_sign_II.obj Fuel_Sign_II.obj
+
 EXPORT handyobjects/oilfield/life_boat.obj Life_Boat.obj
 
 EXPORT handyobjects/oilfield/life_raft_closed.obj Life_Raft_Closed.obj
@@ -2145,6 +2208,31 @@ EXPORT handyobjects/oilfield/nui_lite.obj NUI_Lite.obj
 EXPORT handyobjects/oilfield/nui_spar.obj NUI_SPAR.obj
 
 EXPORT handyobjects/oilfield/remote_flare.obj Remote_Flare.obj
+
+EXPORT handyobjects/pathsandroads/dirt_path.lin Dirt_Path.lin
+EXPORT handyobjects/pathsandroads/dirt_path_narrow.lin Dirt_Path_Narrow.lin
+EXPORT handyobjects/pathsandroads/dirt_path_II.lin Dirt_Path_II.lin
+EXPORT handyobjects/pathsandroads/dirt_path_II_narrow.lin Dirt_Path_II_Narrow.lin
+EXPORT handyobjects/pathsandroads/dirt_path_III.lin Dirt_Path_III.lin
+EXPORT handyobjects/pathsandroads/dirt_path_III_narrow.lin Dirt_Path_III_Narrow.lin
+EXPORT handyobjects/pathsandroads/dirt_path_IV.lin Dirt_Path_IV.lin
+EXPORT handyobjects/pathsandroads/dirt_path_IV_narrow.lin Dirt_Path_IV_Narrow.lin
+EXPORT handyobjects/pathsandroads/dirt_path_V.lin Dirt_Path_V.lin
+EXPORT handyobjects/pathsandroads/dirt_path_V_narrow.lin Dirt_Path_V_Narrow.lin
+EXPORT handyobjects/pathsandroads/dirt_path_VI.lin Dirt_Path_VI.lin
+EXPORT handyobjects/pathsandroads/dirt_path_VI_narrow.lin Dirt_Path_VI_Narrow.lin
+
+EXPORT handyobjects/pathsandroads/dirt_road.lin Dirt_Road.lin
+EXPORT handyobjects/pathsandroads/dirt_road_II.lin Dirt_Road_II.lin
+EXPORT handyobjects/pathsandroads/dirt_road_III.lin Dirt_Road_III.lin
+EXPORT handyobjects/pathsandroads/dirt_road_IV.lin Dirt_Road_IV.lin
+EXPORT handyobjects/pathsandroads/dirt_road_V.lin Dirt_Road_V.lin
+EXPORT handyobjects/pathsandroads/dirt_road_VI.lin Dirt_Road_VI.lin
+
+EXPORT handyobjects/pathsandroads/dirt_track.lin Dirt_Track.lin
+EXPORT handyobjects/pathsandroads/dirt_track_narrow.lin Dirt_Track_Narrow.lin
+
+EXPORT handyobjects/pathsandroads/old_runway.lin Old_Runway.lin
 
 EXPORT handyobjects/miscellaneous/fire_hydrant.obj Fire_Hydrant.obj
 EXPORT handyobjects/miscellaneous/fire_hydrant_with_barrier.obj Fire_Hydrant_With_Barrier.obj
@@ -2489,6 +2577,8 @@ EXPORT handyobjects/miscellaneous/large_wind_turbine_yellow_base.obj Large_Wind_
 
 EXPORT handyobjects/miscellaneous/helix_wind_turbine.obj Helix_Wind_Turbine.obj
 EXPORT handyobjects/miscellaneous/helix_wind_turbine.str Helix_Wind_Turbine.str
+
+EXPORT handyobjects/miscellaneous/offshore_wind_turbine_with_platform.obj Offshore_Wind_Turbine_With_Platform.obj
 
 EXPORT handyobjects/miscellaneous/fire_bucket.obj Fire_Bucket.obj
 

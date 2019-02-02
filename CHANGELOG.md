@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated Handy Objects Library to v7.0
 * Updated DT Library to v1.3
 
 ## v2.1.0 - 2018-01-20

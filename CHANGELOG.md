@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v2.2.0 - 2019-02-14
 
 * Updated CCVA Library to v1.10.0
 * Updated OpenSceneryX Library to v3.2.0

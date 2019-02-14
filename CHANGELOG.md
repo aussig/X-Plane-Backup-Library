@@ -2,7 +2,8 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-* Updated OpenSceneryX Library to 3.2.0
+* Updated CCVA Library to v1.10.0
+* Updated OpenSceneryX Library to v3.2.0
 * Updated Handy Objects Library to v7.0
 * Updated DT Library to v1.3
 
@@ -12,7 +13,7 @@
 * Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
 * Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
 * No longer include <tt>EXPORT_EXTEND</tt> lines - most of these are <tt>lib/</tt> entries so ignored anyway, and the rest should be extending existing paths so don't need backups. This was causing problems with libraries such as RuScenery, which use <tt>EXPORT_EXTEND</tt> to publish some of their objects to paths that don't already exist. This is an undocumented thing to do, and using the backup library with RuScenery and the optional visible placeholders would cause some objects to appear as red squares instead of the correct model.
-* Updated NAPS library to 6.3
+* Updated NAPS library to v6.3
 
 ## v2.0.0 - 2018-12-27
 
@@ -25,11 +26,11 @@
 ## v1.7 - 2015-04-25
 
 * Now maintained by [einstein](https://forums.x-plane.org/index.php?/profile/389608-einstein/)
-* Updated Handy Objects Library to 3.3
+* Updated Handy Objects Library to v3.3
 
 ## v1.6
 
-* Updated World Models Library to 7.1.0
+* Updated World Models Library to v7.1.0
 
 ## v1.5
 

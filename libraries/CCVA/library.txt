@@ -42,3 +42,5 @@ EXPORT CCVA022_Object_Library/Infra/CCVARuralClinicAfrica/CCVARuralClinicAfrica.
 EXPORT CCVA022_Object_Library/Infra/CCVAMedFac/CCVAMedFac.obj Infra/CCVAMedFac/CCVAMedFac.obj
 EXPORT CCVA022_Object_Library/Infra/CCVACargoGlassTerm/CCVACargoGlassTerm.obj Infra/CCVACargoGlassTerm/CCVACargoGlassTerm.obj
 EXPORT CCVA022_Object_Library/Infra/CCVAATC/CCVAATC.obj Infra/CCVAATC/CCVAATC.obj
+EXPORT CCVA022_Object_Library/Items/CCVAMobileATC/CCVAMobileATC.obj Items/CCVAMobileATC/CCVAMobileATC.obj
+EXPORT CCVA022_Object_Library/Items/CCVAMobileATClow/CCVAMobileATClow.obj Items/CCVAMobileATClow/CCVAMobileATClow.obj

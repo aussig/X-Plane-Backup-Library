@@ -28,15 +28,15 @@ This file also does not interfere if you have the actual library. X-Plane® will
 
 ## For Scenery Developers
 
-I highly suggest (and freely encourage) all of you to include this in any scenery you produce for the end-user. This way, if you reference any of the above libraries, and your end-user does not have it installed, your scenery will still work without errors. As scenery developers, we have an obligation to the end-user to make our scenery as easy and painless as possible to install and use.
+Feel free to include this in any scenery you produce for the end-user. 
 
-This works the same as the [OpenSceneryX](https://www.opensceneryx.com) shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button". Please consider using this, and it will make your users happy.
+This works the same as the [OpenSceneryX](https://www.opensceneryx.com) shim library. However, since many of the other libraries never included their own 'ready to use' shim library for developer distribution, it wasn't easy to add. Now, you have an "easy button".
 
 _Note: If you include this Backup Library in your scenery package, you don't also need to include the OpenSceneryX Placeholder from the [OpenSceneryX Developer Pack](https://www.opensceneryx.com/support/scenery-developers/)._
 
 ## Building
 
-The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild.
+The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild. Ensure all files are correctly UTF-8 encoded.
 
 It outputs a folder into `builds` which includes the version number.
 

@@ -1,5 +1,9 @@
 # Release Notes
 
+## vx.x.x - xxxx-xx-xx
+
+* Updated DT Library to v1.4
+
 ## v2.2.0 - 2019-02-14
 
 * Updated CCVA Library to v1.10.0

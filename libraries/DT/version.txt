@@ -1,4 +1,4 @@
 DT Library
-v1.4
+v1.5
 By Darrell Thompson
 https://forums.x-plane.org/index.php?/files/file/49646-dt-library/

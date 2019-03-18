@@ -3,6 +3,8 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Updated DT Library to v1.4
+* Updated NAPS Library to v6.4
+* Updated CCVA Library to v2.0.0
 
 ## v2.2.0 - 2019-02-14
 

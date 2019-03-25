@@ -1,0 +1,101 @@
+A
+800
+LIBRARY
+#OB_Library 2.1
+
+#PUBLIC 20190101
+
+#Animated_Hangaropenclose1
+
+EXPORT OB_Library/Animated_Hangaropenclose1/Hangaropenclose1.obj         Animated_Hangaropenclose1/Hangaropenclose1.obj
+
+#Animated_Hangaropenclose2
+
+EXPORT OB_Library/Animated_Hangaropenclose2/Hangaropenclose2.obj         Animated_Hangaropenclose2/Hangaropenclose2.obj
+
+#Animated_tower
+
+EXPORT OB_Library/Animated_tower/Tower_control_xplane.obj               Animated_tower/Tower_control_xplane.obj
+
+#Animated_Kites
+
+EXPORT OB_Library/Animated_Kites/movingkiteblack/moving_kite.obj        Animated_Kites/movingkiteblack/moving_kite.obj
+EXPORT OB_Library/Animated_Kites/movingkitegreen/moving_kite.obj        Animated_Kites/movingkitegreen/moving_kite.obj
+EXPORT OB_Library/Animated_Kites/movingkitepurple/moving_kite.obj       Animated_Kites/movingkitepurple/moving_kite.obj
+EXPORT OB_Library/Animated_Kites/movingkitered/moving_kite.obj          Animated_Kites/movingkitered/moving_kite.obj
+
+#Animated_panoramic_elevator_Building
+
+EXPORT OB_Library/Animated_panoramic_elevator_Building/Animated_Panoramic_elev_building.obj    Animated_panoramic_elevator_Building/Animated_Panoramic_elev_building.obj
+
+#Antennas_cellphone
+
+EXPORT OB_Library/Antennas_cellphone/AntennaRadar/Antena_radar_New.obj              Antennas_cellphone/AntennaRadar/Antena_radar_New.obj
+EXPORT OB_Library/Antennas_cellphone/SBAS_antena.obj                                Antennas_cellphone/SBAS_antena.obj
+EXPORT OB_Library/Antennas_cellphone/Antennastell/poste_de_ferro.obj                Antennas_cellphone/Antennastell/poste_de_ferro.obj
+
+#Buildings
+
+EXPORT OB_Library/Buildings/Building2.obj                                     Buildings/Building2.obj
+EXPORT OB_Library/Buildings/arranhaceu/arranhaceu.obj                         Buildings/arranhaceu/arranhaceu.obj
+EXPORT OB_Library/Buildings/prediox/prediox.obj                               Buildings/prediox/prediox.obj
+
+#houses_KsaX
+
+EXPORT OB_Library/houses_KsaX/KsaX.obj                                   houses_KsaX/KsaX.obj
+EXPORT OB_Library/houses_KsaX/FavelaX/FavelaX.obj                        houses_KsaX/FavelaX/FavelaX.obj
+EXPORT OB_Library/houses_KsaX/KsaX2/KsaX2.obj                            houses_KsaX/KsaX2/KsaX2.obj
+EXPORT OB_Library/houses_KsaX/KsaX3/KsaX3.obj                            houses_KsaX/KsaX3/KsaX3.obj
+
+#3D_Cows
+
+EXPORT OB_Library/3D_Cows/cows_grupo.obj                                 3D_Cows/cows_grupo.obj
+EXPORT OB_Library/3D_Cows/cows_grupo-COWSKIN1.obj                        3D_Cows/cows_grupo-COWSKIN1.obj
+
+#Animated_Skydivers1
+
+EXPORT  OB_Library/Animated_Skydivers1/Skydiver1o.obj                  Animated_Skydivers1/Skydiver1o.obj
+EXPORT  OB_Library/Animated_Skydivers1/Skydiver1k.obj                  Animated_Skydivers1/Skydiver1k.obj
+EXPORT  OB_Library/Animated_Skydivers1/Skydiver1s.obj                  Animated_Skydivers1/Skydiver1s.obj
+EXPORT  OB_Library/Animated_Skydivers1/Skydiver1v.obj                  Animated_Skydivers1/Skydiver1v.obj
+#Animated_Skydivers3
+EXPORT OB_Library/Animated_Skydivers1/3way/Skydiver3oway.obj               Animated_Skydivers1/3way/Skydiver3oway.obj
+EXPORT OB_Library/Animated_Skydivers1/3way/Skydiver3kway.obj               Animated_Skydivers1/3way/Skydiver3kway.obj
+EXPORT OB_Library/Animated_Skydivers1/3way/Skydiver3sway.obj               Animated_Skydivers1/3way/Skydiver3sway.obj
+EXPORT OB_Library/Animated_Skydivers1/3way/Skydiver3vway.obj               Animated_Skydivers1/3way/Skydiver3vway.obj
+#2way
+EXPORT OB_Library/Animated_Skydivers1/2way/Skydiver2oway.obj           Animated_Skydivers1/2way/Skydiver2oway.obj
+EXPORT OB_Library/Animated_Skydivers1/2way/Skydiver2sway.obj           Animated_Skydivers1/2way/Skydiver2sway.obj
+EXPORT OB_Library/Animated_Skydivers1/2way/Skydiver2vway.obj           Animated_Skydivers1/2way/Skydiver2vway.obj
+EXPORT OB_Library/Animated_Skydivers1/2way/Skydiver2kway.obj           Animated_Skydivers1/2way/Skydiver2kway.obj
+
+#Animated_WindBlades_pd
+
+EXPORT OB_Library/Animated_WindBlades_pd/windbladepd/windblade.obj                     Animated_WindBlades_pd/windbladepd/windblade.obj
+EXPORT OB_Library/Animated_WindBlades_pd/Animatedwindbladegofly/windbladegofly.obj     Animated_WindBlades_pd/Animatedwindbladegofly/windbladegofly.obj
+
+#Water_tank
+
+EXPORT OB_Library/water_tank/caixa_dagua_aerop-caixa_dagua_aerop_0.obj                  water_tank/caixa_dagua_aerop-caixa_dagua_aerop_0.obj
+
+#SAM_animated_Hangars_samples
+
+EXPORT OB_Library/SAM_animated_Hangars_samples/SAMHANGARSAMPLE1.obj                    SAM_animated_Hangars_samples/SAMHANGARSAMPLE1.obj
+EXPORT OB_Library/SAM_animated_Hangars_samples/SAMHANGARSAMPLE2.obj                    SAM_animated_Hangars_samples/SAMHANGARSAMPLE2.obj
+EXPORT OB_Library/SAM_animated_Hangars_samples/SAMHANGARSAMPLE3.obj                    SAM_animated_Hangars_samples/SAMHANGARSAMPLE3.obj
+
+#Helipad_Blue_yellow
+
+EXPORT OB_Library/Helipad_Blue_yellow/heliponto_a.obj                                  Helipad_Blue_yellow/heliponto_a.obj
+EXPORT OB_Library/Helipad_Blue_yellow/helipontob.obj                                   Helipad_Blue_yellow/helipontob.obj
+EXPORT OB_Library/Helipad_Blue_yellow/yellow/helipontob.obj                            Helipad_Blue_yellow/yellow/helipontob.obj
+
+#Animated_Hangar_animations_fast_updown_trim_plusSAM´S
+
+EXPORT OB_Library/Animated_Hangar_animations_2/Animated_Hangar_Lg.obj                  Animated_Hangar_animations_2/Animated_Hangar_Lg.obj
+
+
+
+# library create by Otavio Bonomi named OB_Library.Copyright Otavio Bonomi 2018
+# Updated on Jan,30 2019.
+# Version 2.1

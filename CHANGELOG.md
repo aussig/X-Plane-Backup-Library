@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added OB Library
 * Updated DT Library to v1.4
 * Updated NAPS Library to v6.4
 * Updated CCVA Library to v2.0.0

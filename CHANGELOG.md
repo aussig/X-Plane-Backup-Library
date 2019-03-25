@@ -5,6 +5,7 @@
 * Updated DT Library to v1.4
 * Updated NAPS Library to v6.4
 * Updated CCVA Library to v2.0.0
+* Updated Handy Objects Library to v7.2
 
 ## v2.2.0 - 2019-02-14
 

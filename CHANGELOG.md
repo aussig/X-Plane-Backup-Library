@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v2.3.0 - 2019-03-26
 
 * Added OB Library
 * Added Clock Tower Library

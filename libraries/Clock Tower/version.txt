@@ -1,0 +1,4 @@
+Clock Tower Library
+v1.1
+By gplv3
+https://forums.x-plane.org/index.php?/files/file/25471-clock-tower-library/

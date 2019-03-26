@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.3.0 - 2019-03-26
+
+* Added OB Library
+* Added Clock Tower Library
+* Added RAF Towers Library
+* Updated DT Library to v1.4
+* Updated NAPS Library to v6.4
+* Updated CCVA Library to v2.0.0
+* Updated Handy Objects Library to v7.2
+
 ## v2.2.0 - 2019-02-14
 
 * Updated CCVA Library to v1.10.0

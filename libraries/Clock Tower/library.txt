@@ -1,0 +1,7 @@
+A
+800
+LIBRARY
+
+EXPORT LIBctower/Clock_tower_10m.obj  		objects/c_tower.obj
+EXPORT LIBctower/Clock_tower_modern_9m.obj  	objects/c_tower_modern.obj
+

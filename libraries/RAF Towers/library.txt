@@ -1,0 +1,219 @@
+A
+800
+LIBRARY
+
+# RE RAF Control Towers library - version: v1.1
+
+# ----------------------------------
+# Fort types
+# ----------------------------------
+
+# 207/36 - Concrete
+# ----------------------------------
+EXPORT RAF_Towers/Fort/Concrete/Fort_207_w1.obj Fort/Fort_207_w1.obj
+EXPORT RAF_Towers/Fort/Concrete/Fort_207_w2.obj Fort/Fort_207_w2.obj
+
+# 1959/34 - Brick
+# ----------------------------------
+EXPORT RAF_Towers/Fort/Brick/Fort_1959_w1.obj Fort/Fort_1959_w1.obj
+EXPORT RAF_Towers/Fort/Brick/Fort_1959_w2.obj Fort/Fort_1959_w2.obj
+
+# 4698/43 - conversion
+# ----------------------------------
+EXPORT RAF_Towers/Fort/4698/Fort_4698_green_w1.obj Fort/Fort_4698_green_w1.obj
+EXPORT RAF_Towers/Fort/4698/Fort_4698_green_w2.obj Fort/Fort_4698_green_w2.obj
+EXPORT RAF_Towers/Fort/4698/Fort_4698_white_w1.obj Fort/Fort_4698_white_w1.obj
+EXPORT RAF_Towers/Fort/4698/Fort_4698_white_w2.obj Fort/Fort_4698_white_w2.obj
+
+# Later developments & fictional
+# ----------------------------------
+EXPORT RAF_Towers/Fort/RFTS_VCR/Fort_1959_RFTS.obj Fort/Fort_1959_RFTS.obj
+EXPORT RAF_Towers/Fort/Carlisle_VCR/Fort_1959_Carl.obj Fort/Fort_1959_Carl.obj
+EXPORT RAF_Towers/Fort/Cranfield/Fort_Cran.obj Fort/Fort_Cran.obj
+EXPORT RAF_Towers/Fort/Leconfield/Fort_Lec.obj Fort/Fort_Lec.obj
+
+# ----------------------------------
+# FTS types
+# ----------------------------------
+
+# 5740/36 - original plan
+# ----------------------------------
+EXPORT RAF_Towers/FTS/Orig_design/FTS_5740.obj FTS/FTS_5740.obj
+
+# 5740/36 - with later VCR
+# --------------------------------------
+EXPORT RAF_Towers/FTS/Orig_new_VCR/FTS_5740_VCRc.obj FTS/FTS_5740_VCRc.obj
+
+# 2-storey versions, as built
+# --------------------------------------
+EXPORT RAF_Towers/FTS/As_built/Hullavington/FTS_Hull.obj FTS/FTS_Hull.obj
+EXPORT RAF_Towers/FTS/As_built/Little_Rissington/FTS_LR.obj FTS/FTS_LR.obj
+EXPORT RAF_Towers/FTS/As_built/Shawbury/FTS_Shaw.obj FTS/FTS_Shaw.obj
+EXPORT RAF_Towers/FTS/As_built/South_Cerney/FTS_SC.obj FTS/FTS_SC.obj
+EXPORT RAF_Towers/FTS/As_built/Ternhill/FTS_Ternhill.obj FTS/FTS_Ternhill.obj
+
+# ----------------------------------
+# Villa & 518/40 types
+# ----------------------------------
+
+# 2328 - concrete
+# ----------------------------------
+EXPORT RAF_Towers/Villa/2328_concrete/No_VCR/Villa2328_conc.obj Villa/Villa2328_conc.obj
+EXPORT RAF_Towers/Villa/2328_concrete/No_VCR/Villa2328_green.obj Villa/Villa2328_green.obj
+EXPORT RAF_Towers/Villa/2328_concrete/No_VCR/Villa2328_white.obj Villa/Villa2328_white.obj
+
+EXPORT RAF_Towers/Villa/2328_concrete/VCR/Villa2328_green_VCRb.obj Villa/Villa2328_green_VCRb.obj
+EXPORT RAF_Towers/Villa/2328_concrete/VCR/Villa2328_green_VCRb_grn.obj Villa/Villa2328_green_VCRb_grn.obj
+EXPORT RAF_Towers/Villa/2328_concrete/VCR/Villa2328_white_VCRb.obj Villa/Villa2328_white_VCRb.obj
+
+EXPORT RAF_Towers/Villa/2328_concrete/Topcliffe/Villa2328_green_Topcliffe.obj Villa/Villa2328_green_Topcliffe.obj
+
+
+# 5845 - "permanent" brick
+# ----------------------------------
+EXPORT RAF_Towers/Villa/5845_brick/No_VCR/Villa5845_brick.obj Villa/Villa5845_brick.obj
+EXPORT RAF_Towers/Villa/5845_brick/No_VCR/Villa5845_green.obj Villa/Villa5845_green.obj
+EXPORT RAF_Towers/Villa/5845_brick/No_VCR/Villa5845_white.obj Villa/Villa5845_white.obj
+
+EXPORT RAF_Towers/Villa/5845_brick/VCR/Villa5845_white_VCRb.obj Villa/Villa5845_white_VCRb.obj
+
+# 518/40 - "temporary" brick
+# ----------------------------------
+EXPORT RAF_Towers/Villa/518_40/No_VCR/518_40_brick.obj Villa/518_40_brick.obj
+EXPORT RAF_Towers/Villa/518_40/No_VCR/518_40_green.obj Villa/518_40_green.obj
+EXPORT RAF_Towers/Villa/518_40/No_VCR/518_40_white.obj Villa/518_40_white.obj
+
+EXPORT RAF_Towers/Villa/518_40/VCR/518_40_green_VCRb.obj Villa/518_40_green_VCRb.obj
+EXPORT RAF_Towers/Villa/518_40/VCR/518_40_white_VCRb.obj Villa/518_40_white_VCRb.obj
+EXPORT RAF_Towers/Villa/518_40/VCR/518_40_brick_VCRa.obj Villa/518_40_brick_VCRa.obj
+EXPORT RAF_Towers/Villa/518_40/VCR/518_40_white_VCRa.obj Villa/518_40_white_VCRa.obj
+
+EXPORT RAF_Towers/Villa/518_40/Carlisle/518_40_white_Carl.obj Villa/518_40_white_Carl.obj
+
+# ----------------------------------
+# Wartime "All Commands" types
+# ----------------------------------
+
+# Early type - 12779/41
+# ----------------------------------
+EXPORT RAF_Towers/All_Commands/12779/No_VCR/12779_brick.obj All_Commands/12779_brick.obj
+EXPORT RAF_Towers/All_Commands/12779/No_VCR/12779_green.obj All_Commands/12779_green.obj
+EXPORT RAF_Towers/All_Commands/12779/No_VCR/12779_white.obj All_Commands/12779_white.obj
+
+EXPORT RAF_Towers/All_Commands/12779/VCR/12779_white_VCRb.obj All_Commands/12779_white_VCRb.obj
+
+# Later type - 343/43
+# ----------------------------------
+EXPORT RAF_Towers/All_Commands/343/No_VCR/343_brick.obj All_Commands/343_brick.obj
+EXPORT RAF_Towers/All_Commands/343/No_VCR/343_green.obj All_Commands/343_green.obj
+EXPORT RAF_Towers/All_Commands/343/No_VCR/343_white.obj All_Commands/343_white.obj
+
+EXPORT RAF_Towers/All_Commands/343/VCR/343_green_VCRb.obj All_Commands/343_green_VCRb.obj
+EXPORT RAF_Towers/All_Commands/343/VCR/343_white_VCRb.obj All_Commands/343_white_VCRb.obj
+
+EXPORT RAF_Towers/All_Commands/343/Strubby/343_white_Strubby.obj All_Commands/343_white_Strubby.obj
+
+# ----------------------------------
+# Night fighter types
+# ----------------------------------
+
+# Early type - 12096/41
+# ----------------------------------
+EXPORT RAF_Towers/Night_fighter/12096/No_VCR/12096_brick.obj Night_fighter/12096_brick.obj
+EXPORT RAF_Towers/Night_fighter/12096/No_VCR/12096_white.obj Night_fighter/12096_white.obj
+
+EXPORT RAF_Towers/Night_fighter/12096/Woodvale/12096_Woodvale.obj Night_fighter/12096_Woodvale.obj
+
+# Later type - 15684/41
+# ----------------------------------
+EXPORT RAF_Towers/Night_fighter/15684/No_VCR/15684_brick.obj Night_fighter/15684_brick.obj
+EXPORT RAF_Towers/Night_fighter/15684/No_VCR/15684_white.obj Night_fighter/15684_white.obj
+
+EXPORT RAF_Towers/Night_fighter/15684/Church_Fenton/15684_Church_Fenton.obj Night_fighter/15684_Church_Fenton.obj
+
+# ----------------------------------
+# Bomber satellite types
+# ----------------------------------
+
+# Early type - 13079/41
+# ----------------------------------
+EXPORT RAF_Towers/Bomber_satellite/13079/13079_brick_VCRc.obj Bomber_satellite/13079_brick_VCRc.obj
+EXPORT RAF_Towers/Bomber_satellite/13079/13079_white_VCRc.obj Bomber_satellite/13079_white_VCRc.obj
+
+# Type 13726/41
+# ----------------------------------
+EXPORT RAF_Towers/Bomber_satellite/13726/13726_brick.obj Bomber_satellite/13726_brick.obj
+EXPORT RAF_Towers/Bomber_satellite/13726/13726_white_.obj Bomber_satellite/13726_white.obj
+
+EXPORT RAF_Towers/Bomber_satellite/13726/13726_Filton.obj Bomber_satellite/13726_Filton.obj
+EXPORT RAF_Towers/Bomber_satellite/13726/13726_Sleap_.obj Bomber_satellite/13726_Sleap.obj
+EXPORT RAF_Towers/Bomber_satellite/13726/13726_Weth_.obj Bomber_satellite/13726_Weth.obj
+
+# Type - 15683/41
+# ----------------------------------
+EXPORT RAF_Towers/Bomber_satellite/15683/15683_brick.obj Bomber_satellite/15683_brick.obj
+EXPORT RAF_Towers/Bomber_satellite/15683/156836_white_.obj Bomber_satellite/15683_white.obj
+
+# ----------------------------------
+# Type 5223a/51
+# ----------------------------------
+
+# 5223a/51
+# ----------------------------------
+EXPORT RAF_Towers/5223a/5223a_brick.obj 5223a/5223a_brick.obj
+EXPORT RAF_Towers/5223a/5223a_brick_wbase.obj 5223a/5223a_brick_wbase.obj
+EXPORT RAF_Towers/5223a/5223a_white.obj 5223a/5223a_white.obj
+
+# ----------------------------------
+# "V" bomber type
+# ----------------------------------
+
+# "V" bomber
+# ----------------------------------
+
+EXPORT RAF_Towers/V_bomber/V-bomber_brick.obj V_bomber/V_bomber_brick.obj
+EXPORT RAF_Towers/V_bomber/V-bomber_white.obj V_bomber/V_bomber_white.obj
+
+# ----------------------------------
+# Reserve flying training school
+# ----------------------------------
+
+# RFTS
+# ----------------------------------
+EXPORT RAF_Towers/RFTS/RFTS_brick.obj RFTS/RFTS_brick.obj
+EXPORT RAF_Towers/RFTS/RFTS_white.obj RFTS/RFTS_white.obj
+
+# ----------------------------------
+# "Valley" type
+# ----------------------------------
+
+# "Valley"
+# ----------------------------------
+EXPORT RAF_Towers/Valley/Valley_brick.obj Valley/Valley_brick.obj
+EXPORT RAF_Towers/Valley/Valley_brick_brown.obj Valley/Valley_brick_brown.obj
+EXPORT RAF_Towers/Valley/Valley_brick_green.obj Valley/Valley_brick_green.obj
+EXPORT RAF_Towers/Valley/Valley_brick_white.obj Valley/Valley_brick_white.obj
+EXPORT RAF_Towers/Valley/Valley_white.obj Valley/Valley_white.obj
+
+# ----------------------------------
+# Type 2458c
+# ----------------------------------
+
+# 2458c
+# ----------------------------------
+EXPORT RAF_Towers/2458c/2458c_brick.obj 2458c/2458c_brick.obj
+EXPORT RAF_Towers/2458c/2458c_white.obj 2458c/2458c_white.obj
+
+# ----------------------------------
+# Type 7378a
+# ----------------------------------
+
+# 7378a
+# ----------------------------------
+EXPORT RAF_Towers/7378a/7378a_brick.obj 7378a/7378a_brick.obj
+EXPORT RAF_Towers/7378a/7378a_white.obj 7378a/7378a_white.obj
+
+
+# ---------
+# [  END  ]
+# ---------

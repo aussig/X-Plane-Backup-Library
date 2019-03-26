@@ -1,9 +1,3 @@
 # FlyAgi Vegetation
-# Version: V1.00
-# Cut down to those items not merged into OpenSceneryX
+# No exports for OpenSceneryX, fully integrated
 ##################
-
-EXPORT FlyAgi_Vegetation/Forests/coni_tmp_wet.for Trees/coni_tmp_wet.for
-EXPORT FlyAgi_Vegetation/Forests/coni_tmp_dry.for Trees/coni_tmp_dry.for
-EXPORT FlyAgi_Vegetation/Forests/coni_tmp_sdry.for Trees/coni_tmp_sdry.for
-EXPORT FlyAgi_Vegetation/Forests/coni_tmp_rain.for Trees/coni_tmp_rain.for

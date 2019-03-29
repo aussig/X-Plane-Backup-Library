@@ -1,5 +1,9 @@
 # Release Notes
 
+## vx.x.x - xxxx-xx-xx
+
+* Updated OpenSceneryX to v4.0.0
+
 ## v2.3.0 - 2019-03-26
 
 * Added OB Library

@@ -4,7 +4,7 @@
 
 * Added PuF Library
 * Updated OpenSceneryX Library to v4.0.0
-* Updated Handy Objects Library to v7.41
+* Updated Handy Objects Library to v7.50
 * Updated CCVA Library to v2.1.0
 * Updated NAPS Library to v6.5
 * Updated DT Library to v1.5.1

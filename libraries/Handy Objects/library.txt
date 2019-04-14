@@ -122,6 +122,10 @@ EXPORT handyobjects/flags/flag_pole.obj Flag_Pole.obj
 EXPORT handyobjects/flags/golf_flag_red.obj Golf_Flag_Red.obj
 EXPORT handyobjects/flags/golf_flag_yellow.obj Golf_Flag_Yellow.obj
 
+EXPORT handyobjects/flags/circus_stand_flag.str Circus_Stand_Flag.str
+EXPORT handyobjects/flags/circus_stand_flag.obj Circus_Stand_Flag.obj
+EXPORT handyobjects/flags/circus_flag.obj Circus_Flag.obj
+
 EXPORT handyobjects/trolleys/baggage_trolley_single.obj Baggage_Trolley_Single.obj
 EXPORT handyobjects/trolleys/baggage_trolley_row_2.obj Baggage_Trolley_Row_2.obj
 EXPORT handyobjects/trolleys/baggage_trolley_row_5.obj Baggage_Trolley_Row_5.obj
@@ -1422,6 +1426,9 @@ EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit_static.obj Articulat
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_Static.obj Articulated_Lorry_Trailor_Black_Static.obj
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_blue_Static.obj Articulated_Lorry_Trailor_Blue_Static.obj
 
+EXPORT handyobjects/vehicles/articulated_lorry_and_white_box_trailor_no_smoke.obj Articulated_Lorry_And_White_Box_Trailor_No_Smoke.obj
+EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit_no_smoke.obj Articulated_Lorry_Tractor_Unit_No_Smoke.obj
+
 EXPORT handyobjects/buildings/portacabin.obj Portacabin.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows.obj Portacabin_Dark_Windows.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows_II.obj Portacabin_Dark_Windows_II.obj
@@ -1845,6 +1852,7 @@ EXPORT handyobjects/helipads/circular_contrete_helipad_raised.obj Circular_Contr
 EXPORT handyobjects/helipads/helipad.obj Helipad.obj
 
 EXPORT handyobjects/helipads/helicopter_h.obj Helicopter_H.obj
+EXPORT handyobjects/helipads/helicopter_H.obj Helicopter_H.obj
 
 EXPORT handyobjects/helipads/dive_support_vessel.obj Dive_Support_Vessel.obj
 EXPORT handyobjects/helipads/dive_support_vessel_animated_crane.obj Dive_Support_Vessel_Animated_Crane.obj
@@ -2329,6 +2337,18 @@ EXPORT handyobjects/signalsquare/signal_square_9x9.obj Signal_Square_9x9.obj
 EXPORT handyobjects/signalsquare/signal_square_12x12.obj Signal_Square_12x12.obj
 EXPORT handyobjects/signalsquare/t_bar_white.obj T_Bar_White.obj
 EXPORT handyobjects/signalsquare/t_bar_orange.obj T_Bar_Orange.obj
+
+EXPORT handyobjects/circus/ferris_wheel.obj Ferris_Wheel.obj
+EXPORT handyobjects/circus/ferris_wheel_no_red_carpet.obj Ferris_Wheel_No_Red_Carpet.obj
+EXPORT handyobjects/circus/circus_tent.obj Circus_Tent.obj
+EXPORT handyobjects/circus/merry_go_round.obj Merry_Go_Round.obj
+EXPORT handyobjects/circus/pirate_ship_ride.obj Pirate_Ship_Ride.obj
+EXPORT handyobjects/circus/pirate_ship_ride_no_red_carpet.obj Pirate_Ship_Ride_No_Red_Carpet.obj
+EXPORT handyobjects/circus/flying_chair_ride.obj Flying_Chair_Ride.obj
+EXPORT handyobjects/circus/entrance_arch.obj Entrance_Arch.obj
+EXPORT handyobjects/circus/circus_stand_flag.str Circus_Stand_Flag.str
+EXPORT handyobjects/circus/circus_stand_flag.obj Circus_Stand_Flag.obj
+EXPORT handyobjects/circus/circus_flag.obj Circus_Flag.obj
 
 EXPORT handyobjects/miscellaneous/fire_hydrant.obj Fire_Hydrant.obj
 EXPORT handyobjects/miscellaneous/fire_hydrant_with_barrier.obj Fire_Hydrant_With_Barrier.obj

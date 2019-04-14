@@ -2,8 +2,11 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-* Updated OpenSceneryX to v4.0.0
 * Added PuF Library
+* Updated OpenSceneryX Library to v4.0.0
+* Updated Handy Objects Library to v7.41
+* Updated CCVA Library to v2.1.0
+* Updated NAPS Library to v6.5
 * We now include any items found within a <tt>REGION</tt>. This allows us to provide backups for items that only appear in some regions.
 
 ## v2.3.0 - 2019-03-26

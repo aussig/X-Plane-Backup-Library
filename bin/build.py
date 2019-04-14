@@ -131,19 +131,26 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             continue
 
         # Handle REGION patterns (ignore everything unless a REGION WORLD is encountered)
+        # We currently don't treat regions any differently, because we still need to supply placeholders
+        # even if they don't always show due to the region.
         result = regionPattern.match(line)
         if result:
-            if (result.group(1).upper() == "WORLD"):
-                inRegion = False
-                displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs\n", "note")
-            else:
-                inRegion = True
-                displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+            displayMessage("Found REGION: " + result.group(1) + "\n", "note")
             continue
 
+        # The following code excludes the content of regions, if we ever need to
+        # if result:
+        #     if (result.group(1).upper() == "ALL"):
+        #         inRegion = False
+        #         displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs - CHECK this region actually covers whole world\n", "note")
+        #     else:
+        #         inRegion = True
+        #         displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+        #     continue
+
         # If we're in a region, don't do any processing of EXPORTs
-        if inRegion:
-            continue
+        # if inRegion:
+        #     continue
 
         # Handle EXPORT for objects (rewrite into output file)
         result = exportObjectPattern.match(line)

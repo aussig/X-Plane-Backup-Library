@@ -26,7 +26,7 @@ regionPattern = re.compile("REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile("\s+")
-silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF)\s+.*")
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars)")

@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v2.4.0 - 2019-04-14
 
 * Added PuF Library
 * Updated OpenSceneryX Library to v4.0.0

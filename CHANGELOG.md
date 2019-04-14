@@ -7,6 +7,7 @@
 * Updated Handy Objects Library to v7.41
 * Updated CCVA Library to v2.1.0
 * Updated NAPS Library to v6.5
+* Updated DT Library to v1.5.1
 * We now include any items found within a <tt>REGION</tt>. This allows us to provide backups for items that only appear in some parts of the world or in other specific circumstances.
 
 ## v2.3.0 - 2019-03-26

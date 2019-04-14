@@ -211,10 +211,7 @@ EXPORT DT_Library/Lines/WhiteWidestDirty3.lin Lines/WhiteWidestDirty3.lin
 EXPORT DT_Library/Lines/WhiteWidestDirtyFaded1.lin Lines/WhiteWidestDirtyFaded1.lin
 EXPORT DT_Library/Lines/WhiteWidestDirtyFaded2.lin Lines/WhiteWidestDirtyFaded2.lin
 EXPORT DT_Library/Lines/WhiteWidestDirtyFaded3.lin Lines/WhiteWidestDirtyFaded3.lin
-EXPORT DT_Library/Lines/YellowDoubleBroken1.lin Lines/YellowDoubleBroken1.lin
-EXPORT DT_Library/Lines/YellowDoubleBroken2.lin Lines/YellowDoubleBroken2.lin
-EXPORT DT_Library/Lines/YellowDoubleBroken3.lin Lines/YellowDoubleBroken3.lin
-EXPORT DT_Library/Lines/YellowDoubleBroken3Faded.lin Lines/YellowDoubleBroken3Faded.lin
+
 EXPORT DT_Library/Hold/YellowBlackHold1.lin Hold/YellowBlackHold1.lin
 EXPORT DT_Library/Hold/YellowBlackHold2.lin Hold/YellowBlackHold2.lin
 EXPORT DT_Library/Hold/YellowBlackHold3.lin Hold/YellowBlackHold3.lin
@@ -235,6 +232,10 @@ EXPORT DT_Library/Hold/YellowHoldNarrow1.lin Hold/YellowHoldNarrow1.lin
 EXPORT DT_Library/Hold/YellowHoldNarrow2.lin Hold/YellowHoldNarrow2.lin
 EXPORT DT_Library/Hold/YellowHoldNarrow3.lin Hold/YellowHoldNarrow3.lin
 EXPORT DT_Library/Hold/YellowHoldNarrow3Faded1.lin Hold/YellowHoldNarrow3Faded1.lin
+EXPORT DT_Library/Hold/YellowSingleHold1.lin Hold/YellowSingleHold1.lin
+EXPORT DT_Library/Hold/YellowSingleHold2.lin Hold/YellowSingleHold2.lin
+EXPORT DT_Library/Hold/YellowSingleHold3.lin Hold/YellowSingleHold3.lin
+EXPORT DT_Library/Hold/YellowSingleHold3faded.lin Hold/YellowSingleHold3faded.lin
 EXPORT DT_Library/Hold/YellowSingleHoldNarrow1.lin Hold/YellowSingleHoldNarrow1.lin
 EXPORT DT_Library/Hold/YellowSingleHoldNarrow2.lin Hold/YellowSingleHoldNarrow2.lin
 EXPORT DT_Library/Hold/YellowSingleHoldNarrow3.lin Hold/YellowSingleHoldNarrow3.lin

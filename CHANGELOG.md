@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.4.0 - 2019-04-14
+
+* Added PuF Library
+* Updated OpenSceneryX Library to v4.0.0
+* Updated Handy Objects Library to v7.50
+* Updated CCVA Library to v2.1.0
+* Updated NAPS Library to v6.5
+* Updated DT Library to v1.5.1
+* We now include any items found within a <tt>REGION</tt>. This allows us to provide backups for items that only appear in some parts of the world or in other specific circumstances.
+
 ## v2.3.0 - 2019-03-26
 
 * Added OB Library
@@ -31,7 +41,7 @@
 * Now includes 46 libraries, up from 12. The latest list of supported libraries is [always available here](https://github.com/aussig/X-Plane-Backup-Library/tree/master/libraries)
 * Implemented a Python project to build the library automatically, hosted on [GitHub](https://github.com/aussig/X-Plane-Backup-Library) for futureproofing against abandonware
 * Placeholder path is now `placeholders/` rather than `opensceneryx/` to avoid confusion
-* Exports to built-in X-Plane® library paths (e.g. lib/airport/aircraft) are excluded - these are virtual paths that X-Plane® uses for e.g. placing static aircraft and adding blank placeholders to them is not appropriate
+* Exports to built-in X-Plane® library paths (e.g. `lib/airport/aircraft`) are excluded - these are virtual paths that X-Plane® uses for e.g. placing static aircraft and adding blank placeholders to them is not appropriate
 
 ## v1.7 - 2015-04-25
 

@@ -26,10 +26,10 @@ regionPattern = re.compile("REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile("\s+")
-silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT)\s+.*")
+silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|EXPORT_EXCLUDE|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF)\s+.*")
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
-pathExcludes = re.compile("lib/(airport/aircraft|cars)")
+pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")
 
 def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
@@ -131,19 +131,26 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             continue
 
         # Handle REGION patterns (ignore everything unless a REGION WORLD is encountered)
+        # We currently don't treat regions any differently, because we still need to supply placeholders
+        # even if they don't always show due to the region.
         result = regionPattern.match(line)
         if result:
-            if (result.group(1).upper() == "WORLD"):
-                inRegion = False
-                displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs\n", "note")
-            else:
-                inRegion = True
-                displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+            displayMessage("Found REGION: " + result.group(1) + "\n", "note")
             continue
 
+        # The following code excludes the content of regions, if we ever need to
+        # if result:
+        #     if (result.group(1).upper() == "ALL"):
+        #         inRegion = False
+        #         displayMessage("Found REGION: " + result.group(1) + ", enabling EXPORTs - CHECK this region actually covers whole world\n", "note")
+        #     else:
+        #         inRegion = True
+        #         displayMessage("Found REGION: " + result.group(1) + ", ignoring EXPORTs\n", "note")
+        #     continue
+
         # If we're in a region, don't do any processing of EXPORTs
-        if inRegion:
-            continue
+        # if inRegion:
+        #     continue
 
         # Handle EXPORT for objects (rewrite into output file)
         result = exportObjectPattern.match(line)

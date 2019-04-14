@@ -1,0 +1,271 @@
+A
+800
+LIBRARY
+
+
+
+REGION_DEFINE	zniwa_on
+REGION_RECT		-180 -90 179 89
+REGION_DREF sim/time/local_date_days >= 165
+REGION_DREF sim/time/local_date_days <= 243
+
+REGION_DEFINE	all
+REGION_RECT		-180 -90 179 89
+
+REGION zniwa_on
+# hay rolls appear only from 15 June till 30 August
+EXPORT_EXCLUDE PuF_Libs/DetailStuff/Farm/Hay_Round.str		DetailStuff/Farm/Hay_Round.str
+
+
+
+
+REGION all
+EXPORT PuF_Libs/DetailStuff/Farm/Hay_Round.str				Blank/blank_str.str
+
+#Aircrafts
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_A.obj  
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_B.obj  
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_C.obj  
+
+EXPORT PuF_Libs/Aircrafts/SkyRanger_A.obj     Aircrafts/SkyRanger_A.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_B.obj     Aircrafts/SkyRanger_B.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_C.obj    		 Aircrafts/SkyRanger_C.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_A.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_B.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_C.obj  
+
+EXPORT PuF_Libs/Aircrafts/P92_A.obj     Aircrafts/P92_A.obj  
+EXPORT PuF_Libs/Aircrafts/P92_B.obj     Aircrafts/P92_B.obj  
+EXPORT PuF_Libs/Aircrafts/P92_C.obj    		 Aircrafts/P92_C.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_A.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_B.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_C.obj  
+
+EXPORT PuF_Libs/Aircrafts/Glider2_A.obj     Aircrafts/Glider2_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider2_B.obj     Aircrafts/Glider2_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider2_C.obj     Aircrafts/Glider2_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_A.obj     Aircrafts/Glider1_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_B.obj     Aircrafts/Glider1_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_C.obj     Aircrafts/Glider1_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_D.obj     Aircrafts/Glider1_D.obj  
+
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider2_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider2_B.obj
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_D.obj  
+
+#vehicles
+EXPORT PuF_Libs/Vehicles/Ural.obj     Vehicles/Ural.obj  
+EXPORT PuF_Libs/Vehicles/Ural_roof.obj     Vehicles/Ural_roof.obj  
+EXPORT PuF_Libs/Vehicles/Military_tanker_trailer.obj     Vehicles/Military_tanker_trailer.obj  
+
+#AirfieldStuff
+EXPORT PuF_Libs/AirfieldStuff/Markers/Marker1_w_flag.obj	AirfieldStuff/Marker1_w_flag.obj
+EXPORT PuF_Libs/AirfieldStuff/Markers/BallPole.obj     		AirfieldStuff/BallPole.obj
+
+#Buildings
+EXPORT PuF_Libs/Buildings/Church/Small_church.obj			Buildings/Church/Small_church.obj 
+EXPORT PuF_Libs/Buildings/Booth/Booth1.obj					Buildings/Booth/Booth1.obj 
+
+#GroundStuff
+EXPORT PuF_Libs/GroundStuff/Transparent/Trans_Grass.pol		GroundStuff/Trans_Grass.pol
+
+	#-asphalt
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_1.pol					GroundStuff/Asphalt/Asphalt_1.pol
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_1_dark.pol				GroundStuff/Asphalt/Asphalt_1_dark.pol
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_old.pol					GroundStuff/Asphalt/Asphalt_old.pol
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_old_dark.pol			GroundStuff/Asphalt/Asphalt_old_dark.pol
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_weathered.pol			GroundStuff/Asphalt/Asphalt_weathered.pol
+
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_edge_sandy.lin			GroundStuff/Asphalt/Asphalt_edge_sandy.lin
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_edge_sandy_dark.lin		GroundStuff/Asphalt/Asphalt_edge_sandy_dark.lin
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_edge_shadow.lin			GroundStuff/Asphalt/Asphalt_edge_shadow.lin
+	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_edge_shadow_dark.lin	GroundStuff/Asphalt/Asphalt_edge_shadow_dark.lin
+
+	#-concrete
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_1.pol					GroundStuff/Concrete/Concrete_1.pol
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_1_dark.pol			GroundStuff/Concrete/Concrete_1_dark.pol
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_old.pol				GroundStuff/Concrete/Concrete_old.pol
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_old_small.pol			GroundStuff/Concrete/Concrete_old_small.pol
+
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_edge_sandy.lin		GroundStuff/Concrete/Concrete_edge_sandy.lin
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_edge_sandy_light.lin	GroundStuff/Concrete/Concrete_edge_sandy_light.lin
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_edge_grass.lin		GroundStuff/Concrete/Concrete_edge_grass.lin
+	EXPORT PuF_Libs/GroundStuff/Concrete/Concrete_edge_grass_sparse.lin	GroundStuff/Concrete/Concrete_edge_grass_sparse.lin
+	
+	EXPORT PuF_Libs/GroundStuff/Markers/chalk.pol						GroundStuff/Markers/chalk.pol
+	EXPORT PuF_Libs/GroundStuff/Markers/chalk_lin.lin					GroundStuff/Markers/chalk_lin.lin
+
+	#-grass runways
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_20x20.lin		GroundStuff/Grass_RWY_rows_20x20.lin
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_20x20_end1.lin	GroundStuff/Grass_RWY_rows_20x20_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_20x20_end2.lin	GroundStuff/Grass_RWY_rows_20x20_end2.lin
+	#EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_30x30.lin		GroundStuff/Grass_RWY_rows_30x30.lin
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_30x30.pol		GroundStuff/Grass/Grass_RWY_rows_30x30.pol
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_30x30_end.pol	GroundStuff/Grass/Grass_RWY_rows_30x30_end.pol
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_30x30_end1.lin	GroundStuff/Grass_RWY_rows_30x30_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows_30x30_end2.lin	GroundStuff/Grass_RWY_rows_30x30_end2.lin
+	
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows2.pol				GroundStuff/Grass/Grass_RWY_rows2.pol
+	EXPORT PuF_Libs/GroundStuff/Runways/Grass_RWY_rows2_end.pol			GroundStuff/Grass/Grass_RWY_rows2_end.pol
+	
+	#-dirt tracks
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1.lin					GroundStuff/Wear/dirt_track_1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1_end1.lin				GroundStuff/Wear/dirt_track_1_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1_end2.lin				GroundStuff/Wear/dirt_track_1_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2.lin					GroundStuff/Wear/dirt_track_2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2_end1.lin				GroundStuff/Wear/dirt_track_2_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2_end2.lin				GroundStuff/Wear/dirt_track_2_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3.lin					GroundStuff/Wear/dirt_track_3.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3_end1.lin				GroundStuff/Wear/dirt_track_3_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3_end2.lin				GroundStuff/Wear/dirt_track_3_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1B.lin					GroundStuff/Wear/dirt_track_1B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1B_end1.lin				GroundStuff/Wear/dirt_track_1B_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_1B_end2.lin				GroundStuff/Wear/dirt_track_1B_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2B.lin					GroundStuff/Wear/dirt_track_2B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2B_end1.lin				GroundStuff/Wear/dirt_track_2B_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_2B_end2.lin				GroundStuff/Wear/dirt_track_2B_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3B.lin					GroundStuff/Wear/dirt_track_3B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3B_end1.lin				GroundStuff/Wear/dirt_track_3B_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_3B_end2.lin				GroundStuff/Wear/dirt_track_3B_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_4.lin					GroundStuff/Wear/dirt_track_4.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_4_end1.lin				GroundStuff/Wear/dirt_track_4_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_4_end2.lin				GroundStuff/Wear/dirt_track_4_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_4B.lin					GroundStuff/Wear/dirt_track_4B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_4C.lin					GroundStuff/Wear/dirt_track_4C.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_5.lin					GroundStuff/Wear/dirt_track_5.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_5B.lin					GroundStuff/Wear/dirt_track_5B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6.lin					GroundStuff/Wear/dirt_track_6.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6_end1.lin				GroundStuff/Wear/dirt_track_6_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6_end2.lin				GroundStuff/Wear/dirt_track_6_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6B.lin					GroundStuff/Wear/dirt_track_6B.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6B_end1.lin				GroundStuff/Wear/dirt_track_6B_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_track_6B_end2.lin				GroundStuff/Wear/dirt_track_6B_end2.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_rwy1.lin						GroundStuff/Wear/dirt_rwy1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_rwy1_end1.lin					GroundStuff/Wear/dirt_rwy1_end1.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/dirt_rwy1_end2.lin					GroundStuff/Wear/dirt_rwy1_end2.lin
+	
+	#-cracks etc.
+	EXPORT PuF_Libs/GroundStuff/Wear/crack.lin							GroundStuff/Wear/crack.lin
+	EXPORT PuF_Libs/GroundStuff/Wear/tar_line.lin						GroundStuff/Wear/tar_line.lin
+	
+	#-puddles
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_24m_A.obj				GroundStuff/Puddles/Puddle_24m_A.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_24m_B.obj				GroundStuff/Puddles/Puddle_24m_B.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_24m_C.obj				GroundStuff/Puddles/Puddle_24m_C.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_24m_D.obj				GroundStuff/Puddles/Puddle_24m_D.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_16m_A.obj				GroundStuff/Puddles/Puddle_16m_A.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_16m_B.obj				GroundStuff/Puddles/Puddle_16m_B.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_16m_C.obj				GroundStuff/Puddles/Puddle_16m_C.obj
+	EXPORT PuF_Libs/GroundStuff/Puddles/Puddle_16m_D.obj				GroundStuff/Puddles/Puddle_16m_D.obj
+
+EXPORT PuF_Libs/GroundStuff/Fake_Lake.pol    					GroundStuff/Fake_Lake.pol
+EXPORT PuF_Libs/GroundStuff/Fake_Lake_Full.pol    				GroundStuff/Fake_Lake_Full.pol
+EXPORT PuF_Libs/GroundStuff/Fake_Lake_underlay.pol    			GroundStuff/Fake_Lake_underlay.pol
+EXPORT PuF_Libs/GroundStuff/Shore/shore.lin    					GroundStuff/Shore/shore.lin
+EXPORT PuF_Libs/GroundStuff/Decals/grass_stones_detailed.dcl    GroundStuff/Decals/grass_stones_detailed.dcl
+
+#DetailStuff
+EXPORT PuF_Libs/DetailStuff/DecoVege/Tyre_Flower_Pot.obj	DetailStuff/DecoVege/Tyre_Flower_Pot.obj
+EXPORT PuF_Libs/DetailStuff/Furniture/Bench_Wooden_1.obj	DetailStuff/Furniture/Bench_Wooden_1.obj
+EXPORT PuF_Libs/DetailStuff/Furniture/Scene.obj				DetailStuff/Furniture/Scene.obj
+EXPORT PuF_Libs/DetailStuff/Waste/Trash_Bin_1.obj			DetailStuff/Waste/Trash_Bin_1.obj
+
+	#- dirt
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_A.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_B.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_C.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_A.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_A.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_B.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_B.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_1m/Dirt_heap_soil_1m_C.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_1m_C.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_A.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_B.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_random.obj		DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_C.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_A.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_A.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_B.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_B.obj
+	EXPORT PuF_Libs/DetailStuff/Dirt_Heaps/Soil_2m/Dirt_heap_soil_2m_C.obj			DetailStuff/Dirt_Heaps/Dirt_heap_soil_2m_C.obj
+
+
+#IndustrialStuff
+EXPORT PuF_Libs/IndustrialStuff/PowerLine_12m.obj		IndustrialStuff/PowerLine_12m.obj
+EXPORT PuF_Libs/IndustrialStuff/Rail_Line.obj			IndustrialStuff/Rail_Line.obj
+
+#LightStuff
+EXPORT PuF_Libs/LightStuff/Street_Lamp_1.obj			LightStuff/Street_Lamp_1.obj
+
+#Obstacles
+EXPORT PuF_Libs/Obstacles/Cell_tower.obj				Obstacles/Cell_tower.obj
+EXPORT PuF_Libs/Obstacles/Cell_tower_G_55.obj			Obstacles/Cell_tower_G_55.obj
+EXPORT PuF_Libs/Obstacles/Watchtower.obj				Obstacles/Watchtower.obj
+
+#Forests
+	#- grass
+	
+	EXPORT PuF_Libs/VegeStuff/grass_1_green.for				VegeStuff/grass_1_green.for
+	EXPORT PuF_Libs/VegeStuff/grass_1_dgreen.for			VegeStuff/grass_1_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_1_sdry1.for				VegeStuff/grass_1_sdry1.for
+	EXPORT PuF_Libs/VegeStuff/grass_1_sdry2.for				VegeStuff/grass_1_sdry2.for
+	EXPORT PuF_Libs/VegeStuff/grass_1_dry.for				VegeStuff/grass_1_dry.for
+
+	EXPORT PuF_Libs/VegeStuff/grass_dense_1_dgreen.for		VegeStuff/grass_dense_1_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_dense_1_green.for		VegeStuff/grass_dense_1_green.for
+	EXPORT PuF_Libs/VegeStuff/grass_tall_mixed_dgreen.for	VegeStuff/grass_tall_mixed_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_tall_mixed_green.for	VegeStuff/grass_tall_mixed_green.for
+
+	EXPORT PuF_Libs/VegeStuff/grass_low_1_dgreen.for 		VegeStuff/grass_low_1_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_low_1_green.for 		VegeStuff/grass_low_1_green.for
+	EXPORT PuF_Libs/VegeStuff/grass_low_1_sdry1.for 		VegeStuff/grass_low_1_sdry1.for
+	EXPORT PuF_Libs/VegeStuff/grass_low_1_sdry2.for			VegeStuff/grass_low_1_sdry2.for
+	EXPORT PuF_Libs/VegeStuff/grass_low_1_dry.for			VegeStuff/grass_low_1_dry.for
+
+	EXPORT PuF_Libs/VegeStuff/grass_tall_1_dgreen.for		VegeStuff/grass_tall_1_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_tall_1_green.for		VegeStuff/grass_tall_1_green.for
+	EXPORT PuF_Libs/VegeStuff/grass_tall_1_sdry.for			VegeStuff/grass_tall_1_sdry.for
+	EXPORT PuF_Libs/VegeStuff/grass_tall_1_dry.for			VegeStuff/grass_tall_1_dry.for
+
+	EXPORT PuF_Libs/VegeStuff/grass_very_tall_1_dry.for		VegeStuff/grass_very_tall_1_dry.for
+	EXPORT PuF_Libs/VegeStuff/grass_very_tall_1_sdry.for	VegeStuff/grass_very_tall_1_sdry.for
+	EXPORT PuF_Libs/VegeStuff/grass_very_tall_1_dgreen.for	VegeStuff/grass_very_tall_1_dgreen.for
+	EXPORT PuF_Libs/VegeStuff/grass_very_tall_1_green.for	VegeStuff/grass_very_tall_1_green.for
+	EXPORT PuF_Libs/VegeStuff/grass_very_xtall_1_dry.for	VegeStuff/grass_very_xtall_1_dry.for
+	
+	#- trees
+	EXPORT	PuF_Libs/VegeStuff/forests/fruit_7.for			VegeStuff/forests/fruit_7.for
+	EXPORT	PuF_Libs/VegeStuff/forests/fruit_10.for			VegeStuff/forests/fruit_10.for
+	EXPORT	PuF_Libs/VegeStuff/forests/fruit_12.for			VegeStuff/forests/fruit_12.for
+	
+	EXPORT	PuF_Libs/VegeStuff/forests/spruce_only_11.for	VegeStuff/forests/spruce_only_11.for
+	EXPORT	PuF_Libs/VegeStuff/forests/spruce_only_9.for	VegeStuff/forests/spruce_only_9.for
+	EXPORT	PuF_Libs/VegeStuff/forests/spruce_only_7.for	VegeStuff/forests/spruce_only_7.for
+	EXPORT	PuF_Libs/VegeStuff/forests/spruce_only_micro.for	VegeStuff/forests/spruce_only_micro.for
+	EXPORT	PuF_Libs/VegeStuff/forests/spruce_birch_mix.for		VegeStuff/forests/spruce_birch_mix.for
+	
+	EXPORT	PuF_Libs/VegeStuff/forests/thuja_5.for			VegeStuff/forests/thuja_5.for
+	EXPORT	PuF_Libs/VegeStuff/forests/thuja_3.for			VegeStuff/forests/thuja_3.for
+	EXPORT	PuF_Libs/VegeStuff/forests/thuja_1.for			VegeStuff/forests/thuja_1.for
+	
+	EXPORT	PuF_Libs/VegeStuff/forests/residential_shrubs.for		VegeStuff/forests/residential_shrubs_mix.for
+	EXPORT	PuF_Libs/VegeStuff/forests/residential_shrubs_small_only.for		VegeStuff/forests/residential_shrubs_small_only.for
+	EXPORT	PuF_Libs/VegeStuff/forests/residential_shrubs_big_only.for		VegeStuff/forests/residential_shrubs_big_only.for
+	EXPORT	PuF_Libs/VegeStuff/forests/residential_trees_bro.for	VegeStuff/forests/residential_trees_bro.for
+	
+	EXPORT	PuF_Libs/VegeStuff/forests/even_broadleaf_17.for	VegeStuff/forests/even_broadleaf_17.for
+	EXPORT	PuF_Libs/VegeStuff/forests/even_broadleaf_14.for	VegeStuff/forests/even_broadleaf_14.for
+	EXPORT	PuF_Libs/VegeStuff/forests/even_broadleaf_11.for	VegeStuff/forests/even_broadleaf_11.for
+	EXPORT	PuF_Libs/VegeStuff/forests/even_broadleaf_8.for		VegeStuff/forests/even_broadleaf_8.for
+	
+	EXPORT	PuF_Libs/VegeStuff/forests/birch_9.for			VegeStuff/forests/birch_9.for
+
+#Traffic signs
+EXPORT PuF_Libs/TrafficSigns/PL_Airfield.obj			TrafficSigns/PL_Airfield.obj
+EXPORT PuF_Libs/TrafficSigns/PL_60.obj					TrafficSigns/PL_60.obj
+
+#BACKUP for other libs
+EXPORT_BACKUP lib/flags_world/poland.obj					Blank/blank_obj.obj
+EXPORT_BACKUP lib/Flyby_Planes/GA/Cessna_152.obj    		Blank/blank_obj.obj
+EXPORT_BACKUP lib/Flyby_Planes/GA/Cessna_185.obj    		Blank/blank_obj.obj
+EXPORT_BACKUP lib/Flyby_Planes/Gliders/cirrus_glider.obj				Blank/blank_obj.obj
+EXPORT_BACKUP lib/Flyby_Planes/Gliders/cirrus_glider_red.obj  			Blank/blank_obj.obj
+EXPORT_BACKUP lib/Flyby_Planes/Hang_gliders/Hang_glider_2000ft.obj    	Blank/blank_obj.obj

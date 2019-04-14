@@ -48,3 +48,4 @@ EXPORT CCVA022_Object_Library/Infra/CCVAShedHangar/CCVAShedHangar.obj Infra/CCVA
 EXPORT CCVA022_Object_Library/Items/CCVAOilStore/CCVAOilStore.obj Items/CCVAOilStore/CCVAOilStore.obj
 EXPORT CCVA022_Object_Library/Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj
 EXPORT CCVA022_Object_Library/Items/CCVATUI/CCVATUI.obj Items/CCVATUI/CCVATUI.obj
+EXPORT CCVA022_Object_Library/Infra/CCVATerminal/CCVATerminal.obj Infra/CCVATerminal/CCVATerminal.obj

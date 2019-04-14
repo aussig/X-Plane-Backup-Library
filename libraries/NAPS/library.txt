@@ -2,7 +2,7 @@ A
 800
 LIBRARY
 
-# NAPS_library 6.4  created by Freddy De Pues. © Freddy De Pues 2019.  Version 6.4  (400+ items) 
+# NAPS_library 6.5  created by Freddy De Pues. © Freddy De Pues 2019.  Version 6.5  (400+ items) 
 # No commercial use. Do not include my objects in pay ware. Do not use free ware airports including my objects for commercial use.
 
 #3D terrain
@@ -253,6 +253,7 @@ EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Lifeguard/Lifeguard.obj						NAPS_LAGNIA
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Loveseats-Seats/salon.obj					NAPS_LAGNIAPPE/NAPS_Loveseats-Seats/salon.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_LowPier/Lowpier.obj		        			NAPS_LAGNIAPPE/NAPS_LowPier/Lowpier.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_NewCanopy/NAPS_New_Canopy.obj		        		NAPS_LAGNIAPPE/NAPS_NewCanopy/NAPS_New_Canopy.obj
+EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_NewCanopy/NAPS_New_CanopyExtraBig.obj		        	NAPS_LAGNIAPPE/NAPS_NewCanopy/NAPS_New_CanopyExtraBig.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Circular_Walkway/trottoircirculaire.obj			NAPS_LAGNIAPPE/NAPS_PHOG_Circular_Walkway/trottoircirculaire.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement.obj				NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement2.obj				NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement2.obj
@@ -482,6 +483,7 @@ EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KATL_Concourse_T/KATL_Concourse_T.obj			
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KATL_Main_Terminal/KATL_Main_Terminal.obj			NAPS_TERMINALS/NAPS_KATL_Main_Terminal/KATL_Main_Terminal.obj
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KBTR_Terminal/KBTR_Rotunda.obj					NAPS_TERMINALS/NAPS_KBTR_Terminal/KBTR_Rotunda.obj
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KECP_Terminal/KECP_TermRev2.obj					NAPS_TERMINALS/NAPS_KECP_Terminal/KECP_TermRev2.obj
+EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KECP_Terminal/KECP_Term.obj					NAPS_TERMINALS/NAPS_KECP_Terminal/KECP_Term.obj
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KIAH_Intl_Arrivals/InternationalArrivals.obj			NAPS_TERMINALS/NAPS_KIAH_Intl_Arrivals/InternationalArrivals.obj
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KIAH_New_Terminal_B/New_Terminal_B.obj				NAPS_TERMINALS/NAPS_KIAH_New_Terminal_B/New_Terminal_B.obj
 EXPORT NAPS_library/NAPS_TERMINALS/NAPS_KIAH_Terminal_A/Terminal_A.obj					NAPS_TERMINALS/NAPS_KIAH_Terminal_A/Terminal_A.obj
@@ -555,6 +557,8 @@ EXPORT NAPS_library/NAPS_TOWERS/NAPS_PHOG_Tower2/TOWER.obj						NAPS_TOWERS/NAPS
 
 
 #Transportation
+
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/Golfcar.obj				NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/Golfcar.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirPort_MiniBus.obj			NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirPort_MiniBus.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice_LIT.obj		NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice_LIT.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice.obj			NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice.obj
@@ -589,10 +593,7 @@ EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyLarger
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyYellow.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyYellow.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyYellowLarger.obj		NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyYellowLarger.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainer.obj				NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainer.obj
-EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj
-EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj
-EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj
-EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Golfcar/Golfcar.obj					NAPS_TRANSPORTATION/NAPS_Golfcar/Golfcar.obj			
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj			
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj			NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj					NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj					NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj

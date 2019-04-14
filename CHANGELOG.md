@@ -8,7 +8,7 @@
 * Updated CCVA Library to v2.1.0
 * Updated NAPS Library to v6.5
 * Updated DT Library to v1.5.1
-* We now include any items found within a <tt>REGION</tt>. This allows us to provide backups for items that only appear in some parts of the world or in other specific circumstances.
+* We now include any items found within a `REGION`. This allows us to provide backups for items that only appear in some parts of the world or in other specific circumstances.
 
 ## v2.3.0 - 2019-03-26
 
@@ -30,9 +30,9 @@
 ## v2.1.0 - 2019-01-20
 
 * Added DT Library
-* Now include a <tt>version.txt</tt> file containing the version number and date, for utilities such as xOrganiser to use.
+* Now include a `version.txt` file containing the version number and date, for utilities such as xOrganiser to use.
 * Fix a UTF-8 encoding issue with the PM Library - meant it was missing a Forklift Truck object
-* No longer include <tt>EXPORT_EXTEND</tt> lines - most of these are <tt>lib/</tt> entries so ignored anyway, and the rest should be extending existing paths so don't need backups. This was causing problems with libraries such as RuScenery, which use <tt>EXPORT_EXTEND</tt> to publish some of their objects to paths that don't already exist. This is an undocumented thing to do, and using the backup library with RuScenery and the optional visible placeholders would cause some objects to appear as red squares instead of the correct model.
+* No longer include `EXPORT_EXTEND` lines - most of these are `lib/` entries so ignored anyway, and the rest should be extending existing paths so don't need backups. This was causing problems with libraries such as RuScenery, which use `EXPORT_EXTEND` to publish some of their objects to paths that don't already exist. This is an undocumented thing to do, and using the backup library with RuScenery and the optional visible placeholders would cause some objects to appear as red squares instead of the correct model.
 * Updated NAPS library to v6.3
 
 ## v2.0.0 - 2018-12-27

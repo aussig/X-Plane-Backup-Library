@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-*
+* Added x_Prefab Library
 
 ## v2.4.0 - 2019-04-14
 

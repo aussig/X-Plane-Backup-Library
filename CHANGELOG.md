@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Added x_Prefab Library
+* Updated OpenSceneryX Library to v4.1.0
 
 ## v2.4.0 - 2019-04-14
 

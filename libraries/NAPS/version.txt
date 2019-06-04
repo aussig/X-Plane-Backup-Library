@@ -1,4 +1,4 @@
 NAPS Library
-v6.6
+v6.7
 By Freddy De Pues, managed by nicolas
 https://forums.x-plane.org/index.php?/files/file/30478-naps-library/

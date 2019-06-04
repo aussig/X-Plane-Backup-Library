@@ -2,7 +2,7 @@ A
 800
 LIBRARY
 
-# NAPS_library 6.6  created by Freddy De Pues. © Freddy De Pues 2019.  Version 6.6  (400+ items) 
+# NAPS_library 6.7  created by Freddy De Pues. © Freddy De Pues 2019.  Version 6.7  (400+ items) 
 # No commercial use. Do not include my objects in pay ware. Do not use free ware airports including my objects for commercial use.
 
 #3D terrain
@@ -601,6 +601,7 @@ EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_ContainerGreyYellow
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainer.obj				NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainer.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj			NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj					NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj					NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj

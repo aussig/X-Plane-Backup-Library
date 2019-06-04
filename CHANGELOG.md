@@ -4,7 +4,7 @@
 
 * Added x_Prefab Library
 * Updated OpenSceneryX Library to v4.1.0
-* Updated NAPS Library to v6.6
+* Updated NAPS Library to v6.7
 
 ## v2.4.0 - 2019-04-14
 

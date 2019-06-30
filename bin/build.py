@@ -11,7 +11,7 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile("(?:EXPORT)\s+(.*\.obj)\s+.*\.obj")
+exportObjectPattern = re.compile("(?:EXPORT)\s+(.*\.obj)\s+(.*\.obj|.*\.OBJ)")
 exportPolygonPattern = re.compile("(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
 exportLinePattern = re.compile("(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
 exportFacadePattern = re.compile("(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")

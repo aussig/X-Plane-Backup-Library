@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Added x_Prefab Library
+* Added SAM (Scenery Animation Manager) Library
 * Updated OpenSceneryX Library to v4.2.0
 * Updated NAPS Library to v6.7
 

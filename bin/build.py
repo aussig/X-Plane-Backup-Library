@@ -11,22 +11,22 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile("(?:EXPORT)\s+(.*\.obj)\s+(.*\.obj|.*\.OBJ)")
-exportPolygonPattern = re.compile("(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile("(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile("(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile("(?:EXPORT)\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile("(?:EXPORT)\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile("(?:EXPORT)\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile("(?:EXPORT)\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile("(?:EXPORT)\s+(.*\.dcl)\s+.*\.dcl")
+exportObjectPattern = re.compile(r"(?:EXPORT)\s+(.*\.obj)\s+(.*\.obj|.*\.OBJ)")
+exportPolygonPattern = re.compile(r"(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
+exportLinePattern = re.compile(r"(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
+exportFacadePattern = re.compile(r"(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")
+exportForestPattern = re.compile(r"(?:EXPORT)\s+(.*\.for)\s+.*\.for")
+exportStringPattern = re.compile(r"(?:EXPORT)\s+(.*\.str)\s+.*\.str")
+exportNetworkPattern = re.compile(r"(?:EXPORT)\s+(.*\.net)\s+.*\.net")
+exportAutogenPointPattern = re.compile(r"(?:EXPORT)\s+(.*\.agp)\s+.*\.agp")
+exportDecalPattern = re.compile(r"(?:EXPORT)\s+(.*\.dcl)\s+.*\.dcl")
 
 # Special processing
-regionPattern = re.compile("REGION\s+([^\s]+)")
+regionPattern = re.compile(r"REGION\s+([^\s]+)")
 
 # Ignored items
-blankPattern = re.compile("\s+")
-silentIgnorePattern = re.compile("(EXPORT_EXTEND|EXPORT_BACKUP|EXPORT_EXCLUDE|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|PUBLIC).*")
+blankPattern = re.compile(r"\s+")
+silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|EXPORT_EXCLUDE|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")

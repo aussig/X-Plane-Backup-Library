@@ -127,6 +127,12 @@ EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/8.pol		Runway_Marks/Numbers/wet
 EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/8B.pol		Runway_Marks/Numbers/wet/8B.pol
 EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/9.pol		Runway_Marks/Numbers/wet/9.pol
 EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/9B.pol		Runway_Marks/Numbers/wet/9B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/C.pol		Runway_Marks/Numbers/wet/C.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/CB.pol		Runway_Marks/Numbers/wet/CB.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/L.pol		Runway_Marks/Numbers/wet/L.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/LB.pol		Runway_Marks/Numbers/wet/LB.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/R.pol		Runway_Marks/Numbers/wet/R.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/RB.pol		Runway_Marks/Numbers/wet/RB.pol
 
 #Misc
 
@@ -264,21 +270,27 @@ EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/0B.pol		Runway_Marks/Numbers/0B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/1.pol		Runway_Marks/Numbers/1.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/1B.pol		Runway_Marks/Numbers/1B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/2.pol		Runway_Marks/Numbers/2.pol
-EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/2B.pol		Runway_Marks/Numbers/2B.pol	
-EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/3.pol		Runway_Marks/Numbers/3.pol	
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/2B.pol		Runway_Marks/Numbers/2B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/3.pol		Runway_Marks/Numbers/3.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/3B.pol		Runway_Marks/Numbers/3B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/4.pol		Runway_Marks/Numbers/4.pol
-EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/4B.pol		Runway_Marks/Numbers/4B.pol	
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/4B.pol		Runway_Marks/Numbers/4B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/5.pol		Runway_Marks/Numbers/5.pol
-EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/5B.pol		Runway_Marks/Numbers/5B.pol	
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/5B.pol		Runway_Marks/Numbers/5B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/6.pol		Runway_Marks/Numbers/6.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/6B.pol		Runway_Marks/Numbers/6B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/7.pol		Runway_Marks/Numbers/7.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/7B.pol		Runway_Marks/Numbers/7B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/8.pol		Runway_Marks/Numbers/8.pol
-EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/8B.pol		Runway_Marks/Numbers/8B.pol	
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/8B.pol		Runway_Marks/Numbers/8B.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/9.pol		Runway_Marks/Numbers/9.pol
 EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/9B.pol		Runway_Marks/Numbers/9B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/C.pol		Runway_Marks/Numbers/C.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/CB.pol		Runway_Marks/Numbers/CB.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/L.pol		Runway_Marks/Numbers/L.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/LB.pol		Runway_Marks/Numbers/LB.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/R.pol		Runway_Marks/Numbers/R.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/RB.pol		Runway_Marks/Numbers/RB.pol
 
 #Misc
 

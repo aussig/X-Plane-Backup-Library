@@ -87,7 +87,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
     else:
         placeholderFolder = "placeholders"
 
-    inRegion = False
+    #inRegion = False
     hasLibExports = False
 
     # Begin parsing

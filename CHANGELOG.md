@@ -4,6 +4,7 @@
 
 * Added x_Prefab Library
 * Added SAM (Scenery Animation Manager) Library
+* Added ALES Developer Library
 * Updated OpenSceneryX Library to v4.2.0
 * Updated NAPS Library to v6.7
 

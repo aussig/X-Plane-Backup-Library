@@ -1,0 +1,32 @@
+A
+800
+LIBRARY
+
+EXPORT GREEK_HOUSES_BUILDINGS/church.obj church.obj
+EXPORT GREEK_HOUSES_BUILDINGS/cflat1.obj cflat1.obj
+EXPORT GREEK_HOUSES_BUILDINGS/cflat2.obj cflat2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/oldflat.obj oldflat.obj
+EXPORT GREEK_HOUSES_BUILDINGS/hospital.obj hospital.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1.obj greek_house1.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt.obj greek_house1_alt.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt2.obj greek_house1_alt2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt2_y.obj greek_house1_alt2_y.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt3.obj greek_house1_alt3.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt3_y.obj greek_house1_alt3_y.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt_y.obj greek_house1_alt_y.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_alt1.obj greek_house1_alt1.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_m.obj greek_house1_m.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house1_m_y.obj greek_house1_m_y.obj
+EXPORT GREEK_HOUSES_BUILDINGS/oldflat.obj oldflat.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house2.obj greek_house2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/mill_1.obj mill_1.obj
+EXPORT GREEK_HOUSES_BUILDINGS/mill_2.obj mill_2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/mill_2_stone.obj mill_2_stone.obj
+EXPORT GREEK_HOUSES_BUILDINGS/mill_2_small.obj mill_2_small.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_traditional_house1.obj greek_traditional_house1.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_traditional_house1_2.obj greek_traditional_house1_2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_traditional_house2.obj greek_traditional_house2.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_traditional_house.obj greek_traditional_house.obj
+EXPORT GREEK_HOUSES_BUILDINGS/greek_house3.obj greek_house3.obj
+EXPORT GREEK_HOUSES_BUILDINGS/old_house.obj old_house.obj
+EXPORT GREEK_HOUSES_BUILDINGS/stone_fence.obj stone_fence.obj

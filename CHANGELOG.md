@@ -5,6 +5,7 @@
 * Added x_Prefab Library
 * Added SAM (Scenery Animation Manager) Library
 * Added ALES Developer Library
+* Added Greek Houses and Buildings Library
 * Updated OpenSceneryX Library to v4.2.0
 * Updated NAPS Library to v6.7
 

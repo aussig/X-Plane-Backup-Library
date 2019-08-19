@@ -11,15 +11,15 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile(r"(?:EXPORT)\s+(.*\.obj)\s+(.*\.obj|.*\.OBJ)")
-exportPolygonPattern = re.compile(r"(?:EXPORT)\s+(.*\.pol)\s+.*\.pol")
-exportLinePattern = re.compile(r"(?:EXPORT)\s+(.*\.lin)\s+.*\.lin")
-exportFacadePattern = re.compile(r"(?:EXPORT)\s+(.*\.fac)\s+.*\.fac")
-exportForestPattern = re.compile(r"(?:EXPORT)\s+(.*\.for)\s+.*\.for")
-exportStringPattern = re.compile(r"(?:EXPORT)\s+(.*\.str)\s+.*\.str")
-exportNetworkPattern = re.compile(r"(?:EXPORT)\s+(.*\.net)\s+.*\.net")
-exportAutogenPointPattern = re.compile(r"(?:EXPORT)\s+(.*\.agp)\s+.*\.agp")
-exportDecalPattern = re.compile(r"(?:EXPORT)\s+(.*\.dcl)\s+.*\.dcl")
+exportObjectPattern = re.compile(r"(?:EXPORT)\s+(.*\.obj|.*\.OBJ)\s+(.*\.obj|.*\.OBJ)")
+exportPolygonPattern = re.compile(r"(?:EXPORT)\s+(.*\.pol|.*\.POL)\s+.*\.pol|.*\.POL")
+exportLinePattern = re.compile(r"(?:EXPORT)\s+(.*\.lin|.*\.LIN)\s+.*\.lin|.*\.LIN")
+exportFacadePattern = re.compile(r"(?:EXPORT)\s+(.*\.fac|.*\.FAC)\s+.*\.fac|.*\.FAC")
+exportForestPattern = re.compile(r"(?:EXPORT)\s+(.*\.for|.*\.FOR)\s+.*\.for|.*\.FOR")
+exportStringPattern = re.compile(r"(?:EXPORT)\s+(.*\.str|.*\.STR)\s+.*\.str|.*\.STR")
+exportNetworkPattern = re.compile(r"(?:EXPORT)\s+(.*\.net|.*\.NET)\s+.*\.net|.*\.NET")
+exportAutogenPointPattern = re.compile(r"(?:EXPORT)\s+(.*\.agp|.*\.AGP)\s+.*\.agp|.*\.AGP")
+exportDecalPattern = re.compile(r"(?:EXPORT)\s+(.*\.dcl|.*\.DCL)\s+.*\.dcl|.*\.DCL")
 
 # Special processing
 regionPattern = re.compile(r"REGION\s+([^\s]+)")

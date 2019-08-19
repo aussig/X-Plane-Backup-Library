@@ -6,6 +6,7 @@
 * Added SAM (Scenery Animation Manager) Library
 * Added ALES Developer Library
 * Added Greek Houses and Buildings Library
+* Added OB_SAV (South American Vegetation) Library
 * Updated OpenSceneryX Library to v4.2.0
 * Updated NAPS Library to v6.7
 

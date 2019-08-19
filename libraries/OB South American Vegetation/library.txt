@@ -1,0 +1,69 @@
+A
+800
+LIBRARY
+#OB_SAV_FOR_FREESCENERY
+
+#PUBLIC 20190101
+
+VEGETATION
+
+#TREE
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_SATREE_1.OBJ                                                      vegetation/TREE/OB_SATREE_1.OBJ
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_SATREE_2.OBJ                                                      vegetation/TREE/OB_SATREE_2.OBJ
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_SATREE_3.OBJ                                                        vegetation/TREE/OB_SATREE_3.OBJ
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_SATREE_4.OBJ                                                        vegetation/TREE/OB_SATREE_4.OBJ
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_amoreira_1.obj                                         vegetation/TREE/OB_amoreira_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_amoreira_2.obj                                         vegetation/TREE/OB_amoreira_2.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_amoreira_3.obj                                          vegetation/TREE/OB_amoreira_3.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_amoreira_4.obj                                        vegetation/TREE/OB_amoreira_4.obj
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_chorao_1.obj                                          vegetation/TREE/OB_chorao_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_araucaria_1.obj                                      vegetation/TREE/OB_araucaria_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_araucaria_2.obj                                      vegetation/TREE/OB_araucaria_2.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_embauba.obj                                          vegetation/TREE/OB_embauba.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_paubrasil_1.obj                                      vegetation/TREE/OB_paubrasil_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_iperoxo.obj                                          vegetation/TREE/OB_iperoxo.obj
+
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_paubrasil_2.obj                                      vegetation/TREE/OB_paubrasil_2.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_bananeira_1.obj                                      vegetation/TREE/OB_bananeira_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_bananeira_2.obj                                      vegetation/TREE/OB_bananeira_2.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_ipeamarelo_1.obj                                     vegetation/TREE/OB_ipeamarelo_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/TREE/OB_ipeamarelo_2.obj                                     vegetation/TREE/OB_ipeamarelo_2.obj
+
+#COCONUT
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_coqueiro_1.obj                                       vegetation/COCONUT/OB_coqueiro_1.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_coqueiro_2.obj                                       vegetation/COCONUT/OB_coqueiro_2.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_coqueiro_4.obj                                       vegetation/COCONUT/OB_coqueiro_4.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_coqueiro_5.obj                                       vegetation/COCONUT/OB_coqueiro_5.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_SATREE_5.OBJ                                                         vegetation/COCONUT/OB_SATREE_5.OBJ
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/COCONUT/OB_coqueiro_6.obj                                       vegetation/COCONUT/OB_coqueiro_6.obj
+
+#SHRUB
+
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/SHRUB/OB_cactuspalma.obj                                      vegetation/SHRUB/OB_cactuspalma.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/SHRUB/OB_samambaia.obj                                        vegetation/SHRUB/OB_samambaia.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/SHRUB/OB_raphia.obj                                           vegetation/SHRUB/OB_raphia.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/SHRUB/OB_orelhadeelefante.obj                                 vegetation/SHRUB/OB_orelhadeelefante.obj
+EXPORT OB_SAV_FOR_FREESCENERY/vegetation/SHRUB/OB_matocomum.obj                                        vegetation/SHRUB/OB_matocomum.obj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# library create by Otavio Bonomi named OB_SOUTHAMERICAN_VEGETATION_FOR_FREESCENERY.Copyright Otavio Bonomi 2019
+# Updated on JUN,20 2019.
+# Version 1.0

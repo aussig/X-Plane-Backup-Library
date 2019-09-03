@@ -1,0 +1,4 @@
+Scenery Animation Library
+v1.1.0
+By Marten@Stairport
+https://forums.x-plane.org/index.php?/profile/237448-martenstairport/

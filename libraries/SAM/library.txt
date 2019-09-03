@@ -1,0 +1,144 @@
+A
+800
+LIBRARY
+
+##########################################################
+####     Scenery Animation Manager - Library 1.00     ####
+##########################################################
+PUBLIC
+# JETWAY Type 01 Solid
+EXPORT  SAM_Library/jetways/Type01_solid_0.0m.obj					jetways/jetway_solid_0.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_2.5m.obj					jetways/jetway_solid_2.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_3.0m.obj					jetways/jetway_solid_3.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_3.5m.obj					jetways/jetway_solid_3.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_4.0m.obj					jetways/jetway_solid_4.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_4.5m.obj					jetways/jetway_solid_4.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_5.0m.obj					jetways/jetway_solid_5.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_5.5m.obj					jetways/jetway_solid_5.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_solid_6.0m.obj					jetways/jetway_solid_6.0m_01.obj
+EXPORT 	SAM_Library/bridges/Type01_solid.fac						jetways/bridge_solid_01.fac
+EXPORT 	SAM_Library/bridges/Type02_solid.fac						jetways/bridge_solid_02.fac
+EXPORT 	SAM_Library/bridges/Type01_glas.fac							jetways/bridge_glas_01.fac
+
+# JETWAY Type 01 Glas
+EXPORT  SAM_Library/jetways/Type01_glas_2.5m.obj					jetways/jetway_glas_2.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_3.0m.obj					jetways/jetway_glas_3.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_3.5m.obj					jetways/jetway_glas_3.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_4.0m.obj					jetways/jetway_glas_4.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_4.5m.obj					jetways/jetway_glas_4.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_5.0m.obj					jetways/jetway_glas_5.0m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_5.5m.obj					jetways/jetway_glas_5.5m_01.obj
+EXPORT  SAM_Library/jetways/Type01_glas_6.0m.obj					jetways/jetway_glas_6.0m_01.obj
+
+# JETWAY Type 02 Solid
+EXPORT  SAM_Library/jetways/Type02_solid_3.0m.obj					jetways/jetway_solid_3.0m_02.obj
+EXPORT  SAM_Library/jetways/Type02_solid_3.5m.obj					jetways/jetway_solid_3.5m_02.obj
+EXPORT  SAM_Library/jetways/Type02_solid_4.0m.obj					jetways/jetway_solid_4.0m_02.obj
+EXPORT  SAM_Library/jetways/Type02_solid_4.5m.obj					jetways/jetway_solid_4.5m_02.obj
+EXPORT  SAM_Library/jetways/Type02_solid_5.0m.obj					jetways/jetway_solid_5.0m_02.obj
+
+# JETWAY Type 02 Glas
+EXPORT  SAM_Library/jetways/Type02_glas_3.0m.obj					jetways/jetway_glas_3.0m_02.obj
+EXPORT  SAM_Library/jetways/Type02_glas_3.5m.obj					jetways/jetway_glas_3.5m_02.obj
+EXPORT  SAM_Library/jetways/Type02_glas_4.0m.obj					jetways/jetway_glas_4.0m_02.obj
+EXPORT  SAM_Library/jetways/Type02_glas_4.5m.obj					jetways/jetway_glas_4.5m_02.obj
+EXPORT  SAM_Library/jetways/Type02_glas_5.0m.obj					jetways/jetway_glas_5.0m_02.obj
+
+
+# DOCKINGS
+EXPORT   SAM_Library/dockings/marshaller.agp					dockings/marshaller.agp
+EXPORT  		SAM_Library/dockings/Safegate_2.5m.obj			dockings/ADB-Safegate-2.5m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_3.0m.obj			dockings/ADB-Safegate-3.0m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_3.5m.obj			dockings/ADB-Safegate-3.5m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_4.0m.obj			dockings/ADB-Safegate-4.0m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_4.5m.obj			dockings/ADB-Safegate-4.5m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_5.0m.obj			dockings/ADB-Safegate-5.0m.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_2.5m_pole.agp		dockings/ADB-Safegate-2.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safegate_3.0m_pole.agp		dockings/ADB-Safegate-3.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Safegate_3.5m_pole.agp		dockings/ADB-Safegate-3.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safegate_4.0m_pole.agp		dockings/ADB-Safegate-4.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Safegate_4.5m_pole.agp		dockings/ADB-Safegate-4.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safegate_5.0m_pole.agp		dockings/ADB-Safegate-5.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m.obj 		dockings/Honeywell-AVDGS-2.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m.obj 		dockings/Honeywell-AVDGS-3.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m.obj 		dockings/Honeywell-AVDGS-3.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m.obj 		dockings/Honeywell-AVDGS-4.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m.obj 		dockings/Honeywell-AVDGS-4.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m.obj 		dockings/Honeywell-AVDGS-5.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_5.5m.obj 		dockings/Honeywell-AVDGS-5.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_6.0m.obj 		dockings/Honeywell-AVDGS-6.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_6.5m.obj 		dockings/Honeywell-AVDGS-6.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_7.0m.obj 		dockings/Honeywell-AVDGS-7.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m_pole.agp 	dockings/Honeywell-AVDGS-2.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m_pole.agp 	dockings/Honeywell-AVDGS-3.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m_pole.agp 	dockings/Honeywell-AVDGS-3.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m_pole.agp 	dockings/Honeywell-AVDGS-4.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m_pole.agp 	dockings/Honeywell-AVDGS-4.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m_pole.agp 	dockings/Honeywell-AVDGS-5.0m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_2.5m.obj 				dockings/FMT-AVDGS-2.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_3.0m.obj 				dockings/FMT-AVDGS-3.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_3.5m.obj 				dockings/FMT-AVDGS-3.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_4.0m.obj 				dockings/FMT-AVDGS-4.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_4.5m.obj 				dockings/FMT-AVDGS-4.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_5.0m.obj 				dockings/FMT-AVDGS-5.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_2.5m_pole.agp 			dockings/FMT-AVDGS-2.5m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_3.0m_pole.agp 			dockings/FMT-AVDGS-3.0m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_3.5m_pole.agp 			dockings/FMT-AVDGS-3.5m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_4.0m_pole.agp 			dockings/FMT-AVDGS-4.0m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_4.5m_pole.agp 			dockings/FMT-AVDGS-4.5m-pole.agp
+EXPORT  		SAM_Library/dockings/FMT_5.0m_pole.agp			dockings/FMT-AVDGS-5.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_2.5m.agp	dockings/ADB-Safedock-T2.24-2.5m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_3.0m.agp	dockings/ADB-Safedock-T2.24-3.0m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_3.5m.agp	dockings/ADB-Safedock-T2.24-3.5m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_4.0m.agp	dockings/ADB-Safedock-T2.24-4.0m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_4.5m.agp	dockings/ADB-Safedock-T2.24-4.5m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_5.0m.agp	dockings/ADB-Safedock-T2.24-5.0m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_5.5m.agp	dockings/ADB-Safedock-T2.24-5.5m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_6.0m.agp	dockings/ADB-Safedock-T2.24-6.0m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_6.5m.agp	dockings/ADB-Safedock-T2.24-6.5m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_7.0m.agp	dockings/ADB-Safedock-T2.24-7.0m.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_2.5m_pole.agp	dockings/ADB-Safedock-T2.24-2.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_3.0m_pole.agp	dockings/ADB-Safedock-T2.24-3.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_3.5m_pole.agp	dockings/ADB-Safedock-T2.24-3.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_4.0m_pole.agp	dockings/ADB-Safedock-T2.24-4.0m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_4.5m_pole.agp	dockings/ADB-Safedock-T2.24-4.5m-pole.agp
+EXPORT  		SAM_Library/dockings/Safedock-T2-24_5.0m_pole.agp	dockings/ADB-Safedock-T2.24-5.0m-pole.agp
+
+
+
+
+
+# HANGARS
+EXPORT  SAM_Library/hangars/hangar_01.obj						hangars/hangar_01.obj
+EXPORT  SAM_Library/hangars/hangar_02.obj						hangars/hangar_02.obj
+EXPORT  SAM_Library/hangars/hangar_03.obj						hangars/hangar_03.obj
+EXPORT  SAM_Library/hangars/hangar_04.obj						hangars/hangar_04.obj
+
+# WIND TURBINES
+EXPORT  SAM_Library/windturbines/windturbine_01.obj				windturbines/windturbine_01.obj
+EXPORT  SAM_Library/windturbines/windturbine_02.obj				windturbines/windturbine_02.obj
+EXPORT  SAM_Library/windturbines/windturbine_03.obj				windturbines/windturbine_03.obj
+
+DEPRECATED
+EXPORT  		SAM_Library/dockings/FMT_2.5m_pole.obj 			dockings/FMT-AVDGS-2.5m-pole.obj
+EXPORT  		SAM_Library/dockings/FMT_3.0m_pole.obj 			dockings/FMT-AVDGS-3.0m-pole.obj
+EXPORT  		SAM_Library/dockings/FMT_3.5m_pole.obj 			dockings/FMT-AVDGS-3.5m-pole.obj
+EXPORT  		SAM_Library/dockings/FMT_4.0m_pole.obj 			dockings/FMT-AVDGS-4.0m-pole.obj
+EXPORT  		SAM_Library/dockings/FMT_4.5m_pole.obj 			dockings/FMT-AVDGS-4.5m-pole.obj
+EXPORT  		SAM_Library/dockings/FMT_5.0m_pole.obj			dockings/FMT-AVDGS-5.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m_pole.obj 	dockings/Honeywell-AVDGS-2.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m_pole.obj 	dockings/Honeywell-AVDGS-3.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m_pole.obj 	dockings/Honeywell-AVDGS-3.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m_pole.obj 	dockings/Honeywell-AVDGS-4.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m_pole.obj 	dockings/Honeywell-AVDGS-4.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m_pole.obj 	dockings/Honeywell-AVDGS-5.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_2.5m_pole.obj		dockings/ADB-Safegate-2.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_3.0m_pole.obj		dockings/ADB-Safegate-3.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_3.5m_pole.obj		dockings/ADB-Safegate-3.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_4.0m_pole.obj		dockings/ADB-Safegate-4.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_4.5m_pole.obj		dockings/ADB-Safegate-4.5m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Safegate_5.0m_pole.obj		dockings/ADB-Safegate-5.0m-pole.OBJ
+EXPORT_EXTEND   SAM_Library/dockings/marshaller.obj				dockings/marshaller_01.OBJ
+EXPORT_EXTEND   SAM_Library/dockings/marshaller.obj				dockings/marshaller_02.OBJ
+EXPORT_EXTEND   SAM_Library/dockings/marshaller.obj				dockings/marshaller_03.OBJ
+EXPORT_EXTEND   SAM_Library/dockings/marshaller.obj				dockings/marshaller_04.OBJ

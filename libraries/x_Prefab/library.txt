@@ -1,0 +1,584 @@
+A
+800
+LIBRARY
+#      Version 7.1 XP11
+#
+#      General explanation
+#      -------------------
+#      All lines are build up in this order: EXPORT aaaa bbbb
+#      aaaa = the definition (starts with prefab/)   -> DON't change that
+#      bbbb = the linked object                      -> DO change that if you want to replace it with a different object
+#
+#      If you want to remove any object -> replace the linked object with: blank/blank.obj
+#
+#      Fence
+#      -----
+#      If you want no fence -> replace linked object with: blank/blank.fac
+EXPORT prefab/chainfence.fac misc/fencemh.fac
+#
+#      Ground textures
+#      ---------------
+#      Default is no ground texture -> to enable: put # in front of lines of block 1 + remove # for block 2
+#      Block 1: no ground texture
+#      Ground textures default X-plane airports
+EXPORT prefab/gnd_xp_grass.pol blank/blank.pol
+EXPORT prefab/gnd_xp_drygrass.pol blank/blank.pol
+EXPORT prefab/gnd_xp_dirt.pol blank/blank.pol
+EXPORT prefab/gnd_xp_sand.pol blank/blank.pol
+EXPORT prefab/gnd_xp_snow.pol blank/blank.pol
+#      Ground textures FSE airports (only for FSE airports)
+EXPORT prefab/gnd_fse_grass.pol blank/blank.pol
+EXPORT prefab/gnd_fse_drygrass.pol blank/blank.pol
+EXPORT prefab/gnd_fse_dirt.pol blank/blank.pol
+EXPORT prefab/gnd_fse_sand.pol blank/blank.pol
+EXPORT prefab/gnd_fse_snow.pol blank/blank.pol
+#
+#      Block 2: ground texture
+#EXPORT prefab/gnd_xp_grass.pol ground/gnd_grass.pol
+#EXPORT prefab/gnd_xp_drygrass.pol ground/gnd_drygrass.pol
+#EXPORT prefab/gnd_xp_dirt.pol ground/gnd_dirt.pol
+#EXPORT prefab/gnd_xp_sand.pol ground/gnd_sand.pol
+#EXPORT prefab/gnd_xp_snow.pol ground/gnd_snow.pol
+#      Ground textures FSE airports (only for FSE airports)
+#EXPORT prefab/gnd_fse_grass.pol ground/gnd_grass.pol
+#EXPORT prefab/gnd_fse_drygrass.pol ground/gnd_drygrass.pol
+#EXPORT prefab/gnd_fse_dirt.pol ground/gnd_dirt.pol
+#EXPORT prefab/gnd_fse_sand.pol ground/gnd_sand.pol
+#EXPORT prefab/gnd_fse_snow.pol ground/gnd_snow.pol
+##
+#      FlyByPlanes by Chris Noe (visible in the air not on the ground)
+#      ---------------------------------------------------------------
+#      If you want to remove them -> replace the linked object with: blank/blank.obj
+#
+EXPORT prefab/fly_beech.obj aircraft_flyby/Beech_18.obj
+EXPORT prefab/fly_beech1.obj aircraft_flyby/Beech_18_green.obj
+EXPORT prefab/fly_gaprop.obj aircraft_flyby/C-172.obj
+EXPORT prefab/fly_gaprop1.obj aircraft_flyby/Cessna_152.obj
+EXPORT prefab/fly_gaprop2.obj aircraft_flyby/Cessna_152_tan.obj
+EXPORT prefab/fly_gaprop3.obj aircraft_flyby/Cessna_185.obj
+EXPORT prefab/fly_gaprop4.obj aircraft_flyby/Cessna_185_green.obj
+EXPORT prefab/fly_regprop.obj aircraft_flyby/Falcon_reg.obj
+EXPORT prefab/fly_regprop1.obj aircraft_flyby/TUIfly_Beech.obj
+EXPORT prefab/fly_regprop2.obj aircraft_flyby/UPS_Beech.obj
+EXPORT prefab/fly_regprop3.obj aircraft_flyby/Fedex_Beech.obj
+EXPORT prefab/fly_kingair.obj aircraft_flyby/King_Air_200.obj
+EXPORT prefab/fly_kingair1.obj aircraft_flyby/King_Air_200_green.obj
+EXPORT prefab/fly_kingair2.obj aircraft_flyby/King_Air_200_red.obj
+EXPORT prefab/fly_kingair3.obj aircraft_flyby/King_Air_200_tan.obj
+EXPORT prefab/fly_kingair4.obj aircraft_flyby/King_Air_200_yellow.obj
+EXPORT prefab/fly_glider.obj aircraft_flyby/cirrus_glider.obj
+EXPORT prefab/fly_glider1.obj aircraft_flyby/cirrus_glider_red.obj
+EXPORT prefab/fly_heli.obj aircraft_flyby/EuroCopter_A350.obj
+EXPORT prefab/fly_heli1.obj aircraft_flyby/EuroCopter_A350_white.obj
+EXPORT prefab/fly_heli2.obj aircraft_flyby/Sea_King_flyby.obj
+EXPORT prefab/fly_heli3.obj aircraft_flyby/Sea_King_flyby_creme.obj
+#
+#      Scenery (agp files)
+#      -------------------
+#      The scenery is divided in climate, runway surface and airport size (x, s and m)
+#      Each scenery consists of 3 parts: center, left and right
+#
+#      If you want no scenery -> replace linked object with:
+#      scen_blank.agp     : nothing
+#      scen_trees.agp     : no ground just vegetation
+#      scen_platform_s.agp: small platform with vegetation (no objects)
+#      scen_platform_m.agp: medium platform with vegetation (no objects)
+#
+#      Wet climate
+EXPORT prefab/scen_wet_asphalt_xc.agp objects/wet/scen_asphalt_xc.agp
+EXPORT prefab/scen_wet_asphalt_1xc.agp objects/wet/scen_asphalt_1xc.agp
+EXPORT prefab/scen_wet_asphalt_2xc.agp objects/wet/scen_asphalt_2xc.agp
+EXPORT prefab/scen_wet_asphalt_3xc.agp objects/wet/scen_asphalt_3xc.agp
+EXPORT prefab/scen_wet_asphalt_4xc.agp objects/wet/scen_asphalt_4xc.agp
+EXPORT prefab/scen_wet_asphalt_5xc.agp objects/wet/scen_asphalt_5xc.agp
+EXPORT prefab/scen_wet_asphalt_sc.agp objects/wet/scen_asphalt_sc.agp
+EXPORT prefab/scen_wet_asphalt_1sc.agp objects/wet/scen_asphalt_1sc.agp
+EXPORT prefab/scen_wet_asphalt_2sc.agp objects/wet/scen_asphalt_2sc.agp
+EXPORT prefab/scen_wet_asphalt_mc.agp objects/wet/scen_asphalt_mc.agp
+EXPORT prefab/scen_wet_concrete_xc.agp objects/wet/scen_concrete_xc.agp
+EXPORT prefab/scen_wet_concrete_sc.agp objects/wet/scen_concrete_sc.agp
+EXPORT prefab/scen_wet_concrete_mc.agp objects/wet/scen_concrete_mc.agp
+EXPORT prefab/scen_wet_grass_xc.agp objects/wet/scen_grass_xc.agp
+EXPORT prefab/scen_wet_grass_1xc.agp objects/wet/scen_grass_1xc.agp
+EXPORT prefab/scen_wet_grass_2xc.agp objects/wet/scen_grass_2xc.agp
+EXPORT prefab/scen_wet_grass_3xc.agp objects/wet/scen_grass_3xc.agp
+EXPORT prefab/scen_wet_grass_4xc.agp objects/wet/scen_grass_4xc.agp
+EXPORT prefab/scen_wet_grass_5xc.agp objects/wet/scen_grass_5xc.agp
+EXPORT prefab/scen_wet_grass_6xc.agp objects/wet/scen_grass_6xc.agp
+EXPORT prefab/scen_wet_grass_7xc.agp objects/wet/scen_grass_7xc.agp
+EXPORT prefab/scen_wet_grass_8xc.agp objects/wet/scen_grass_8xc.agp
+EXPORT prefab/scen_wet_grass_sc.agp objects/wet/scen_grass_sc.agp
+EXPORT prefab/scen_wet_grass_mc.agp objects/wet/scen_grass_mc.agp
+EXPORT prefab/scen_wet_dirt_xc.agp objects/wet/scen_dirt_xc.agp
+EXPORT prefab/scen_wet_dirt_1xc.agp objects/wet/scen_dirt_1xc.agp
+EXPORT prefab/scen_wet_dirt_2xc.agp objects/wet/scen_dirt_2xc.agp
+EXPORT prefab/scen_wet_dirt_3xc.agp objects/wet/scen_dirt_3xc.agp
+EXPORT prefab/scen_wet_dirt_sc.agp objects/wet/scen_dirt_sc.agp
+EXPORT prefab/scen_wet_dirt_mc.agp objects/wet/scen_dirt_mc.agp
+EXPORT prefab/scen_wet_gravel_xc.agp objects/wet/scen_gravel_xc.agp
+EXPORT prefab/scen_wet_gravel_sc.agp objects/wet/scen_gravel_sc.agp
+EXPORT prefab/scen_wet_gravel_mc.agp objects/wet/scen_gravel_mc.agp
+#R
+EXPORT prefab/scen_wet_asphalt_xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_1xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_2xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_3xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_4xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_5xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_asphalt_sr.agp objects/wet/scen_asphalt_sr.agp
+EXPORT prefab/scen_wet_asphalt_1sr.agp objects/wet/scen_asphalt_1sr.agp
+EXPORT prefab/scen_wet_asphalt_2sr.agp objects/wet/scen_asphalt_2sr.agp
+EXPORT prefab/scen_wet_asphalt_mr.agp objects/wet/scen_asphalt_mr.agp
+EXPORT prefab/scen_wet_concrete_xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_concrete_sr.agp objects/wet/scen_concrete_sr.agp
+EXPORT prefab/scen_wet_concrete_mr.agp objects/wet/scen_concrete_mr.agp
+EXPORT prefab/scen_wet_grass_xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_1xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_2xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_3xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_4xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_5xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_6xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_7xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_8xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_grass_sr.agp objects/wet/scen_grass_sr.agp
+EXPORT prefab/scen_wet_grass_mr.agp objects/wet/scen_grass_mr.agp
+EXPORT prefab/scen_wet_dirt_xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_dirt_1xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_dirt_2xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_dirt_3xr.agp objects/wet/scen_treesR.agp
+EXPORT prefab/scen_wet_dirt_sr.agp objects/wet/scen_dirt_sr.agp
+EXPORT prefab/scen_wet_dirt_mr.agp objects/wet/scen_dirt_mr.agp
+EXPORT prefab/scen_wet_gravel_xr.agp objects/wet/scen_trees.agp
+EXPORT prefab/scen_wet_gravel_sr.agp objects/wet/scen_gravel_sr.agp
+EXPORT prefab/scen_wet_gravel_mr.agp objects/wet/scen_gravel_mr.agp
+#L
+EXPORT prefab/scen_wet_asphalt_xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_1xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_2xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_3xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_4xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_5xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_asphalt_sl.agp objects/wet/scen_asphalt_sl.agp
+EXPORT prefab/scen_wet_asphalt_1sl.agp objects/wet/scen_asphalt_1sl.agp
+EXPORT prefab/scen_wet_asphalt_2sl.agp objects/wet/scen_asphalt_2sl.agp
+EXPORT prefab/scen_wet_asphalt_ml.agp objects/wet/scen_asphalt_ml.agp
+EXPORT prefab/scen_wet_concrete_xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_concrete_sl.agp objects/wet/scen_concrete_sl.agp
+EXPORT prefab/scen_wet_concrete_ml.agp objects/wet/scen_concrete_ml.agp
+EXPORT prefab/scen_wet_grass_xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_1xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_2xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_3xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_4xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_5xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_6xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_7xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_8xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_grass_sl.agp objects/wet/scen_grass_sl.agp
+EXPORT prefab/scen_wet_grass_ml.agp objects/wet/scen_grass_ml.agp
+EXPORT prefab/scen_wet_dirt_xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_dirt_1xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_dirt_2xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_dirt_3xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_dirt_sl.agp objects/wet/scen_dirt_sl.agp
+EXPORT prefab/scen_wet_dirt_ml.agp objects/wet/scen_dirt_ml.agp
+EXPORT prefab/scen_wet_gravel_xl.agp objects/wet/scen_treesL.agp
+EXPORT prefab/scen_wet_gravel_sl.agp objects/wet/scen_gravel_sl.agp
+EXPORT prefab/scen_wet_gravel_ml.agp objects/wet/scen_gravel_ml.agp
+#      Medium climate
+EXPORT prefab/scen_med_asphalt_xc.agp objects/med/scen_asphalt_xc.agp
+EXPORT prefab/scen_med_asphalt_1xc.agp objects/med/scen_asphalt_1xc.agp
+EXPORT prefab/scen_med_asphalt_2xc.agp objects/med/scen_asphalt_2xc.agp
+EXPORT prefab/scen_med_asphalt_3xc.agp objects/med/scen_asphalt_3xc.agp
+EXPORT prefab/scen_med_asphalt_4xc.agp objects/med/scen_asphalt_4xc.agp
+EXPORT prefab/scen_med_asphalt_5xc.agp objects/med/scen_asphalt_5xc.agp
+EXPORT prefab/scen_med_asphalt_sc.agp objects/med/scen_asphalt_sc.agp
+EXPORT prefab/scen_med_asphalt_1sc.agp objects/med/scen_asphalt_1sc.agp
+EXPORT prefab/scen_med_asphalt_2sc.agp objects/med/scen_asphalt_2sc.agp
+EXPORT prefab/scen_med_asphalt_mc.agp objects/med/scen_asphalt_mc.agp
+EXPORT prefab/scen_med_concrete_xc.agp objects/med/scen_concrete_xc.agp
+EXPORT prefab/scen_med_concrete_sc.agp objects/med/scen_concrete_sc.agp
+EXPORT prefab/scen_med_concrete_mc.agp objects/med/scen_concrete_mc.agp
+EXPORT prefab/scen_med_grass_xc.agp objects/med/scen_grass_xc.agp
+EXPORT prefab/scen_med_grass_1xc.agp objects/med/scen_grass_1xc.agp
+EXPORT prefab/scen_med_grass_2xc.agp objects/med/scen_grass_2xc.agp
+EXPORT prefab/scen_med_grass_3xc.agp objects/med/scen_grass_3xc.agp
+EXPORT prefab/scen_med_grass_4xc.agp objects/med/scen_grass_4xc.agp
+EXPORT prefab/scen_med_grass_5xc.agp objects/med/scen_grass_5xc.agp
+EXPORT prefab/scen_med_grass_6xc.agp objects/med/scen_grass_6xc.agp
+EXPORT prefab/scen_med_grass_7xc.agp objects/med/scen_grass_7xc.agp
+EXPORT prefab/scen_med_grass_8xc.agp objects/med/scen_grass_8xc.agp
+EXPORT prefab/scen_med_grass_sc.agp objects/med/scen_grass_sc.agp
+EXPORT prefab/scen_med_grass_mc.agp objects/med/scen_grass_mc.agp
+EXPORT prefab/scen_med_dirt_xc.agp objects/med/scen_dirt_xc.agp
+EXPORT prefab/scen_med_dirt_1xc.agp objects/med/scen_dirt_1xc.agp
+EXPORT prefab/scen_med_dirt_2xc.agp objects/med/scen_dirt_2xc.agp
+EXPORT prefab/scen_med_dirt_3xc.agp objects/med/scen_dirt_3xc.agp
+EXPORT prefab/scen_med_dirt_sc.agp objects/med/scen_dirt_sc.agp
+EXPORT prefab/scen_med_dirt_mc.agp objects/med/scen_dirt_mc.agp
+EXPORT prefab/scen_med_gravel_xc.agp objects/med/scen_gravel_xc.agp
+EXPORT prefab/scen_med_gravel_sc.agp objects/med/scen_gravel_sc.agp
+EXPORT prefab/scen_med_gravel_mc.agp objects/med/scen_gravel_mc.agp
+#R
+EXPORT prefab/scen_med_asphalt_xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_1xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_2xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_3xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_4xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_5xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_asphalt_sr.agp objects/med/scen_asphalt_sr.agp
+EXPORT prefab/scen_med_asphalt_1sr.agp objects/med/scen_asphalt_1sr.agp
+EXPORT prefab/scen_med_asphalt_2sr.agp objects/med/scen_asphalt_2sr.agp
+EXPORT prefab/scen_med_asphalt_mr.agp objects/med/scen_asphalt_mr.agp
+EXPORT prefab/scen_med_concrete_xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_concrete_sr.agp objects/med/scen_concrete_sr.agp
+EXPORT prefab/scen_med_concrete_mr.agp objects/med/scen_concrete_mr.agp
+EXPORT prefab/scen_med_grass_xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_1xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_2xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_3xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_4xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_5xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_6xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_7xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_8xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_grass_sr.agp objects/med/scen_grass_sr.agp
+EXPORT prefab/scen_med_grass_mr.agp objects/med/scen_grass_mr.agp
+EXPORT prefab/scen_med_dirt_xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_dirt_1xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_dirt_2xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_dirt_3xr.agp objects/med/scen_treesR.agp
+EXPORT prefab/scen_med_dirt_sr.agp objects/med/scen_dirt_sr.agp
+EXPORT prefab/scen_med_dirt_mr.agp objects/med/scen_dirt_mr.agp
+EXPORT prefab/scen_med_gravel_xr.agp objects/med/scen_trees.agp
+EXPORT prefab/scen_med_gravel_sr.agp objects/med/scen_gravel_sr.agp
+EXPORT prefab/scen_med_gravel_mr.agp objects/med/scen_gravel_mr.agp
+#L
+EXPORT prefab/scen_med_asphalt_xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_1xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_2xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_3xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_4xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_5xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_asphalt_sl.agp objects/med/scen_asphalt_sl.agp
+EXPORT prefab/scen_med_asphalt_1sl.agp objects/med/scen_asphalt_1sl.agp
+EXPORT prefab/scen_med_asphalt_2sl.agp objects/med/scen_asphalt_2sl.agp
+EXPORT prefab/scen_med_asphalt_ml.agp objects/med/scen_asphalt_ml.agp
+EXPORT prefab/scen_med_concrete_xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_concrete_sl.agp objects/med/scen_concrete_sl.agp
+EXPORT prefab/scen_med_concrete_ml.agp objects/med/scen_concrete_ml.agp
+EXPORT prefab/scen_med_grass_xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_1xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_2xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_3xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_4xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_5xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_6xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_7xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_8xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_grass_sl.agp objects/med/scen_grass_sl.agp
+EXPORT prefab/scen_med_grass_ml.agp objects/med/scen_grass_ml.agp
+EXPORT prefab/scen_med_dirt_xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_dirt_1xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_dirt_2xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_dirt_3xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_dirt_sl.agp objects/med/scen_dirt_sl.agp
+EXPORT prefab/scen_med_dirt_ml.agp objects/med/scen_dirt_ml.agp
+EXPORT prefab/scen_med_gravel_xl.agp objects/med/scen_treesL.agp
+EXPORT prefab/scen_med_gravel_sl.agp objects/med/scen_gravel_sl.agp
+EXPORT prefab/scen_med_gravel_ml.agp objects/med/scen_gravel_ml.agp
+#      Dry climate
+EXPORT prefab/scen_dry_asphalt_xc.agp objects/dry/scen_asphalt_xc.agp
+EXPORT prefab/scen_dry_asphalt_1xc.agp objects/dry/scen_asphalt_1xc.agp
+EXPORT prefab/scen_dry_asphalt_2xc.agp objects/dry/scen_asphalt_2xc.agp
+EXPORT prefab/scen_dry_asphalt_3xc.agp objects/dry/scen_asphalt_3xc.agp
+EXPORT prefab/scen_dry_asphalt_4xc.agp objects/dry/scen_asphalt_4xc.agp
+EXPORT prefab/scen_dry_asphalt_5xc.agp objects/dry/scen_asphalt_5xc.agp
+EXPORT prefab/scen_dry_asphalt_sc.agp objects/dry/scen_asphalt_sc.agp
+EXPORT prefab/scen_dry_asphalt_1sc.agp objects/dry/scen_asphalt_1sc.agp
+EXPORT prefab/scen_dry_asphalt_2sc.agp objects/dry/scen_asphalt_2sc.agp
+EXPORT prefab/scen_dry_asphalt_mc.agp objects/dry/scen_asphalt_mc.agp
+EXPORT prefab/scen_dry_concrete_xc.agp objects/dry/scen_concrete_xc.agp
+EXPORT prefab/scen_dry_concrete_sc.agp objects/dry/scen_concrete_sc.agp
+EXPORT prefab/scen_dry_concrete_mc.agp objects/dry/scen_concrete_mc.agp
+EXPORT prefab/scen_dry_grass_xc.agp objects/dry/scen_grass_xc.agp
+EXPORT prefab/scen_dry_grass_1xc.agp objects/dry/scen_grass_1xc.agp
+EXPORT prefab/scen_dry_grass_2xc.agp objects/dry/scen_grass_2xc.agp
+EXPORT prefab/scen_dry_grass_3xc.agp objects/dry/scen_grass_3xc.agp
+EXPORT prefab/scen_dry_grass_4xc.agp objects/dry/scen_grass_4xc.agp
+EXPORT prefab/scen_dry_grass_5xc.agp objects/dry/scen_grass_5xc.agp
+EXPORT prefab/scen_dry_grass_6xc.agp objects/dry/scen_grass_6xc.agp
+EXPORT prefab/scen_dry_grass_7xc.agp objects/dry/scen_grass_7xc.agp
+EXPORT prefab/scen_dry_grass_8xc.agp objects/dry/scen_grass_8xc.agp
+EXPORT prefab/scen_dry_grass_sc.agp objects/dry/scen_grass_sc.agp
+EXPORT prefab/scen_dry_grass_mc.agp objects/dry/scen_grass_mc.agp
+EXPORT prefab/scen_dry_dirt_xc.agp objects/dry/scen_dirt_xc.agp
+EXPORT prefab/scen_dry_dirt_1xc.agp objects/dry/scen_dirt_1xc.agp
+EXPORT prefab/scen_dry_dirt_2xc.agp objects/dry/scen_dirt_2xc.agp
+EXPORT prefab/scen_dry_dirt_3xc.agp objects/dry/scen_dirt_3xc.agp
+EXPORT prefab/scen_dry_dirt_sc.agp objects/dry/scen_dirt_sc.agp
+EXPORT prefab/scen_dry_dirt_mc.agp objects/dry/scen_dirt_mc.agp
+EXPORT prefab/scen_dry_gravel_xc.agp objects/dry/scen_gravel_xc.agp
+EXPORT prefab/scen_dry_gravel_sc.agp objects/dry/scen_gravel_sc.agp
+EXPORT prefab/scen_dry_gravel_mc.agp objects/dry/scen_gravel_mc.agp
+#R
+EXPORT prefab/scen_dry_asphalt_xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_1xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_2xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_3xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_4xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_5xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_asphalt_sr.agp objects/dry/scen_asphalt_sr.agp
+EXPORT prefab/scen_dry_asphalt_1sr.agp objects/dry/scen_asphalt_1sr.agp
+EXPORT prefab/scen_dry_asphalt_2sr.agp objects/dry/scen_asphalt_2sr.agp
+EXPORT prefab/scen_dry_asphalt_mr.agp objects/dry/scen_asphalt_mr.agp
+EXPORT prefab/scen_dry_concrete_xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_concrete_sr.agp objects/dry/scen_concrete_sr.agp
+EXPORT prefab/scen_dry_concrete_mr.agp objects/dry/scen_concrete_mr.agp
+EXPORT prefab/scen_dry_grass_xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_1xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_2xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_3xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_4xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_5xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_6xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_7xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_8xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_grass_sr.agp objects/dry/scen_grass_sr.agp
+EXPORT prefab/scen_dry_grass_mr.agp objects/dry/scen_grass_mr.agp
+EXPORT prefab/scen_dry_dirt_xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_dirt_1xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_dirt_2xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_dirt_3xr.agp objects/dry/scen_treesRd.agp
+EXPORT prefab/scen_dry_dirt_sr.agp objects/dry/scen_dirt_sr.agp
+EXPORT prefab/scen_dry_dirt_mr.agp objects/dry/scen_dirt_mr.agp
+EXPORT prefab/scen_dry_gravel_xr.agp objects/dry/scen_trees.agp
+EXPORT prefab/scen_dry_gravel_sr.agp objects/dry/scen_gravel_sr.agp
+EXPORT prefab/scen_dry_gravel_mr.agp objects/dry/scen_gravel_mr.agp
+#L
+EXPORT prefab/scen_dry_asphalt_xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_1xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_2xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_3xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_4xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_5xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_asphalt_sl.agp objects/dry/scen_asphalt_sl.agp
+EXPORT prefab/scen_dry_asphalt_1sl.agp objects/dry/scen_asphalt_1sl.agp
+EXPORT prefab/scen_dry_asphalt_2sl.agp objects/dry/scen_asphalt_2sl.agp
+EXPORT prefab/scen_dry_asphalt_ml.agp objects/dry/scen_asphalt_ml.agp
+EXPORT prefab/scen_dry_concrete_xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_concrete_sl.agp objects/dry/scen_concrete_sl.agp
+EXPORT prefab/scen_dry_concrete_ml.agp objects/dry/scen_concrete_ml.agp
+EXPORT prefab/scen_dry_grass_xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_1xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_2xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_3xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_4xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_5xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_6xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_7xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_8xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_grass_sl.agp objects/dry/scen_grass_sl.agp
+EXPORT prefab/scen_dry_grass_ml.agp objects/dry/scen_grass_ml.agp
+EXPORT prefab/scen_dry_dirt_xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_dirt_1xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_dirt_2xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_dirt_3xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_dirt_sl.agp objects/dry/scen_dirt_sl.agp
+EXPORT prefab/scen_dry_dirt_ml.agp objects/dry/scen_dirt_ml.agp
+EXPORT prefab/scen_dry_gravel_xl.agp objects/dry/scen_treesLd.agp
+EXPORT prefab/scen_dry_gravel_sl.agp objects/dry/scen_gravel_sl.agp
+EXPORT prefab/scen_dry_gravel_ml.agp objects/dry/scen_gravel_ml.agp
+#
+#      Misc objects: DON'T change these
+#      --------------------------------
+#      Objects of MH1212
+EXPORT prefab/classicbuilding.obj buildings/Classical.obj
+EXPORT prefab/heg1.obj misc/Heg10x0.5.obj
+EXPORT prefab/heg2.obj misc/Heg10x1.5.obj
+EXPORT prefab/heg3.obj misc/Heg40x1.5.obj
+EXPORT prefab/barrier1.obj misc/barrier1.obj
+EXPORT prefab/barrier2.obj misc/barrier2.obj
+EXPORT prefab/barrier3.obj misc/barrier3.obj
+EXPORT prefab/wall_10m.obj misc/WallMH_10m.obj
+EXPORT prefab/wall_40m.obj misc/WallMH_40m.obj
+EXPORT prefab/road_asphalt.obj misc/road_asphalt.obj
+EXPORT prefab/officemh.obj buildings/OfficeMH.obj
+#      Objects used from Marginal
+EXPORT prefab/marshaller10.obj marshaller/SA-10m-Marshaller.obj
+EXPORT prefab/marshaller12.obj marshaller/SA-12m-Marshaller.obj
+EXPORT prefab/marshaller14.obj marshaller/SA-14m-Marshaller.obj
+EXPORT prefab/marshaller16.obj marshaller/SA-16m-Marshaller.obj
+EXPORT prefab/marshaller18.obj marshaller/SA-18m-Marshaller.obj
+EXPORT prefab/marshaller20.obj marshaller/SA-20m-Marshaller.obj
+EXPORT prefab/marshaller22.obj marshaller/SA-22m-Marshaller.obj
+EXPORT prefab/marshaller24.obj marshaller/SA-24m-Marshaller.obj
+EXPORT prefab/marshaller26.obj marshaller/SA-26m-Marshaller.obj
+EXPORT prefab/marshaller28.obj marshaller/SA-28m-Marshaller.obj
+EXPORT prefab/marshaller30.obj marshaller/SA-30m-Marshaller.obj
+#      Objects used from Jacques Brault, some modified by MH1212
+EXPORT prefab/tower_jb.obj buildings/JB_Tower.obj
+EXPORT prefab/JB_Fuel01.obj misc/JB_Fuel01.obj
+EXPORT prefab/fence1.obj misc/Cloture.obj
+EXPORT prefab/fence2.obj misc/JB_Fence01.obj
+EXPORT prefab/bench.obj misc/JB_Bench01.obj
+EXPORT prefab/garage1.obj buildings/JB_Garage11.obj
+EXPORT prefab/garage2.obj buildings/JB_Garage12.obj
+EXPORT prefab/toilet.obj misc/JB_Toilet01.obj
+EXPORT prefab/JB_House62.obj buildings/JB_House62.obj
+EXPORT prefab/JB_Hangar1.obj buildings/JB_Hangar1.obj
+EXPORT prefab/JB_Hangar2.obj buildings/JB_Hangar2.obj
+EXPORT prefab/JB_Hangar3.obj buildings/JB_Hangar3.obj
+EXPORT prefab/JB_Hangar6.obj buildings/JB_Hangar6.obj
+EXPORT prefab/JB_Hangar8.obj buildings/JB_Hangar8.obj
+EXPORT prefab/JB_Hangar13.obj buildings/JB_Hangar13.obj
+EXPORT prefab/JB_Hangar14.obj buildings/JB_Hangar14.obj
+EXPORT prefab/JB_Hangar17.obj buildings/JB_Hangar17.obj
+EXPORT prefab/JB_Hangar18.obj buildings/JB_Hangar18.obj
+EXPORT prefab/JB_Hangar19.obj buildings/JB_Hangar19.obj
+EXPORT prefab/JB_Hangar20.obj buildings/JB_Hangar20.obj
+EXPORT prefab/JB_Hangar21.obj buildings/JB_Hangar21.obj
+EXPORT prefab/JB_Hangar23.obj buildings/JB_Hangar23.obj
+EXPORT prefab/JB_Hangar27.obj buildings/JB_Hangar27.obj
+EXPORT prefab/JB_Hangar28.obj buildings/JB_Hangar28.obj
+EXPORT prefab/JB_Hangar32.obj buildings/JB_Hangar32.obj
+EXPORT prefab/JB_Hangar40.obj buildings/JB_Hangar40.obj
+EXPORT prefab/JB_Hangar44.obj buildings/JB_Hangar44.obj
+EXPORT prefab/JB_Hangar47.obj buildings/JB_Hangar47.obj
+EXPORT prefab/JB_Hangar48.obj buildings/JB_Hangar48.obj
+EXPORT prefab/JB_Hangar49.obj buildings/JB_Hangar49.obj
+EXPORT prefab/JB_Hangar52.obj buildings/JB_Hangar52.obj
+EXPORT prefab/JB_Hangar55.obj buildings/JB_Hangar55.obj
+EXPORT prefab/JB_Hangar56.obj buildings/JB_Hangar56.obj
+EXPORT prefab/JB_Hangar57.obj buildings/JB_Hangar57.obj
+EXPORT prefab/JB_Hangar59.obj buildings/JB_Hangar59.obj
+EXPORT prefab/JB_Hangar62.obj buildings/JB_Hangar62.obj
+EXPORT prefab/JB_Hangar63.obj buildings/JB_Hangar63.obj
+EXPORT prefab/JB_Hangar67.obj buildings/JB_Hangar67.obj
+EXPORT prefab/JB_Hangar68.obj buildings/JB_Hangar68.obj
+EXPORT prefab/JB_Hangar69.obj buildings/JB_Hangar69.obj
+EXPORT prefab/JB_Hangar77.obj buildings/JB_Hangar77.obj
+EXPORT prefab/JB_Hangar78.obj buildings/JB_Hangar78.obj
+EXPORT prefab/JB_Hangar80.obj buildings/JB_Hangar80.obj
+EXPORT prefab/JB_Hangar81.obj buildings/JB_Hangar81.obj
+EXPORT prefab/JB_Hangar83.obj buildings/JB_Hangar83.obj
+EXPORT prefab/JB_Hangar84.obj buildings/JB_Hangar84.obj
+EXPORT prefab/JB_Hangar86.obj buildings/JB_Hangar86.obj
+EXPORT prefab/JB_Hangar90.obj buildings/JB_Hangar90.obj
+EXPORT prefab/JB_Hangar91.obj buildings/JB_Hangar91.obj
+EXPORT prefab/JB_Hangar95.obj buildings/JB_Hangar95.obj
+EXPORT prefab/JB_Hangar97.obj buildings/JB_Hangar97.obj
+EXPORT prefab/JB_Hangar101.obj buildings/JB_Hangar101.obj
+EXPORT prefab/JB_Hangar104.obj buildings/JB_Hangar104.obj
+EXPORT prefab/JB_Hangar109.obj buildings/JB_Hangar109.obj
+EXPORT prefab/JB_Hangar110.obj buildings/JB_Hangar110.obj
+EXPORT prefab/JB_Hangar112.obj buildings/JB_Hangar112.obj
+EXPORT prefab/JB_Hangar117.obj buildings/JB_Hangar117.obj
+EXPORT prefab/JB_Hangar120.obj buildings/JB_Hangar120.obj
+EXPORT prefab/JB_Hangar121.obj buildings/JB_Hangar121.obj
+EXPORT prefab/JB_Hangar123.obj buildings/JB_Hangar123.obj
+EXPORT prefab/JB_Hangar125.obj buildings/JB_Hangar125.obj
+EXPORT prefab/JB_Hangar129.obj buildings/JB_Hangar129.obj
+EXPORT prefab/JB_Hangar130.obj buildings/JB_Hangar130.obj
+EXPORT prefab/JB_Hangar131.obj buildings/JB_Hangar131.obj
+EXPORT prefab/JB_Hangar134.obj buildings/JB_Hangar134.obj
+EXPORT prefab/JB_Hangar142.obj buildings/JB_Hangar142.obj
+EXPORT prefab/JB_Hangar143.obj buildings/JB_Hangar143.obj
+#      Objects from fschutzman
+EXPORT prefab/tower_cant.obj buildings/cant_tower.obj
+EXPORT prefab/tower_atcs.obj buildings/small_ATC_tower.obj
+EXPORT prefab/tower_atcl.obj buildings/taller_tower.obj
+EXPORT prefab/tower_old.obj buildings/oldtowerhangar.obj
+EXPORT prefab/tower_rescue.obj buildings/safe_res.obj
+EXPORT prefab/hangar_office.obj buildings/hangar_office.obj
+EXPORT prefab/hangar8.obj buildings/hangar8.obj
+EXPORT prefab/small_terminal.obj buildings/Small_Terminal.obj
+#      Objects from FlyByGuy
+EXPORT prefab/clubhouse.obj buildings/Clubhouse.obj
+EXPORT prefab/turbine1.obj misc/Wind_Turbine.obj
+EXPORT prefab/turbine2.obj misc/Wind_Turbine_II.obj
+EXPORT prefab/turbine3.obj misc/Wind_Turbine_III.obj
+EXPORT prefab/tourbus.obj misc/Tour_Bus_LHD.obj
+EXPORT prefab/ticket1.obj misc/Car_Park_Ticket_Machine.obj
+EXPORT prefab/ticket2.obj misc/Car_Park_Ticket_Machine_With_Shelter.obj
+EXPORT prefab/wall_stone.obj misc/Boundary_Wall_Stone.obj
+EXPORT prefab/wall_stone_2.obj misc/Boundary_Wall_Stone_2panel.obj
+EXPORT prefab/wall_stone_5.obj misc/Boundary_Wall_Stone_5panel.obj
+EXPORT prefab/wall_stone_10.obj misc/Boundary_Wall_Stone_10panel.obj
+EXPORT prefab/wall_stone_20.obj misc/Boundary_Wall_Stone_20panel.obj
+EXPORT prefab/wall_white.obj misc/Boundary_Wall_White.obj
+EXPORT prefab/wall_white_2.obj misc/Boundary_Wall_White_2panel.obj
+EXPORT prefab/wall_white_5.obj misc/Boundary_Wall_White_5panel.obj
+EXPORT prefab/wall_white_10.obj misc/Boundary_Wall_White_10m.obj
+EXPORT prefab/wall_white_20.obj misc/Boundary_Wall_White_20panel.obj
+#      Objects from gplv3
+EXPORT prefab/turbine4.obj misc/AUS_wmill.obj
+#      Objects from Al.
+# EXPORT prefab/watertower.obj misc/watertower.obj
+#      Objects from Einstein, some modified
+EXPORT prefab/tower_office.obj buildings/TowerLOffice.obj
+EXPORT prefab/Fire_exting.obj misc/Ramp_Fire_Extinguisher.obj
+#      Objects from Capbsully, modified into objects
+EXPORT prefab/grass_12m.obj misc/Grass_12m.obj
+#      Objects used from Laminar (mainly to prevent overwriting by Europe and other libraries)
+EXPORT prefab/terras.obj lib/LawnGrpMed1.obj
+EXPORT prefab/FactA15x22.obj lib/FactA15x22.obj
+EXPORT prefab/FactA60x30.obj lib/FactA60x30.obj
+EXPORT prefab/FactB10x30D.obj lib/FactB10x30D.obj
+EXPORT prefab/FactB30x45.obj lib/FactB30x45.obj
+EXPORT prefab/FactC60x60_v1.obj lib/FactC60x60_v1.obj
+EXPORT prefab/Warehse15x30Dk.obj lib/Whs15x30D_v0.obj
+EXPORT prefab/Warehse15x30Lt.obj lib/Whs15x30L_v0.obj
+EXPORT prefab/Warehse30x30Dk.obj lib/Whs30x30D_v0.obj
+EXPORT prefab/Warehse30x30Lt.obj lib/Whs30x30L_v0.obj
+EXPORT prefab/Warehse15x22.obj lib/Whs15x22v0.obj
+EXPORT prefab/HR48x55x500Bsv0.obj lib/HR48x55x500Bsv0.obj
+EXPORT prefab/HR60x36.obj lib/HR60x36v0.obj
+EXPORT prefab/HR60x50x112Bs.obj lib/HR60x50x112Bs.obj
+EXPORT prefab/uh15x15v0.obj lib/uh15x15v0.obj
+EXPORT prefab/uh40x40v1.obj lib/uh40x40v1.obj
+EXPORT prefab/uh45x45v1.obj lib/uh45x45v1.obj
+EXPORT prefab/AirplaneParkingLine.obj misc/AirplaneParkingLine.obj
+##      Objects source unknown
+EXPORT prefab/heli1.obj aircraft/B206_Jet_OBJv8.obj
+EXPORT prefab/heli2.obj aircraft/AH1_Cobra_OBJv8.obj
+EXPORT prefab/heli3.obj aircraft/sailsportheli.obj
+EXPORT prefab/heli4.obj aircraft/H145_securiteCivile_parking.obj
+##		For backward compatibility
+EXPORT prefab/regprop1.obj blank/blank.obj
+EXPORT prefab/regprop1.obj blank/blank.obj
+EXPORT prefab/regprop2.obj blank/blank.obj
+EXPORT prefab/regprop3.obj blank/blank.obj
+EXPORT prefab/regprop4.obj blank/blank.obj
+EXPORT prefab/regprop5.obj blank/blank.obj
+EXPORT prefab/regprop6.obj blank/blank.obj
+EXPORT prefab/regprop7.obj blank/blank.obj
+EXPORT prefab/regprop8.obj blank/blank.obj
+EXPORT prefab/regprop9.obj blank/blank.obj
+#
+EXPORT prefab/regjet1.obj blank/blank.obj
+EXPORT prefab/regjet2.obj blank/blank.obj
+EXPORT prefab/regjet3.obj blank/blank.obj
+EXPORT prefab/regjet4.obj blank/blank.obj
+#
+EXPORT prefab/corpjet1.obj blank/blank.obj
+EXPORT prefab/corpjet2.obj blank/blank.obj
+EXPORT prefab/corpjet3.obj blank/blank.obj
+EXPORT prefab/corpjet4.obj blank/blank.obj
+EXPORT prefab/corpjet5.obj blank/blank.obj
+#
+EXPORT prefab/gaprop1.obj blank/blank.obj
+EXPORT prefab/gaprop2.obj blank/blank.obj
+EXPORT prefab/gaprop3.obj blank/blank.obj
+EXPORT prefab/gaprop4.obj blank/blank.obj
+EXPORT prefab/gaprop5.obj blank/blank.obj
+EXPORT prefab/gaprop6.obj blank/blank.obj
+EXPORT prefab/gaprop7.obj blank/blank.obj
+EXPORT prefab/gaprop8.obj blank/blank.obj
+EXPORT prefab/gaprop9.obj blank/blank.obj
+EXPORT prefab/gaprop10.obj blank/blank.obj
+#
+EXPORT prefab/glider1.obj blank/blank.obj
+EXPORT prefab/glider2.obj blank/blank.obj
+EXPORT prefab/glider3.obj blank/blank.obj

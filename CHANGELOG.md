@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-
+* Updated DT Library to v1.5.2
 
 ## v2.5.0 - 2019-09-03
 

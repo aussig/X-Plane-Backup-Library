@@ -301,8 +301,14 @@ EXPORT DT_Library/Miscellaneous/ClosedXYellow2.pol Miscellaneous/ClosedXYellow2.
 EXPORT DT_Library/Miscellaneous/ClosedXYellow3.pol Miscellaneous/ClosedXYellow3.pol
 EXPORT DT_Library/Miscellaneous/ClosedXYellow3faded.pol Miscellaneous/ClosedXYellow3faded.pol
 
+
+EXPORT DT_Library/Ground/AsphaltLightest.pol Ground/AsphaltLightest.pol
+EXPORT DT_Library/Ground/AsphaltLight.pol Ground/AsphaltLight.pol
+EXPORT DT_Library/Ground/AsphaltDarker.pol Ground/AsphaltDarker.pol
+EXPORT DT_Library/Ground/AsphaltDarkest.pol Ground/AsphaltDarkest.pol
 EXPORT DT_Library/Ground/Asphalt1.pol Ground/Asphalt1.pol
 EXPORT DT_Library/Ground/Asphalt2.pol Ground/Asphalt2.pol
 EXPORT DT_Library/Ground/Asphalt3.pol Ground/Asphalt3.pol
+EXPORT DT_Library/Ground/GrassDry.pol Ground/GrassDry.pol
 
 

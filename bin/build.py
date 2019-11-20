@@ -32,7 +32,7 @@ silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|RE
 pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")
 
 # Full list of virtual paths, to avoid duplicates
-virtualPaths = []
+virtualPaths = set()
 
 def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
@@ -228,14 +228,13 @@ def handleVirtualPath(virtualPath, outputFile, placeholderFolder, extension):
         return False
     elif (virtualPath in virtualPaths):
         # We have already dealt with this path, ignore
-        displayMessage(f'Duplicate path found, ignoring: {virtualPath}\n', "warning")
         return False
     elif (virtualPath.startswith("lib/")):
         # An export to a different lib/ path, include but flag up
         hasLibExports = True
 
     outputFile.write(f'EXPORT_BACKUP {virtualPath} {placeholderFolder}/placeholder.{extension}\n')
-    virtualPaths.append(virtualPath)
+    virtualPaths.add(virtualPath)
     return hasLibExports
 
 

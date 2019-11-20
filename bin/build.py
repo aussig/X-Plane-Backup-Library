@@ -235,6 +235,7 @@ def handleVirtualPath(virtualPath, outputFile, placeholderFolder, extension):
         hasLibExports = True
 
     outputFile.write(f'EXPORT_BACKUP {virtualPath} {placeholderFolder}/placeholder.{extension}\n')
+    virtualPaths.append(virtualPath)
     return hasLibExports
 
 

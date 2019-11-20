@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Updated DT Library to v1.5.2
+* Build process now automatically removes any duplicate lines, making the library smaller.
 
 ## v2.5.0 - 2019-09-03
 

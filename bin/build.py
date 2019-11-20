@@ -11,22 +11,22 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile(r"(?:EXPORT)\s+(.*\.obj|.*\.OBJ)\s+(.*\.obj|.*\.OBJ)")
-exportPolygonPattern = re.compile(r"(?:EXPORT)\s+(.*\.pol|.*\.POL)\s+.*\.pol|.*\.POL")
-exportLinePattern = re.compile(r"(?:EXPORT)\s+(.*\.lin|.*\.LIN)\s+.*\.lin|.*\.LIN")
-exportFacadePattern = re.compile(r"(?:EXPORT)\s+(.*\.fac|.*\.FAC)\s+.*\.fac|.*\.FAC")
-exportForestPattern = re.compile(r"(?:EXPORT)\s+(.*\.for|.*\.FOR)\s+.*\.for|.*\.FOR")
-exportStringPattern = re.compile(r"(?:EXPORT)\s+(.*\.str|.*\.STR)\s+.*\.str|.*\.STR")
-exportNetworkPattern = re.compile(r"(?:EXPORT)\s+(.*\.net|.*\.NET)\s+.*\.net|.*\.NET")
-exportAutogenPointPattern = re.compile(r"(?:EXPORT)\s+(.*\.agp|.*\.AGP)\s+.*\.agp|.*\.AGP")
-exportDecalPattern = re.compile(r"(?:EXPORT)\s+(.*\.dcl|.*\.DCL)\s+.*\.dcl|.*\.DCL")
+exportObjectPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.obj|.*\.OBJ)\s+(.*\.obj|.*\.OBJ)")
+exportPolygonPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.pol|.*\.POL)\s+.*\.pol|.*\.POL")
+exportLinePattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.lin|.*\.LIN)\s+.*\.lin|.*\.LIN")
+exportFacadePattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.fac|.*\.FAC)\s+.*\.fac|.*\.FAC")
+exportForestPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.for|.*\.FOR)\s+.*\.for|.*\.FOR")
+exportStringPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.str|.*\.STR)\s+.*\.str|.*\.STR")
+exportNetworkPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.net|.*\.NET)\s+.*\.net|.*\.NET")
+exportAutogenPointPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.agp|.*\.AGP)\s+.*\.agp|.*\.AGP")
+exportDecalPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.dcl|.*\.DCL)\s+.*\.dcl|.*\.DCL")
 
 # Special processing
 regionPattern = re.compile(r"REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile(r"\s+")
-silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|EXPORT_EXCLUDE|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
+silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")

@@ -135,7 +135,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # even if they don't always show due to the region.
         result = regionPattern.match(line)
         if result:
-            displayMessage("Found REGION: " + result.group(1) + "\n", "note")
+            displayMessage(f'Found REGION: {result.group(1)}\n', "note")
             continue
 
         # The following code excludes the content of regions, if we ever need to
@@ -261,7 +261,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
             continue
 
         # Default is to report an issue with the line.
-        displayMessage("Unexpected line: " + line + "\n", "error")
+        displayMessage(f'Unexpected line: {line}\n', "error")
 
     if hasLibExports:
         displayMessage("This library has lib/ paths which may need review\n", "note")

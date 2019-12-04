@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v2.6.0 - 2019-12-04
 
 * Updated NAPS to v7.0
 * Updated CCVA to v2.7

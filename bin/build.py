@@ -11,25 +11,28 @@ import re
 from colorama import Fore, Style
 
 # Basic EXPORT matching
-exportObjectPattern = re.compile(r"(?:EXPORT)\s+(.*\.obj|.*\.OBJ)\s+(.*\.obj|.*\.OBJ)")
-exportPolygonPattern = re.compile(r"(?:EXPORT)\s+(.*\.pol|.*\.POL)\s+.*\.pol|.*\.POL")
-exportLinePattern = re.compile(r"(?:EXPORT)\s+(.*\.lin|.*\.LIN)\s+.*\.lin|.*\.LIN")
-exportFacadePattern = re.compile(r"(?:EXPORT)\s+(.*\.fac|.*\.FAC)\s+.*\.fac|.*\.FAC")
-exportForestPattern = re.compile(r"(?:EXPORT)\s+(.*\.for|.*\.FOR)\s+.*\.for|.*\.FOR")
-exportStringPattern = re.compile(r"(?:EXPORT)\s+(.*\.str|.*\.STR)\s+.*\.str|.*\.STR")
-exportNetworkPattern = re.compile(r"(?:EXPORT)\s+(.*\.net|.*\.NET)\s+.*\.net|.*\.NET")
-exportAutogenPointPattern = re.compile(r"(?:EXPORT)\s+(.*\.agp|.*\.AGP)\s+.*\.agp|.*\.AGP")
-exportDecalPattern = re.compile(r"(?:EXPORT)\s+(.*\.dcl|.*\.DCL)\s+.*\.dcl|.*\.DCL")
+exportObjectPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.obj|.*\.OBJ)\s+(.*\.obj|.*\.OBJ)")
+exportPolygonPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.pol|.*\.POL)\s+.*\.pol|.*\.POL")
+exportLinePattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.lin|.*\.LIN)\s+.*\.lin|.*\.LIN")
+exportFacadePattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.fac|.*\.FAC)\s+.*\.fac|.*\.FAC")
+exportForestPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.for|.*\.FOR)\s+.*\.for|.*\.FOR")
+exportStringPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.str|.*\.STR)\s+.*\.str|.*\.STR")
+exportNetworkPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.net|.*\.NET)\s+.*\.net|.*\.NET")
+exportAutogenPointPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.agp|.*\.AGP)\s+.*\.agp|.*\.AGP")
+exportDecalPattern = re.compile(r"(?:EXPORT|EXPORT_EXCLUDE)\s+(.*\.dcl|.*\.DCL)\s+.*\.dcl|.*\.DCL")
 
 # Special processing
 regionPattern = re.compile(r"REGION\s+([^\s]+)")
 
 # Ignored items
 blankPattern = re.compile(r"\s+")
-silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|EXPORT_EXCLUDE|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
+silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
 pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")
+
+# Full list of virtual paths, to avoid duplicates
+virtualPaths = set()
 
 def processLibraries(libraryPath, openSceneryX):
     """ Process all the third party libraries and generate backup libraries """
@@ -135,7 +138,7 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # even if they don't always show due to the region.
         result = regionPattern.match(line)
         if result:
-            displayMessage("Found REGION: " + result.group(1) + "\n", "note")
+            displayMessage(f'Found REGION: {result.group(1)}\n', "note")
             continue
 
         # The following code excludes the content of regions, if we ever need to
@@ -155,118 +158,84 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
         # Handle EXPORT for objects (rewrite into output file)
         result = exportObjectPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to an excluded path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.obj\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "obj") or hasLibExports
             continue
 
         # Handle EXPORT for polygons (rewrite into output file)
         result = exportPolygonPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.pol\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "pol") or hasLibExports
             continue
 
         # Handle EXPORT for lines (rewrite into output file)
         result = exportLinePattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.lin\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "lin") or hasLibExports
             continue
 
         # Handle EXPORT for facades (rewrite into output file)
         result = exportFacadePattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.fac\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "fac") or hasLibExports
             continue
 
         # Handle EXPORT for forests (rewrite into output file)
         result = exportForestPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.for\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "for") or hasLibExports
             continue
 
         # Handle EXPORT for strings (rewrite into output file)
         result = exportStringPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.str\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "str") or hasLibExports
             continue
 
         # Handle EXPORT for networks (rewrite into output file)
         result = exportNetworkPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.net\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "net") or hasLibExports
             continue
 
         # Handle EXPORT for autogen points (rewrite into output file)
         result = exportAutogenPointPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.agp\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "agp") or hasLibExports
             continue
 
         # Handle EXPORT for decals (rewrite into output file)
         result = exportDecalPattern.match(line)
         if result:
-            if (pathExcludes.match(result.group(1))):
-                # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
-                continue
-            elif (result.group(1).startswith("lib/")):
-                # An export to a different lib/ path, include but flag up
-                hasLibExports = True
-            outputFile.write("EXPORT_BACKUP " + result.group(1) + " " + placeholderFolder + "/placeholder.dcl\n")
+            hasLibExports = handleVirtualPath(result.group(1), outputFile, placeholderFolder, "dcl") or hasLibExports
             continue
 
         # Default is to report an issue with the line.
-        displayMessage("Unexpected line: " + line + "\n", "error")
+        displayMessage(f'Unexpected line: {line}\n', "error")
 
     if hasLibExports:
         displayMessage("This library has lib/ paths which may need review\n", "note")
 
     outputFile.close()
+
+
+def handleVirtualPath(virtualPath, outputFile, placeholderFolder, extension):
+    """ Process a single line, outputting it to the file if appropriate """
+
+    hasLibExports = False
+
+    if (pathExcludes.match(virtualPath)):
+        # An export to the virtual X-Plane static aircraft path, we don't need to include this as it would just add a blank placeholder into the mix
+        return False
+    elif (virtualPath in virtualPaths):
+        # We have already dealt with this path, ignore
+        return False
+    elif (virtualPath.startswith("lib/")):
+        # An export to a different lib/ path, include but flag up
+        hasLibExports = True
+
+    outputFile.write(f'EXPORT_BACKUP {virtualPath} {placeholderFolder}/placeholder.{extension}\n')
+    virtualPaths.add(virtualPath)
+    return hasLibExports
 
 
 def buildRelease(libraryPath, buildPath, supportPath, version, openSceneryX):

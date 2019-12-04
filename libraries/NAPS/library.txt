@@ -2,7 +2,7 @@ A
 800
 LIBRARY
 
-# NAPS_library 6.7  created by Freddy De Pues. © Freddy De Pues 2019.  Version 6.7  (400+ items) 
+# NAPS_library 7.0  created by Freddy De Pues. © Freddy De Pues 2019.   (500+ items) 
 # No commercial use. Do not include my objects in pay ware. Do not use free ware airports including my objects for commercial use.
 
 #3D terrain
@@ -11,8 +11,59 @@ EXPORT NAPS_library/NAPS_3D_TERRAIN/NAPS_KATL_3D_Terrain/KATL_RadarMound.obj				
 #Aircraft
 EXPORT NAPS_library/NAPS_AIRCRAFT/EOI_F-35A/F-35A-Body.obj						NAPS_AIRCRAFT/EOI_F-35A/F-35A-Body.obj
 EXPORT NAPS_library/NAPS_AIRCRAFT/EOI_F-35A/F-35A-OpenedUp.obj						NAPS_AIRCRAFT/EOI_F-35A/F-35A-OpenedUp.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35A_AOA/F-35A_LIT.obj						NAPS_AIRCRAFT/F-35A_AOA/F-35A_LIT.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35A_AOA/F-35A_STATIC.obj						NAPS_AIRCRAFT/F-35A_AOA/F-35A_STATIC.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35A_AOA/F-35A_STATICspec.obj					NAPS_AIRCRAFT/F-35A_AOA/F-35A_STATICspec.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-BAF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-BAF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-BF01.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-BF01.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-BF02_WASP.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-BF02_WASP.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-Blue_Angels.obj					NAPS_AIRCRAFT/F-35B_AOA/f-35b-Blue_Angels.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-Flotilla_de_Aeronaves.obj				NAPS_AIRCRAFT/F-35B_AOA/f-35b-Flotilla_de_Aeronaves.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-IAF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-IAF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-JASDF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-JASDF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-MARINA_MILITARE.obj					NAPS_AIRCRAFT/F-35B_AOA/f-35b-MARINA_MILITARE.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-RAF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-RAF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-RCAF_demo.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-RCAF_demo.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-RCAF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-RCAF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-RNLAF.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-RNLAF.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-static 2ND WING.obj					NAPS_AIRCRAFT/F-35B_AOA/f-35b-static 2ND WING.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-static.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-static.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-TEST.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-TEST.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-VF84.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-VF84.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-VMFA-121.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-VMFA-121.obj
+EXPORT NAPS_library/NAPS_AIRCRAFT/F-35B_AOA/f-35b-VMFAT-501.obj						NAPS_AIRCRAFT/F-35B_AOA/f-35b-VMFAT-501.obj
+
 
 #Buildings
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS_SecretivePlace/EBFS_SecretivePlace.obj			NAPS_BUILDINGS/NAPS_EBFS_SecretivePlace/EBFS_SecretivePlace.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS_TourControle.obj			NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS_TourControle.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS1_Offices_B1.obj			NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS1_Offices_B1.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS1_Offices_B2.obj			NAPS_BUILDINGS/NAPS_EBFS1_Offices_B_Tower/EBFS1_Offices_B2.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3a.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3a.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3b.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3b.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3c.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3c.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3d.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B3d.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4a.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4a.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4b.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4b.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4c.obj				NAPS_BUILDINGS/NAPS_EBFS2_Offices_B/EBFS2_Offices_B4c.obj	
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C1_Offices.obj	       			NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C1_Offices.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C2_Hangar.obj	       			NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C2_Hangar.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C3_Hangar.obj	       			NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C3_Hangar.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C4_Offices.obj	       			NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C4_Offices.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C5_Offices.obj	       			NAPS_BUILDINGS/NAPS_EBFS3_C_Buildings/EBFS_C5_Offices.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_AtticsA.obj	       			NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_AtticsA.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_AtticsB.obj	       			NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_AtticsB.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_Commercial.obj	       		NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_Commercial.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_Temporary3.obj	       		NAPS_BUILDINGS/NAPS_EBFS6_Offices_Attics/EBFS6_Temporary3.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D1.obj			NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D1.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D2.obj			NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D2.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D3.obj			NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D3.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D4.obj			NAPS_BUILDINGS/NAPS_EBFS7_Offices_Arcades/EBFS7_Offices_D4.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E1.obj			NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E1.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E2.obj			NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E2.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E3.obj			NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E3.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E4.obj			NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E4.obj			
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E6.obj			NAPS_BUILDINGS/NAPS_EBFS8_Offices_E/NAPS_EBFS8_Offices_E6.obj			
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Douanes.obj					NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Douanes.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Liege_Airport_Business.obj			NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Liege_Airport_Business.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Office50.obj				NAPS_BUILDINGS/NAPS_EBLG_Buildings/EBLG_Office50.obj
@@ -34,6 +85,7 @@ EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KBCT_buildings/KBCT_Hotel.obj					NAPS_B
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KBKV_Administration/KBKVadmin.obj				NAPS_BUILDINGS/NAPS_KBKV_Administration/KBKVadmin.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KBKV_American_Aviation_Administration/KBKVamericanaviationadmin.obj	NAPS_BUILDINGS/NAPS_KBKV_American_Aviation_Administration/KBKVamericanaviationadmin.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KBKV_Meteo/KBKVmeteo.obj					NAPS_BUILDINGS/NAPS_KBKV_Meteo/KBKVmeteo.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KBKV_Meteo/KBKVmeteodark.obj					NAPS_BUILDINGS/NAPS_KBKV_Meteo/KBKVmeteodark.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_Marina.obj					NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_Marina.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_OPS_Annex.obj				NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_OPS_Annex.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_Rotunda.obj					NAPS_BUILDINGS/NAPS_KCOF_Barracks/KCOF_Rotunda.obj
@@ -103,7 +155,9 @@ EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_KVNC_SunCoast/KVNC_SunCoast.obj					NAPS
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_KMCO_Offices_West.obj			NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_KMCO_Offices_West.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_ModernHouse/ModernHouse.obj					NAPS_BUILDINGS/NAPS_ModernHouse/ModernHouse.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_Modern_Office.obj				NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_Modern_Office.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_Modern_OfficeSmaller.obj			NAPS_BUILDINGS/NAPS_Modern_Office/NAPS_Modern_OfficeSmaller.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Office_temporary/NAPS_OfficeTemporary.obj			NAPS_BUILDINGS/NAPS_Office_temporary/NAPS_OfficeTemporary.obj
+EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Office_temporary/NAPS_OfficeTemporaryMil.obj			NAPS_BUILDINGS/NAPS_Office_temporary/NAPS_OfficeTemporaryMil.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_Office_temporary2/NAPS_OfficeTemporary2.obj			NAPS_BUILDINGS/NAPS_Office_temporary2/NAPS_OfficeTemporary2.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_One_Sarasota_Tower/OneSarasotaTower.obj				NAPS_BUILDINGS/NAPS_One_Sarasota_Tower/OneSarasotaTower.obj
 EXPORT NAPS_library/NAPS_BUILDINGS/NAPS_PHHN_FBO/PHHNfbo.obj						NAPS_BUILDINGS/NAPS_PHHN_FBO/PHHNfbo.obj
@@ -139,6 +193,7 @@ EXPORT NAPS_library/NAPS_FIRE_RESCUE/NAPS_PHTO_Fire_Rescue/PHTOfire.obj	       	
 #Green
 EXPORT NAPS_library/NAPS_GREEN/NAPS_Ligustrum/NAPS_ligustrum5m.obj					NAPS_GREEN/NAPS_Ligustrum/NAPS_ligustrum5m.obj
 EXPORT NAPS_library/NAPS_GREEN/NAPS_Ligustrum/NAPS_ligustrum10m.obj					NAPS_GREEN/NAPS_Ligustrum/NAPS_ligustrum10m.obj
+EXPORT NAPS_library/NAPS_GREEN/NAPS_PalmLowPol/PalmLowPol.obj						NAPS_GREEN/NAPS_PalmLowPol/PalmLowPol.obj
 EXPORT NAPS_library/NAPS_GREEN/NAPS_PalmTree/PalmTree.obj						NAPS_GREEN/NAPS_PalmTree/PalmTree.obj
 EXPORT NAPS_library/NAPS_GREEN/NAPS_PalmTree/PalmTreeLarger.obj						NAPS_GREEN/NAPS_PalmTree/PalmTreeLarger.obj
 EXPORT NAPS_library/NAPS_GREEN/NAPS_PalmTree/PalmTreeLargest.obj					NAPS_GREEN/NAPS_PalmTree/PalmTreeLargest.obj
@@ -165,7 +220,11 @@ EXPORT NAPS_library/NAPS_HANGARS/NAPS_Canopy_New/NAPS_New_CanopyBig_Camo.obj				
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Canopy_New/NAPS_New_CanopyBig_Cream.obj				NAPS_HANGARS/NAPS_Canopy_New/NAPS_New_CanopyBig_Cream.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBBE_Mil_Hangars/EBBE_Hangars.obj					NAPS_HANGARS/NAPS_EBBE_Mil_Hangars/EBBE_Hangars.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBBE_Mil_Hangars/NAPS_Hangar_Mil_Jet.obj				NAPS_HANGARS/NAPS_EBBE_Mil_Hangars/NAPS_Hangar_Mil_Jet.obj
-								
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBFS_LargeHangar/EBFS_LargeHangar.obj				NAPS_HANGARS/NAPS_EBFS_LargeHangar/EBFS_LargeHangar.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBFS_LargeHangar/EBFS_LargeHangarOpen.obj				NAPS_HANGARS/NAPS_EBFS_LargeHangar/EBFS_LargeHangarOpen.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35A.obj			NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35A.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35Aclosed.obj			NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35Aclosed.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35Atest.obj			NAPS_HANGARS/NAPS_EBFS_Mil_Hangars/NAPS_BAF_MilHangarF35Atest.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_AgustaWestland.obj				NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_AgustaWestland.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_AviationGenerale.obj				NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_AviationGenerale.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_Hangar26.obj					NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_Hangar26.obj
@@ -178,9 +237,23 @@ EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_TNT.obj						NAPS_HANGAR
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_TNTaircraft.obj					NAPS_HANGARS/NAPS_EBLG_Hangars/EBLG_TNTaircraft.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_EBTY_FBO/NAPS_EBTY_Club.obj					NAPS_HANGARS/NAPS_EBTY_FBO/NAPS_EBTY_Club.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13.obj	         			NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13green.obj	         			NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13green.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13greenrust.obj				NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13greenrust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13greenrustopen.obj				NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13greenrustopen.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Large.obj	         			NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Large.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largegreen.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largegreen.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largegreenrust.obj				NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largegreenrust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largerust.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Largerust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13rust.obj	         			NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13rust.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Small.obj	         			NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Small.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallgreen.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallgreen.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallgreenrust.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallgreenrust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallrust.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13Smallrust.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLarge.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLarge.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargegreen.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargegreen.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargegreenrust.obj	         	NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargegreenrust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargerust.obj	         		NAPS_HANGARS/NAPS_Hangar13/NAPS_Hangar13VeryLargerust.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hot_Cargo/EBFS_HOTa.obj	         				NAPS_HANGARS/NAPS_Hot_Cargo/EBFS_HOTa.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hot_Cargo/Hot2.obj	         				NAPS_HANGARS/NAPS_Hot_Cargo/Hot2.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Hot_Cargo/Hotcargo.obj	         				NAPS_HANGARS/NAPS_Hot_Cargo/Hotcargo.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_KBKV_American_Aviation/KBKVamAviNE.obj				NAPS_HANGARS/NAPS_KBKV_American_Aviation/KBKVamAviNE.obj
@@ -230,6 +303,7 @@ EXPORT NAPS_library/NAPS_HANGARS/NAPS_KVNC_Sarasota_Avionics/KVNC_Sarasota_Elect
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_KVNC_Sarasota_Avionics/KVNC_SmallSarasotaAvionics.obj		NAPS_HANGARS/NAPS_KVNC_Sarasota_Avionics/KVNC_SmallSarasotaAvionics.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_KVNC_Sarasota_Avionics/KVNX_SarasotaAvionics2.obj			NAPS_HANGARS/NAPS_KVNC_Sarasota_Avionics/KVNX_SarasotaAvionics2.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_MIL_Hangar_Test/NAPS_Hangar_Mil.obj				NAPS_HANGARS/NAPS_MIL_Hangar_Test/NAPS_Hangar_Mil.obj
+EXPORT NAPS_library/NAPS_HANGARS/NAPS_OldHangar/NAPS_OldHangar.obj					NAPS_HANGARS/NAPS_OldHangar/NAPS_OldHangar.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangar.obj				NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangar.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangarClosed.obj			NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangarClosed.obj
 EXPORT NAPS_library/NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangarClosedLarge.obj		NAPS_HANGARS/NAPS_Standard_Hangar/NAPS_StandardHangarClosedLarge.obj
@@ -248,6 +322,7 @@ EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Drain_Tunnel/KMCOcanalisation.obj				NAP
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Drain_Tunnel/KMCOcanalisationLarge.obj				NAPS_LAGNIAPPE/NAPS_Drain_Tunnel/KMCOcanalisationLarge.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_GlassWalkway/NAPS_GlassWalkWay.obj				NAPS_LAGNIAPPE/NAPS_GlassWalkway/NAPS_GlassWalkWay.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Golf_Range_Flag/green.obj					NAPS_LAGNIAPPE/NAPS_Golf_Range_Flag/green.obj
+EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_JetLadder/NAPS_JetLadder.obj					NAPS_LAGNIAPPE/NAPS_JetLadder/NAPS_JetLadder.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_KPIE_Terminal_Canopy/KPIE_Abris.obj				NAPS_LAGNIAPPE/NAPS_KPIE_Terminal_Canopy/KPIE_Abris.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_KPIE_Yellow_Canopy/Canari.obj					NAPS_LAGNIAPPE/NAPS_KPIE_Yellow_Canopy/Canari.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_KPNS_Terminal_Canopy/KPNSterminalcanopy.obj			NAPS_LAGNIAPPE/NAPS_KPNS_Terminal_Canopy/KPNSterminalcanopy.obj
@@ -261,6 +336,7 @@ EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_NewCanopy/NAPS_New_CanopyExtraBig.obj		 
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Circular_Walkway/trottoircirculaire.obj			NAPS_LAGNIAPPE/NAPS_PHOG_Circular_Walkway/trottoircirculaire.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement.obj				NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement2.obj				NAPS_LAGNIAPPE/NAPS_PHOG_Giant_AC/Refroidissement2.obj
+EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Scaffold/Scaffold.obj						NAPS_LAGNIAPPE/NAPS_Scaffold/Scaffold.obj						
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Seats/NAPSsieges.obj		        			NAPS_LAGNIAPPE/NAPS_Seats/NAPSsieges.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Small_Drain/NAPSconcreteegout.obj				NAPS_LAGNIAPPE/NAPS_Small_Drain/NAPSconcreteegout.obj
 EXPORT NAPS_library/NAPS_LAGNIAPPE/NAPS_Stacks_Gravel/NAPS_tas_de_gravier.obj				NAPS_LAGNIAPPE/NAPS_Stacks_Gravel/NAPS_tas_de_gravier.obj
@@ -322,6 +398,8 @@ EXPORT NAPS_library/NAPS_LINS/NAPS_Road_Lins/Road.lin							NAPS_LINS/NAPS_Road_
 EXPORT NAPS_library/NAPS_LINS/NAPS_Road_Lins/Road4lanes.lin						NAPS_LINS/NAPS_Road_Lins/Road4lanes.lin
 EXPORT NAPS_library/NAPS_LINS/NAPS_Road_Lins/RoadDoubleLine.lin						NAPS_LINS/NAPS_Road_Lins/RoadDoubleLine.lin
 EXPORT NAPS_library/NAPS_LINS/NAPS_Road_Lins/RoadEdge.lin						NAPS_LINS/NAPS_Road_Lins/RoadEdge.lin
+EXPORT NAPS_library/NAPS_LINS/NAPS_SideWalk/SideWalk.lin						NAPS_LINS/NAPS_SideWalk/SideWalk.lin
+EXPORT NAPS_library/NAPS_LINS/NAPS_TaxiEdge/TaxiEdge.lin						NAPS_LINS/NAPS_TaxiEdge/TaxiEdge.lin
 EXPORT NAPS_library/NAPS_LINS/NAPS_Tires_Lins/Tires.lin							NAPS_LINS/NAPS_Tires_Lins/Tires.lin
 EXPORT NAPS_library/NAPS_LINS/NAPS_TWY_RWY_Lins/RWYstripe.lin						NAPS_LINS/NAPS_TWY_RWY_Lins/RWYstripe.lin
 EXPORT NAPS_library/NAPS_LINS/NAPS_TWY_RWY_Lins/RWYstripe2.lin						NAPS_LINS/NAPS_TWY_RWY_Lins/RWYstripe2.lin
@@ -534,6 +612,7 @@ EXPORT NAPS_library/NAPS_TERMINALS/NAPS_PHTO_Terminal/PHTO_terminal.obj					NAPS
 
 		
 #Towers
+EXPORT NAPS_library/NAPS_TOWERS/NAPS_EBFS_HotTower/EBFS_HotTower.obj					NAPS_TOWERS/NAPS_EBFS_HotTower/EBFS_HotTower.obj
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_EBLG_Tower/EBLG_Tour.obj						NAPS_TOWERS/NAPS_EBLG_Tower/EBLG_Tour.obj
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_Garage_Acces_Tower/Colimacon.obj					NAPS_TOWERS/NAPS_Garage_Acces_Tower/Colimacon.obj
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_Garage_Acces_Tower/Colimacon2.obj					NAPS_TOWERS/NAPS_Garage_Acces_Tower/Colimacon2.obj
@@ -560,10 +639,10 @@ EXPORT NAPS_library/NAPS_TOWERS/NAPS_NASA_Watertower/NAPSwaterTower2.obj				NAPS
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_PHDH_Tower/DilliTower.obj						NAPS_TOWERS/NAPS_PHDH_Tower/DilliTower.obj
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_PHOG_Tower/PHOG_Tower.obj						NAPS_TOWERS/NAPS_PHOG_Tower/PHOG_Tower.obj
 EXPORT NAPS_library/NAPS_TOWERS/NAPS_PHOG_Tower2/TOWER.obj						NAPS_TOWERS/NAPS_PHOG_Tower2/TOWER.obj
+EXPORT NAPS_library/NAPS_TOWERS/NAPS_WaterTower/WaterTower.obj						NAPS_TOWERS/NAPS_WaterTower/WaterTower.obj
 
 
 #Transportation
-
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/Golfcar.obj				NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/Golfcar.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirPort_MiniBus.obj			NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirPort_MiniBus.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice_LIT.obj		NAPS_TRANSPORTATION/NAPS_Airport_Vehicles/NAPS_AirportPolice_LIT.obj
@@ -602,15 +681,30 @@ EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainer.obj			
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_MilContainerLarger.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainerLarger.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj			NAPS_TRANSPORTATION/NAPS_Containers/NAPS_OfficeContainer.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_GolfCarts/Golfcart.obj					NAPS_TRANSPORTATION/NAPS_GolfCarts/Golfcart.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_GolfCarts/Golfcartmil.obj					NAPS_TRANSPORTATION/NAPS_GolfCarts/Golfcartmil.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj			NAPS_TRANSPORTATION/NAPS_KIAH_Link_Station_West/LinkStationWest.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj					NAPS_TRANSPORTATION/NAPS_KIAH_Shuttle/Shuttle.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj					NAPS_TRANSPORTATION/NAPS_Mil_Bus/NAPS_Mil_Bus.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynx.obj					NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynx.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlit.obj					NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlit.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlitNonBelgian.obj			NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlitNonBelgian.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlitPolice.obj				NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxlitPolice.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxMP_LIT.obj				NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxMP_LIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxMP.obj					NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxMP.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxNonBelgian.obj				NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxNonBelgian.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxPolice.obj				NAPS_TRANSPORTATION/NAPS_Mil_Lynx/IVECOlynxpolice.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Bus.obj					NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Bus.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/FollowMeHumvee.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/FollowMeHumvee.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/GPUMil.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/GPUMil.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Humvee_LIT.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Humvee_LIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Humvee.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Humvee.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_Fuel_tanker.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_Fuel_tanker.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_Fuel_tankerLIT.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_Fuel_tankerLIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_GPU.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Mil_GPU.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_FireTruckPantherCamo.obj		NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_FireTruckPantherCamo.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_FireTruckPantherCamoLIT.obj		NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_FireTruckPantherCamoLIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_IVECO_Truck.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_IVECO_Truck.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_MilAmbulance.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_MilAmbulance.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_MilAmbulanceLIT.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_MilAmbulanceLIT.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_USAF_AirportPolice_LIT.obj		NAPS_TRANSPORTATION/NAPS_Military_Vehicles/NAPS_USAF_AirportPolice_LIT.obj
@@ -621,15 +715,40 @@ EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotHumvee.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotLauncher.obj			NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotLauncher.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotRadar.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotRadar.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotTruck.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/PatriotTruck.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Samaritain.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Samaritain.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/TankLaucher.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/TankLaucher.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Unimog.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/Unimog.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Military_Vehicles/VWiltis.obj				NAPS_TRANSPORTATION/NAPS_Military_Vehicles/VWiltis.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackCIV_LIT.obj			NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackCIV_LIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackCIV.obj			NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackCIV.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilBAF_LIT.obj		NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilBAF_LIT.obj	
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilUS_LIT.obj		NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilUS_LIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilUS.obj			NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/PushbackMilUS.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBar.obj				NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBar.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarattached.obj			NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarattached.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarattachedwhite.obj		NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarattachedwhite.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarwhite.obj			NAPS_TRANSPORTATION/NAPS_Pushbacks_and_TowBars/TowBarwhite.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_RV/RV.obj							NAPS_TRANSPORTATION/NAPS_RV/RV.obj	
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_RV/RVmil.obj						NAPS_TRANSPORTATION/NAPS_RV/RVmil.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Trailer/Trailer.obj					NAPS_TRANSPORTATION/NAPS_Trailer/Trailer.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Tugs/TUG_BAF_LIT.obj					NAPS_TRANSPORTATION/NAPS_Tugs/TUG_BAF_LIT.obj					
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Tugs/TUG_CIV.obj						NAPS_TRANSPORTATION/NAPS_Tugs/TUG_CIV.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Tugs/TUG_USAF_LIT.obj					NAPS_TRANSPORTATION/NAPS_Tugs/TUG_USAF_LIT.obj
+EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_Tugs/TUG_USAF.obj						NAPS_TRANSPORTATION/NAPS_Tugs/TUG_USAF.obj
 EXPORT NAPS_library/NAPS_TRANSPORTATION/NAPS_USPS_Truck/NAPS_USPS_Truck.obj				NAPS_TRANSPORTATION/NAPS_USPS_Truck/NAPS_USPS_Truck.obj
 
 
+
 #Walls_Barriers_Fences
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Barbed_Wire/BarbedWire.obj				NAPS_WALLS_BARRIERS_FENCES/NAPS_Barbed_Wire/BarbedWire.obj
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast1.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast1.obj
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast16.obj		NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast16.obj
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast2.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast2.obj
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast4.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_concrete_Blast/NAPS_EBFS_Blast4.obj		
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Concrete_Fence/PHNLconcretefence.fac		NAPS_WALLS_BARRIERS_FENCES/NAPS_Concrete_Fence/PHNLconcretefence.fac
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Crash_Barrier/NAPSrail.obj				NAPS_WALLS_BARRIERS_FENCES/NAPS_Crash_Barrier/NAPSrail.obj
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Ironfence/NAPSironfence.fac				NAPS_WALLS_BARRIERS_FENCES/NAPS_Ironfence/NAPSironfence.fac
+EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Ironfence/NAPSironfence2.fac			NAPS_WALLS_BARRIERS_FENCES/NAPS_Ironfence/NAPSironfence2.fac
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Nadar_Barrier/NAPSnadar.obj				NAPS_WALLS_BARRIERS_FENCES/NAPS_Nadar_Barrier/NAPSnadar.obj
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_PHKO_Walls/PHKO_Wall.obj				NAPS_WALLS_BARRIERS_FENCES/NAPS_PHKO_Walls/PHKO_Wall.obj
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_PVC_Fence/PHNLpvcfence.fac				NAPS_WALLS_BARRIERS_FENCES/NAPS_PVC_Fence/PHNLpvcfence.fac
@@ -652,5 +771,25 @@ EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fenc
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence8.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence8.obj
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence9.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence9.obj
 EXPORT NAPS_library/NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence10.obj			NAPS_WALLS_BARRIERS_FENCES/NAPS_Vinyl_Fences/NAPS_Vinyl_Fence10.obj
+
+#Weapons
+EXPORT NAPS_library/NAPS_WEAPONS/AIM-9_60cm.obj								NAPS_WEAPONS/AIM-9_60cm.obj
+EXPORT NAPS_library/NAPS_WEAPONS/AIM-9.obj								NAPS_WEAPONS/AIM-9.obj
+EXPORT NAPS_library/NAPS_WEAPONS/AIM-120_60cm.obj							NAPS_WEAPONS/AIM-120_60cm.obj
+EXPORT NAPS_library/NAPS_WEAPONS/AIM-120.obj								NAPS_WEAPONS/AIM-120.obj
+EXPORT NAPS_library/NAPS_WEAPONS/AOA_JAMMER_EMPTY.obj							NAPS_WEAPONS/AOA_JAMMER_EMPTY.obj
+EXPORT NAPS_library/NAPS_WEAPONS/AOA_JAMMER.obj								NAPS_WEAPONS/AOA_JAMMER.obj
+EXPORT NAPS_library/NAPS_WEAPONS/Cruise.obj								NAPS_WEAPONS/Cruise.obj
+EXPORT NAPS_library/NAPS_WEAPONS/Cruise60cm.obj								NAPS_WEAPONS/Cruise60cm.obj
+EXPORT NAPS_library/NAPS_WEAPONS/GPU.obj								NAPS_WEAPONS/GPU.obj
+EXPORT NAPS_library/NAPS_WEAPONS/GPU60cm.obj								NAPS_WEAPONS/GPU60cm.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsStandAIM.obj							NAPS_WEAPONS/WeaponsStandAIM.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsStandAIM2.obj							NAPS_WEAPONS/WeaponsStandAIM2.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsStandAIM9.obj							NAPS_WEAPONS/WeaponsStandAIM9.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsStandAIM120.obj							NAPS_WEAPONS/WeaponsStandAIM120.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsStandGPU.obj							NAPS_WEAPONS/WeaponsStandGPU.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsTrailer.obj							NAPS_WEAPONS/WeaponsTrailer.obj
+EXPORT NAPS_library/NAPS_WEAPONS/WeaponsTrailerNoLeg.obj						NAPS_WEAPONS/WeaponsTrailerNoLeg.obj
+
 
 #End

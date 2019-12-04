@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.6.0 - 2019-12-04
+
+* Updated NAPS to v7.0
+* Updated CCVA to v2.7
+* Updated OpenSceneryX to v4.3.0
+* Updated DT Library to v1.5.2
+* Updated FlyAgi Vegetation Library
+* Build process now automatically removes any duplicate lines, making the library smaller.
+* Build process now includes `EXPORT_EXCLUDE` entries, for libraries which include `REGION`s but have `EXPORT_EXCLUDE`s without corresponding `EXPORT`s for some items (e.g. FlyAgi Vegetation).
+
 ## v2.5.0 - 2019-09-03
 
 * Added x_Prefab Library

@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated CCVA to v2.7
 * Updated OpenSceneryX to v4.3.0
 * Updated DT Library to v1.5.2
 * Updated FlyAgi Vegetation Library

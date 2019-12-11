@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-*
+* Updated SAM LIbrary to v2.0.1
 
 ## v2.6.0 - 2019-12-04
 

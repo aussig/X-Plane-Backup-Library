@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Script to create a release
-# Copyright (c) 2018 Austin Goudge
+# Copyright (c) 2019 Austin Goudge
 
 import sys
 import os
@@ -29,7 +29,7 @@ blankPattern = re.compile(r"\s+")
 silentIgnorePattern = re.compile(r"(EXPORT_EXTEND|EXPORT_BACKUP|REGION_DEFINE|REGION_BITMAP|REGION_RECT|REGION_DREF|REGION_ALL|PUBLIC).*") # Note REGION_ALL is used by some authors but is not a valid command
 
 # 'lib/' paths to exclude - these should all be existing X-Plane library paths
-pathExcludes = re.compile("lib/(airport/aircraft|cars|trains)")
+pathExcludes = re.compile("lib/(airport/aircraft|airport/Ramp_Equipment|cars|trains)")
 
 # Full list of virtual paths, to avoid duplicates
 virtualPaths = set()

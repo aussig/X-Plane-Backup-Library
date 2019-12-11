@@ -1,0 +1,4 @@
+Scenery Animation Library - SDK
+v20191210
+By Marten@Stairport
+https://dev.stairport-sceneries.com/sam/sam_seasons_sdk

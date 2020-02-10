@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Added SAM SDK Library
+* Added EMWINGS Catering Trucks Library
 * Updated SAM LIbrary to v2.0.1
 
 ## v2.6.0 - 2019-12-04

@@ -1,5 +1,9 @@
 # Release Notes
 
+## vx.x.x - xxxx-xx-xx
+
+
+
 ## v2.7.0 - 2020-02-18
 
 * Added Static and Animated Aircraft Library

@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added Static and Animated Aircraft Library
 * Added SAM SDK Library
 * Added EMWINGS Catering Trucks Library
 * Updated SAM LIbrary to v2.0.1

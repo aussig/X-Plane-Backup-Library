@@ -1,0 +1,114 @@
+A
+800
+LIBRARY
+
+#Extra static airplanes; plus some animated aircraft for GroundTraffic use.
+
+#Cargo-animated
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747Air_Bridge.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_AirBridgeCargo-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747Atlas_Air.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_AtlasAirCargo-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747British_Air.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_BAWCargo-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747Cargolux.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_Cargolux-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747Cathay_Pacific.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_CathayPacificCargo-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747Korean_Air.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_KAC-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747NCA.obj    anim_aircraft_for_GroundTraffic/jets/B747/Cargo/B747-8F_NCA-animated.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/DC10/cargo/DC10_United.obj    anim_aircraft_for_GroundTraffic/jets/DC10/cargo/DC-10-30UnitedCargo.obj
+
+#Cargo-static
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_Air_Bridge_Cargo.obj  static_aircraft/jets/cargo/B747-8F_Air_Bridge_Cargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_Atlas_Air_Cargo.obj  static_aircraft/jets/cargo/B747-8F_Atlas_Air_Cargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_BA_World_Cargo.obj  static_aircraft/jets/cargo/B747-8F_BA_World_Cargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_Cargolux.obj  static_aircraft/jets/cargo/B747-8F_Cargolux.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_Cathay_Pacific_Cargo.obj  static_aircraft/jets/cargo/B747-8F_Cathay_Pacific_Cargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_NCA.obj  static_aircraft/jets/cargo/B747-8F_NCA.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747-8F_NCA_open.obj  static_aircraft/jets/cargo/B747-8F_NCA_static_open.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747_Evergreen_International.obj  static_aircraft/jets/cargo/B747-200EvergreenInternationalCargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747_Kalitta_Air.obj  static_aircraft/jets/cargo/B747-200_Kalitta_Air.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747_Korean_Air.obj  static_aircraft/jets/cargo/B747-8F_KAC-static.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B747_Southern_Air.obj  static_aircraft/jets/cargo/B747-400SouthernAirCargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/DC-10-30_United.obj  static_aircraft/jets/cargo/DC-10-30UnitedCargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/MD-11F_Lufthansa.obj  static_aircraft/jets/cargo/MD-11F_Lufthansa_Cargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B767_Airborne_Express.obj  static_aircraft/jets/cargo/B767_Airborne_Express.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/cargo/B767_JAL_Cargo.obj  static_aircraft/jets/cargo/B767-300JALcargo.obj
+
+#passenger-static
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B747/B747Delta.obj  static_aircraft/jets/passenger/B747-8i/B747-8i_Delta.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B747/B747Lufthansa.obj  static_aircraft/jets/passenger/B747-8i/B747-8i_Lufthansa.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/A320/A320air_Jamaica.obj      static_aircraft/jets/passenger/A320/A320_air_Jamaica.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/A320/A320jetBlue.obj  static_aircraft/jets/passenger/A320/A320jetBlue.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/A320/A320Virgin_America.obj  static_aircraft/jets/passenger/A320/A320-200VirginAmericaStatic.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/A350/A350Asiana.obj  static_aircraft/jets/passenger/A350/A350-800Asiana.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/A350/A350Hawaiian.obj  static_aircraft/jets/passenger/A350/A350-800Hawaiian.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B717/B717Hawaiian.obj  static_aircraft/jets/passenger/B717/B717-HawaiianAirlines.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737Delta.obj  static_aircraft/jets/passenger/B737/B737-800_Delta.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-300SWA-Arizona.obj  static_aircraft/jets/passenger/B737/B737-300SWA-Arizona.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-300SWA-blue.obj  static_aircraft/jets/passenger/B737/B737-300SWA-blue.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-300SWA-California.obj  static_aircraft/jets/passenger/B737/B737-300SWA-California.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-300SWA-SilverOne.obj  static_aircraft/jets/passenger/B737/B737-300SWA-SilverOne.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-700SWA-NewMexico.obj  static_aircraft/jets/passenger/B737/B737-700SWA-NewMexico.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737-700SWA-Gold.obj  static_aircraft/jets/passenger/B737/B737-700SWA-Gold.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B737/B737Southwest(HeartOne).obj  static_aircraft/jets/passenger/B737/B737-700Southwest(HeartOne).obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B767/B767American.obj  static_aircraft/jets/passenger/B767/B767-300AmericanAirlines.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B767/B764American.obj  static_aircraft/jets/passenger/B767/B767-400AmericanAirlines.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B767/B767JAL_Cargo.obj  static_aircraft/jets/passenger/B767/B767-300JALcargo.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B767/B767Delta.obj  static_aircraft/jets/passenger/B767/B767-400DeltaStatic.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B767/B767Hawaiian.obj  static_aircraft/jets/passenger/B767/B767-300HawaiianAirlines.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B777/B777Delta.obj  static_aircraft/jets/passenger/B777/B777-200_Delta.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B777/B777Finnair.obj  static_aircraft/jets/passenger/B777/B777-200ER_Finnair.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/B777/B777Qatar.obj  static_aircraft/jets/passenger/B777/B777-200ER_Qatar.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/MD80's/MD80_Delta.obj  static_aircraft/jets/passenger/MD80's/MD80_Delta.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/passenger/MD80's/MD80_Allegiant_Air.obj  static_aircraft/jets/passenger/MD80's/MD82_Allegiant_Air.obj
+
+
+#corporate
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/corporate/Challenger_604.obj  static_aircraft/jets/corporate/Challenger_604.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/corporate/Challenger_604_green.obj  static_aircraft/jets/corporate/Challenger_604_Green.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/corporate/Falcon_20_blue.obj  static_aircraft/jets/corporate/Falcon20static_blue.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/corporate/Falcon_20_gold.obj  static_aircraft/jets/corporate/Falcon20static_gold.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/corporate/Falcon_2000.obj  static_aircraft/jets/corporate/Falcon2000static.obj
+
+#passenger-animated
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/corporate/Falcon7X.obj       anim_aircraft_for_GroundTraffic/jets/corporate/Falcon7Xbluestripe.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B767/B767American.obj  anim_aircraft_for_GroundTraffic/jets/B767/B767-300AmericanAirlines.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B767/B764American.obj  anim_aircraft_for_GroundTraffic/jets/B767/B767-400AmericanAirlines.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B737/B737-800_Delta_anim.obj  anim_aircraft_for_GroundTraffic/jets/B737/B737-800_Delta_anim.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B737/B737_Delta,anim_doors_only.obj  anim_aircraft_for_GroundTraffic/jets/B737/B737-800_Delta,animated_doors_only.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B767/B767Delta.obj  anim_aircraft_for_GroundTraffic/jets/B767/B767-400Delta.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B767/JAL_Cargo.obj  anim_aircraft_for_GroundTraffic/jets/B767/B767-300JALcargo.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/B777/B777Delta.obj    anim_aircraft_for_GroundTraffic/jets/B777/B777-200Delta.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue1.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue-animated1.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue2.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue-animated2.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue3.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue-animated3.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue4.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue-animated4.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue1_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue1-anim_rear_doors.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue2_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue2-anim_rear_doors.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue3_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue3-anim_rear_doors.obj
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/jetBlue4_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320jetBlue4-anim_rear_doors.obj
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/A320_airJamaica_anim.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320_airJamaica_anim.obj
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/A320_air_Jamaica_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320airJamaica-anim_rear_doors.obj
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/A320_Virgin_America1_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320VirginAmerica1-anim_rear_doors.obj
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/A320_Virgin_America2_anim_rear_doors.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320VirginAmerica2-anim_rear_doors.obj
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/jets/A320/A320_VirginAmerica_anim.obj        anim_aircraft_for_GroundTraffic/jets/A320/A320_VirginAmerica_anim.obj
+
+#Regional Commuter - animated
+EXPORT  Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/props/commuter/Saab340_AmericanEagle.obj  anim_aircraft_for_GroundTraffic/props/commuter/Saab340_AmericanEagle_anim.obj
+
+#Regional Commuter - static
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/props/passenger/regional_commuter/DHC8-300_Delta.obj  static_aircraft/props/passenger/regional_commuter/DHC8-300_Delta.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/props/passenger/regional_commuter/DHC8-300_blue_stripes.obj  static_aircraft/props/passenger/regional_commuter/DHC8-300Stripes_blue.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/jets/passenger/regional_commuter/CRJ-200_Delta.obj  static_aircraft/jets/passenger/regional_commuter/CRJ200DeltaStatic.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/jets/passenger/regional_commuter/CRJ100_Skywest.obj  static_aircraft/jets/passenger/regional_commuter/CRJ100SkywestStatic.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/jets/passenger/regional_commuter/ERJ-145_American_Eagle.obj  static_aircraft/jets/passenger/regional_commuter/ERJ-145AmericanEagle.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/jets/passenger/regional_commuter/ERJ-145_Delta.obj  static_aircraft/jets/passenger/regional_commuter/ERJ-145_Delta.obj
+EXPORT  Aircraft-Static_and_Animated/static_aircraft/props/passenger/regional_commuter/Saab340_American_Eagle.obj  static_aircraft/props/passenger/regional_commuter/Saab340_American_Eagle.obj
+
+#General Aviation - static
+EXPORT Aircraft-Static_and_Animated/static_aircraft/props/GA/King_Air_350.obj  static_aircraft/props/GA/BeechcraftKingAir350.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/props/GA/Piper_Cheyenne.obj  static_aircraft/props/GA/PiperPA42Cheyenne.obj
+
+#General Aviation - animated
+EXPORT Aircraft-Static_and_Animated/anim_aircraft_for_GroundTraffic/props/GA/Piper_Cheyenne.obj  anim_aircraft_for_GroundTraffic/props/GA/PiperPA42Cheyenne-anim.obj
+
+#Military-static
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/military/C-17_Globemaster_III.obj  static_aircraft/jets/military/C-17_Globemaster_III.obj
+EXPORT Aircraft-Static_and_Animated/static_aircraft/jets/military/KC-135.obj  static_aircraft/jets/military/kc135.obj

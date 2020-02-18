@@ -1,5 +1,12 @@
 # Release Notes
 
+## v2.7.0 - 2020-02-18
+
+* Added Static and Animated Aircraft Library
+* Added SAM SDK Library
+* Added EMWINGS Catering Trucks Library
+* Updated SAM LIbrary to v2.0.1
+
 ## v2.6.0 - 2019-12-04
 
 * Updated NAPS to v7.0

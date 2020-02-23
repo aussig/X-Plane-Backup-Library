@@ -1,4 +1,4 @@
 EMWINGS Catering Trucks Library
-v1.0
+v1.1
 By emwingstudio
 https://forums.x-plane.org/index.php?/files/file/57836-emwings_library-caterings-trucks-for-b737b777a380/

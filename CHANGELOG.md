@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-
+* Updated EMWINGS Catering Trucks Library to v1.1
 
 ## v2.7.0 - 2020-02-18
 

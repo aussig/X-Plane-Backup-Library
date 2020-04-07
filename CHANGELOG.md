@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v2.8.0 - 2020-04-07
 
 * Updated EMWINGS Catering Trucks Library to v1.1
 * Updated OpenSceneryX to v4.4.0

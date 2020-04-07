@@ -1,4 +1,4 @@
 Scenery Animation Library
-v2.0.1
+v2.0.3
 By Marten@Stairport
 https://forums.x-plane.org/index.php?/files/file/49066-sam-scenery-animation-manager/

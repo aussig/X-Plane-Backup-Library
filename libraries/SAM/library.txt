@@ -3,9 +3,11 @@ A
 LIBRARY
 
 ##########################################################
-####     Scenery Animation Manager - Library 2.0.0    ####
+####     Scenery Animation Manager - Library 2.0.3    ####
 ##########################################################
 PUBLIC
+
+
 # BRIDGES
 EXPORT 	SAM_Library/bridges/Type01_solid.fac						jetways/bridge_solid_01.fac
 EXPORT 	SAM_Library/bridges/Type02_solid.fac						jetways/bridge_solid_02.fac
@@ -66,28 +68,28 @@ EXPORT  		SAM_Library/dockings/Safegate_3.5m_pole.agp			dockings/ADB-Safegate-3.
 EXPORT  		SAM_Library/dockings/Safegate_4.0m_pole.agp			dockings/ADB-Safegate-4.0m-pole.agp
 EXPORT  		SAM_Library/dockings/Safegate_4.5m_pole.agp			dockings/ADB-Safegate-4.5m-pole.agp
 EXPORT  		SAM_Library/dockings/Safegate_5.0m_pole.agp			dockings/ADB-Safegate-5.0m-pole.agp
-EXPORT  		SAM_Library/dockings/Honeywell_2.5m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-2.5m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_3.0m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-3.0m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_3.5m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-3.5m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_4.0m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-4.0m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_4.5m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-4.5m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_5.0m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-5.0m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_5.5m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-5.5m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_6.0m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-6.0m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_6.5m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-6.5m.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_7.0m.obj 			dockings/types/Honeywell/Honeywell-AVDGS-7.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m.agp 			dockings/Honeywell-AVDGS-2.5m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m.agp 			dockings/Honeywell-AVDGS-3.0m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m.agp 			dockings/Honeywell-AVDGS-3.5m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m.agp 			dockings/Honeywell-AVDGS-4.0m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m.agp 			dockings/Honeywell-AVDGS-4.5m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m.agp 			dockings/Honeywell-AVDGS-5.0m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_5.5m.agp 			dockings/Honeywell-AVDGS-5.5m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_6.0m.agp 			dockings/Honeywell-AVDGS-6.0m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_6.5m.agp 			dockings/Honeywell-AVDGS-6.5m.agp
+EXPORT  		SAM_Library/dockings/Honeywell_7.0m.agp 			dockings/Honeywell-AVDGS-7.0m.agp
 EXPORT  		SAM_Library/dockings/Honeywell_2.5m_pole.agp 		dockings/Honeywell-AVDGS-2.5m-pole.agp
 EXPORT  		SAM_Library/dockings/Honeywell_3.0m_pole.agp 		dockings/Honeywell-AVDGS-3.0m-pole.agp
 EXPORT  		SAM_Library/dockings/Honeywell_3.5m_pole.agp 		dockings/Honeywell-AVDGS-3.5m-pole.agp
 EXPORT  		SAM_Library/dockings/Honeywell_4.0m_pole.agp 		dockings/Honeywell-AVDGS-4.0m-pole.agp
 EXPORT  		SAM_Library/dockings/Honeywell_4.5m_pole.agp 		dockings/Honeywell-AVDGS-4.5m-pole.agp
 EXPORT  		SAM_Library/dockings/Honeywell_5.0m_pole.agp 		dockings/Honeywell-AVDGS-5.0m-pole.agp
-EXPORT  		SAM_Library/dockings/FMT_2.5m.obj 					dockings/types/FMT/FMT-AVDGS-2.5m.OBJ
-EXPORT  		SAM_Library/dockings/FMT_3.0m.obj 					dockings/types/FMT/FMT-AVDGS-3.0m.OBJ
-EXPORT  		SAM_Library/dockings/FMT_3.5m.obj 					dockings/types/FMT/FMT-AVDGS-3.5m.OBJ
-EXPORT  		SAM_Library/dockings/FMT_4.0m.obj 					dockings/types/FMT/FMT-AVDGS-4.0m.OBJ
-EXPORT  		SAM_Library/dockings/FMT_4.5m.obj 					dockings/types/FMT/FMT-AVDGS-4.5m.OBJ
-EXPORT  		SAM_Library/dockings/FMT_5.0m.obj 					dockings/types/FMT/FMT-AVDGS-5.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_2.5m.agp 					dockings/FMT-AVDGS-2.5m.agp
+EXPORT  		SAM_Library/dockings/FMT_3.0m.agp 					dockings/FMT-AVDGS-3.0m.agp
+EXPORT  		SAM_Library/dockings/FMT_3.5m.agp 					dockings/FMT-AVDGS-3.5m.agp
+EXPORT  		SAM_Library/dockings/FMT_4.0m.agp 					dockings/FMT-AVDGS-4.0m.agp
+EXPORT  		SAM_Library/dockings/FMT_4.5m.agp 					dockings/FMT-AVDGS-4.5m.agp
+EXPORT  		SAM_Library/dockings/FMT_5.0m.agp					dockings/FMT-AVDGS-5.0m.agp
 EXPORT  		SAM_Library/dockings/FMT_2.5m_pole.agp 				dockings/FMT-AVDGS-2.5m-pole.agp
 EXPORT  		SAM_Library/dockings/FMT_3.0m_pole.agp 				dockings/FMT-AVDGS-3.0m-pole.agp
 EXPORT  		SAM_Library/dockings/FMT_3.5m_pole.agp 				dockings/FMT-AVDGS-3.5m-pole.agp
@@ -148,24 +150,40 @@ EXPORT  SAM_Library/windturbines/windturbine_02.obj				windturbines/windturbine_
 EXPORT  SAM_Library/windturbines/windturbine_03.obj				windturbines/windturbine_03.obj
 
 DEPRECATED
+EXPORT  		SAM_Library/dockings/FMT_2.5m.obj 				dockings/types/FMT/FMT-AVDGS-2.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_3.0m.obj 				dockings/types/FMT/FMT-AVDGS-3.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_3.5m.obj 				dockings/types/FMT/FMT-AVDGS-3.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_4.0m.obj 				dockings/types/FMT/FMT-AVDGS-4.0m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_4.5m.obj 				dockings/types/FMT/FMT-AVDGS-4.5m.OBJ
+EXPORT  		SAM_Library/dockings/FMT_5.0m.obj 				dockings/types/FMT/FMT-AVDGS-5.0m.OBJ
 EXPORT  		SAM_Library/dockings/FMT_2.5m_pole.obj 			dockings/deprecated/FMT-AVDGS-2.5m-pole.obj
 EXPORT  		SAM_Library/dockings/FMT_3.0m_pole.obj 			dockings/deprecated/FMT-AVDGS-3.0m-pole.obj
 EXPORT  		SAM_Library/dockings/FMT_3.5m_pole.obj 			dockings/deprecated/FMT-AVDGS-3.5m-pole.obj
 EXPORT  		SAM_Library/dockings/FMT_4.0m_pole.obj 			dockings/deprecated/FMT-AVDGS-4.0m-pole.obj
 EXPORT  		SAM_Library/dockings/FMT_4.5m_pole.obj 			dockings/deprecated/FMT-AVDGS-4.5m-pole.obj
 EXPORT  		SAM_Library/dockings/FMT_5.0m_pole.obj			dockings/deprecated/FMT-AVDGS-5.0m-pole.obj
-EXPORT  		SAM_Library/dockings/Honeywell_2.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-2.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_3.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-3.0m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_3.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-3.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_4.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-4.0m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_4.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-4.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Honeywell_5.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-5.0m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_2.5m_pole.obj		dockings/deprecated/ADB-Safegate-2.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_3.0m_pole.obj		dockings/deprecated/ADB-Safegate-3.0m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_3.5m_pole.obj		dockings/deprecated/ADB-Safegate-3.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_4.0m_pole.obj		dockings/deprecated/ADB-Safegate-4.0m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_4.5m_pole.obj		dockings/deprecated/ADB-Safegate-4.5m-pole.OBJ
-EXPORT  		SAM_Library/dockings/Safegate_5.0m_pole.obj		dockings/deprecated/ADB-Safegate-5.0m-pole.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-2.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-3.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-3.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-4.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-4.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-5.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_5.5m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-5.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_6.0m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-6.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_6.5m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-6.5m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_7.0m.obj 		dockings/types/Honeywell/Honeywell-AVDGS-7.0m.OBJ
+EXPORT  		SAM_Library/dockings/Honeywell_2.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-2.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_3.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-3.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_3.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-3.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_4.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-4.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_4.5m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-4.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Honeywell_5.0m_pole.obj 	dockings/deprecated/Honeywell-AVDGS-5.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_2.5m_pole.obj		dockings/deprecated/ADB-Safegate-2.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_3.0m_pole.obj		dockings/deprecated/ADB-Safegate-3.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_3.5m_pole.obj		dockings/deprecated/ADB-Safegate-3.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_4.0m_pole.obj		dockings/deprecated/ADB-Safegate-4.0m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_4.5m_pole.obj		dockings/deprecated/ADB-Safegate-4.5m-pole.obj
+EXPORT  		SAM_Library/dockings/Safegate_5.0m_pole.obj		dockings/deprecated/ADB-Safegate-5.0m-pole.obj
 EXPORT  		SAM_Library/dockings/Safegate_2.5m.obj			dockings/deprecated/ADB-Safegate-2.5m.obj
 EXPORT  		SAM_Library/dockings/Safegate_3.0m.obj			dockings/deprecated/ADB-Safegate-3.0m.obj
 EXPORT  		SAM_Library/dockings/Safegate_3.5m.obj			dockings/deprecated/ADB-Safegate-3.5m.obj

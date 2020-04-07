@@ -1,11 +1,18 @@
 # Release Notes
 
+## v2.8.0 - 2020-04-07
+
+* Updated EMWINGS Catering Trucks Library to v1.1
+* Updated OpenSceneryX to v4.4.0
+* Updated SAM Library to v2.0.3
+* Updated SAM Seasons SDK Library
+
 ## v2.7.0 - 2020-02-18
 
 * Added Static and Animated Aircraft Library
-* Added SAM SDK Library
+* Added SAM Seasons SDK Library
 * Added EMWINGS Catering Trucks Library
-* Updated SAM LIbrary to v2.0.1
+* Updated SAM Library to v2.0.1
 
 ## v2.6.0 - 2019-12-04
 

@@ -7066,6 +7066,7 @@ EXPORT_EXCLUDE SAM_Library/SAM_Seasons_SDK/Ground/Ground_Grass_03.pol 					SAM_S
 EXPORT_EXCLUDE SAM_Library/SAM_Seasons_SDK/Ground/Ground_Dirt_01.pol 					SAM_Seasons_SDK/Ground/Season_Summer/Ground_Dirt_01.pol
 
 EXPORT_EXCLUDE SAM_Library/SAM_Seasons_SDK/Ground/Ground_Water_01.pol					SAM_Seasons_SDK/Ground/Water_Bodies/Ground_Water_01.pol
+EXPORT_EXCLUDE SAM_Library/SAM_Seasons_SDK/Ground/Ground_Water_01_Underlay.pol			SAM_Seasons_SDK/Ground/Water_Bodies/Ground_Water_01_Underlay.pol
 EXPORT_EXCLUDE SAM_Library/SAM_Seasons_SDK/Ground/Ground_Water_01_Edge.lin				SAM_Seasons_SDK/Ground/Water_Bodies/Ground_Water_01_Edge.lin
 
 

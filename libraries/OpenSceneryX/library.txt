@@ -2,7 +2,7 @@ A
 800
 LIBRARY
 
-# Version: v4.3.0
+# Version: v4.4.0
 
 
 # Main Library
@@ -367,6 +367,13 @@ EXPORT opensceneryx/polygons/airport/taxisign_parts/characters_white/p.pol polyg
 EXPORT opensceneryx/polygons/airport/taxisign_parts/characters_white/w.pol polygons/airport/taxisign_parts/characters_white/w/polygon.pol
 EXPORT opensceneryx/polygons/surfaces/concrete.pol polygons/surfaces/concrete/polygon.pol
 EXPORT opensceneryx/polygons/surfaces/grass/1.pol polygons/surfaces/grass/1/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/grass/4.pol polygons/surfaces/grass/4/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/grass/3.pol polygons/surfaces/grass/3/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/grass/2.pol polygons/surfaces/grass/2/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/snow/1.pol polygons/surfaces/snow/1/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/snow/3.pol polygons/surfaces/snow/3/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/snow/2.pol polygons/surfaces/snow/2/polygon.pol
+EXPORT opensceneryx/polygons/surfaces/dirt/1.pol polygons/surfaces/dirt/1/polygon.pol
 EXPORT opensceneryx/polygons/surfaces/asphalt/7.pol polygons/surfaces/asphalt/7/polygon.pol
 EXPORT opensceneryx/polygons/surfaces/asphalt/6.pol polygons/surfaces/asphalt/6/polygon.pol
 EXPORT opensceneryx/polygons/surfaces/asphalt/1.pol polygons/surfaces/asphalt/1/polygon.pol
@@ -3995,9 +4002,12 @@ EXPORT opensceneryx/objects/aircraft/jets/military/b737-800/usaf.obj objects/air
 EXPORT opensceneryx/objects/aircraft/jets/military.obj objects/aircraft/jets/military/b737-800/usaf/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military/b737-800.obj objects/aircraft/jets/military/b737-800/usaf/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military/b737.obj objects/aircraft/jets/military/b737-800/usaf/object.obj
+EXPORT opensceneryx/objects/aircraft/jets/military/ct-114/rcaf.obj objects/aircraft/jets/military/ct-114/rcaf/object.obj
+EXPORT opensceneryx/objects/aircraft/jets/military.obj objects/aircraft/jets/military/ct-114/rcaf/object.obj
+EXPORT opensceneryx/objects/aircraft/jets/military/ct-114.obj objects/aircraft/jets/military/ct-114/rcaf/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military/ct-114/snowbird.obj objects/aircraft/jets/military/ct-114/snowbird/object.obj
-EXPORT opensceneryx/objects/aircraft/jets/military/ct-114.obj objects/aircraft/jets/military/ct-114/object.obj
-EXPORT opensceneryx/objects/aircraft/jets/military.obj objects/aircraft/jets/military/ct-114/object.obj
+EXPORT opensceneryx/objects/aircraft/jets/military.obj objects/aircraft/jets/military/ct-114/snowbird/object.obj
+EXPORT opensceneryx/objects/aircraft/jets/military/ct-114.obj objects/aircraft/jets/military/ct-114/snowbird/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military/cf-101b.obj objects/aircraft/jets/military/cf-101b/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military.obj objects/aircraft/jets/military/cf-101b/object.obj
 EXPORT opensceneryx/objects/aircraft/jets/military/f-84f.obj objects/aircraft/jets/military/f-84f/object.obj
@@ -11161,6 +11171,15 @@ EXPORT opensceneryx/objects/vegetation/opuntia/2.obj objects/vegetation/opuntia/
 EXPORT opensceneryx/objects/vegetation/opuntia/2/3.5m.obj objects/vegetation/opuntia/2/3.5m/object.obj
 EXPORT opensceneryx/objects/vegetation/opuntia.obj objects/vegetation/opuntia/2/3.5m/object.obj
 EXPORT opensceneryx/objects/vegetation/opuntia/2.obj objects/vegetation/opuntia/2/3.5m/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/9.obj objects/ground_features/snow_piles/9/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/7.obj objects/ground_features/snow_piles/7/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/6.obj objects/ground_features/snow_piles/6/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/1.obj objects/ground_features/snow_piles/1/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/8.obj objects/ground_features/snow_piles/8/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/4.obj objects/ground_features/snow_piles/4/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/3.obj objects/ground_features/snow_piles/3/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/2.obj objects/ground_features/snow_piles/2/object.obj
+EXPORT opensceneryx/objects/ground_features/snow_piles/5.obj objects/ground_features/snow_piles/5/object.obj
 EXPORT opensceneryx/objects/airport/radio/1.obj objects/airport/radio/1/object.obj
 EXPORT opensceneryx/objects/airport/radio/2.obj objects/airport/radio/2/object.obj
 EXPORT opensceneryx/objects/airport/ils/1.obj objects/airport/ils/1/object.obj
@@ -12973,6 +12992,12 @@ EXPORT opensceneryx/lines/hold_lines/double.lin lines/hold_lines/double/2/line.l
 EXPORT opensceneryx/lines/hold_lines/double/5.lin lines/hold_lines/double/5/line.lin
 EXPORT opensceneryx/lines/hold_lines/double.lin lines/hold_lines/double/5/line.lin
 EXPORT opensceneryx/lines/surface_defects_and_marks/cracks/1.lin lines/surface_defects_and_marks/cracks/1/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/6.lin lines/surface_defects_and_marks/snow/6/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/1.lin lines/surface_defects_and_marks/snow/1/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/4.lin lines/surface_defects_and_marks/snow/4/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/3.lin lines/surface_defects_and_marks/snow/3/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/2.lin lines/surface_defects_and_marks/snow/2/line.lin
+EXPORT opensceneryx/lines/surface_defects_and_marks/snow/5.lin lines/surface_defects_and_marks/snow/5/line.lin
 EXPORT opensceneryx/lines/taxisign_parts/border_yellow.lin lines/taxisign_parts/border_yellow/line.lin
 EXPORT opensceneryx/lines/runway_closed/1.lin lines/runway_closed/1/line.lin
 EXPORT opensceneryx/lines/broken_lines/white.lin lines/broken_lines/white/line.lin
@@ -12997,9 +13022,16 @@ EXPORT opensceneryx/lines/double_broken_lines/yellow/3.lin lines/double_broken_l
 EXPORT opensceneryx/lines/double_broken_lines/yellow/2.lin lines/double_broken_lines/yellow/2/line.lin
 EXPORT opensceneryx/lines/double_broken_lines/yellow/5.lin lines/double_broken_lines/yellow/5/line.lin
 EXPORT opensceneryx/lines/surface_borders/concrete.lin lines/surface_borders/concrete/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/6.lin lines/surface_borders/snow/6/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/1.lin lines/surface_borders/snow/1/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/4.lin lines/surface_borders/snow/4/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/3.lin lines/surface_borders/snow/3/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/2.lin lines/surface_borders/snow/2/line.lin
+EXPORT opensceneryx/lines/surface_borders/snow/5.lin lines/surface_borders/snow/5/line.lin
 EXPORT opensceneryx/lines/surface_borders/asphalt.lin lines/surface_borders/asphalt/line.lin
 EXPORT opensceneryx/lines/arrows/taxiline_end.lin lines/arrows/taxiline_end/line.lin
 EXPORT opensceneryx/lines/arrows/taxiline_inline.lin lines/arrows/taxiline_inline/line.lin
+EXPORT opensceneryx/decals/snow/1.dcl decals/snow/1/decal.dcl
 
 DEPRECATED
 

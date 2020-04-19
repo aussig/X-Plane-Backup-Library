@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-*
+* Updated NAPS Library to v7.2
 
 ## v2.8.0 - 2020-04-07
 

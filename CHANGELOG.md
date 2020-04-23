@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Updated NAPS Library to v7.2
+* Updated and renamed EMWINGS Catering Trucks Library to EMWINGS Ground Services Library v1.2
 
 ## v2.8.0 - 2020-04-07
 

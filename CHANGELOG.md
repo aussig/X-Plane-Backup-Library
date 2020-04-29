@@ -5,11 +5,12 @@
 * Updated NAPS Library to v7.2
 * Updated and renamed EMWINGS Catering Trucks Library to EMWINGS Ground Services Library v1.2
 * Updated Handy Objects Library to v7.70
+* Updated Parking Stands and Signs Library to v6.0
 
 ## v2.8.0 - 2020-04-07
 
 * Updated EMWINGS Catering Trucks Library to v1.1
-* Updated OpenSceneryX to v4.4.0
+* Updated OpenSceneryX Library to v4.4.0
 * Updated SAM Library to v2.0.3
 * Updated SAM Seasons SDK Library
 
@@ -22,9 +23,9 @@
 
 ## v2.6.0 - 2019-12-04
 
-* Updated NAPS to v7.0
-* Updated CCVA to v2.7
-* Updated OpenSceneryX to v4.3.0
+* Updated NAPS Library to v7.0
+* Updated CCVA Library to v2.7
+* Updated OpenSceneryX Library to v4.3.0
 * Updated DT Library to v1.5.2
 * Updated FlyAgi Vegetation Library
 * Build process now automatically removes any duplicate lines, making the library smaller.

@@ -14,60 +14,63 @@ REGION_RECT		-180 -90 179 89
 
 REGION zniwa_on
 # hay rolls appear only from 15 June till 30 August
-EXPORT_EXCLUDE PuF_Libs/DetailStuff/Farm/Hay_Round.str     DetailStuff/Farm/Hay_Round.str
+EXPORT_EXCLUDE PuF_Libs/DetailStuff/Farm/Hay_Round.str		DetailStuff/Farm/Hay_Round.str
+
+
+
 
 REGION all
-EXPORT PuF_Libs/DetailStuff/Farm/Hay_Round.str     Blank/blank_str.str
+EXPORT PuF_Libs/DetailStuff/Farm/Hay_Round.str				Blank/blank_str.str
 
 #Aircrafts
-EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_A.obj
-EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_B.obj
-EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_C.obj
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_A.obj  
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_B.obj  
+EXPORT PuF_Libs/Aircrafts/Allegro_2000.obj     Aircrafts/Allegro_2000_C.obj  
 
-EXPORT PuF_Libs/Aircrafts/SkyRanger_A.obj			Aircrafts/SkyRanger_A.obj
-EXPORT PuF_Libs/Aircrafts/SkyRanger_B.obj			Aircrafts/SkyRanger_B.obj
-EXPORT PuF_Libs/Aircrafts/SkyRanger_C.obj			Aircrafts/SkyRanger_C.obj
-EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj		Aircrafts/SkyRanger_A.obj
-EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj		Aircrafts/SkyRanger_B.obj
-EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj		Aircrafts/SkyRanger_C.obj
+EXPORT PuF_Libs/Aircrafts/SkyRanger_A.obj     Aircrafts/SkyRanger_A.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_B.obj     Aircrafts/SkyRanger_B.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_C.obj    		 Aircrafts/SkyRanger_C.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_A.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_B.obj  
+EXPORT PuF_Libs/Aircrafts/SkyRanger_Random.obj     Aircrafts/SkyRanger_C.obj  
 
-EXPORT PuF_Libs/Aircrafts/P92_A.obj     Aircrafts/P92_A.obj
-EXPORT PuF_Libs/Aircrafts/P92_B.obj     Aircrafts/P92_B.obj
-EXPORT PuF_Libs/Aircrafts/P92_C.obj     Aircrafts/P92_C.obj
-EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_A.obj
-EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_B.obj
-EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_C.obj
+EXPORT PuF_Libs/Aircrafts/P92_A.obj     Aircrafts/P92_A.obj  
+EXPORT PuF_Libs/Aircrafts/P92_B.obj     Aircrafts/P92_B.obj  
+EXPORT PuF_Libs/Aircrafts/P92_C.obj    		 Aircrafts/P92_C.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_A.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_B.obj  
+EXPORT PuF_Libs/Aircrafts/P92_Random.obj     Aircrafts/P92_C.obj  
 
-EXPORT PuF_Libs/Aircrafts/Glider2_A.obj     Aircrafts/Glider2_A.obj
-EXPORT PuF_Libs/Aircrafts/Glider2_B.obj     Aircrafts/Glider2_B.obj
-EXPORT PuF_Libs/Aircrafts/Glider2_C.obj     Aircrafts/Glider2_C.obj
-EXPORT PuF_Libs/Aircrafts/Glider1_A.obj     Aircrafts/Glider1_A.obj
-EXPORT PuF_Libs/Aircrafts/Glider1_B.obj     Aircrafts/Glider1_B.obj
-EXPORT PuF_Libs/Aircrafts/Glider1_C.obj     Aircrafts/Glider1_C.obj
-EXPORT PuF_Libs/Aircrafts/Glider1_D.obj     Aircrafts/Glider1_D.obj
+EXPORT PuF_Libs/Aircrafts/Glider2_A.obj     Aircrafts/Glider2_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider2_B.obj     Aircrafts/Glider2_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider2_C.obj     Aircrafts/Glider2_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_A.obj     Aircrafts/Glider1_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_B.obj     Aircrafts/Glider1_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_C.obj     Aircrafts/Glider1_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider1_D.obj     Aircrafts/Glider1_D.obj  
 
-EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider2_A.obj
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider2_A.obj  
 EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider2_B.obj
-EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_A.obj
-EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_B.obj
-EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_C.obj
-EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_D.obj
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_A.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_B.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_C.obj  
+EXPORT PuF_Libs/Aircrafts/Glider_random.obj     Aircrafts/Glider1_D.obj  
 
 #vehicles
-EXPORT PuF_Libs/Vehicles/Ural.obj     Vehicles/Ural.obj
-EXPORT PuF_Libs/Vehicles/Ural_roof.obj     Vehicles/Ural_roof.obj
-EXPORT PuF_Libs/Vehicles/Military_tanker_trailer.obj     Vehicles/Military_tanker_trailer.obj
+EXPORT PuF_Libs/Vehicles/Ural.obj     Vehicles/Ural.obj  
+EXPORT PuF_Libs/Vehicles/Ural_roof.obj     Vehicles/Ural_roof.obj  
+EXPORT PuF_Libs/Vehicles/Military_tanker_trailer.obj     Vehicles/Military_tanker_trailer.obj  
 
 #AirfieldStuff
-EXPORT PuF_Libs/AirfieldStuff/Markers/Marker1_w_flag.obj     AirfieldStuff/Marker1_w_flag.obj
-EXPORT PuF_Libs/AirfieldStuff/Markers/BallPole.obj     AirfieldStuff/BallPole.obj
+EXPORT PuF_Libs/AirfieldStuff/Markers/Marker1_w_flag.obj	AirfieldStuff/Marker1_w_flag.obj
+EXPORT PuF_Libs/AirfieldStuff/Markers/BallPole.obj     		AirfieldStuff/BallPole.obj
 
 #Buildings
-EXPORT PuF_Libs/Buildings/Church/Small_church.obj     Buildings/Church/Small_church.obj
-EXPORT PuF_Libs/Buildings/Booth/Booth1.obj     Buildings/Booth/Booth1.obj
+EXPORT PuF_Libs/Buildings/Church/Small_church.obj			Buildings/Church/Small_church.obj 
+EXPORT PuF_Libs/Buildings/Booth/Booth1.obj					Buildings/Booth/Booth1.obj 
 
 #GroundStuff
-EXPORT PuF_Libs/GroundStuff/Transparent/Trans_Grass.pol     GroundStuff/Trans_Grass.pol
+EXPORT PuF_Libs/GroundStuff/Transparent/Trans_Grass.pol		GroundStuff/Trans_Grass.pol
 
 	#-asphalt
 	EXPORT PuF_Libs/GroundStuff/Asphalt/Asphalt_1.pol					GroundStuff/Asphalt/Asphalt_1.pol

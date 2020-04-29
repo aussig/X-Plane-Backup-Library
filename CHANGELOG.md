@@ -6,6 +6,7 @@
 * Updated and renamed EMWINGS Catering Trucks Library to EMWINGS Ground Services Library v1.2
 * Updated Handy Objects Library to v7.70
 * Updated Parking Stands and Signs Library to v6.0
+* Updated PuF Library to v1.0.1
 
 ## v2.8.0 - 2020-04-07
 

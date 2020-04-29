@@ -1,4 +1,4 @@
 Handy Objects Library
-v7.50
+v7.70
 By Scottish Wings
 https://forums.x-plane.org/index.php?/files/file/24261-the-handy-objects-library/

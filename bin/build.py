@@ -68,6 +68,7 @@ def processLibraries(libraryPath, openSceneryX):
 
         versionsPath = os.path.join(libraryPath, item, "versions")
         if (os.path.isdir(versionsPath)):
+            outputFile.write("\n# Paths from Previous Versions\n\n")
             versions = glob.glob(os.path.join(versionsPath, "*.txt"))
             for version in versions:
                 inputFile = open(version)
@@ -95,7 +96,7 @@ def handleLibraryFile(inputFile, outputFile, versionFile, openSceneryX):
         for line in versionContents:
             outputFile.write("# " + line + "\n")
 
-    outputFile.write("\n")
+        outputFile.write("\n")
 
     if openSceneryX:
         placeholderFolder = "opensceneryx"

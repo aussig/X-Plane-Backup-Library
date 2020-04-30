@@ -51,8 +51,12 @@ def processLibraries(libraryPath, openSceneryX):
             inputPath = os.path.join(libraryPath, item, "library_osx.txt")
             if (not os.path.isfile(inputPath)):
                 inputPath = os.path.join(libraryPath, item, "library.txt")
+                openSceneryXSpecial = False
+            else:
+                openSceneryXSpecial = True
         else:
             inputPath = os.path.join(libraryPath, item, "library.txt")
+            openSceneryXSpecial = False
 
         if (not os.path.isfile(inputPath)):
             continue
@@ -66,14 +70,16 @@ def processLibraries(libraryPath, openSceneryX):
         inputFile.close()
         versionFile.close()
 
-        versionsPath = os.path.join(libraryPath, item, "versions")
-        if (os.path.isdir(versionsPath)):
-            outputFile.write("\n# Paths from Previous Versions\n\n")
-            versions = glob.glob(os.path.join(versionsPath, "*.txt"))
-            for version in versions:
-                inputFile = open(version)
-                handleLibraryFile(inputFile, outputFile, None, openSceneryX)
-                inputFile.close()
+        if not openSceneryXSpecial:
+            # Include all previous versions of the library if we are not using a special OpenSceneryX version
+            versionsPath = os.path.join(libraryPath, item, "versions")
+            if (os.path.isdir(versionsPath)):
+                outputFile.write("\n# Paths from Previous Versions\n\n")
+                versions = glob.glob(os.path.join(versionsPath, "*.txt"))
+                for version in versions:
+                    inputFile = open(version)
+                    handleLibraryFile(inputFile, outputFile, None, openSceneryX)
+                    inputFile.close()
 
         outputFile.close()
 

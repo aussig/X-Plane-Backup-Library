@@ -2,7 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
-* Some library authors are not careful about supporting old paths in their libraries, so when they release a new version it can cause errors. So from this release of the Backup Library onwards we now track historical versions of libraries too, and include all paths that have ever been seen in a library.
+* Some library authors are not careful about supporting old paths in their libraries, so when they release a new version it can cause errors. So from this release of the Backup Library onwards we now track historical versions of libraries too, and include all paths that have ever been seen in a libraries history.
 * Updated NAPS Library to v7.2
 * Updated and renamed EMWINGS Catering Trucks Library to EMWINGS Ground Services Library v1.2
 * Updated Handy Objects Library to v7.70

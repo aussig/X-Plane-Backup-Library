@@ -1,0 +1,51 @@
+A
+800
+LIBRARY
+# Version: 1.9.0 by CCVA022 (Lars de Jonge)
+EXPORT CCVA022_Object_Library/Infra/Swisshut/Swisshut.obj Infra/Swisshut/Swisshut.obj
+EXPORT CCVA022_Object_Library/Infra/HangarCCVA/HangarCCVA.obj Infra/HangarCCVA/HangarCCVA.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAHouse/CCVAHouse.obj Infra/CCVAHouse/CCVAHouse.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAComplex/CCVAComplex.obj Infra/CCVAComplex/CCVAComplex.obj
+EXPORT CCVA022_Object_Library/Green/Greengrass/Greengrass.pol Green/Greengrass/Greengrass.pol
+EXPORT CCVA022_Object_Library/Infra/CCVAFirestation/Firestation.obj Infra/CCVAFirestation/Firestation.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAStockerau1/CCVAStockerau1.obj Infra/CCVAStockerau1/CCVAStockerau1.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAStockerau2/CCVAStockerau2.obj Infra/CCVAStockerau2/CCVAStockerau2.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAFuerstenfeld1/CCVAFuerstenfeld1.obj Infra/CCVAFuerstenfeld1/CCVAFuerstenfeld1.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall1Grey/CCVATinywall1Grey.obj Items/CCVATinywall1Grey/CCVATinywall1Grey.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall1Red/CCVATinywall1Red.obj Items/CCVATinywall1Red/CCVATinywall1Red.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall1Yellow/CCVATinywall1Yellow.obj Items/CCVATinywall1Yellow/CCVATinywall1Yellow.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall2Grey/CCVATinywall2Grey.obj Items/CCVATinywall2Grey/CCVATinywall2Grey.obj
+EXPORT CCVA022_Object_Library/Items/CCVABollardRed/CCVABollardRed.obj Items/CCVABollardRed/CCVABollardRed.obj
+EXPORT CCVA022_Object_Library/Items/CCVABollardOrange/CCVABollardOrange.obj Items/CCVABollardOrange/CCVABollardOrange.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall2Red/CCVATinywall2Red.obj Items/CCVATinywall2Red/CCVATinywall2Red.obj
+EXPORT CCVA022_Object_Library/Items/CCVATinywall2Yellow/CCVATinywall2Yellow.obj Items/CCVATinywall2Yellow/CCVATinywall2Yellow.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAClubhouse/CCVAClubhouse.obj Infra/CCVAClubhouse/CCVAClubhouse.obj
+EXPORT CCVA022_Object_Library/Items/CCVAWorkInProgress/CCVAWorkInProgress.obj Items/CCVAWorkInProgress/CCVAWorkInProgress.obj
+EXPORT CCVA022_Object_Library/Items/CCVAPalletStone/CCVAPalletStone.obj Items/CCVAPalletStone/CCVAPalletStone.obj
+EXPORT CCVA022_Object_Library/Items/CCVAFenceBlockedView/CCVAFenceBlockedView.obj Items/CCVAFenceBlockedView/CCVAFenceBlockedView.obj
+EXPORT CCVA022_Object_Library/Items/CCVADumpContainerGreen/CCVADumpContainerGreen.obj Items/CCVADumpContainerGreen/CCVADumpContainerGreen.obj
+EXPORT CCVA022_Object_Library/Items/CCVADumpContainerYellow/CCVADumpContainerYellow.obj Items/CCVADumpContainerYellow/CCVADumpContainerYellow.obj
+EXPORT CCVA022_Object_Library/Items/CCVAOrnament/CCVAOrnament.obj Items/CCVAOrnament/CCVAOrnament.obj
+EXPORT CCVA022_Object_Library/Items/CCVATug/CCVATug.obj Items/CCVATug/CCVATug.obj
+EXPORT CCVA022_Object_Library/Items/CCVATractor/CCVATractor.obj Items/CCVATractor/CCVATractor.obj
+EXPORT CCVA022_Object_Library/Items/CCVABaggageCart1/CCVABaggageCart1.obj Items/CCVABaggageCart1/CCVABaggageCart1.obj
+EXPORT CCVA022_Object_Library/Items/CCVABaggageCart2/CCVABaggageCart2.obj Items/CCVABaggageCart2/CCVABaggageCart2.obj
+EXPORT CCVA022_Object_Library/Items/CCVABaggageCartTrainL/CCVABaggageCartTrainL.obj Items/CCVABaggageCartTrainL/CCVABaggageCartTrainL.obj
+EXPORT CCVA022_Object_Library/Items/CCVABaggageCartTrainR/CCVABaggageCartTrainR.obj Items/CCVABaggageCartTrainR/CCVABaggageCartTrainR.obj
+EXPORT CCVA022_Object_Library/Items/CCVABaggageCartTrainS/CCVABaggageCartTrainS.obj Items/CCVABaggageCartTrainS/CCVABaggageCartTrainS.obj
+EXPORT CCVA022_Object_Library/Items/CCVAGPU/CCVAGPU.obj Items/CCVAGPU/CCVAGPU.obj
+EXPORT CCVA022_Object_Library/Infra/CCVASmallTerminal/CCVASmallTerminal.obj Infra/CCVASmallTerminal/CCVASmallTerminal.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAAirportSecurity/CCVAAirportSecurity.obj Infra/CCVAAirportSecurity/CCVAAirportSecurity.obj
+EXPORT CCVA022_Object_Library/Items/CCVAAuthority/CCVAAuthority.obj Items/CCVAAuthority/CCVAAuthority.obj
+EXPORT CCVA022_Object_Library/Infra/CCVACorpHangar/CCVACorpHangar.obj Infra/CCVACorpHangar/CCVACorpHangar.obj
+EXPORT CCVA022_Object_Library/Infra/CCVARuralClinicAfrica/CCVARuralClinicAfrica.obj Infra/CCVARuralClinicAfrica/CCVARuralClinicAfrica.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAMedFac/CCVAMedFac.obj Infra/CCVAMedFac/CCVAMedFac.obj
+EXPORT CCVA022_Object_Library/Infra/CCVACargoGlassTerm/CCVACargoGlassTerm.obj Infra/CCVACargoGlassTerm/CCVACargoGlassTerm.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAATC/CCVAATC.obj Infra/CCVAATC/CCVAATC.obj
+EXPORT CCVA022_Object_Library/Items/CCVAMobileATC/CCVAMobileATC.obj Items/CCVAMobileATC/CCVAMobileATC.obj
+EXPORT CCVA022_Object_Library/Items/CCVAMobileATClow/CCVAMobileATClow.obj Items/CCVAMobileATClow/CCVAMobileATClow.obj
+EXPORT CCVA022_Object_Library/Infra/CCVAShedHangar/CCVAShedHangar.obj Infra/CCVAShedHangar/CCVAShedHangar.obj
+EXPORT CCVA022_Object_Library/Items/CCVAOilStore/CCVAOilStore.obj Items/CCVAOilStore/CCVAOilStore.obj
+EXPORT CCVA022_Object_Library/Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj
+EXPORT CCVA022_Object_Library/Items/CCVATUI/CCVATUI.obj Items/CCVATUI/CCVATUI.obj
+EXPORT CCVA022_Object_Library/Infra/CCVATerminal/CCVATerminal.obj Infra/CCVATerminal/CCVATerminal.obj

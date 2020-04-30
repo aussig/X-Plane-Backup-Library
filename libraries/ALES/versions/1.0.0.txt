@@ -1,0 +1,311 @@
+A
+800
+LIBRARY
+
+
+REGION_DEFINE Wet
+REGION_ALL
+REGION_DREF sim/weather/rain_percent > 0.1
+REGION Wet
+
+#LINES & GND MARKINGS
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/1_single_taxi.lin			lines/1_single_taxi.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/2_single_taxi_dash.lin		lines/2_single_taxi_dash.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/3_double_taxi.lin			lines/3_double_taxi.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/4_double_hold.lin			lines/4_double_hold.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/5_single_hold.lin			lines/5_single_hold.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/6_ils_hold.lin				lines/6_ils_hold.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/7_taxi_hold.lin				lines/7_taxi_hold.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/8_single_parking.lin			lines/8_single_parking.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/9_double_parking.lin			lines/9_double_parking.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/10_single_taxi_wide.lin		lines/10_single_taxi_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/11_taxi_hold_wide.lin		lines/11_taxi_hold_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/12_double_hold_wide.lin		lines/12_double_hold_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/13_other_hold_wide.lin		lines/13_other_hold_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/14_ils_hold_wide.lin			lines/14_ils_hold_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/19_taxi_hatch.lin			lines/19_taxi_hatch.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/20_road_edge.lin				lines/20_road_edge.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/21_road_edge_zipper.lin		lines/21_road_edge_zipper.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/22_road_edge_dash.lin		lines/22_road_edge_dash.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/23_road_dash.lin				lines/23_road_dash.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/24_road_edge_wide.lin		lines/24_road_edge_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/25_road_dash_wide.lin		lines/25_road_dash_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/30_red_line.lin				lines/30_red_line.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/31_red_line_dash.lin			lines/31_red_line_dash.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/32_red_line_wide.lin			lines/32_red_line_wide.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/40_orange_line.lin			lines/40_orange_line.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/41_blue_line.lin				lines/41_blue_line.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/42_green_line.lin			lines/42_green_line.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/51_single_taxi_b.lin			lines/51_single_taxi_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/52-2_single_taxi_dash_bb.lin	lines/52-2_single_taxi_dash_bb.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/52_single_taxi_dash_b.lin	lines/52_single_taxi_dash_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/53_double_taxi_b.lin			lines/53_double_taxi_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/54_double_hold_b.lin			lines/54_double_hold_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/55_single_hold_b.lin			lines/55_single_hold_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/56_ils_hold_b.lin			lines/56_ils_hold_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/57_taxi_hold_b.lin			lines/57_taxi_hold_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/58_single_parking_b.lin		lines/58_single_parking_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/59_double_parking_b.lin		lines/59_double_parking_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/60_single_taxi_wide_b.lin	lines/60_single_taxi_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/61_taxi_hold_wide_b.lin		lines/61_taxi_hold_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/62_double_hold_wide_b.lin	lines/62_double_hold_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/63_other_hold_wide_b.lin		lines/63_other_hold_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/64_ils_hold_wide_b.lin		lines/64_ils_hold_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/70_road_edge_b.lin			lines/70_road_edge_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/71_road_edge_zipper_b.lin	lines/71_road_edge_zipper_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/72_road_edge_dash_b.lin		lines/72_road_edge_dash_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/73_road_dash_b.lin			lines/73_road_dash_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/74_road_edge_wide_b.lin		lines/74_road_edge_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/75_road_dash_wide_b.lin		lines/75_road_dash_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/B_Runway_Edge.lin			lines/76_runway_edge_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/Runway_edge.lin				lines/77_runway_edge.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/80_red_line_b.lin			lines/80_red_line_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/81_red_line_dash_b.lin		lines/81_red_line_dash_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/82_red_line_wide_b.lin		lines/82_red_line_wide_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/90_orange_line_b.lin			lines/90_orange_line_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/91_blue_line_b.lin			lines/91_blue_line_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/92_green_line_b.lin			lines/92_green_line_b.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/safety_area_red.pol			lines/safe_area_red.pol
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/safety_area_yellow.pol		lines/safe_area_yellow.pol
+EXPORT_EXCLUDE	ALES_DEV_LIB/Lines/safety_area_white.pol		lines/safe_area_white.pol
+
+#Cosmetics
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_10m.lin		Cosmetics/Tracks/Tracks_1_10m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_20m.lin		Cosmetics/Tracks/Tracks_1_20m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_30m.lin		Cosmetics/Tracks/Tracks_1_30m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1.pol			Cosmetics/Tracks/Tracks_1.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_10m.lin		Cosmetics/Tracks/Tracks_2_10m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_20m.lin		Cosmetics/Tracks/Tracks_2_20m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_30m.lin		Cosmetics/Tracks/Tracks_2_30m.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2.pol			Cosmetics/Tracks/Tracks_2.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Tireskid.pol			Cosmetics/Tracks/Tireskid.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Grease.pol				Cosmetics/Tracks/Grease.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Dirt2.pol				Cosmetics/Tracks/Dirt2.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Tracks/Dirt_Turn.pol			Cosmetics/Tracks/Dirt_Turn.pol
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Grass/Grass.pol				Cosmetics/Grass/wet/Grass_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Grass/Dry_Grass.pol			Cosmetics/Grass/wet/Dry_Grass_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Grass/Dry_Ground.pol			Cosmetics/Grass/wet/Dry_Ground_W.pol
+
+#damage
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Damage/Tar.lin				cosmetics/Damage/Tar.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Damage/Pot_Hole.pol			cosmetics/Damage/wet/Pot_Hole_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Damage/Patch.pol				cosmetics/Damage/wet/Patch_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Damage/Concrete_damage.pol	cosmetics/Damage/wet/Concrete_damage_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Cosmetics/Damage/Sealed_Crack.lin		cosmetics/Damage/wet/Sealed_Crack.lin
+
+#runway marks
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Arrow.pol				Runway_Marks/wet/Arrow_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Arrow_THS.pol			Runway_Marks/wet/Arrow_THS_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/White_base.pol			Runway_Marks/wet/White_base_W.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Centerline.lin			Runway_Marks/Centerline.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Edge_Line.lin			Runway_Marks/Edge_Line.lin
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Black_Stroke.lin		Runway_Marks/Black_Stroke.lin
+
+#Numbers
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/0.pol		Runway_Marks/Numbers/wet/0.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/0B.pol		Runway_Marks/Numbers/wet/0B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/1.pol		Runway_Marks/Numbers/wet/1.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/1B.pol		Runway_Marks/Numbers/wet/1B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/2.pol		Runway_Marks/Numbers/wet/2.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/2B.pol		Runway_Marks/Numbers/wet/2B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/3.pol		Runway_Marks/Numbers/wet/3.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/3B.pol		Runway_Marks/Numbers/wet/3B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/4.pol		Runway_Marks/Numbers/wet/4.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/4B.pol		Runway_Marks/Numbers/wet/4B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/5.pol		Runway_Marks/Numbers/wet/5.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/5B.pol		Runway_Marks/Numbers/wet/5B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/6.pol		Runway_Marks/Numbers/wet/6.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/6B.pol		Runway_Marks/Numbers/wet/6B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/7.pol		Runway_Marks/Numbers/wet/7.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/7B.pol		Runway_Marks/Numbers/wet/7B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/8.pol		Runway_Marks/Numbers/wet/8.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/8B.pol		Runway_Marks/Numbers/wet/8B.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/9.pol		Runway_Marks/Numbers/wet/9.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Runway_Marks/Numbers/9B.pol		Runway_Marks/Numbers/wet/9B.pol
+
+#Misc
+
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc//Manhole_Covers/Manhole.pol					Misc/wet/Manhole_W.pol
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc//Manhole_Covers/Concrete_Manhole.pol			Misc/wet/Concrete_Manhole_W.pol
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Soft_Edge/Soft_Edge.lin						Misc/wet/Soft_Edge_W.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Soft_Edge/Soft_Edge_Wide.lin					Misc/wet/Soft_Edge_Wide_W.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Blastpad_surface/Blastpad_concrete.pol		Misc/wet/Blastpad_concrete_W.pol
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/A_Road.lin								Misc/Road/wet/A_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/A1_Road.lin								Misc/Road/wet/A1_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/A2_Road.lin								Misc/Road/wet/A2_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/E_Road.lin								Misc/Road/wet/E_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/E1_Road.lin								Misc/Road/wet/E1_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/E2_Road.lin								Misc/Road/wet/E2_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/AA_Road.lin								Misc/Road/wet/AA_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/AA1_Road.lin								Misc/Road/wet/AA1_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/AA2_Road.lin								Misc/Road/wet/AA2_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/EE_Road.lin								Misc/Road/wet/EE_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/EE1_Road.lin								Misc/Road/wet/EE1_Road.lin
+EXPORT_EXCLUDE	ALES_DEV_LIB/Misc/Road/EE2_Road.lin								Misc/Road/wet/EE2_Road.lin
+
+#Ground_Misc
+
+EXPORT_EXCLUDE ALES_DEV_LIB/Ground_Misc/Gravel.pol			Ground_Misc/wet/Gravel.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Ground_Misc/Snow.pol			Ground_Misc/wet/Snow.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Ground_Misc/Cobblestone.pol		Ground_Misc/wet/Cobblestone.pol
+EXPORT_EXCLUDE ALES_DEV_LIB/Ground_Misc/Stone_Tiles.pol		Ground_Misc/wet/Stone_Tiles.pol
+
+
+REGION_DEFINE Dry
+REGION_ALL
+REGION Dry
+
+#LINES & GND MARKINGS
+EXPORT	ALES_DEV_LIB/Lines/1_single_taxi.lin			lines/1_single_taxi.lin
+EXPORT	ALES_DEV_LIB/Lines/2_single_taxi_dash.lin		lines/2_single_taxi_dash.lin
+EXPORT	ALES_DEV_LIB/Lines/3_double_taxi.lin			lines/3_double_taxi.lin
+EXPORT	ALES_DEV_LIB/Lines/4_double_hold.lin			lines/4_double_hold.lin
+EXPORT	ALES_DEV_LIB/Lines/5_single_hold.lin			lines/5_single_hold.lin
+EXPORT	ALES_DEV_LIB/Lines/6_ils_hold.lin				lines/6_ils_hold.lin
+EXPORT	ALES_DEV_LIB/Lines/7_taxi_hold.lin				lines/7_taxi_hold.lin
+EXPORT	ALES_DEV_LIB/Lines/8_single_parking.lin			lines/8_single_parking.lin
+EXPORT	ALES_DEV_LIB/Lines/9_double_parking.lin			lines/9_double_parking.lin
+EXPORT	ALES_DEV_LIB/Lines/10_single_taxi_wide.lin		lines/10_single_taxi_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/11_taxi_hold_wide.lin		lines/11_taxi_hold_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/12_double_hold_wide.lin		lines/12_double_hold_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/13_other_hold_wide.lin		lines/13_other_hold_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/14_ils_hold_wide.lin			lines/14_ils_hold_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/19_taxi_hatch.lin			lines/19_taxi_hatch.lin
+EXPORT	ALES_DEV_LIB/Lines/20_road_edge.lin				lines/20_road_edge.lin
+EXPORT	ALES_DEV_LIB/Lines/21_road_edge_zipper.lin		lines/21_road_edge_zipper.lin
+EXPORT	ALES_DEV_LIB/Lines/22_road_edge_dash.lin		lines/22_road_edge_dash.lin
+EXPORT	ALES_DEV_LIB/Lines/23_road_dash.lin				lines/23_road_dash.lin
+EXPORT	ALES_DEV_LIB/Lines/24_road_edge_wide.lin		lines/24_road_edge_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/25_road_dash_wide.lin		lines/25_road_dash_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/30_red_line.lin				lines/30_red_line.lin
+EXPORT	ALES_DEV_LIB/Lines/31_red_line_dash.lin			lines/31_red_line_dash.lin
+EXPORT	ALES_DEV_LIB/Lines/32_red_line_wide.lin			lines/32_red_line_wide.lin
+EXPORT	ALES_DEV_LIB/Lines/40_orange_line.lin			lines/40_orange_line.lin
+EXPORT	ALES_DEV_LIB/Lines/41_blue_line.lin				lines/41_blue_line.lin
+EXPORT	ALES_DEV_LIB/Lines/42_green_line.lin			lines/42_green_line.lin
+EXPORT	ALES_DEV_LIB/Lines/51_single_taxi_b.lin			lines/51_single_taxi_b.lin
+EXPORT	ALES_DEV_LIB/Lines/52_single_taxi_dash_b.lin	lines/52_single_taxi_dash_b.lin
+EXPORT	ALES_DEV_LIB/Lines/52-2_single_taxi_dash_bb.lin	lines/52-2_single_taxi_dash_bb.lin
+EXPORT	ALES_DEV_LIB/Lines/53_double_taxi_b.lin			lines/53_double_taxi_b.lin
+EXPORT	ALES_DEV_LIB/Lines/54_double_hold_b.lin			lines/54_double_hold_b.lin
+EXPORT	ALES_DEV_LIB/Lines/55_single_hold_b.lin			lines/55_single_hold_b.lin
+EXPORT	ALES_DEV_LIB/Lines/56_ils_hold_b.lin			lines/56_ils_hold_b.lin
+EXPORT	ALES_DEV_LIB/Lines/57_taxi_hold_b.lin			lines/57_taxi_hold_b.lin
+EXPORT	ALES_DEV_LIB/Lines/58_single_parking_b.lin		lines/58_single_parking_b.lin
+EXPORT	ALES_DEV_LIB/Lines/59_double_parking_b.lin		lines/59_double_parking_b.lin
+EXPORT	ALES_DEV_LIB/Lines/60_single_taxi_wide_b.lin	lines/60_single_taxi_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/61_taxi_hold_wide_b.lin		lines/61_taxi_hold_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/62_double_hold_wide_b.lin	lines/62_double_hold_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/63_other_hold_wide_b.lin		lines/63_other_hold_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/64_ils_hold_wide_b.lin		lines/64_ils_hold_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/70_road_edge_b.lin			lines/70_road_edge_b.lin
+EXPORT	ALES_DEV_LIB/Lines/71_road_edge_zipper_b.lin	lines/71_road_edge_zipper_b.lin
+EXPORT	ALES_DEV_LIB/Lines/72_road_edge_dash_b.lin		lines/72_road_edge_dash_b.lin
+EXPORT	ALES_DEV_LIB/Lines/73_road_dash_b.lin			lines/73_road_dash_b.lin
+EXPORT	ALES_DEV_LIB/Lines/74_road_edge_wide_b.lin		lines/74_road_edge_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/75_road_dash_wide_b.lin		lines/75_road_dash_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/B_Runway_Edge.lin			lines/76_runway_edge_b.lin
+EXPORT	ALES_DEV_LIB/Lines/Runway_edge.lin				lines/77_runway_edge.lin
+EXPORT	ALES_DEV_LIB/Lines/80_red_line_b.lin			lines/80_red_line_b.lin
+EXPORT	ALES_DEV_LIB/Lines/81_red_line_dash_b.lin		lines/81_red_line_dash_b.lin
+EXPORT	ALES_DEV_LIB/Lines/82_red_line_wide_b.lin		lines/82_red_line_wide_b.lin
+EXPORT	ALES_DEV_LIB/Lines/90_orange_line_b.lin			lines/90_orange_line_b.lin
+EXPORT	ALES_DEV_LIB/Lines/91_blue_line_b.lin			lines/91_blue_line_b.lin
+EXPORT	ALES_DEV_LIB/Lines/92_green_line_b.lin			lines/92_green_line_b.lin
+EXPORT	ALES_DEV_LIB/Lines/safety_area_red.pol			lines/safe_area_red.pol
+EXPORT	ALES_DEV_LIB/Lines/safety_area_yellow.pol		lines/safe_area_yellow.pol
+EXPORT	ALES_DEV_LIB/Lines/safety_area_white.pol		lines/safe_area_white.pol
+
+#Cosmetics
+
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_10m.lin		Cosmetics/Tracks/Tracks_1_10m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_20m.lin		Cosmetics/Tracks/Tracks_1_20m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1_30m.lin		Cosmetics/Tracks/Tracks_1_30m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_1.pol			Cosmetics/Tracks/Tracks_1.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_10m.lin		Cosmetics/Tracks/Tracks_2_10m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_20m.lin		Cosmetics/Tracks/Tracks_2_20m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2_30m.lin		Cosmetics/Tracks/Tracks_2_30m.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tracks_2.pol			Cosmetics/Tracks/Tracks_2.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Tireskid.pol			Cosmetics/Tracks/Tireskid.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Grease.pol				Cosmetics/Tracks/Grease.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Dirt2.pol				Cosmetics/Tracks/Dirt2.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Tracks/Dirt_Turn.pol			Cosmetics/Tracks/Dirt_Turn.pol
+
+EXPORT ALES_DEV_LIB/Cosmetics/Grass/Grass.pol				Cosmetics/Grass/Grass.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Grass/Dry_Grass.pol			Cosmetics/Grass/Dry_Grass.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Grass/Dry_Ground.pol			Cosmetics/Grass/Dry_Ground.pol
+
+#Damage
+
+EXPORT ALES_DEV_LIB/Cosmetics/Damage/Tar.lin				cosmetics/Damage/Tar.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Damage/Pot_Hole.pol			cosmetics/Damage/Pot_Hole.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Damage/Patch.pol				cosmetics/Damage/Patch.pol
+EXPORT ALES_DEV_LIB/Cosmetics/Damage/Sealed_Crack.lin		cosmetics/Damage/Sealed_Crack.lin
+EXPORT ALES_DEV_LIB/Cosmetics/Damage/Concrete_damage.pol	cosmetics/Damage/Concrete_damage.pol
+
+#Runway marks
+
+EXPORT ALES_DEV_LIB/Runway_Marks/Arrow.pol				Runway_Marks/Arrow.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Arrow_THS.pol			Runway_Marks/Arrow_THS.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/White_base.pol			Runway_Marks/White_base.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Centerline.lin			Runway_Marks/Centerline.lin
+EXPORT ALES_DEV_LIB/Runway_Marks/Edge_Line.lin			Runway_Marks/Edge_Line.lin
+EXPORT ALES_DEV_LIB/Runway_Marks/Black_Stroke.lin		Runway_Marks/Black_Stroke.lin
+
+#Numbers
+
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/0.pol		Runway_Marks/Numbers/0.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/0B.pol		Runway_Marks/Numbers/0B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/1.pol		Runway_Marks/Numbers/1.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/1B.pol		Runway_Marks/Numbers/1B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/2.pol		Runway_Marks/Numbers/2.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/2B.pol		Runway_Marks/Numbers/2B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/3.pol		Runway_Marks/Numbers/3.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/3B.pol		Runway_Marks/Numbers/3B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/4.pol		Runway_Marks/Numbers/4.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/4B.pol		Runway_Marks/Numbers/4B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/5.pol		Runway_Marks/Numbers/5.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/5B.pol		Runway_Marks/Numbers/5B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/6.pol		Runway_Marks/Numbers/6.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/6B.pol		Runway_Marks/Numbers/6B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/7.pol		Runway_Marks/Numbers/7.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/7B.pol		Runway_Marks/Numbers/7B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/8.pol		Runway_Marks/Numbers/8.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/8B.pol		Runway_Marks/Numbers/8B.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/9.pol		Runway_Marks/Numbers/9.pol
+EXPORT ALES_DEV_LIB/Runway_Marks/Numbers/9B.pol		Runway_Marks/Numbers/9B.pol
+
+#Misc
+
+EXPORT	ALES_DEV_LIB/Misc/Manhole_Covers/Manhole.pol				Misc/Manhole.pol
+EXPORT	ALES_DEV_LIB/Misc/Manhole_Covers/Concrete_Manhole.pol		Misc/Concrete_Manhole.pol
+EXPORT	ALES_DEV_LIB/Misc/Soft_Edge/Soft_Edge.lin					Misc/Soft_Edge.lin
+EXPORT	ALES_DEV_LIB/Misc/Soft_Edge/Soft_Edge_Wide.lin 				Misc/Soft_Edge_Wide.lin
+EXPORT	ALES_DEV_LIB/Misc/Blastpad_surface/Blastpad_concrete.pol	Misc/Blastpad_concrete.pol
+EXPORT	ALES_DEV_LIB/Misc/Road/A_Road.lin							Misc/Road/A_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/A1_Road.lin							Misc/Road/A1_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/A2_Road.lin							Misc/Road/A2_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/E_Road.lin							Misc/Road/E_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/E1_Road.lin							Misc/Road/E1_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/E2_Road.lin							Misc/Road/E2_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/AA_Road.lin							Misc/Road/AA_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/AA1_Road.lin							Misc/Road/AA1_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/AA2_Road.lin							Misc/Road/AA2_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/EE_Road.lin							Misc/Road/EE_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/EE1_Road.lin							Misc/Road/EE1_Road.lin
+EXPORT	ALES_DEV_LIB/Misc/Road/EE2_Road.lin							Misc/Road/EE2_Road.lin
+
+#Ground_Misc
+
+EXPORT ALES_DEV_LIB/Ground_Misc/Gravel.pol			Ground_Misc/Gravel.pol
+EXPORT ALES_DEV_LIB/Ground_Misc/Snow.pol			Ground_Misc/Snow.pol
+EXPORT ALES_DEV_LIB/Ground_Misc/Cobblestone.pol		Ground_Misc/Cobblestone.pol
+EXPORT ALES_DEV_LIB/Ground_Misc/Stone_Tiles.pol		Ground_Misc/Stone_Tiles.pol
+
+------------------------------------------------------------------------------
+ No newline at end of file

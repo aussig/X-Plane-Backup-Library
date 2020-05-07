@@ -1,4 +1,4 @@
 NAPS Library
-v7.2
+v7.3
 By Freddy De Pues
 https://freddydepues.com/naps-library/

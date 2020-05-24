@@ -1,4 +1,0 @@
-Scenery Animation Library - Seasons SDK
-v20200210
-By Marten@Stairport
-https://forums.x-plane.org/index.php?/files/file/59782-scenery-animation-manager-suite/

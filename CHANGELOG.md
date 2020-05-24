@@ -9,6 +9,7 @@
 * Updated Parking Stands and Signs Library to v6.0
 * Updated PuF Library to v1.0.1
 * Updated x_Prefab Library to v8.0
+* SAM Seasons SDK now merged into SAM library 2.0.3.
 
 ## v2.8.0 - 2020-04-07
 

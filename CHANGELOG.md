@@ -1,6 +1,6 @@
 # Release Notes
 
-## vx.x.x - xxxx-xx-xx
+## v3.0.0 - 2020-05-28
 
 * Some library authors are not careful about supporting old paths in their libraries, so when they release a new version it can cause errors. So from this release of the Backup Library onwards we now track historical versions of libraries too, and include all paths that have ever been seen in a libraries history.
 * Updated NAPS Library to v7.2

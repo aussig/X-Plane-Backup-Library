@@ -2,11 +2,12 @@
 # Script to create a release
 # Copyright (c) 2019 Austin Goudge
 
-import sys
-import os
 import datetime
-import shutil
+import glob
+import os
 import re
+import shutil
+import sys
 
 from colorama import Fore, Style
 
@@ -50,40 +51,58 @@ def processLibraries(libraryPath, openSceneryX):
             inputPath = os.path.join(libraryPath, item, "library_osx.txt")
             if (not os.path.isfile(inputPath)):
                 inputPath = os.path.join(libraryPath, item, "library.txt")
+                openSceneryXSpecial = False
+            else:
+                openSceneryXSpecial = True
         else:
             inputPath = os.path.join(libraryPath, item, "library.txt")
+            openSceneryXSpecial = False
 
         if (not os.path.isfile(inputPath)):
             continue
 
-        outputPath = os.path.join(libraryPath, item, "processed.txt")
-        versionPath = os.path.join(libraryPath, item, "version.txt")
+        inputFile = open(inputPath)
+        outputFile = open(os.path.join(libraryPath, item, "processed.txt"), "w")
+        versionFile = open(os.path.join(libraryPath, item, "version.txt"))
 
-        handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX)
+        handleLibraryFile(inputFile, outputFile, versionFile, openSceneryX)
+
+        inputFile.close()
+        versionFile.close()
+
+        if not openSceneryXSpecial:
+            # Include all previous versions of the library if we are not using a special OpenSceneryX version
+            versionsPath = os.path.join(libraryPath, item, "versions")
+            if (os.path.isdir(versionsPath)):
+                outputFile.write("\n# Paths from Previous Versions\n\n")
+                versions = glob.glob(os.path.join(versionsPath, "*.txt"))
+                for version in versions:
+                    inputFile = open(version)
+                    handleLibraryFile(inputFile, outputFile, None, openSceneryX)
+                    inputFile.close()
+
+        outputFile.close()
 
 
-def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
+
+def handleLibraryFile(inputFile, outputFile, versionFile, openSceneryX):
     """ Parse the contents of a library file, and write out an equivalent backup library """
 
-    displayMessage("Processing " + inputPath + "\n")
-
-    inputFile = open(inputPath)
-    outputFile = open(outputPath, "w")
-    versionFile = open(versionPath)
+    displayMessage("Processing " + inputFile.name + "\n")
 
     inputFileContents = inputFile.read()
     inputContents = inputFileContents.splitlines()
-    inputFile.close()
 
-    versionFileContents = versionFile.read()
-    versionContents = versionFileContents.splitlines()
-    versionFile.close()
+    if versionFile is not None:
+        # If a version file is passed in, copy it into the output file
+        versionFileContents = versionFile.read()
+        versionContents = versionFileContents.splitlines()
 
-    # Write version info header
-    for line in versionContents:
-        outputFile.write("# " + line + "\n")
+        # Write version info header
+        for line in versionContents:
+            outputFile.write("# " + line + "\n")
 
-    outputFile.write("\n")
+        outputFile.write("\n")
 
     if openSceneryX:
         placeholderFolder = "opensceneryx"
@@ -214,8 +233,6 @@ def handleLibraryFile(inputPath, outputPath, versionPath, openSceneryX):
 
     if hasLibExports:
         displayMessage("This library has lib/ paths which may need review\n", "note")
-
-    outputFile.close()
 
 
 def handleVirtualPath(virtualPath, outputFile, placeholderFolder, extension):

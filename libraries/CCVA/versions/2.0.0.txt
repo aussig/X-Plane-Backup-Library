@@ -1,7 +1,7 @@
 A
 800
 LIBRARY
-# Version: 1.9.0 by CCVA022 (Lars de Jonge) 
+# Version: 1.9.0 by CCVA022 (Lars de Jonge)
 EXPORT CCVA022_Object_Library/Infra/Swisshut/Swisshut.obj Infra/Swisshut/Swisshut.obj
 EXPORT CCVA022_Object_Library/Infra/HangarCCVA/HangarCCVA.obj Infra/HangarCCVA/HangarCCVA.obj
 EXPORT CCVA022_Object_Library/Infra/CCVAHouse/CCVAHouse.obj Infra/CCVAHouse/CCVAHouse.obj
@@ -48,14 +48,3 @@ EXPORT CCVA022_Object_Library/Infra/CCVAShedHangar/CCVAShedHangar.obj Infra/CCVA
 EXPORT CCVA022_Object_Library/Items/CCVAOilStore/CCVAOilStore.obj Items/CCVAOilStore/CCVAOilStore.obj
 EXPORT CCVA022_Object_Library/Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj Items/CCVAOilStoreSmall/CCVAOilStoreSmall.obj
 EXPORT CCVA022_Object_Library/Items/CCVATUI/CCVATUI.obj Items/CCVATUI/CCVATUI.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATerminal/CCVATerminal.obj Infra/CCVATerminal/CCVATerminal.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAPrivHan/CCVAPrivHan.obj Infra/CCVAPrivHan/CCVAPrivHan.obj
-EXPORT CCVA022_Object_Library/Items/CCVAC172SAHS/CCVAC172SAHS.obj Items/CCVAC172SAHS/CCVAC172SAHS.obj
-EXPORT CCVA022_Object_Library/Items/CCVAC172SAHSJerry/CCVAC172SAHSJerry.obj Items/CCVAC172SAHSJerry/CCVAC172SAHSJerry.obj
-EXPORT CCVA022_Object_Library/Items/CCVAGlobe/CCVAGlobe.obj Items/CCVAGlobe/CCVAGlobe.obj
-EXPORT CCVA022_Object_Library/Items/CCVARwyMrkr/CCVARwyMrkr.obj Items/CCVARwyMrkr/CCVARwyMrkr.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAAirOps/CCVAAirOps.obj Infra/CCVAAirOps/CCVAAirOps.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATumut3/CCVATumut3.obj Infra/CCVATumut3/CCVATumut3.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAAfricanhut/CCVAAfricanhut.obj Infra/CCVAAfricanhut/CCVAAfricanhut.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAShed/CCVAShed.obj Infra/CCVAShed/CCVAShed.obj
-EXPORT CCVA022_Object_Library/Infra/CCVABldg/CCVABldg.obj Infra/CCVABldg/CCVABldg.obj

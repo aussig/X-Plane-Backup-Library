@@ -1,0 +1,21 @@
+A
+800
+LIBRARY
+
+# Helipad Markings Library
+
+EXPORT Helipad_Markings_Library/H_med1.pol H_med1.pol
+EXPORT Helipad_Markings_Library/H_med2.pol H_med2.pol
+EXPORT Helipad_Markings_Library/H_med3.pol H_med3.pol
+EXPORT Helipad_Markings_Library/H_med4.pol H_med4.pol
+EXPORT Helipad_Markings_Library/H_med5.pol H_med5.pol
+EXPORT Helipad_Markings_Library/H_med6.pol H_med6.pol
+EXPORT Helipad_Markings_Library/H_med7.pol H_med7.pol
+EXPORT Helipad_Markings_Library/H_med8.pol H_med8.pol
+EXPORT Helipad_Markings_Library/H_med9.pol H_med9.pol
+EXPORT Helipad_Markings_Library/H_med10.pol H_med10.pol
+EXPORT Helipad_Markings_Library/H_med11.pol H_med11.pol
+
+# ---------
+# [  END  ]
+# ---------

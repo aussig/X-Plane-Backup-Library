@@ -56,6 +56,3 @@ EXPORT CCVA022_Object_Library/Items/CCVAGlobe/CCVAGlobe.obj Items/CCVAGlobe/CCVA
 EXPORT CCVA022_Object_Library/Items/CCVARwyMrkr/CCVARwyMrkr.obj Items/CCVARwyMrkr/CCVARwyMrkr.obj
 EXPORT CCVA022_Object_Library/Infra/CCVAAirOps/CCVAAirOps.obj Infra/CCVAAirOps/CCVAAirOps.obj
 EXPORT CCVA022_Object_Library/Infra/CCVATumut3/CCVATumut3.obj Infra/CCVATumut3/CCVATumut3.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAAfricanhut/CCVAAfricanhut.obj Infra/CCVAAfricanhut/CCVAAfricanhut.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAShed/CCVAShed.obj Infra/CCVAShed/CCVAShed.obj
-EXPORT CCVA022_Object_Library/Infra/CCVABldg/CCVABldg.obj Infra/CCVABldg/CCVABldg.obj

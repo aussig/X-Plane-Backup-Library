@@ -1,4 +1,4 @@
 Parking Stands and Signs Library
-v3.2
+v6.0
 By ADSparks
 https://forums.x-plane.org/index.php?/files/file/47600-parking-stands-signs/

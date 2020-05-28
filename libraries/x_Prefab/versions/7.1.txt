@@ -1,7 +1,7 @@
 A
 800
 LIBRARY
-#      Version 8.0 XP11
+#      Version 7.1 XP11
 #
 #      General explanation
 #      -------------------
@@ -521,7 +521,7 @@ EXPORT prefab/tower_office.obj buildings/TowerLOffice.obj
 EXPORT prefab/Fire_exting.obj misc/Ramp_Fire_Extinguisher.obj
 #      Objects from Capbsully, modified into objects
 EXPORT prefab/grass_12m.obj misc/Grass_12m.obj
-#      Objects used from Laminar (to prevent overwriting by Europe and other libraries)
+#      Objects used from Laminar (mainly to prevent overwriting by Europe and other libraries)
 EXPORT prefab/terras.obj lib/LawnGrpMed1.obj
 EXPORT prefab/FactA15x22.obj lib/FactA15x22.obj
 EXPORT prefab/FactA60x30.obj lib/FactA60x30.obj
@@ -539,8 +539,46 @@ EXPORT prefab/HR60x50x112Bs.obj lib/HR60x50x112Bs.obj
 EXPORT prefab/uh15x15v0.obj lib/uh15x15v0.obj
 EXPORT prefab/uh40x40v1.obj lib/uh40x40v1.obj
 EXPORT prefab/uh45x45v1.obj lib/uh45x45v1.obj
+EXPORT prefab/AirplaneParkingLine.obj misc/AirplaneParkingLine.obj
 ##      Objects source unknown
 EXPORT prefab/heli1.obj aircraft/B206_Jet_OBJv8.obj
 EXPORT prefab/heli2.obj aircraft/AH1_Cobra_OBJv8.obj
 EXPORT prefab/heli3.obj aircraft/sailsportheli.obj
 EXPORT prefab/heli4.obj aircraft/H145_securiteCivile_parking.obj
+##		For backward compatibility
+EXPORT prefab/regprop1.obj blank/blank.obj
+EXPORT prefab/regprop1.obj blank/blank.obj
+EXPORT prefab/regprop2.obj blank/blank.obj
+EXPORT prefab/regprop3.obj blank/blank.obj
+EXPORT prefab/regprop4.obj blank/blank.obj
+EXPORT prefab/regprop5.obj blank/blank.obj
+EXPORT prefab/regprop6.obj blank/blank.obj
+EXPORT prefab/regprop7.obj blank/blank.obj
+EXPORT prefab/regprop8.obj blank/blank.obj
+EXPORT prefab/regprop9.obj blank/blank.obj
+#
+EXPORT prefab/regjet1.obj blank/blank.obj
+EXPORT prefab/regjet2.obj blank/blank.obj
+EXPORT prefab/regjet3.obj blank/blank.obj
+EXPORT prefab/regjet4.obj blank/blank.obj
+#
+EXPORT prefab/corpjet1.obj blank/blank.obj
+EXPORT prefab/corpjet2.obj blank/blank.obj
+EXPORT prefab/corpjet3.obj blank/blank.obj
+EXPORT prefab/corpjet4.obj blank/blank.obj
+EXPORT prefab/corpjet5.obj blank/blank.obj
+#
+EXPORT prefab/gaprop1.obj blank/blank.obj
+EXPORT prefab/gaprop2.obj blank/blank.obj
+EXPORT prefab/gaprop3.obj blank/blank.obj
+EXPORT prefab/gaprop4.obj blank/blank.obj
+EXPORT prefab/gaprop5.obj blank/blank.obj
+EXPORT prefab/gaprop6.obj blank/blank.obj
+EXPORT prefab/gaprop7.obj blank/blank.obj
+EXPORT prefab/gaprop8.obj blank/blank.obj
+EXPORT prefab/gaprop9.obj blank/blank.obj
+EXPORT prefab/gaprop10.obj blank/blank.obj
+#
+EXPORT prefab/glider1.obj blank/blank.obj
+EXPORT prefab/glider2.obj blank/blank.obj
+EXPORT prefab/glider3.obj blank/blank.obj

@@ -122,10 +122,6 @@ EXPORT handyobjects/flags/flag_pole.obj Flag_Pole.obj
 EXPORT handyobjects/flags/golf_flag_red.obj Golf_Flag_Red.obj
 EXPORT handyobjects/flags/golf_flag_yellow.obj Golf_Flag_Yellow.obj
 
-EXPORT handyobjects/flags/circus_stand_flag.str Circus_Stand_Flag.str
-EXPORT handyobjects/flags/circus_stand_flag.obj Circus_Stand_Flag.obj
-EXPORT handyobjects/flags/circus_flag.obj Circus_Flag.obj
-
 EXPORT handyobjects/trolleys/baggage_trolley_single.obj Baggage_Trolley_Single.obj
 EXPORT handyobjects/trolleys/baggage_trolley_row_2.obj Baggage_Trolley_Row_2.obj
 EXPORT handyobjects/trolleys/baggage_trolley_row_5.obj Baggage_Trolley_Row_5.obj
@@ -153,8 +149,6 @@ EXPORT handyobjects/trolleys/wheelbarrow_green.obj Wheelbarrow_green.obj
 EXPORT handyobjects/trolleys/wheelbarrow_green_upside_down.obj Wheelbarrow_green_upside_down.obj
 EXPORT handyobjects/trolleys/wheelbarrow_red.obj Wheelbarrow_red.obj
 
-EXPORT handyobjects/trolleys/wheelbarrow_black_with_sand.obj Wheelbarrow_black_With_Sand.obj
-
 EXPORT handyobjects/trolleys/electric_tug.obj Electric_Tug.obj
 
 EXPORT handyobjects/trolleys/fire_extinguisher.obj Fire_Extinguisher.obj
@@ -179,9 +173,6 @@ EXPORT handyobjects/trolleys/hospital_stretcher_hospital_helipad.obj Hospital_St
 
 EXPORT handyobjects/trolleys/hand_cart.obj Hand_Cart.obj
 EXPORT handyobjects/trolleys/hand_cart_with_luggage.obj Hand_Cart_With_Luggage.obj
-
-EXPORT handyobjects/trolleys/ice_cream_cart_red.obj Ice_Cream_Cart_Red.obj
-EXPORT handyobjects/trolleys/ice_cream_cart_blue.obj Ice_Cream_Cart_Blue.obj
 
 EXPORT handyobjects/farm/silage_bale.obj Silage_Bale.obj
 EXPORT handyobjects/farm/silage_bale_row.obj Silage_Bale_Row.obj
@@ -257,8 +248,6 @@ EXPORT handyobjects/storage/grit_container_hospital_helipad.obj Grit_Container_H
 
 EXPORT handyobjects/storage/packing_crate_large.obj Packing_Crate_Large.obj
 EXPORT handyobjects/storage/packing_crate_small.obj Packing_Crate_Small.obj
-
-EXPORT handyobjects/storage/red_cross_crate.obj Red_Cross_Crate.obj
 
 EXPORT handyobjects/storage/gascylinder.obj Gascylinder.obj
 EXPORT handyobjects/storage/gasrackandcylinders.obj Gasrackandcylinders.obj
@@ -486,28 +475,10 @@ EXPORT handyobjects/storage/hold_all_blue.obj Hold_All_Blue.obj
 EXPORT handyobjects/storage/hold_all_red.obj Hold_All_Red.obj
 EXPORT handyobjects/storage/hold_all_group.obj Hold_All_Group.obj
 
-EXPORT handyobjects/storage/offshore_chemical_tank_red.obj Offshore_Chemical_Tank_Red.obj
-EXPORT handyobjects/storage/offshore_chemical_tank_blue.obj Offshore_Chemical_Tank_Blue.obj
-EXPORT handyobjects/storage/offshore_chemical_tank_stack.obj Offshore_Chemical_Tank_Stack.obj
-EXPORT handyobjects/storage/offshore_chemical_tank_with_sling.obj Offshore_Chemical_Tank_With_Sling.obj
-
 EXPORT handyobjects/storage/fuel_tank.obj Fuel_Tank.obj
-EXPORT handyobjects/storage/fuel_cabin.obj Fuel_Cabin.obj
-EXPORT handyobjects/storage/storage_box.obj Storage_Box.obj
 
 EXPORT handyobjects/lighting/generator.obj Generator.obj
 EXPORT handyobjects/lighting/generator_running.obj Generator_Running.obj
-
-EXPORT handyobjects/lighting/generator_II.obj Generator_II.obj
-EXPORT handyobjects/lighting/generator_II_running.obj Generator_II_Running.obj
-
-EXPORT handyobjects/lighting/generator_III.obj Generator_III.obj
-EXPORT handyobjects/lighting/generator_III_running.obj Generator_III_Running.obj
-EXPORT handyobjects/lighting/generator_III_oil_supply_boat.obj Generator_III_Oil_Supply_Boat.obj
-
-EXPORT handyobjects/lighting/generator_IV.obj Generator_IV.obj
-EXPORT handyobjects/lighting/generator_IV_running.obj Generator_IV_Running.obj
-EXPORT handyobjects/lighting/generator_IV_oil_supply_boat.obj Generator_IV_Oil_Supply_Boat.obj
 
 EXPORT handyobjects/lighting/portable_light_tower_on.obj Portable_Light_Tower_On.obj
 EXPORT handyobjects/lighting/portable_light_tower.obj Portable_Light_Tower.obj
@@ -728,9 +699,6 @@ EXPORT handyobjects/gatesandfences/hedge_tall.str hedge_tall.str
 
 EXPORT handyobjects/gatesandfences/wooden_fence.str wooden_fence.str
 EXPORT handyobjects/gatesandfences/wooden_fence_white.str wooden_fence_white.str
-
-EXPORT handyobjects/gatesandfences/wooden_fence.obj Wooden_Fence.obj
-EXPORT handyobjects/gatesandfences/wooden_fence_white.obj Wooden_Fence_White.obj
 
 EXPORT handyobjects/gatesandfences/walkway_barrier.str walkway_barrier.str
 EXPORT handyobjects/gatesandfences/walkway_barrier.obj Walkway_Barrier.obj
@@ -957,13 +925,13 @@ EXPORT handyobjects/gatesandfences/chain_link_fence_gate_2.5m_closed.obj Chain_L
 EXPORT handyobjects/gatesandfences/chain_link_fence_gate_2.5m_open.obj Chain_Link_Fence_Gate_2.5m_Open.obj
 
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m.str Chain_Link_Fence_Short_2m.str
-EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m.obj Chain_Link_Fence_Short_2m.obj
+EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m.obj Chain_Link_Fence_2m.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m_2panel.obj Chain_Link_Fence_Short_2m_2panel.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m_5panel.obj Chain_Link_Fence_Short_2m_5panel.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m_10panel.obj Chain_Link_Fence_Short_2m_10panel.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2m_20panel.obj Chain_Link_Fence_Short_2m_20panel.obj
 
-EXPORT handyobjects/gatesandfences/chain_link_fence_short_2.5m.obj Chain_Link_Fence_Short_2.5m.obj
+EXPORT handyobjects/gatesandfences/chain_link_fence_short_2.5m.obj Chain_Link_Fence_2.5m.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2.5m_2_panel.obj Chain_Link_Fence_Short_2.5m_2_Panel.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2.5m_5_panel.obj Chain_Link_Fence_Short_2.5m_5_Panel.obj
 EXPORT handyobjects/gatesandfences/chain_link_fence_short_2.5m_10_panel.obj Chain_Link_Fence_Short_2.5m_10_Panel.obj
@@ -996,7 +964,6 @@ EXPORT handyobjects/gatesandfences/glass_fence_2m_tall.str Glass_Fence_2m_Tall.s
 EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_single.obj Glass_Fence_2m_Tall_Single.obj
 EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_2_panel.obj Glass_Fence_2m_Tall_2_Panel.obj
 EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_5_panel.obj Glass_Fence_2m_Tall_5_Panel.obj
-EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_5_panel_.obj Glass_Fence_2m_Tall_5_Panel_.obj
 EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_10_panel.obj Glass_Fence_2m_Tall_10_Panel.obj
 EXPORT handyobjects/gatesandfences/glass_fence_2m_tall_20_panel.obj Glass_Fence_2m_Tall_20_Panel.obj
 
@@ -1203,14 +1170,12 @@ EXPORT handyobjects/markers/marker_stones_III_granite.obj Marker_Stones_III_Gran
 
 EXPORT handyobjects/markers/marker_stones.str Marker_Stones.str
 EXPORT handyobjects/markers/marker_stones_1m.obj Marker_Stones_1m.obj
-EXPORT handyobjects/markers/marker_stones_2m.obj Marker_Stones_2m.obj
 EXPORT handyobjects/markers/marker_stones_5m.obj Marker_Stones_5m.obj
 EXPORT handyobjects/markers/marker_stones_10m.obj Marker_Stones_10m.obj
 EXPORT handyobjects/markers/marker_stones_20m.obj Marker_Stones_20m.obj
 
 EXPORT handyobjects/markers/marker_stones_granite.str Marker_Stones_Granite.str
 EXPORT handyobjects/markers/marker_stones_1m_granite.obj Marker_Stones_1m_Granite.obj
-EXPORT handyobjects/markers/marker_stones_2m_granite.obj Marker_Stones_2m_Granite.obj
 EXPORT handyobjects/markers/marker_stones_5m_granite.obj Marker_Stones_5m_Granite.obj
 EXPORT handyobjects/markers/marker_stones_10m_granite.obj Marker_Stones_10m_Granite.obj
 EXPORT handyobjects/markers/marker_stones_20m_granite.obj Marker_Stones_20m_Granite.obj
@@ -1276,12 +1241,6 @@ EXPORT handyobjects/markers/bollard_II_yellow.str Bollard_II_Yellow.str
 EXPORT handyobjects/markers/bollard_II_yellow.obj Bollard_II_Yellow.obj
 EXPORT handyobjects/markers/bollard_II_concrete.str Bollard_II_Concrete.str
 EXPORT handyobjects/markers/bollard_II_concrete.obj Bollard_II_Concrete.obj
-
-EXPORT handyobjects/markers/bollard_II_black.str Bollard_II_Black.str
-EXPORT handyobjects/markers/bollard_II_black.obj Bollard_II_Black.obj
-
-EXPORT handyobjects/markers/bollard_III_black.str Bollard_III_Black.str
-EXPORT handyobjects/markers/bollard_III_black.obj Bollard_III_Black.obj
 
 EXPORT handyobjects/markers/bollard_III_red.str Bollard_III_Red.str
 EXPORT handyobjects/markers/bollard_III_red.obj Bollard_III_Red.obj
@@ -1399,10 +1358,6 @@ EXPORT handyobjects/vehicles/camper_van.obj Camper_Van.obj
 
 EXPORT handyobjects/vehicles/VW_camper.obj VW_Camper.obj
 
-EXPORT handyobjects/vehicles/VW_camper_green.obj VW_Camper_Green.obj
-
-EXPORT handyobjects/vehicles/VW_camper_red.obj VW_Camper_Red.obj
-
 EXPORT handyobjects/vehicles/pickup_truck.obj PickUp_Truck.obj
 
 EXPORT handyobjects/vehicles/london_taxi.obj London_Taxi.obj
@@ -1429,8 +1384,6 @@ EXPORT handyobjects/vehicles/atv_trailor.obj ATV_Trailor.obj
 EXPORT handyobjects/vehicles/atv_trailor_tilted_backward.obj ATV_Trailor_Tilted_Backward.obj
 EXPORT handyobjects/vehicles/atv_trailor_tilted_forward.obj ATV_Trailor_Tilted_Forward.obj
 
-EXPORT handyobjects/vehicles/atv_no_rifle_lower_tow_hook.obj ATV_No_Rifle_Lower_Tow_Hook.obj
-
 EXPORT handyobjects/vehicles/snow_mobile_red.obj Snow_Mobile_Red.obj
 EXPORT handyobjects/vehicles/snow_mobile_yellow.obj Snow_Mobile_Yellow.obj
 
@@ -1446,14 +1399,6 @@ EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit.obj Articulated_Lorr
 EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit_static.obj Articulated_Lorry_Tractor_Unit_Static.obj
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_Static.obj Articulated_Lorry_Trailor_Black_Static.obj
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_blue_Static.obj Articulated_Lorry_Trailor_Blue_Static.obj
-
-EXPORT handyobjects/vehicles/articulated_lorry_and_white_box_trailor_no_smoke.obj Articulated_Lorry_And_White_Box_Trailor_No_Smoke.obj
-EXPORT handyobjects/vehicles/articulated_lorry_tractor_unit_no_smoke.obj Articulated_Lorry_Tractor_Unit_No_Smoke.obj
-
-EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_static_II.obj Articulated_Lorry_Trailor_Black_Static_II.obj
-EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_II.obj Articulated_Lorry_Trailor_Black_II.obj
-EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_static_short.obj Articulated_Lorry_Trailor_Black_Static_Short.obj
-EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_short.obj Articulated_Lorry_Trailor_Black_Short.obj
 
 EXPORT handyobjects/buildings/portacabin.obj Portacabin.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows.obj Portacabin_Dark_Windows.obj
@@ -1736,8 +1681,6 @@ EXPORT handyobjects/seaplane/seagull_I_spd.obj Seagull_I_SPD.obj
 EXPORT handyobjects/seaplane/seagull_II_spd.obj Seagull_II_SPD.obj
 EXPORT handyobjects/seaplane/seagull_III_spd.obj Seagull_III_SPD.obj
 
-EXPORT handyobjects/seaplane/pallet_stack_spd.obj Pallet_Stack_SPD.obj
-
 EXPORT handyobjects/seaplane/scuba_trolley_with_tanks_SPD.obj SCUBA_Trolley_With_Tanks_SPD.obj
 EXPORT handyobjects/seaplane/scuba_trolley_with_tanks_II_SPD.obj SCUBA_Trolley_With_Tanks_II_SPD.obj
 EXPORT handyobjects/seaplane/scuba_single_tank_SPD.obj SCUBA_Single_Tank_SPD.obj
@@ -1833,7 +1776,7 @@ EXPORT handyobjects/tunnels/rail_tunnel_II.obj Rail_Tunnel_II.obj
 EXPORT handyobjects/tunnels/road_tunnel_I.obj Road_Tunnel_I.obj
 EXPORT handyobjects/tunnels/road_tunnel_II.obj Road_Tunnel_II.obj
 EXPORT handyobjects/tunnels/road_tunnel_III.obj Road_Tunnel_III.obj
-EXPORT handyobjects/tunnels/road_tunnel_III_no_sign.obj Road_Tunnel_III_No_Sign.obj
+EXPORT handyobjects/tunnels/road_tunnel_III_no_sign.obj Road_Tunnel_III_no_Sign.obj
 EXPORT handyobjects/tunnels/rail_tunnel_I.str Rail_Tunnel_I.str
 EXPORT handyobjects/tunnels/rail_tunnel_II.str Rail_Tunnel_II.str
 EXPORT handyobjects/tunnels/road_tunnel_I.str Road_Tunnel_I.str
@@ -1849,8 +1792,6 @@ EXPORT handyobjects/helipads/nui.obj NUI.obj
 EXPORT handyobjects/helipads/nui_mono_tower.obj NUI_Mono_Tower.obj
 EXPORT handyobjects/helipads/nui_lite.obj NUI_LITE.obj
 EXPORT handyobjects/helipads/nui_spar.obj NUI_SPAR.obj
-
-EXPORT handyobjects/helipads/nui_lite_complex.obj NUI_LITE_Complex.obj
 
 EXPORT handyobjects/helipads/helipad_ground.obj Helipad_Ground.obj
 EXPORT handyobjects/helipads/helipad_ground_round.obj Helipad_Ground_Round.obj
@@ -1876,30 +1817,6 @@ EXPORT handyobjects/helipads/hotspot_yellow.obj Hotspot_Yellow.obj
 EXPORT handyobjects/helipads/circular_contrete_helipad_raised.obj Circular_Contrete_Helipad_Raised.obj
 
 EXPORT handyobjects/helipads/helipad.obj Helipad.obj
-
-EXPORT handyobjects/helipads/helicopter_h.obj Helicopter_H.obj
-EXPORT handyobjects/helipads/helicopter_H.obj Helicopter_H.obj
-
-EXPORT handyobjects/helipads/dive_support_vessel.obj Dive_Support_Vessel.obj
-EXPORT handyobjects/helipads/dive_support_vessel_animated_crane.obj Dive_Support_Vessel_Animated_Crane.obj
-EXPORT handyobjects/helipads/bulk_carrier_ship_black.obj Bulk_Carrier_Ship_Black.obj
-
-EXPORT handyobjects/helipads/fpso_blue.obj FPSO_Blue.obj
-EXPORT handyobjects/helipads/fpso_black.obj FPSO_Black.obj
-EXPORT handyobjects/helipads/fpso_green.obj FPSO_Green.obj
-EXPORT handyobjects/helipads/fpso_red.obj FPSO_Red.obj
-EXPORT handyobjects/helipads/lightship_with_helideck.obj Lightship_With_Helideck.obj
-
-EXPORT handyobjects/helipads/lighthouse_with_helideck.obj Lighthouse_With_Helideck.obj
-EXPORT handyobjects/helipads/lighthouse_with_helideck_no_rocks.obj Lighthouse_With_Helideck_No_Rocks.obj
-EXPORT handyobjects/helipads/lighthouse_with_helideck_II.obj Lighthouse_With_Helideck_II.obj
-EXPORT handyobjects/helipads/lighthouse_with_helideck_II_no_rocks.obj Lighthouse_With_Helideck_II_No_Rocks.obj
-
-EXPORT handyobjects/helipads/drill_rig_jack_up.obj Drill_Rig_Jack_Up.obj
-EXPORT handyobjects/helipads/drill_semi_sub_on_tow.obj Drill_Rig_Semi_Sub_On_Tow.obj
-EXPORT handyobjects/helipads/drill_semi_sub_on_location.obj Drill_Rig_Semi_Sub_On_Location.obj
-
-EXPORT handyobjects/buildings/lighthouse_with_helideck_III.obj Lighthouse_With_Helideck_III.obj
 
 EXPORT handyobjects/harbour/ferry_ramp_number_1.obj Ferry_Ramp_Number_1.obj
 EXPORT handyobjects/harbour/ferry_ramp_number_2.obj Ferry_Ramp_Number_2.obj
@@ -2138,8 +2055,6 @@ EXPORT handyobjects/aircraft/twin_otter_nepal_airlines.obj Twin_Otter_Nepal_Airl
 EXPORT handyobjects/aircraft/twin_otter_white.obj Twin_Otter_White.obj
 EXPORT handyobjects/aircraft/twin_otter_yellow.obj Twin_Otter_Yellow.obj
 
-EXPORT handyobjects/aircraft/twin_otter_red.obj Twin_Otter_Red.obj
-
 EXPORT handyobjects/aircraft/piper_cherokee_green_no_reg_static_with_engine_cover.obj Piper_Cherokee_Green_No_Reg_Static_With_Engine_Cover.obj
 
 EXPORT handyobjects/aircraft/sikorsky_s-92_chc.obj Sikorsky_S-92_CHC.obj
@@ -2189,8 +2104,6 @@ EXPORT handyobjects/boats/oil_supply_boat_blue.obj Oil_Supply_Boat_Blue.obj
 EXPORT handyobjects/boats/oil_supply_boat_yellow.obj Oil_Supply_Boat_Yellow.obj
 
 EXPORT handyobjects/boats/generator_oil_supply_boat.obj Generator_Oil_Supply_Boat.obj
-EXPORT handyobjects/boats/generator_III_oil_supply_boat.obj Generator_III_Oil_Supply_Boat.obj
-EXPORT handyobjects/boats/generator_IV_oil_supply_boat.obj Generator_IV_Oil_Supply_Boat.obj
 EXPORT handyobjects/boats/ibc_oil_supply_boat.obj IBC_Oil_Supply_Boat.obj
 EXPORT handyobjects/boats/iso_tank_blue_oil_supply_boat.obj ISO_Tank_Blue_Oil_Supply_Boat.obj
 EXPORT handyobjects/boats/iso_tank_red_oil_supply_boat.obj ISO_Tank_Red_Oil_Supply_Boat.obj
@@ -2200,12 +2113,6 @@ EXPORT handyobjects/boats/shipping_container_20ft_red_single_oil_supply_boat.obj
 EXPORT handyobjects/boats/fishing_boat_small_blue.obj Fishing_Boat_Small_Blue.obj
 EXPORT handyobjects/boats/fishing_boat_small_red.obj Fishing_Boat_Small_Red.obj
 EXPORT handyobjects/boats/fishing_boat_small_green.obj Fishing_Boat_Small_Green.obj
-
-EXPORT handyobjects/boats/fishing_boat_blue.obj Fishing_Boat_Blue.obj
-EXPORT handyobjects/boats/fishing_boat_red.obj Fishing_Boat_Red.obj
-EXPORT handyobjects/boats/fishing_boat_black.obj Fishing_Boat_Black.obj
-
-EXPORT handyobjects/boats/fishing_boat_black_animated.obj Fishing_Boat_Black_Animated.obj
 
 EXPORT handyobjects/boats/fishing_boat_small_blue_animated.obj Fishing_Boat_Small_Blue_Animated.obj
 EXPORT handyobjects/boats/fishing_boat_small_red_animated.obj Fishing_Boat_Small_Red_Animated.obj
@@ -2234,18 +2141,6 @@ EXPORT handyobjects/boats/lightship_with_helideck.obj Lightship_With_Helideck.ob
 
 EXPORT handyobjects/boats/parasail_and_motor_boat.obj Parasail_and_Motor_Boat.obj
 EXPORT handyobjects/boats/parasail_and_motor_boat_II.obj Parasail_and_Motor_Boat_II.obj
-
-EXPORT handyobjects/boats/bulk_carrier_ship_black.obj Bulk_Carrier_Ship_Black.obj
-EXPORT handyobjects/boats/bulk_carrier_ship_grey.obj Bulk_Carrier_Ship_Grey.obj
-
-EXPORT handyobjects/boats/dive_support_vessel.obj Dive_Support_Vessel.obj
-EXPORT handyobjects/boats/dive_support_vessel_animated_crane.obj Dive_Support_Vessel_Animated_Crane.obj
-EXPORT handyobjects/boats/dive_support_vessel_animated.obj Dive_Support_Vessel_Animated.obj
-
-EXPORT handyobjects/boats/anchor_handler_yellow.obj Anchor_Handler_Yellow.obj
-EXPORT handyobjects/boats/anchor_handler_yellow_II.obj Anchor_Handler_Yellow_II.obj
-EXPORT handyobjects/boats/anchor_handler_red.obj Anchor_Handler_Red.obj
-EXPORT handyobjects/boats/anchor_handler_red_II.obj Anchor_Handler_Red_II.obj
 
 EXPORT handyobjects/windsocks/windsock_red_and_white_10m.obj Windsock_Red_And_White_10m.obj
 EXPORT handyobjects/windsocks/windsock_red_and_white_10m_no_light.obj Windsock_Red_And_White_10m_No_Light.obj
@@ -2318,42 +2213,7 @@ EXPORT handyobjects/oilfield/nui_mono_tower.obj NUI_Mono_Tower.obj
 EXPORT handyobjects/oilfield/nui_lite.obj NUI_LITE.obj
 EXPORT handyobjects/oilfield/nui_spar.obj NUI_SPAR.obj
 
-EXPORT handyobjects/oilfield/nui_lite_complex.obj NUI_LITE_Complex.obj
-
-EXPORT handyobjects/oilfield/dive_support_vessel.obj Dive_Support_Vessel.obj
-EXPORT handyobjects/oilfield/dive_support_vessel_animated_crane.obj Dive_Support_Vessel_Animated_Crane.obj
-EXPORT handyobjects/oilfield/dive_support_vessel_animated.obj Dive_Support_Vessel_Animated.obj
-
 EXPORT handyobjects/oilfield/remote_flare.obj Remote_Flare.obj
-
-EXPORT handyobjects/oilfield/oil_supply_boat_red.obj Oil_Supply_Boat_Red.obj
-EXPORT handyobjects/oilfield/oil_supply_boat_green.obj Oil_Supply_Boat_Green.obj
-EXPORT handyobjects/oilfield/oil_supply_boat_blue.obj Oil_Supply_Boat_Blue.obj
-EXPORT handyobjects/oilfield/oil_supply_boat_yellow.obj Oil_Supply_Boat_Yellow.obj
-
-EXPORT handyobjects/oilfield/generator_oil_supply_boat.obj Generator_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/generator_III_oil_supply_boat.obj Generator_III_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/generator_IV_oil_supply_boat.obj Generator_IV_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/ibc_oil_supply_boat.obj IBC_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/iso_tank_blue_oil_supply_boat.obj ISO_Tank_Blue_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/iso_tank_red_oil_supply_boat.obj ISO_Tank_Red_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/shipping_container_20ft_blue_single_oil_supply_boat.obj Shipping_Container_20ft_Blue_Single_Oil_Supply_Boat.obj
-EXPORT handyobjects/oilfield/shipping_container_20ft_red_single_oil_supply_boat.obj Shipping_Container_20ft_Red_Single_Oil_Supply_Boat.obj
-
-EXPORT handyobjects/oilfield/drill_rig_jack_up.obj Drill_Rig_Jack_Up.obj
-EXPORT handyobjects/oilfield/drill_semi_sub_on_tow.obj Drill_Rig_Semi_Sub_On_Tow.obj
-EXPORT handyobjects/oilfield/drill_semi_sub_on_location.obj Drill_Rig_Semi_Sub_On_Location.obj
-EXPORT handyobjects/oilfield/offshore_chemical_tank_red.obj Offshore_Chemical_Tank_Red.obj
-EXPORT handyobjects/oilfield/offshore_chemical_tank_blue.obj Offshore_Chemical_Tank_Blue.obj
-EXPORT handyobjects/oilfield/offshore_chemical_tank_stack.obj Offshore_Chemical_Tank_Stack.obj
-EXPORT handyobjects/oilfield/offshore_chemical_tank_with_sling.obj Offshore_Chemical_Tank_With_Sling.obj
-EXPORT handyobjects/oilfield/nui_lite_no_helideck.obj NUI_Lite_No_Helideck.obj
-EXPORT handyobjects/oilfield/drill_pipe_stack_up.obj Drill_Pipe_Stack.obj
-
-EXPORT handyobjects/oilfield/anchor_handler_yellow.obj Anchor_Handler_Yellow.obj
-EXPORT handyobjects/oilfield/anchor_handler_yellow_II.obj Anchor_Handler_Yellow_II.obj
-EXPORT handyobjects/oilfield/anchor_handler_red.obj Anchor_Handler_Red.obj
-EXPORT handyobjects/oilfield/anchor_handler_red_II.obj Anchor_Handler_Red_II.obj
 
 EXPORT handyobjects/pathsandroads/dirt_path.lin Dirt_Path.lin
 EXPORT handyobjects/pathsandroads/dirt_path_narrow.lin Dirt_Path_Narrow.lin
@@ -2391,63 +2251,6 @@ EXPORT handyobjects/signalsquare/signal_square_9x9.obj Signal_Square_9x9.obj
 EXPORT handyobjects/signalsquare/signal_square_12x12.obj Signal_Square_12x12.obj
 EXPORT handyobjects/signalsquare/t_bar_white.obj T_Bar_White.obj
 EXPORT handyobjects/signalsquare/t_bar_orange.obj T_Bar_Orange.obj
-
-EXPORT handyobjects/circus/ferris_wheel.obj Ferris_Wheel.obj
-EXPORT handyobjects/circus/ferris_wheel_no_red_carpet.obj Ferris_Wheel_No_Red_Carpet.obj
-EXPORT handyobjects/circus/circus_tent.obj Circus_Tent.obj
-EXPORT handyobjects/circus/merry_go_round.obj Merry_Go_Round.obj
-EXPORT handyobjects/circus/pirate_ship_ride.obj Pirate_Ship_Ride.obj
-EXPORT handyobjects/circus/pirate_ship_ride_no_red_carpet.obj Pirate_Ship_Ride_No_Red_Carpet.obj
-EXPORT handyobjects/circus/flying_chair_ride.obj Flying_Chair_Ride.obj
-EXPORT handyobjects/circus/entrance_arch.obj Entrance_Arch.obj
-EXPORT handyobjects/circus/circus_stand_flag.str Circus_Stand_Flag.str
-EXPORT handyobjects/circus/circus_stand_flag.obj Circus_Stand_Flag.obj
-EXPORT handyobjects/circus/circus_flag.obj Circus_Flag.obj
-
-EXPORT handyobjects/tents/circus_tent.obj Circus_Tent.obj
-EXPORT handyobjects/tents/dome_tent_I_closed.obj Dome_Tent_I_Closed.obj
-EXPORT handyobjects/tents/dome_tent_I_open.obj Dome_Tent_I_Open.obj
-EXPORT handyobjects/tents/dome_tent_II_closed.obj Dome_Tent_II_Closed.obj
-EXPORT handyobjects/tents/dome_tent_II_open.obj Dome_Tent_II_Open.obj
-EXPORT handyobjects/tents/dome_tent_III_closed.obj Dome_Tent_III_Closed.obj
-EXPORT handyobjects/tents/dome_tent_III_open.obj Dome_Tent_III_Open.obj
-EXPORT handyobjects/tents/dome_tent_IV_closed.obj Dome_Tent_IV_Closed.obj
-EXPORT handyobjects/tents/dome_tent_IV_open.obj Dome_Tent_IV_Open.obj
-
-EXPORT handyobjects/tents/army_tent.obj Army_Tent.obj
-EXPORT handyobjects/tents/army_tent_camo.obj Army_Tent_Camo.obj
-EXPORT handyobjects/tents/army_tent_camo_closed.obj Army_Tent_Camo_Closed.obj
-EXPORT handyobjects/tents/army_tent_camo_open_both_ends.obj Army_Tent_Camo_Open_Both_Ends.obj
-EXPORT handyobjects/tents/army_tent_closed.obj Army_Tent_Closed.obj
-EXPORT handyobjects/tents/army_tent_open_both_ends.obj Army_Tent_Open_Both_Ends.obj
-EXPORT handyobjects/tents/red_cross_tent.obj Red_Cross_Tent.obj
-EXPORT handyobjects/tents/red_cross_tent_closed.obj Red_Cross_Tent_Closed.obj
-EXPORT handyobjects/tents/red_cross_tent_open_both_ends.obj Red_Cross_Tent_Open_Both_Ends.obj
-EXPORT handyobjects/tents/scout_tent.obj Scout_Tent.obj
-EXPORT handyobjects/tents/scout_tent_closed.obj Scout_Tent_Closed.obj
-EXPORT handyobjects/tents/scout_tent_open_both_ends.obj Scout_Tent_Open_Both_Ends.obj
-EXPORT handyobjects/tents/army_tent_camo_large.obj Army_Tent_Camo_Large.obj
-EXPORT handyobjects/tents/square_marquee_5x5m_open.obj Square_Marquee_5x5m_Open.obj
-EXPORT handyobjects/tents/square_marquee_5x5m_closed.obj Square_Marquee_5x5m_Closed.obj
-EXPORT handyobjects/tents/square_marquee_10x5m_open.obj Square_Marquee_10x5m_Open.obj
-EXPORT handyobjects/tents/square_marquee_10x5m_closed.obj Square_Marquee_10x5m_Closed.obj
-
-EXPORT handyobjects/windturbines/wind_turbine.obj Wind_Turbine.obj
-EXPORT handyobjects/windturbines/wind_turbine_no_base.obj Wind_Turbine_No_Base.obj
-EXPORT handyobjects/windturbines/wind_turbine_II.obj Wind_Turbine_II.obj
-EXPORT handyobjects/windturbines/wind_turbine_II_no_base.obj Wind_Turbine_II_No_Base.obj
-EXPORT handyobjects/windturbines/wind_turbine_III.obj Wind_Turbine_III.obj
-EXPORT handyobjects/windturbines/wind_turbine_III_no_base.obj Wind_Turbine_III_No_Base.obj
-
-EXPORT handyobjects/windturbines/large_wind_turbine.obj Large_Wind_Turbine.obj
-EXPORT handyobjects/windturbines/large_wind_turbine_yellow_base.obj Large_Wind_Turbine_Yellow_Base.obj
-
-EXPORT handyobjects/windturbines/helix_wind_turbine.obj Helix_Wind_Turbine.obj
-EXPORT handyobjects/windturbines/helix_wind_turbine.str Helix_Wind_Turbine.str
-
-EXPORT handyobjects/windturbines/offshore_wind_turbine_with_platform.obj Offshore_Wind_Turbine_With_Platform.obj
-
-EXPORT handyobjects/windturbines/windmill_water_pump.obj Windmill_Water_Pump.obj
 
 EXPORT handyobjects/miscellaneous/fire_hydrant.obj Fire_Hydrant.obj
 EXPORT handyobjects/miscellaneous/fire_hydrant_with_barrier.obj Fire_Hydrant_With_Barrier.obj
@@ -2566,7 +2369,6 @@ EXPORT handyobjects/miscellaneous/public_address_speakers.obj Public_Address_Spe
 EXPORT handyobjects/miscellaneous/public_address_speakers_white.obj Public_Address_Speakers_White.obj
 
 EXPORT handyobjects/miscellaneous/railway_sleeper.obj Railway_Sleeper.obj
-EXPORT handyobjects/miscellaneous/railway_sleeper_single.obj Railway_Sleeper_Single.obj
 EXPORT handyobjects/miscellaneous/railway_sleeper_group.obj Railway_Sleeper_Group.obj
 EXPORT handyobjects/miscellaneous/railway_sleeper.str Railway_Sleeper.str
 
@@ -2963,10 +2765,6 @@ EXPORT handyobjects/miscellaneous/golf_tee_box.obj Golf_Tee_Box.obj
 EXPORT handyobjects/miscellaneous/plaque.obj Plaque.obj
 
 EXPORT handyobjects/miscellaneous/electric_meter.obj Electric_Meter.obj
-
-EXPORT handyobjects/miscellaneous/cement_mixer.obj Cement_Mixer.obj
-
-EXPORT handyobjects/miscellaneous/chimney.obj Chimney.obj
 
 EXPORT handyobjects/leovox01objects/engine_hoist.obj Engine_Hoist.obj
 EXPORT handyobjects/leovox01objects/tool_chest.obj Tool_Chest.obj

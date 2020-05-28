@@ -36,15 +36,32 @@ _Note: If you include this Backup Library in your scenery package, you don't als
 
 ## Building
 
-The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. If a library is updated, update these files and rebuild. Ensure all files are correctly UTF-8 encoded.
+The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. In addition, it looks for an optional `versions` subfolder and scans that for previous versions of the library. 
 
 It outputs a folder into `builds` which includes the version number.
 
 _Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, omits OpenSceneryX itself, and uses special OpenSceneryX-specific versions for libraries that are partially or fully integrated into OpenSceneryX._
 
+## Adding and Updating Libraries
+
+### To Add a Library
+
+1. Create a new subfolder in the `libraries` folder with a suitable name.
+2. Create a `version.txt` file in the new library folder (copy one from another library) and update the details, including the author and a URL to the original library.
+3. Put the `library.txt` file into the new library folder.
+4. Update `CHANGELOG.md`.
+
+### To Update a Library
+
+1. Locate the existing library folder inside the `libraries` folder.
+2. Move the previous `library.txt` found in the existing library folder into the `versions` subfolder (create the subfolder if it doesn't already exist). Rename this old `library.txt` with the previous version number.
+2. Put the new `library.txt` into the existing library folder.
+3. Update the `version.txt` file, found in the existing library folder, with the new version number.
+4. Update `CHANGELOG.md`.
+
 ## Distribution
 
-The library is distributed by zipping the built version folder and uploading to the [Downloads page on x-plane.org](https://forums.x-plane.org/index.php?/files/file/25033-backup-scenery-library/).
+The library is distributed by zipping the built version folder and uploading to the [Downloads page on x-plane.org](https://forums.x-plane.org/index.php?/files/file/25033-backup-scenery-library/). Also create a [Release](https://github.com/aussig/X-Plane-Backup-Library/releases) here on GitHub, include the latest changes from the `CHANGELOG` in the description and upload the zip to the release.
 
 ## Missing libraries
 

@@ -16,13 +16,15 @@ This file creates a "backup" shim library for all of the known public libraries 
 
 To see which libraries are included, take a look at [this folder listing](https://github.com/aussig/X-Plane-Backup-Library/blob/master/libraries).
 
-## End user Installation
+If you find a library that isn't included, please get in touch - either [create an issue in the GitHub project](https://github.com/aussig/X-Plane-Backup-Library/issues) or [contact me on x-plane.org](https://forums.x-plane.org/index.php?/profile/2431-aussi/).
+
+## For End Users
 
 As an end-user of X-Plane®, simply unzip the backup library into your `X-Plane/Custom Scenery/` folder.
 
-## Notes
+**IMPORTANT**
 
-This package does not include any actual objects. It does not replace actually having the true library. It will simply insert a blank object or art asset in case you do not have the actual library, and thus allowing scenery to load without error.
+**This package does not include any actual objects**. It does not replace actually having the true library. It will simply insert a blank object or art asset in case you do not have the actual library, and thus allowing scenery to load without error.
 
 This file also does not interfere if you have the actual library. X-Plane® will simply ignore this file if you have the real library installed.
 
@@ -34,7 +36,9 @@ This works the same as the [OpenSceneryX](https://www.opensceneryx.com) shim lib
 
 _Note: If you include this Backup Library in your scenery package, you don't also need to include the OpenSceneryX Placeholder from the [OpenSceneryX Developer Pack](https://www.opensceneryx.com/support/scenery-developers/)._
 
-## Building
+## For Project Maintainers
+
+### Building
 
 The library is built by running `python3 build.py` from within the `bin` folder. It trawls the `libraries` folder, expecting one subfolder per 3rd party library, containing a `library.txt` file and a `version.txt` file. In addition, it looks for an optional `versions` subfolder and scans that for previous versions of the library. 
 
@@ -42,16 +46,16 @@ It outputs a folder into `builds` which includes the version number.
 
 _Note: There is also an option to build 'For OpenSceneryX', which should only be used by the maintainer of the [OpenSceneryX Library](https://github.com/OpenSceneryX/Library). Using this option produces a text file rather than a library file, which is ready for inclusion in an OpenSceneryX build, omits OpenSceneryX itself, and uses special OpenSceneryX-specific versions for libraries that are partially or fully integrated into OpenSceneryX._
 
-## Adding and Updating Libraries
+### Adding and Updating Libraries
 
-### To Add a Library
+#### To Add a Library
 
 1. Create a new subfolder in the `libraries` folder with a suitable name.
 2. Create a `version.txt` file in the new library folder (copy one from another library) and update the details, including the author and a URL to the original library.
 3. Put the `library.txt` file into the new library folder.
 4. Update `CHANGELOG.md`.
 
-### To Update a Library
+#### To Update a Library
 
 1. Locate the existing library folder inside the `libraries` folder.
 2. Move the previous `library.txt` found in the existing library folder into the `versions` subfolder (create the subfolder if it doesn't already exist). Rename this old `library.txt` with the previous version number.
@@ -59,10 +63,7 @@ _Note: There is also an option to build 'For OpenSceneryX', which should only be
 3. Update the `version.txt` file, found in the existing library folder, with the new version number.
 4. Update `CHANGELOG.md`.
 
-## Distribution
+### Distribution
 
 The library is distributed by zipping the built version folder and uploading to the [Downloads page on x-plane.org](https://forums.x-plane.org/index.php?/files/file/25033-backup-scenery-library/). Also create a [Release](https://github.com/aussig/X-Plane-Backup-Library/releases) here on GitHub, include the latest changes from the `CHANGELOG` in the description and upload the zip to the release.
 
-## Missing libraries
-
-If you find a library that isn't included, please get in touch - either [create an issue in the GitHub project](https://github.com/aussig/X-Plane-Backup-Library/issues) or [contact me on x-plane.org](https://forums.x-plane.org/index.php?/profile/2431-aussi/).

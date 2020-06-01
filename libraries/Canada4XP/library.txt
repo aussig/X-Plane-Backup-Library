@@ -1,0 +1,73 @@
+A
+800
+LIBRARY
+
+#_Canada4XP-Aircraft
+
+EXPORT Canada4XP_Aircraft/B772_ACA.obj Canada4XP-Aircraft/Air_Canada_B772/B772_ACA.obj
+EXPORT Canada4XP_Aircraft/A333_ACA.obj Canada4XP-Aircraft/Air_Canada_A333/A333_ACA.obj
+EXPORT Canada4XP_Aircraft/A333_ACAs.obj Canada4XP-Aircraft/Air_Canada_A333_STAR/A333_ACAs.obj
+EXPORT Canada4XP_Aircraft/B773_ACA.obj Canada4XP-Aircraft/Air_Canada_B773/B773_ACA.obj
+EXPORT Canada4XP_Aircraft/DH8D_ACA.obj Canada4XP-Aircraft/Air_Canada_Dash8_400/DH8D_ACA.obj
+EXPORT Canada4XP_Aircraft/DH8C_ACA.obj Canada4XP-Aircraft/Air_Canada_Dash8_300/DH8C_ACA.obj
+EXPORT Canada4XP_Aircraft/A332_TSCc.obj Canada4XP-Aircraft/AirTransat_A332_children/A332_TSCc.obj
+EXPORT Canada4XP_Aircraft/A332_TSC.obj Canada4XP-Aircraft/AirTransat_A332/A332_TSC.obj
+EXPORT Canada4XP_Aircraft/A333_TSC.obj Canada4XP-Aircraft/AirTransat_A333/A333_TSC.obj
+EXPORT Canada4XP_Aircraft/A310_TSC.obj Canada4XP-Aircraft/AirTransat_A310/A310_TSC.obj
+EXPORT Canada4XP_Aircraft/DH8B_MPE.obj Canada4XP-Aircraft/Canadian_North_Dash8_100_200/DH8B_MPE.obj
+EXPORT Canada4XP_Aircraft/DH8D_APZ.obj Canada4XP-Aircraft/Hydro_Quebec_Dash8_400/DH8D_APZ.obj
+EXPORT Canada4XP_Aircraft/DH8C_APZ.obj Canada4XP-Aircraft/Hydro_Quebec_Dash8_300/DH8C_APZ.obj
+EXPORT Canada4XP_Aircraft/DH8C_NCB.obj Canada4XP-Aircraft/North_Cariboo_Air_Dash8_300/DH8C_NCB.obj
+EXPORT Canada4XP_Aircraft/DH8B_NCB.obj Canada4XP-Aircraft/North_Cariboo_Dash8_100_200/DH8B_NCB.obj
+EXPORT Canada4XP_Aircraft/SF340_PCO.obj Canada4XP-Aircraft/Pacific_Coastal_S340/SF340_PCO.obj
+EXPORT Canada4XP_Aircraft/DH8D_POE.obj Canada4XP-Aircraft/Porter_Dash8_400/DH8D_POE.obj
+EXPORT Canada4XP_Aircraft/DH8D_WJA.obj Canada4XP-Aircraft/Westjet_Dash8_400/DH8D_WJA.obj
+EXPORT Canada4XP_Aircraft/A321SCFM_ACA.obj Canada4XP-Aircraft/Air_Canada_A321S/A321SCFM_ACA.obj
+EXPORT Canada4XP_Aircraft/A320SCFM_ACA.obj Canada4XP-Aircraft/Air_Canada_A320S/A320SCFM_ACA.obj
+EXPORT Canada4XP_Aircraft/A320SCFM_ACAs.obj Canada4XP-Aircraft/Air_Canada_Star_A320S/A320SCFM_ACAs.obj
+EXPORT Canada4XP_Aircraft/A319CFM_ACA.obj Canada4XP-Aircraft/Air_Canada_A319S/A319CFM_ACA.obj
+EXPORT Canada4XP_Aircraft/A319CFM_ACAk.obj Canada4XP-Aircraft/Air_Canada_Kids_A319S/A319CFM_ACAk.obj
+EXPORT Canada4XP_Aircraft/A319CFM_ROU.obj Canada4XP-Aircraft/Air_Canada_Rouge_A319S/A319CFM_ROU.obj
+EXPORT Canada4XP_Aircraft/A319CFM_ACAj.obj Canada4XP-Aircraft/Air_Canada_Jetz_A319S/A319CFM_ACAj.obj
+EXPORT Canada4XP_Aircraft/B734_ANT.obj Canada4XP-Aircraft/Air_North_B734/B734_ANT.obj
+EXPORT Canada4XP_Aircraft/B732_ANT.obj Canada4XP-Aircraft/Air_North_B732/B732_ANT.obj
+EXPORT Canada4XP_Aircraft/B735_ANT.obj Canada4XP-Aircraft/Air_North_B735/B735_ANT.obj
+EXPORT Canada4XP_Aircraft/B735W_ANT.obj Canada4XP-Aircraft/Air_North_B735W/B735W_ANT.obj
+EXPORT Canada4XP_Aircraft/B738S_TSC.obj Canada4XP-Aircraft/Air_Transat_B738/B738S_TSC.obj
+EXPORT Canada4XP_Aircraft/B738S_TSChd.obj Canada4XP-Aircraft/Air_Transat_B738d/B738S_TSChd.obj
+EXPORT Canada4XP_Aircraft/B738S_TSCqx.obj Canada4XP-Aircraft/Air_Transat_B738x/B738S_TSCqx.obj
+EXPORT Canada4XP_Aircraft/B737_TSC.obj Canada4XP-Aircraft/Air_Transat_B737/B737_TSC.obj
+EXPORT Canada4XP_Aircraft/B733_MPE.obj Canada4XP-Aircraft/Canadian_North_B733/B733_MPE.obj
+EXPORT Canada4XP_Aircraft/B733_MPEc.obj Canada4XP-Aircraft/Canadian_North_CFL_B733/B733_MPEc.obj
+EXPORT Canada4XP_Aircraft/B732_MPE.obj Canada4XP-Aircraft/Canadian_North_B732/B732_MPE.obj
+EXPORT Canada4XP_Aircraft/B734_FAB.obj Canada4XP-Aircraft/First_Air_B734/B734_FAB.obj
+EXPORT Canada4XP_Aircraft/B732_KABvk.obj Canada4XP-Aircraft/First_Air_NVK_B732/B732_KABvk.obj
+EXPORT Canada4XP_Aircraft/B732_KABcp.obj Canada4XP-Aircraft/First_Air_ACP_B732/B732_KABcp.obj
+EXPORT Canada4XP_Aircraft/B732_KABdc.obj Canada4XP-Aircraft/First_Air_NDC_B732/B732_KABdc.obj
+EXPORT Canada4XP_Aircraft/B732_KABvt.obj Canada4XP-Aircraft/First_Air_NVT_B732/B732_KABvt.obj
+EXPORT Canada4XP_Aircraft/B732_KABpt.obj Canada4XP-Aircraft/First_Air_CPT_B732/B732_KABpt.obj
+EXPORT Canada4XP_Aircraft/B733F_NAC.obj Canada4XP-Aircraft/Northern_Air_Cargo_B733/B733F_NAC.obj
+EXPORT Canada4XP_Aircraft/B732F_NAC.obj Canada4XP-Aircraft/Northern_Air_Cargo_B732/B732F_NAC.obj
+EXPORT Canada4XP_Aircraft/B738S_WJA.obj Canada4XP-Aircraft/Westjet_B738/B738S_WJA.obj
+EXPORT Canada4XP_Aircraft/B738_WJAd.obj Canada4XP-Aircraft/Westjet_Disney_B738/B738_WJAd.obj
+EXPORT Canada4XP_Aircraft/B738_WJAf.obj Canada4XP-Aircraft/Westjet_FCN_B738/B738_WJAf.obj
+EXPORT Canada4XP_Aircraft/B737_WJA.obj Canada4XP-Aircraft/Westjet_B737/B737_WJA.obj
+EXPORT Canada4XP_Aircraft/B736_WJA.obj Canada4XP-Aircraft/Westjet_B736/B736_WJA.obj
+EXPORT Canada4XP_Aircraft/B734_FLE.obj Canada4XP-Aircraft/Flair_Air_B734/B734_FLE.obj
+EXPORT Canada4XP_Aircraft/B738Max8_ACA.obj Canada4XP-Aircraft/Air_Canada_B738MAX8/B738Max8_ACA.obj
+EXPORT Canada4XP_Aircraft/DH8C_AIE.obj Canada4XP-Aircraft/Air_Inuit_Dash8_300/DH8C_AIE.obj
+EXPORT Canada4XP_Aircraft/B732_AIE.obj Canada4XP-Aircraft/Air_Inuit_B732/B732_AIE.obj
+EXPORT Canada4XP_Aircraft/DH8B_AIE.obj Canada4XP-Aircraft/Air_Inuit_Dash8_100_200/DH8B_AIE.obj
+EXPORT Canada4XP_Aircraft/DH8C_CRQ.obj Canada4XP-Aircraft/Air_Creebec_Dash8_300/DH8C_CRQ.obj
+EXPORT Canada4XP_Aircraft/B738S_SWG.obj Canada4XP-Aircraft/Sunwing_B738/B738S_SWG.obj
+EXPORT Canada4XP_Aircraft/B732_NRL.obj Canada4XP-Aircraft/Nolinor_B732/B732_NRL.obj
+EXPORT Canada4XP_Aircraft/DH8B_PAG.obj Canada4XP-Aircraft/Perimeter_Dash8_100_200/DH8B_PAG.obj
+EXPORT Canada4XP_Aircraft/DH8B_SPR.obj Canada4XP-Aircraft/Provincial_Airlines_Dash8_100_200/DH8B_SPR.obj
+EXPORT Canada4XP_Aircraft/SF340_SPR.obj Canada4XP-Aircraft/Provincial_Airlines_S340/SF340_SPR.obj
+EXPORT Canada4XP_Aircraft/SF340_WJA.obj Canada4XP-Aircraft/Westjet_S340/SF340_WJA.obj
+EXPORT Canada4XP_Aircraft/SF340_WHT.obj Canada4XP-Aircraft/WHite_S340/SF340_WHT.obj
+EXPORT Canada4XP_Aircraft/B738S_WSW.obj Canada4XP-Aircraft/Swoop_738/B738S_WSW.obj
+EXPORT Canada4XP_Aircraft/DH8C_WHT.obj Canada4XP-Aircraft/White_Dash8_300/DH8C_WHT.obj
+EXPORT Canada4XP_Aircraft/DH8C_TSH.obj Canada4XP-Aircraft/R1_Dash8_300/DH8C_TSH.obj
+EXPORT Canada4XP_Aircraft/DH8C_GLR.obj Canada4XP-Aircraft/Central_Mountain_Air_White_Dash8_300/DH8C_GLR.obj
+EXPORT Canada4XP_Aircraft/DHC8_GLR_B.obj Canada4XP-Aircraft/Central_Mountain_Air_Blue_Dash8_300/DHC8_GLR_B.obj

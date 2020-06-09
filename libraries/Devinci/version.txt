@@ -1,0 +1,4 @@
+Devinci Library
+v1.0.1
+By gplv3
+https://forums.x-plane.org/index.php?/files/file/63107-devinci-library/

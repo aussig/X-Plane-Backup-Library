@@ -3,6 +3,7 @@
 ## vx.x.x - xxxx-xx-xx
 
 * Added Canada4XP Static Aircraft Library
+* Added Devinci Library
 
 ## v3.0.0 - 2020-05-28
 

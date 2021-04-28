@@ -59,14 +59,3 @@ EXPORT CCVA022_Object_Library/Infra/CCVATumut3/CCVATumut3.obj Infra/CCVATumut3/C
 EXPORT CCVA022_Object_Library/Infra/CCVAAfricanhut/CCVAAfricanhut.obj Infra/CCVAAfricanhut/CCVAAfricanhut.obj
 EXPORT CCVA022_Object_Library/Infra/CCVAShed/CCVAShed.obj Infra/CCVAShed/CCVAShed.obj
 EXPORT CCVA022_Object_Library/Infra/CCVABldg/CCVABldg.obj Infra/CCVABldg/CCVABldg.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAHouse2/CCVAHouse2.obj Infra/CCVAHouse2/CCVAHouse2.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAHangar2/CCVAHangar2.obj Infra/CCVAHangar2/CCVAHangar2.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATerminal2/CCVATerminal2.obj Infra/CCVATerminal2/CCVATerminal2.obj
-EXPORT CCVA022_Object_Library/Infra/CCVACaravan/CCVACaravan.obj Infra/CCVACaravan/CCVACaravan.obj
-EXPORT CCVA022_Object_Library/Infra/CCVACaravan1/CCVACaravan1.obj Infra/CCVACaravan1/CCVACaravan1.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAMobilehome/CCVAMobilehome.obj Infra/CCVAMobilehome/CCVAMobilehome.obj
-EXPORT CCVA022_Object_Library/Infra/CCVAMobilehome1/CCVAMobilehome1.obj Infra/CCVAMobilehome1/CCVAMobilehome1.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATent/CCVATent.obj Infra/CCVATent/CCVATent.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATent1/CCVATent1.obj Infra/CCVATent1/CCVATent1.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATent2/CCVATent2.obj Infra/CCVATent2/CCVATent2.obj
-EXPORT CCVA022_Object_Library/Infra/CCVATent3/CCVATent3.obj Infra/CCVATent3/CCVATent3.obj

@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added Headwind Water Tower Library
 * Added Mountain Helipads Library
 * Updated CCVA Library to 2.11
 * Updated ALES Library to v1.1.3

@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added Headwind Grain Land Library
 * Updated MisterX Library to v2.0
 * Updated SAM Library to Developer Pack v1.0.4
 * Added RD93 Library

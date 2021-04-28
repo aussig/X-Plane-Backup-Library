@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated SAM Library to Developer Pack 1.0.4
 * Added RD93 Library
 * Updated Helipad Markings Library to v1.1.0
 * Added HeliSimuFrance Library

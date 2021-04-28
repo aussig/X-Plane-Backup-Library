@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added HeliSimuFrance Library
 * Added Headwind Radio Tower Library
 * Added Headwind Water Tower Library
 * Added Mountain Helipads Library

@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated ALES Library to v1.1.3
 * Added Canada4XP Static Aircraft Library
 * Added Devinci Library
 

@@ -1,0 +1,68 @@
+A
+800
+LIBRARY
+
+#Version 1.0 Devinci LIBRARY
+
+#Test Objects
+
+#GOBD
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_terminal.obj					Objects/GOBD_Objects/gobd_terminal.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_terminalRoads.obj				Objects/GOBD_Objects/gobd_terminalRoads.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_terminalExtra.obj				Objects/GOBD_Objects/gobd_terminalExtra.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_EdgeHaz.obj				Objects/GOBD_Objects/gobd_EdgeHaz.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_tower.obj						Objects/GOBD_Objects/gobd_tower.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_vip.obj						Objects/GOBD_Objects/gobd_vip.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_welcome.obj					Objects/GOBD_Objects/gobd_welcome.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/ssli.obj							Objects/GOBD_Objects/ssli.obj
+EXPORT Devinci_Library/Objects/GOBD_Objects/gobd_pelerin.obj					Objects/GOBD_Objects/gobd_pelerin.obj
+
+
+EXPORT Devinci_Library/Objects/Lights/Opposing_Light.str						Objects/Lights/Opposing_Light.str
+
+
+#RJBE
+EXPORT Devinci_Library/Objects/RJBE_Objects/Kobe_Tower.obj						Objects/RJBE_Objects/Kobe_Tower.obj
+EXPORT Devinci_Library/Objects/RJBE_Objects/Kobe_Terminal.obj					Objects/RJBE_Objects/Kobe_Terminal.obj
+EXPORT Devinci_Library/Objects/RJBE_Objects/Kobe_grille.obj						Objects/RJBE_Objects/Kobe_grille.obj
+EXPORT Devinci_Library/Objects/RJTT_Objects/arc.obj								Objects/RJTT_Objects/arc.obj
+
+#AirportObjects
+EXPORT Devinci_Library/Objects/Airport_Objects/pylon.obj						Objects/Airport_Objects/pylon.obj
+
+#Surfaces
+EXPORT Devinci_Library/Ground_Textures/Surfaces/Concrete_2.pol					Ground_Textures/Surfaces/Concrete_2.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/Asphalt_1.pol					Ground_Textures/Surfaces/Asphalt_1.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/Asphalt_2.pol					Ground_Textures/Surfaces/Asphalt_2.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/Asphalt_3.pol					Ground_Textures/Surfaces/Asphalt_3.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/Asphalt_4.pol					Ground_Textures/Surfaces/Asphalt_4.pol
+
+EXPORT Devinci_Library/Ground_Textures/Surfaces/crack1.pol						Ground_Textures/Surfaces/crack1.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/tache1.pol						Ground_Textures/Surfaces/tache1.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/tache2.pol						Ground_Textures/Surfaces/tache2.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/tache3.pol						Ground_Textures/Surfaces/tache3.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/tache4.pol						Ground_Textures/Surfaces/tache4.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/tache5.pol						Ground_Textures/Surfaces/tache5.pol
+
+EXPORT Devinci_Library/Ground_Textures/Surfaces/apron_grunge.pol				Ground_Textures/Surfaces/apron_grunge.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/apron_grunge2.pol				Ground_Textures/Surfaces/apron_grunge2.pol
+EXPORT Devinci_Library/Ground_Textures/Surfaces/apron_grunge3.pol				Ground_Textures/Surfaces/apron_grunge3.pol
+
+#Lines
+EXPORT Devinci_Library/Ground_Textures/Lines/RwySkid_Marks.lin					Ground_Textures/Lines/RwySkid_Marks.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/Drain_Line.lin						Ground_Textures/Lines/Drain_Line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/Taxiline.lin						Ground_Textures/Lines/Taxiline.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/Taxiline2.lin						Ground_Textures/Lines/Taxiline2.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/red_apron_line.lin					Ground_Textures/Lines/red_apron_line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/yelloBlack_Checker.lin				Ground_Textures/Lines/yelloBlack_Checker.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/checker_line.lin					Ground_Textures/Lines/checker_line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/redline_div.lin					Ground_Textures/Lines/redline_div.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/redline.lin						Ground_Textures/Lines/redline.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/whiteRed_line.lin					Ground_Textures/Lines/whiteRed_line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/road_line.lin						Ground_Textures/Lines/road_line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/runway_line.lin					Ground_Textures/Lines/runway_line.lin
+EXPORT Devinci_Library/Ground_Textures/Lines/taxiway_Edge_line.lin				Ground_Textures/Lines/taxiway_Edge_line.lin
+
+
+
+#End

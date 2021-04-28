@@ -1,0 +1,4 @@
+HeliSimuFrance Library
+v1.0.0
+By Poopy
+https://forums.x-plane.org/index.php?/files/file/68799-helisimufrance-lib/

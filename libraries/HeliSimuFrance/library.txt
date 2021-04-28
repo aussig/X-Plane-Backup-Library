@@ -1,0 +1,58 @@
+A
+800
+LIBRARY
+
+
+EXPORT HSF_Lib/Rescue/ambulancepompiers.obj				Rescue/ambulancepompiers.obj
+EXPORT HSF_Lib/Rescue/ambulancepompiersON.obj			Rescue/ambulancepompiersON.obj
+EXPORT HSF_Lib/Rescue/ambulancesamu.obj					Rescue/ambulancesamu.obj
+EXPORT HSF_Lib/Rescue/ambulancesamuON.obj				Rescue/ambulancesamuON.obj
+EXPORT HSF_Lib/Rescue/bmxcrash.obj  					Rescue/bmxcrash.obj
+EXPORT HSF_Lib/Rescue/mtbsol.obj						Rescue/mtbsol.obj
+EXPORT HSF_Lib/Rescue/quadbikecrashed.obj				Rescue/quadbikecrashed.obj
+EXPORT HSF_Lib/Rescue/rider.obj							Rescue/rider.obj
+EXPORT HSF_Lib/Rescue/secouriste1.obj					Rescue/secouriste1.obj
+EXPORT HSF_Lib/Rescue/secouriste2.obj					Rescue/secouriste2.obj
+EXPORT HSF_Lib/Rescue/secouriste3.obj					Rescue/secouriste3.obj
+EXPORT HSF_Lib/Rescue/victime.obj						Rescue/victime.obj
+EXPORT HSF_Lib/Rescue/victimerider.obj					Rescue/victimerider.obj
+EXPORT HSF_Lib/Rescue/voiture.obj						Rescue/voiture.obj
+EXPORT HSF_Lib/Rescue/voituretanké.obj					Rescue/voituretanké.obj
+EXPORT HSF_Lib/Rescue/voituretankéfumante.obj			Rescue/voituretankéfumante.obj
+EXPORT HSF_Lib/Rescue/voituretankéfumante2.obj			Rescue/voituretankéfumante2.obj
+EXPORT HSF_Lib/Rescue/peugeot.obj						Rescue/peugeot.obj
+EXPORT HSF_Lib/Rescue/peugeotenmarche.obj				Rescue/peugeotenmarche.obj
+
+
+
+EXPORT HSF_Lib/Worksite/bigbag.obj						Worksite/bigbag.obj
+EXPORT HSF_Lib/Worksite/box1.obj						Worksite/box1.obj
+EXPORT HSF_Lib/Worksite/box2.obj						Worksite/box2.obj
+EXPORT HSF_Lib/Worksite/box3.obj						Worksite/box3.obj
+EXPORT HSF_Lib/Worksite/brouette.obj					Worksite/brouette.obj
+EXPORT HSF_Lib/Worksite/caissebois.obj					Worksite/caissebois.obj
+EXPORT HSF_Lib/Worksite/cfl.obj							Worksite/cfl.obj
+EXPORT HSF_Lib/Worksite/cflpenteON.obj					Worksite/cflpenteON.obj
+EXPORT HSF_Lib/Worksite/compresseur.obj					Worksite/compresseur.obj
+EXPORT HSF_Lib/Worksite/manitou.obj						Worksite/manitou.obj
+EXPORT HSF_Lib/Worksite/paletbeton.obj					Worksite/paletbeton.obj
+EXPORT HSF_Lib/Worksite/paletteaka.obj					Worksite/paletteaka.obj
+EXPORT HSF_Lib/Worksite/paletteciment1.obj				Worksite/paletteciment1.obj
+EXPORT HSF_Lib/Worksite/paletteciment2.obj				Worksite/paletteciment2.obj
+EXPORT HSF_Lib/Worksite/paletteciment3.obj				Worksite/paletteciment3.obj
+EXPORT HSF_Lib/Worksite/palletplanches.obj				Worksite/palletplanches.obj
+EXPORT HSF_Lib/Worksite/poteauASMdoublemonte.obj		Worksite/poteauASMdoublemonte.obj
+EXPORT HSF_Lib/Worksite/poteauASMvidedouble.obj			Worksite/poteauASMvidedouble.obj
+EXPORT HSF_Lib/Worksite/poteauASMvidequad.obj			Worksite/poteauASMvidequad.obj
+EXPORT HSF_Lib/Worksite/poteaugrillage.obj				Worksite/poteaugrillage.obj
+EXPORT HSF_Lib/Worksite/rouleaugrillage.obj				Worksite/rouleaugrillage.obj
+EXPORT HSF_Lib/Worksite/sling.obj						Worksite/sling.obj
+EXPORT HSF_Lib/Worksite/stackpallette.obj				Worksite/stackpallette.obj
+EXPORT HSF_Lib/Worksite/stackpallette0.obj				Worksite/stackpallette0.obj	
+EXPORT HSF_Lib/Worksite/stackpallette1.obj				Worksite/stackpallette1.obj	
+EXPORT HSF_Lib/Worksite/stackpallette2.obj				Worksite/stackpallette2.obj
+EXPORT HSF_Lib/Worksite/tonneaeau.obj					Worksite/tonneaeau.obj
+EXPORT HSF_Lib/Worksite/tourretcable.obj				Worksite/tourretcable.obj
+EXPORT HSF_Lib/Worksite/tourretcable2.obj				Worksite/tourretcable2.obj
+EXPORT HSF_Lib/Worksite/transpalrouge.obj				Worksite/transpalrouge.obj
+

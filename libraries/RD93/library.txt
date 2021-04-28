@@ -1,0 +1,39 @@
+A
+800
+LIBRARY
+
+EXPORT RD93_library/Airport/Markers/Cone_white_square.obj			Airport/cone_white.obj
+
+EXPORT RD93_library/Trees/Coconut_Palm_9m.for						Trees/coconut_palm_9m.for
+EXPORT RD93_library/Trees/Betelnut_Palm_9m.for						Trees/betelnut_palm_9m.for
+EXPORT RD93_library/Trees/Kunai_Grass_1m.for						Trees/kunai_grass_1m.for
+EXPORT RD93_library/Grass/Grass_basic.for							Trees/grass_basic.for
+EXPORT RD93_library/Grass/Grass_basic_short.for						Trees/grass_basic.for
+EXPORT RD93_library/Grass/Grass_barren_short.for					Trees/grass_barren_short.for
+EXPORT RD93_library/Grass/Grass_lush_green_long.for					Trees/grass_lush_green_long.for
+EXPORT RD93_library/Grass/Grass_dark_brown_short.for				Trees/grass_dark_brown_short.for
+EXPORT RD93_library/Grass/Grass_green_long.for						Trees/grass_green_long.for
+EXPORT RD93_library/Grass/Grass_kunai_green.for						Trees/grass_kunai_green.for
+EXPORT RD93_library/Grass/Grass_kunai_muddy.for						Trees/grass_kunai_muddy.for
+EXPORT RD93_library/Grass/Grass_green_short.for						Trees/grass_green_short.for
+
+EXPORT RD93_library/Buildings/Houses/Native_House_10x5m.obj			Buildings/bush_house_10x5.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_20x10m.obj			Buildings/hut_20x10.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_Rusted_20x10m.obj		Buildings/hut_20x10_rusted.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_10x6m.obj				Buildings/hut_10x6.obj
+EXPORT RD93_library/Buildings/Houses/Native_House_R3m.obj			Buildings/bush_house_r3.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_15x9m.obj				Buildings/hut_15x9.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_Rusted_15x9m.obj		Buildings/hut_15x9_rusted.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roor_Rusted_10x6m.obj		Buildings/hut_10x6_rusted.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_5x5m.obj				Buildings/hut_5x5.obj
+EXPORT RD93_library/Buildings/Houses/Tin_Roof_8x6m.obj				Buildings/hut_8x6.obj
+EXPORT RD93_library/Buildings/Houses/Native_House_10x8m.obj			Buildings/native_house_10x8.obj
+EXPORT RD93_library/Buildings/Houses/Native_House_8x6m.obj			Buildings/native_house_8x6.obj
+
+EXPORT RD93_library/Buildings/Commercial/Offices_50x17m.obj			Buildings/offices_50x17.obj
+
+EXPORT RD93_library/Buildings/Shelters/Shelter_60x17m.obj			Buildings/shelter_60x17.obj
+EXPORT RD93_library/Buildings/Shelters/Shelter_30x17m.obj			Buildings/shelter_30x17.obj
+
+EXPORT RD93_library/Buildings/Fences/Low_Stone_Wall_2m.obj			Buildings/low_stone_wall.obj
+EXPORT RD93_library/Buildings/Fences/Low_Stone_Wall.str				Buildings/low_stone_wall.str

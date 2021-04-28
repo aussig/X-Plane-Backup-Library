@@ -73,10 +73,6 @@ EXPORT handyobjects/3Danimals/husky_standing.obj Husky_Standing.obj
 
 EXPORT handyobjects/3Danimals/brown_bear.obj Brown_Bear.obj
 
-EXPORT handyobjects/3Danimals/moose_calf.obj Moose_Calf.obj
-EXPORT handyobjects/3Danimals/moose_female.obj Moose_Female.obj
-EXPORT handyobjects/3Danimals/moose_male.obj Moose_Male.obj
-
 EXPORT handyobjects/flags/aberdeen_large_flag.obj Aberdeen_Large_Flag.obj
 EXPORT handyobjects/flags/lion_rampant_large_flag.obj Lion_Rampant_Large_Flag.obj
 EXPORT handyobjects/flags/shell_large_flag.obj Shell_Large_Flag.obj
@@ -1086,14 +1082,11 @@ EXPORT handyobjects/gatesandfences/boulder_single_IV_dark.obj Boulder_Single_IV_
 EXPORT handyobjects/gatesandfences/white_picket_fence_1.fac White_Picket_Fence_1.fac
 EXPORT handyobjects/gatesandfences/white_picket_fence_2.fac White_Picket_Fence_2.fac
 EXPORT handyobjects/gatesandfences/wooden_fence.fac Wooden_Fence.fac
-EXPORT handyobjects/gatesandfences/wooden_fence_with_grass.fac Wooden_Fence_With_Grass.fac
 EXPORT handyobjects/gatesandfences/wooden_fence_diagonal.fac Wooden_Fence_Diagonal.fac
-EXPORT handyobjects/gatesandfences/wooden_fence_diagonal_with_grass.fac Wooden_Fence_Diagonal_With_Grass.fac
 EXPORT handyobjects/gatesandfences/wooden_fence_vertical.fac Wooden_Fence_Vertical.fac
 EXPORT handyobjects/gatesandfences/wooden_fence_white.fac Wooden_Fence_White.fac
 
 EXPORT handyobjects/gatesandfences/barbed_wire_fence.fac Barbed_Wire_Fence.fac
-EXPORT handyobjects/gatesandfences/barbed_wire_fence_with_grass.fac Barbed_Wire_Fence_With_Grass.fac
 EXPORT handyobjects/gatesandfences/panel_fence.fac Panel_Fence.fac
 EXPORT handyobjects/gatesandfences/panel_fence_curved.fac Panel_Fence_Curved.fac
 EXPORT handyobjects/gatesandfences/worksite_fence.fac Worksite_Fence.fac
@@ -1399,7 +1392,6 @@ EXPORT handyobjects/vehicles/doubledecker_bus.obj Doubledecker_Bus.obj
 EXPORT handyobjects/vehicles/london_bus.obj London_Bus.obj
 
 EXPORT handyobjects/vehicles/minivan.obj Minivan.obj
-EXPORT handyobjects/vehicles/minivan_no_lights.obj Minivan_No_Lights.obj
 
 EXPORT handyobjects/vehicles/delivery_van.obj Delivery_Van.obj
 
@@ -1423,7 +1415,6 @@ EXPORT handyobjects/vehicles/atv.obj ATV.obj
 EXPORT handyobjects/vehicles/atv_bare.obj ATV_Bare.obj
 EXPORT handyobjects/vehicles/atv_no_rifle.obj ATV_No_Rifle.obj
 EXPORT handyobjects/vehicles/atv_follow_me.obj ATV_Follow_Me.obj
-EXPORT handyobjects/vehicles/atv_with_rider.obj ATV_With_Rider.obj
 
 EXPORT handyobjects/vehicles/atv_no_smoke.obj ATV_No_Smoke.obj
 EXPORT handyobjects/vehicles/atv_bare_no_smoke.obj ATV_Bare_No_Smoke.obj
@@ -1464,15 +1455,6 @@ EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_II.obj Articulated_
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_static_short.obj Articulated_Lorry_Trailor_Black_Static_Short.obj
 EXPORT handyobjects/vehicles/articulated_lorry_trailor_black_short.obj Articulated_Lorry_Trailor_Black_Short.obj
 
-EXPORT handyobjects/vehicles/scottish_wings_van.obj Scottish_Wings_Van.obj
-EXPORT handyobjects/vehicles/scottish_wings_van_no_lights.obj Scottish_Wings_Van_No_Lights.obj
-EXPORT handyobjects/vehicles/scottish_wings_white_box_trailor_no_lights.obj Scottish_Wings_White_Box_Trailor_No_Lights.obj
-EXPORT handyobjects/vehicles/scottish_wings_articulated_lorry_tractor_unit_no_lights.obj Scottish_Wings_Articulated_Lorry_Tractor_Unit_No_Lights.obj
-EXPORT handyobjects/vehicles/scottish_wings_articulated_lorry_tractor_unit.obj Scottish_Wings_Articulated_Lorry_Tractor_Unit.obj
-EXPORT handyobjects/vehicles/scottish_wings_articulated_lorry_and_white_box_trailor.obj Scottish_Wings_Articulated_Lorry_And_White_Box_Trailor.obj
-EXPORT handyobjects/vehicles/scottish_wings_minivan.obj Scottish_Wings_Minivan.obj
-EXPORT handyobjects/vehicles/scottish_wings_minivan_no_lights.obj Scottish_Wings_Minivan_No_Lights.obj
-
 EXPORT handyobjects/buildings/portacabin.obj Portacabin.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows.obj Portacabin_Dark_Windows.obj
 EXPORT handyobjects/buildings/portacabin_dark_windows_II.obj Portacabin_Dark_Windows_II.obj
@@ -1484,8 +1466,6 @@ EXPORT handyobjects/buildings/security_hut_darker_windows.obj Security_Hut_Darke
 EXPORT handyobjects/buildings/security_hut_with_light_darker_windows.obj Security_Hut_With_Light_Darker_Windows.obj
 
 EXPORT handyobjects/buildings/security_hut_darker_windows_II.obj Security_Hut_Darker_Windows_II.obj
-
-EXPORT handyobjects/buildings/security_hut_darker_windows_uneven_ground.obj Security_Hut_Darker_Windows_Uneven_Ground.obj
 
 EXPORT handyobjects/buildings/static_caravan.obj Static_Caravan.obj
 EXPORT handyobjects/buildings/static_caravan_smoke.obj Static_Caravan_Smoke.obj
@@ -1715,9 +1695,6 @@ EXPORT handyobjects/buildings/farm_house.obj Farm_House.obj
 EXPORT handyobjects/buildings/farm_house_complete.obj Farm_House_Complete.obj
 
 EXPORT handyobjects/buildings/cottage.obj Cottage.obj
-
-EXPORT handyobjects/buildings/canvas_garage.obj Canvas_Garage.obj
-EXPORT handyobjects/buildings/canvas_garage_II.obj Canvas_Garage_II.obj
 
 EXPORT handyobjects/seaplane/sea_plane_dock.obj Sea_Plane_Dock.obj
 EXPORT handyobjects/seaplane/sea_plane_dock_I.obj Sea_Plane_Dock_I.obj
@@ -2270,8 +2247,6 @@ EXPORT handyobjects/boats/anchor_handler_yellow_II.obj Anchor_Handler_Yellow_II.
 EXPORT handyobjects/boats/anchor_handler_red.obj Anchor_Handler_Red.obj
 EXPORT handyobjects/boats/anchor_handler_red_II.obj Anchor_Handler_Red_II.obj
 
-EXPORT handyobjects/boats/hovercraft.obj Hovercraft.obj
-
 EXPORT handyobjects/windsocks/windsock_red_and_white_10m.obj Windsock_Red_And_White_10m.obj
 EXPORT handyobjects/windsocks/windsock_red_and_white_10m_no_light.obj Windsock_Red_And_White_10m_No_Light.obj
 EXPORT handyobjects/windsocks/windsock_red_and_white_16m.obj Windsock_Red_And_White_16m.obj
@@ -2286,8 +2261,6 @@ EXPORT handyobjects/windsocks/windsock_red_hospital_helipad.obj Windsock_Red_Hos
 
 EXPORT handyobjects/windsocks/windsock_orange_ground_no_lights.obj Windsock_Orange_Ground_No_Lights.obj
 EXPORT handyobjects/windsocks/windsock_orange_and_white_ground_no_lights.obj Windsock_Orange_And_White_Ground_No_Lights.obj
-
-EXPORT handyobjects/windsocks/biplane_windsock.obj Biplane_Windsock.obj
 
 EXPORT handyobjects/signs/aircraft_jack_caution_sign.obj Aircraft_Jack_Caution_Sign.obj
 EXPORT handyobjects/signs/airport_no_tresspassing_sign.obj Airport_No_Tresspassing_Sign.obj
@@ -2995,40 +2968,12 @@ EXPORT handyobjects/miscellaneous/cement_mixer.obj Cement_Mixer.obj
 
 EXPORT handyobjects/miscellaneous/chimney.obj Chimney.obj
 
-EXPORT handyobjects/miscellaneous/cross.obj Cross.obj
-
-EXPORT handyobjects/miscellaneous/climbing_wall.obj Climbing_Wall.obj
-
-EXPORT handyobjects/miscellaneous/lamp_post_barrier.obj Lamp_Post_Barrier.obj
-
-EXPORT handyobjects/miscellaneous/sawmill.obj Sawmill.obj
-EXPORT handyobjects/miscellaneous/sawmill_animated.obj Sawmill_Animated.obj
-EXPORT handyobjects/miscellaneous/sawmill_on_tow.obj Sawmill_On_Tow.obj
-
-EXPORT handyobjects/miscellaneous/scottish_wings_airstairs.obj Scottish_Wings_Airstairs.obj
-
 EXPORT handyobjects/leovox01objects/engine_hoist.obj Engine_Hoist.obj
 EXPORT handyobjects/leovox01objects/tool_chest.obj Tool_Chest.obj
 EXPORT handyobjects/leovox01objects/tool_chest_open.obj Tool_Chest_Open.obj
 EXPORT handyobjects/leovox01objects/work_platform.obj Work_Platform.obj
 
 EXPORT handyobjects/brosenguyobjects/big_wheeled_fire_extinguisher.obj big_wheeled_fire_extinguisher.obj
-
-EXPORT handyobjects/scottish_wings/scottish_wings_van.obj Scottish_Wings_Van.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_van_no_lights.obj Scottish_Wings_Van_No_Lights.obj
-EXPORT handyobjects/scottish_wings/cessna_c172r_scottish_wings_animated.obj Cessna_C172R_Scottish_Wings_Animated.obj
-EXPORT handyobjects/scottish_wings/cessna_c172r_scottish_wings_static.obj Cessna_C172R_Scottish_Wings_Static.obj
-EXPORT handyobjects/scottish_wings/piper_cherokee_scottish_wings_static.obj Piper_Cherokee_Scottish_Wings_Static.obj
-EXPORT handyobjects/scottish_wings/piper_cherokee_scottish_wings_animated.obj Piper_Cherokee_Scottish_Wings_Animated.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_white_box_trailor_no_lights.obj Scottish_Wings_White_Box_Trailor_No_Lights.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_articulated_lorry_tractor_unit_no_lights.obj Scottish_Wings_Articulated_Lorry_Tractor_Unit_No_Lights.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_articulated_lorry_tractor_unit.obj Scottish_Wings_Articulated_Lorry_Tractor_Unit.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_articulated_lorry_and_white_box_trailor.obj Scottish_Wings_Articulated_Lorry_And_White_Box_Trailor.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_minivan.obj Scottish_Wings_Minivan.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_minivan_no_lights.obj Scottish_Wings_Minivan_No_Lights.obj
-EXPORT handyobjects/scottish_wings/scottish_wings_airstairs.obj Scottish_Wings_Airstairs.obj
-
-
 
 
 

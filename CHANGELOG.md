@@ -1,8 +1,25 @@
 # Release Notes
 
+## v3.1.0 - 2021-04-28
+
+* Updated Handy Objects to v7.80
+* Added Headwind Grain Land Library
+* Updated MisterX Library to v2.0
+* Updated SAM Library to Developer Pack v1.0.4
+* Added RD93 Library
+* Updated Helipad Markings Library to v1.1.0
+* Added HeliSimuFrance Library
+* Added Headwind Radio Tower Library
+* Added Headwind Water Tower Library
+* Added Mountain Helipads Library
+* Updated CCVA Library to 2.11
+* Updated ALES Library to v1.1.3
+* Added Canada4XP Static Aircraft Library
+* Added Devinci Library
+
 ## v3.0.0 - 2020-05-28
 
-* Some library authors are not careful about supporting old paths in their libraries, so when they release a new version it can cause errors. So from this release of the Backup Library onwards we now track historical versions of libraries too, and include all paths that have ever been seen in a libraries history.
+* Some library authors are not careful about supporting old paths in their libraries, so when they release a new version it can cause errors. So from this release of the Backup Library onwards we now track historical versions of libraries too, and include all paths that have ever been seen in a library's history.
 * Updated NAPS Library to v7.2
 * Updated and renamed EMWINGS Catering Trucks Library to EMWINGS Ground Services Library v1.2
 * Updated Handy Objects Library to v7.70
@@ -10,7 +27,7 @@
 * Updated PuF Library to v1.0.1
 * Updated x_Prefab Library to v8.0
 * Updated CCVA Library to v2.8.0
-* SAM Seasons SDK now merged into SAM library 2.0.3.
+* SAM Seasons SDK now merged into SAM library 2.0.3
 * Added Helipad Markings Library
 
 ## v2.8.0 - 2020-04-07

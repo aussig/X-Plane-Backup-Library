@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Added RD93 Library
 * Updated Helipad Markings Library to v1.1.0
 * Added HeliSimuFrance Library
 * Added Headwind Radio Tower Library

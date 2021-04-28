@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated Helipad Markings Library to v1.1.0
 * Added HeliSimuFrance Library
 * Added Headwind Radio Tower Library
 * Added Headwind Water Tower Library
@@ -21,7 +22,7 @@
 * Updated PuF Library to v1.0.1
 * Updated x_Prefab Library to v8.0
 * Updated CCVA Library to v2.8.0
-* SAM Seasons SDK now merged into SAM library 2.0.3.
+* SAM Seasons SDK now merged into SAM library 2.0.3
 * Added Helipad Markings Library
 
 ## v2.8.0 - 2020-04-07

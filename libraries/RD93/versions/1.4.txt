@@ -3,8 +3,6 @@ A
 LIBRARY
 
 EXPORT RD93_library/Airport/Markers/Cone_white_square.obj			Airport/cone_white.obj
-EXPORT RD93_library/Airport/Markers/Cone_white_round.obj			Airport/cone_white_r.obj
-EXPORT RD93_library/Airport/Markers/Cone_yellow_round.obj			Airport/cone_yellow_r.obj
 
 EXPORT RD93_library/Trees/Coconut_Palm_9m.for						Trees/coconut_palm_9m.for
 EXPORT RD93_library/Trees/Betelnut_Palm_9m.for						Trees/betelnut_palm_9m.for

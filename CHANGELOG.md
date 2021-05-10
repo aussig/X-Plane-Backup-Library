@@ -2,6 +2,7 @@
 
 ## vx.x.x - xxxx-xx-xx
 
+* Updated MisterX Library to v2.0b
 * Updated RD93 Library to v1.5
 
 ## v3.1.0 - 2021-04-28

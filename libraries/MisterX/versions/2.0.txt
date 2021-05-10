@@ -1860,11 +1860,11 @@ EXPORT MisterX_Library/Airport/Vehicles/GPUs/Generic.obj     Airport/Vehicles/GP
 EXPORT MisterX_Library/Vegetation/Grass/Dry_Grass.for     Vegetation/Grass/Dry/Grass_1.2m.for
 EXPORT MisterX_Library/Vegetation/Grass/Dry_Grass_Shrubs.for     Vegetation/Grass/Dry/Grass_Shrubs_1.2m.for
 EXPORT MisterX_Library/Vegetation/Grass/Dry_Shrubs.for     Vegetation/Grass/Dry/Shrubs_1.2m.for
-EXPORT MisterX_Library/Vegetation/Grass/Grass.for     Vegetation/Grass/deprecated/Grass.for
-EXPORT MisterX_Library/Vegetation/Grass/Grass_Low.for     Vegetation/Grass/deprecated/Grass_Low.for
-EXPORT MisterX_Library/Vegetation/Grass/Grass_Shrubs.for     Vegetation/Grass/deprecated/Grass_Shrubs.for
-EXPORT MisterX_Library/Vegetation/Grass/Grass_Shrubs_Low.for     Vegetation/Grass/deprecated/Grass_Shrubs_Low.for
-EXPORT MisterX_Library/Vegetation/Grass/Shrubs.for     Vegetation/Grass/deprecated/Shrubs.for
+EXPORT MisterX_Library/Vegetation/Grass/Grass.for     Vegetation/Grass/Fresh/Grass_1.2m.for
+EXPORT MisterX_Library/Vegetation/Grass/Grass_Low.for     Vegetation/Grass/Fresh/Grass_1.2m.for
+EXPORT MisterX_Library/Vegetation/Grass/Grass_Shrubs.for     Vegetation/Grass/Fresh/Grass_Shrubs_1.2m.for
+EXPORT MisterX_Library/Vegetation/Grass/Grass_Shrubs_Low.for     Vegetation/Grass/Fresh/Grass_Shrubs_1.2m.for
+EXPORT MisterX_Library/Vegetation/Grass/Shrubs.for     Vegetation/Grass/Fresh/Shrubs_1.2m.for
 
 # ROWS OF CARS
 EXPORT MisterX_Library/Vehicles/Parking/Row_of_Cars_10.agp     Vehicles/Parking/Parked_Cars_Lines_Stops_Yellow/Row_of_Cars_10_Single.agp

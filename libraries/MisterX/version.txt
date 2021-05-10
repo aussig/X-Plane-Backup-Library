@@ -1,4 +1,4 @@
 MisterX Library
-v2.0
+v2.0b
 By MisterX
 https://forums.x-plane.org/index.php?/files/file/28167-misterx-library-and-static-aircraft-extension/
